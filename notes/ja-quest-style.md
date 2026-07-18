@@ -68,13 +68,26 @@ DeepL 利用時はこれらが落ちやすいので、原文と必ず突合す�
 - [ ] `%n` と `§` / `[note]` 等が欠けていないか
 - [ ] タイトルが章内の短さ（総称 vs 正式名）と極端にズレていないか
 
+## 表示（クエストブックの折り返し）
+
+`《和名／長い English》` が続くと、英単語の途中で改行され見づらい。
+
+- **初出だけ《和名／English》**、2回目以降は和名のみ（既存「巣枠」クエストと同じ）
+- 必要なら `%n` で《》の前後を切る
+
+## 作業の進め方（確定まで）
+
+1. 手元の `ja_JP.lang` を編集 → `./sync-to-instance.sh --questbook` → ゲーム再起動で確認  
+2. **見た目・文言が確定してから** git commit / push（下書き段階ではコミットしない）  
+3. 公式反映は ParaTranz へ確定文を投稿
+
 ## 実績例: Impregnated Frames
 
 キー: `betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ`
 
 ```text
 name=含侵加工済み巣枠
-desc=§7《§r含侵加工済み巣枠§7／Impregnated Frame》§rは、§7《§r未加工の巣枠§7／Untreated Frame》§rよりもさらに優秀です。%n各巣枠は蜂の生産性を倍にします。耐久は未加工の巣枠より長く、§7《§r秘伝の巣枠§7／Proven Frame》§rよりは短めです。
+desc=§7《§r含侵加工済み巣枠§7／Impregnated Frame》§rは、未加工の巣枠よりもさらに優秀です。%n各巣枠は蜂の生産性を倍にします。耐久は未加工の巣枠より長く、秘伝の巣枠よりは短めです。
 ```
 
 参照にした既存訳: `# Quest: Frames`（`AAAAAAAAAAAAAAAAAAAEWA`）
