@@ -11078,7 +11078,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWA.desc=§7《§r未加工の巣枠§7�
 
 # Quest: Impregnated Frames
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.name=含侵加工済み巣枠
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.desc=§7《§r含侵加工済み巣枠§7／Impregnated Frame》§r は、§7《§r未加工の巣枠§7／Untreated Frame》§r よりもさらに優秀です。%n各巣枠はミツバチの生産性を2倍にします。耐久は未加工の巣枠より長く、§7《§r秘伝の巣枠§7／Proven Frame》§r よりは短めです。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.desc=§7《§r含侵加工済み巣枠§7／Impregnated Frame》§rは、§7《§r未加工の巣枠§7／Untreated Frame》§rよりもさらに優秀です。%n各巣枠は蜂の生産性を倍にします。耐久は未加工の巣枠より長く、§7《§r秘伝の巣枠§7／Proven Frame》§rよりは短めです。
 
 # Quest: Production Frames
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWg.name=Production Frames
