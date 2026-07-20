@@ -11053,8 +11053,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.name=Only the Best: Cave
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.desc=On your way to awesome bees, you have to collect only the best traits available. Bees with Cave can work in housing that is covered - by more housing!
 
 # Quest: Go Find Some Tropical Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.name=Go Find Some Tropical Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.desc=Next you'll need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist's clothes. Try to get pristine bees. If you're having trouble finding them, you can use Nature's Compass to search for a specific biome.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.name=熱帯種の蜂を探しに行こう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.desc=次は熱帯種の蜂を見つける番です。蜂巣はジャングルバイオームで見つかります。とても攻撃的で、毒を刺されることがあるので注意してください。§7《§r滑らかな巣板§7／Silky Comb》§rを集め、そこから§7《§r絹質の繊維§7／Silk Wisp》§rを抽出して養蜂用防護服を作りましょう。できれば§7《§r純系個体§7／Pristine》§rの蜂を入手してください。見つからないときは、大自然のコンパスで特定のバイオームを探すとよいでしょう。
 
 # Quest: Silky Combs and Propoli
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.name=Silky Combs and Propoli
