@@ -11053,7 +11053,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.name=Only the Best: Cave
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.desc=On your way to awesome bees, you have to collect only the best traits available. Bees with Cave can work in housing that is covered - by more housing!
 
 # Quest: Go Find Some Tropical Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.name=熱帯種の蜂を探しに行こう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.name=[自訳]熱帯種の蜂を探しに行こう
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.desc=次は熱帯種の蜂を見つける番です。蜂巣はジャングルバイオームで見つかります。とても攻撃的で、毒を刺されることがあるので注意してください。§7《§r滑らかな巣板§7／Silky Comb》§rを集め、そこから§7《§r絹質の繊維§7／Silk Wisp》§rを抽出して養蜂用防護服を作りましょう。できれば§7《§r純系個体§7／Pristine》§rの蜂を入手してください。見つからないときは、大自然のコンパスで特定のバイオームを探すとよいでしょう。
 
 # Quest: Silky Combs and Propoli
@@ -11077,7 +11077,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWA.name=巣枠
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWA.desc=§7《§r未加工の巣枠§7／Untreated Frame》§rは最も質素な巣枠です。巣枠は§7《§rビーハウス§7／Bee House》§rでは使用できず、§7《§r養蜂箱§7／Apiary》§rや§7《§r大型養蜂箱§7／Alveary》§rでのみ使用可能です。しかし、ビーハウスのクラフトに要求されているので、作製しましょう。%n%n巣枠を使うと蜂の性能が向上します。未加工の巣枠1個につき蜂の生産性が倍になります。
 
 # Quest: Impregnated Frames
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.name=含侵加工済み巣枠
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.name=[自訳]含侵加工済み巣枠
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.desc=§7《§r含侵加工済み巣枠§7／Impregnated Frame》§rは、 未加工の巣枠よりもさらに優秀です。%n各巣枠は蜂の生産性を倍にします。耐久は未加工の巣枠より長く、§7《§r秘伝の巣枠§7／Proven Frame》§rよりは短めです。
 
 # Quest: Production Frames
@@ -11089,7 +11089,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.name=Alvearies
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.desc=The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks.%n%nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.%n%nCertain bees will not produce their specialty items unless they are Jubilant. This requires matching their preferred Temperature/Humidity, without any genetic modifiers. Some bees also need a block of something beneath them as well.%n%nIt is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.%n%n[note]If you're mutating bees that need a specific block in it, you need to place the required block under the middle bottom, and have the one directly above be a normal alveary block.[/note]
 
 # Quest: Humid and Warm?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5w.name=湿潤で温暖？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5w.name=[自訳]湿潤で温暖？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5w.desc=バイオームの湿度や温度を推測するのはやめましょう。§7《§r活動環境探知器§7／Habitat Locator》§rを使えば、現在地の気候を調べられます。
 
 # Quest: Put the Drones in a Jar and Shake it Up
