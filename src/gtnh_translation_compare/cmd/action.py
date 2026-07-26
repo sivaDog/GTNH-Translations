@@ -6,7 +6,7 @@ import shutil
 from pathlib import Path
 import re
 import subprocess
-from typing import Sequence, TypeAlias, Callable, Optional
+from typing import Sequence, TypeAlias, Callable, Optional, Dict
 
 from gtnh_translation_compare.utils.github_action import set_output
 import httpx
@@ -14,7 +14,15 @@ from dulwich import porcelain
 from loguru import logger
 
 from gtnh_translation_compare import settings
-from gtnh_translation_compare.filetypes import FiletypeLang, Language, FiletypeGTLang, Filetype
+from gtnh_translation_compare.filetypes import (
+    FiletypeLang,
+    Language,
+    FiletypeGTLang,
+    FiletypeMarkdownTooltip,
+    Filetype,
+    is_markdown_tooltip_path,
+    is_markdown_tooltip_paratranz_file,
+)
 from gtnh_translation_compare.modpack.modpack import ModPack
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
 from gtnh_translation_compare.paratranz.converter import Converter
@@ -25,6 +33,12 @@ from gtnh_translation_compare.utils.file import ensure_lf
 ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
 ParatranzToLocalPathConverter: TypeAlias = Callable[[str], Path]
 AfterToTranslationFileCallback: TypeAlias = Callable[[TranslationFile], None]
+
+
+def _make_lang_or_markdown_filetype(relpath: str, content: str) -> Filetype:
+    if is_markdown_tooltip_path(relpath):
+        return FiletypeMarkdownTooltip(relpath, content)
+    return FiletypeLang(relpath, content)
 
 
 class Action:
@@ -72,10 +86,18 @@ class Action:
             if raise_when_empty is not None:
                 raise raise_when_empty
 
+        # Dedupe by the local path the file will actually be written to, not the raw
+        # ParaTranz relpath: ParaTranz-side duplicate names (e.g. "Foo (+3)") and casing
+        # differences only collapse to the same path once path_converter has run.
+        for translation_file in translation_files:
+            translation_file.relpath = str(
+                path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
+            )
+        translation_files = _dedupe_case_insensitive_paths(translation_files)
+
         for translation_file in translation_files:
             base_path = repo_path / subdirectory
-            translation_file_relpath = path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
-            translation_filepath = os.path.abspath(os.path.join(base_path, translation_file_relpath))
+            translation_filepath = os.path.abspath(os.path.join(base_path, translation_file.relpath))
             translation_filepaths.append(translation_filepath)
             write_file(translation_filepath, translation_file.content)
 
@@ -93,6 +115,7 @@ class Action:
         files_to_commit: list[str] = []
         files_to_commit.extend(await self._paratranz_to_quest_book(repo_path, subdirectory))
         files_to_commit.extend(await self._paratranz_to_lang(repo_path, subdirectory))
+        files_to_commit.extend(await self._paratranz_to_markdown_tooltip(repo_path, subdirectory))
         files_to_commit.extend(await self._paratranz_to_gt_lang(repo_path, subdirectory))
 
         git_commit(
@@ -131,32 +154,28 @@ class Action:
         repo_path: Path,
         subdirectory: Path,
     ) -> list[str]:
-        # Existing projects use resource folder on PT
-        def path_converter_(path: str) -> Path:
-            cfg = Path("config")
-            provided = Path(path)
-            if provided.parts and provided.parts[0] == "config":
-                logger.info(f"Skip normalizing path for {path}")
-            elif provided.parts and provided.parts[0] == "resources":
-                parts = list(provided.parts)
-                for i in range(len(parts)):
-                    result = re.sub(r"\(\+\d+\)", "", parts[i])
-                    if result != parts[i]:
-                        logger.warning(f"Trimmed path for {parts[i]}")
-                        parts[i] = result
-                provided = cfg / "txloader" / "load" / Path(*parts[1:])
-            else:
-                logger.warning(f"Unknown path {path}")
-                provided = cfg / "txloader" / "load" / provided
-            return provided
-
         return await self.__paratranz_to_translation(
                 is_mod_lang_file,
                 None,
                 ValueError("No lang file found"),
                 repo_path,
                 subdirectory,
-                path_converter_,
+                _resources_to_txloader_path,
+        )
+
+    # Markdown tooltips
+    async def _paratranz_to_markdown_tooltip(
+        self,
+        repo_path: Path,
+        subdirectory: Path,
+    ) -> list[str]:
+        return await self.__paratranz_to_translation(
+                is_markdown_tooltip_paratranz_file,
+                None,
+                None,
+                repo_path,
+                subdirectory,
+                _markdown_tooltip_to_txloader_path,
         )
 
     # Gt Lang
@@ -215,6 +234,7 @@ class Action:
             modpack_path: Path,
             repo_path: Path,
             subdirectory: Path,
+            gt_lang_path: Optional[Path] = None,
     ) -> None:
         def get_relpath(path):
             return repo_path / subdirectory / path
@@ -227,6 +247,8 @@ class Action:
         for lang_file in modpack.lang_files(Language.en_US):
             relpath = get_relpath(lang_file.get_en_us_relpath())
             write_file(os.path.abspath(relpath), lang_file.content)
+
+        self._update_gt_lang(base_path, gt_lang_path)
 
         qb_lang_file_url = (
             f"https://raw.githubusercontent.com"
@@ -252,8 +274,33 @@ class Action:
             modpack_path: str,
             repo_path: str = ".",
             subdirectory: str = ".",
+            gt_lang_path: Optional[str] = None,
     ) -> None:
-        asyncio.run(self._save_daily_modpack_history(Path(modpack_path), Path(repo_path), Path(subdirectory)))
+        asyncio.run(self._save_daily_modpack_history(
+            Path(modpack_path),
+            Path(repo_path),
+            Path(subdirectory),
+            Path(gt_lang_path) if gt_lang_path else None,
+        ))
+
+    @staticmethod
+    def _update_gt_lang(base_path: Path, gt_lang_path: Optional[Path]) -> None:
+        # GregTech.lang is generated by a real client run (not part of the modpack build itself),
+        # so it's supplied separately and may be absent if that run failed to produce it.
+        if gt_lang_path is None or not gt_lang_path.is_file():
+            set_output("gt_lang_changed", "false")
+            return
+
+        target_path = base_path / settings.GT_LANG_TARGET_REL_PATH
+        new_content = ensure_lf(gt_lang_path.read_text(encoding="UTF-8"))
+        old_content = ensure_lf(target_path.read_text(encoding="UTF-8")) if target_path.is_file() else None
+
+        if new_content == old_content:
+            set_output("gt_lang_changed", "false")
+            return
+
+        write_file(str(target_path), new_content)
+        set_output("gt_lang_changed", "true")
 
     # Sync files that have actually been changed compared to last daily modpack to ParaTranz, excluding GregTech.lang
     async def _conditional_sync_to_paratranz(
@@ -290,7 +337,7 @@ class Action:
                 continue
             with open(base_path / file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
-            lang_files.append(FiletypeLang(file_path, content))
+            lang_files.append(_make_lang_or_markdown_filetype(file_path, content))
 
         # concurrency number
         sem = asyncio.Semaphore(10)
@@ -332,6 +379,10 @@ class Action:
             with open(file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
             lang_files.append(FiletypeLang(os.path.relpath(file_path, base_path), content))
+        for file_path in glob.glob(f'./{base_path}/resources/*/lang/en_US/tooltip/**/*.md', recursive=True):
+            with open(file_path, 'r', encoding='UTF-8') as f:
+                content = f.read()
+            lang_files.append(FiletypeMarkdownTooltip(os.path.relpath(file_path, base_path), content))
 
         # concurrency number
         sem = asyncio.Semaphore(10)
@@ -482,6 +533,25 @@ def clear_folder(filepath: str, ignore_files_in_root: list[str]) -> None:
       elif item.is_dir():
         shutil.rmtree(item)
 
+def _dedupe_case_insensitive_paths(translation_files: list[TranslationFile]) -> list[TranslationFile]:
+    # Some mod domains (e.g. BetterQuesting's "cb4bq") were uploaded to ParaTranz under
+    # both a lowercase and an uppercase folder name. We have no way to get the source
+    # fixed on ParaTranz's side, and Windows/NTFS treats the two paths as identical,
+    # so pick the lowercase-leaning one deterministically to stop the casing from
+    # flip-flopping between syncs.
+    best_by_lower_relpath: Dict[str, TranslationFile] = {}
+    for translation_file in translation_files:
+        key = translation_file.relpath.lower()
+        existing = best_by_lower_relpath.get(key)
+        if existing is None or _uppercase_count(translation_file.relpath) < _uppercase_count(existing.relpath):
+            best_by_lower_relpath[key] = translation_file
+    return list(best_by_lower_relpath.values())
+
+
+def _uppercase_count(s: str) -> int:
+    return sum(1 for c in s if c.isupper())
+
+
 def is_mod_lang_file(name: str) -> bool:
     return any(
         [
@@ -490,6 +560,49 @@ def is_mod_lang_file(name: str) -> bool:
             and name != settings.GT_LANG_TARGET_REL_PATH + ".json",
         ]
     )
+
+
+def _resources_to_txloader_path(path: str) -> Path:
+    # Existing projects use resource folder on PT
+    cfg = Path("config")
+    provided = Path(path)
+    if provided.parts and provided.parts[0] == "config":
+        logger.info(f"Skip normalizing path for {path}")
+    elif provided.parts and provided.parts[0] == "resources":
+        parts = list(provided.parts)
+        for i in range(len(parts)):
+            result = re.sub(r"\(\+\d+\)", "", parts[i])
+            if result != parts[i]:
+                logger.warning(f"Trimmed path for {parts[i]}")
+                parts[i] = result
+        provided = cfg / "txloader" / "load" / Path(*parts[1:])
+    else:
+        logger.warning(f"Unknown path {path}")
+        provided = cfg / "txloader" / "load" / provided
+    return provided
+
+
+MOD_DOMAIN_RE = re.compile(r"\[([^\[\]]+)\]$")
+
+
+def _markdown_tooltip_to_txloader_path(path: str) -> Path:
+    # Markdown tooltips only, never .lang: unlike .lang, a tooltip slug belongs to one mod,
+    # so collapsing "<DisplayName>[<domain>]" to the bare domain here is safe. Don't reuse
+    # this for _resources_to_txloader_path's job - addon mods contribute lines to another
+    # mod's .lang through their own bracketed folder, and collapsing those would drop one
+    # contributor's translations whenever two folders share a domain and relative path.
+    cfg = Path("config")
+    provided = Path(path)
+    parts = list(provided.parts)
+    if len(parts) < 2 or parts[0] != "resources":
+        logger.warning(f"Unknown path for markdown tooltip {path}")
+        return cfg / "txloader" / "load" / provided
+    match = MOD_DOMAIN_RE.search(parts[1])
+    if match is None:
+        logger.warning(f"Could not find mod domain in {parts[1]!r} for markdown tooltip {path}")
+        return cfg / "txloader" / "load" / Path(*parts[1:])
+    return cfg / "txloader" / "load" / match.group(1) / Path(*parts[2:])
+
 
 def print_yellow(string: str) -> None:
     print(f"\033[33m{string}\033[0m")
