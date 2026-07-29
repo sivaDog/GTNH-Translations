@@ -887,7 +887,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAXw.desc=活塞，但它是……“电�
 
 # Quest: Saving Redstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYA.name=§2§l节约红石
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYA.desc=厌倦使用四个红石制作一个磁化铁杆了吗？好消息！使用磁化机不需要红石，只需要通电，你不一定要接上导线，这台机器使用电池也能运作得很好（耗电很低）。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYA.desc=厌倦使用四个红石制作一个磁化铁杆了吗？好消息！磁化机不需要红石，只需要一点点电力。你不必把这台机器接到持续工作的电源上，它耗电量极低，靠电池供电也能正常运行。
 
 # Quest: Avengers, Assemble!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYQ.name=§2§l复仇者，集结！
@@ -1266,7 +1266,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAElA.name=§2§l量产退火铜
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAElA.desc=相比在工业高炉中生产退火铜，使用电弧炉在耗能和速度上都要出色很多。%n%n你会发现退火铜是一种优良的MV导线材料，每格只会损失1EU。
 
 # Quest: Personal Chunkloading
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-A.name=§2§l个人锚
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-A.name=§2§l个人区块加载
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-A.desc=我们来制作一些个人锚吧。它可以加载一个3x3区块的区域。你需要用末影碎片、末影珍珠或区块加载器硬币为这些锚充能。%n%n1个末影碎片可以为个人锚供能1小时，末影珍珠可以供能4小时，而硬币的供能时长则取决于其等级。%n%n个人锚§r会在所有者经过时开始加载，并在玩家登录期间保持加载状态。%n%n被动锚§r会在所有者经过时开始加载，并会持续加载直至服务器重启。%n%n世界锚§r始终处于加载状态，即使服务器重启后也不会卸载。
 
 # Quest: Chemical Bath
@@ -1303,7 +1303,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_w.desc=油砂是获得石油、重油�
 
 # Quest: Akihabara
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdQ.name=§2§l秋叶原（Akihabra）
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdQ.desc=厌倦了与每个村民逐一交谈以确定他们的交易？贸易站将向你展示该地区村民的所有可用交易。%n%n你需要组装机才能制作它。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdQ.desc=厌倦了逐个与村民交谈，才能查看交易内容？贸易站会直接显示该区域所有村民的可用交易。%n%n你需要组装机才能制作它。
 
 # Quest: I Guess it's an Inkjet?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAA.name=§2§l这大概算喷墨打印机吧？
@@ -1343,7 +1343,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfg.desc=这怎么可能！如果你真�
 
 # Quest: Automated Crafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXg.name=§2§l自动化合成
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXg.desc=自动合成台是一种简单的自动化合成系统。你需要在合成格中放入虚拟物品来设定配方，并将合成材料放入它的物品槽中。这些材料会缓慢地被合成为成品。虽然速度不快，且每个工作台只能执行一种配方，但它确实支持自动化——只有配方所允许的物品才能被放入物品槽。它不需要消耗电力。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXg.desc=自动合成台是一种简单的自动化合成系统。你需要在合成格中放入虚拟物品来设定配方，并将合成材料放入它的物品槽中。这些材料会缓慢地被合成为成品。虽然速度不快，且每个工作台只能执行一种配方，但它确实支持自动化——只有符合配方的物品才能放入物品槽。它不需要消耗电力。
 
 # Quest: Choices, Choices
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXw.name=§2§l选择，选择
@@ -7210,7 +7210,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALew.desc=如果你未能让中子动能�
 
 # Quest: Air-Filter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpQ.name=§6§l空气过滤机
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALpQ.desc=大型空气过滤机%n%n这种超棒的多方块机器有3个版本：LV阶段解锁的T1，HV阶段后期解锁的T2，和IV阶段解锁的T3。%n%n它有两种模式：%n%n- 普通模式：每次污染清理周期中，按顺序清理工作范围内一个区块的污染。%n- 随机模式：每次污染清理周期中，在工作范围内的所有污染区块中随机选取一个区块进行清理。%n手持螺丝刀右键控制器方块即可在两种模式之间切换。%n%n手持螺丝刀Shift+右键点击控制器方块可以调节工作范围，从1x1区块到（2*等级+1)x(2*等级+1）区块可调。默认工作范围即为最大工作范围。%n%n默认设置下，污染清理值=30*机器等级系数*消声仓数*涡轮效率*机器效率*2.5^有效等级。其中：%n%n- 机器等级系数：机器等级提供的增益系数，T1=1（0%%增益）、T2=1.05（5%%增益）、T3=1.10（10%%增益）%n%n- 消声仓数：字面意思，至多为8。%n%n- 涡轮效率：用于运行该机器的涡轮效率值。若控制器中没有涡轮，则大型空气过滤器无法工作。%n%n- 机器效率：无维护问题时为100%%，每有一个维护问题-10%%。%n%n- 有效等级：电压等级与消声仓等级的较小者。%n%n，默认设置下，使用吸附过滤网可以使污染清理效率翻倍。将其放入输入总线后，吸附过滤网会被消耗并供接下来的30次成功的污染清理周期使用。污染低于10k单位的区块会被该机器视为无污染。清理无污染区块的污染清理周期不计入“成功的污染清理周期”次数。30次成功的污染清理周期后，输出总线中会生产出一个脏的吸附过滤网。%n%n对控制器方块使用便携式扫描仪，即可获知其是否在使用吸附过滤网，以及吸附过滤网的剩余周期数。%n%n一个污染清理周期持续10秒，污染清理每秒进行一次。%n%n[note]PS：如果你鸽了这个任务并做了T2或者T3版本作为代替，这个任务也会完成！[/note]%n%n译者注：涡轮不会损耗，这是个bug。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALpQ.desc=大型空气过滤机%n%n这种超棒的多方块机器有3个版本：LV阶段解锁的T1，HV阶段后期解锁的T2，和IV阶段解锁的T3。%n%n它有两种模式：%n%n- 普通模式：每次污染清理周期中，按顺序清理工作范围内一个区块的污染。%n- 随机模式：每次污染清理周期中，在工作范围内的所有污染区块中随机选取一个区块进行清理。%n手持螺丝刀右键控制器方块即可在两种模式之间切换。%n%n手持螺丝刀Shift+右键点击控制器方块可以调节工作范围，从1x1区块到(2*等级+1)x(2*等级+1)区块可调。默认工作范围即为最大工作范围。%n%n默认设置下，污染清理值=30*机器等级系数*消声仓数*涡轮效率*机器效率*2.5^有效等级。其中：%n%n- 机器等级系数：机器等级提供的增益系数，T1=1（0%%增益）、T2=1.05（5%%增益）、T3=1.10（10%%增益）%n%n- 消声仓数：字面意思，至多为8。%n%n- 涡轮效率：用于运行该机器的涡轮效率值。若控制器中没有涡轮，则大型空气过滤器无法工作。%n%n- 机器效率：无维护问题时为100%%，每有一个维护问题-10%%。%n%n- 有效等级：电压等级与消声仓等级的较小者。%n%n，默认设置下，使用吸附过滤网可以使污染清理效率翻倍。将其放入输入总线后，吸附过滤网会被消耗并供接下来的30次成功的污染清理周期使用。污染低于10k单位的区块会被该机器视为无污染。清理无污染区块的污染清理周期不计入“成功的污染清理周期”次数。30次成功的污染清理周期后，输出总线中会生产出一个脏的吸附过滤网。%n%n对控制器方块使用便携式扫描仪，即可获知其是否在使用吸附过滤网，以及吸附过滤网的剩余周期数。%n%n一个污染清理周期持续10秒，污染清理每秒进行一次。%n%n[note]PS：如果你鸽了这个任务并做了T2或者T3版本作为代替，这个任务也会完成！[/note]%n%n译者注：涡轮不会损耗，这是个bug。
 
 # Quest: Absorption Filter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpg.name=§6§l吸附过滤网
@@ -13534,7 +13534,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcQ.desc=使用巫术来改变生物群�
 
 # Quest: The Easy Way to Change Biomes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcg.name=改变生物群系的简单方法
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcg.desc=所以你想试试简单的方法？可以理解。唯一的前置条件是一个至少有5,450能量的祭坛。尝试在祭坛旁放置大量不同的农作物，并在顶端放一个龙蛋来提升它。除此之外的制作过程非常简单，只需§b[warn]按顺序[/warn]§r把这些东西投入巫师炼药锅。%n%n 1。 地狱疣（+2容量）%n 2。 女神之泪（+2容量）%n 3。 钻石熏气（+2容量）%n 4。 钻石（+2容量）%n%n§7 （可选）5。 荧石粉（+1半径）%n （可选）6。 烈焰棒（+1 半径）%n （可选）7。 充能的调谐之石 （+1半径）§r%n%n 8。 生态之书的一页（用于选择生态；可以选择任何生态群系）%n 9。 火药（添加喷溅效果）%n 10。 用玻璃瓶盛出来（需要5450祭坛能量）%n%n当3种可选原料全都放入时，半径可达到最大值4格。如果你穿着巫师帽或者巫师袍，或者拥有较高炼药等级，你可能会获得不止一瓶药水。%n%n如果你有额外的资源，并且想跳过蒸馏器产出的物品，你可以选择用§5下界之星§r替换女神之泪和钻石熏气以获得§5+4容量§r。%n%n[note]更多信息请参考《巫师酿造手册》。点击“酿造”，翻到“酿造流程”一页。你可在那找到所有需要的信息。“药效”章节则会告诉你每种药水的作用。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcg.desc=你想试试较简单的方法？可以理解。唯一的前置条件是一个至少有5,450能量的祭坛。尝试在祭坛旁放置大量不同的农作物，并在顶端放一个龙蛋来提升它。除此之外的制作过程非常简单，只需§b[warn]按顺序[/warn]§r把这些东西投入巫师炼药锅。%n%n 1. 地狱疣（+2容量）%n 2. 女神之泪（+2容量）%n 3. 钻石熏气（+2容量）%n 4. 钻石（+2容量）%n%n§7 （可选）5. 荧石粉（+1半径）%n （可选）6. 烈焰棒（+1 半径）%n （可选）7. 充能的调谐之石 （+1半径）§r%n%n 8. 生态之书的一页（用于选择生态；可以选择任何生态群系）%n 9. 火药（添加喷溅效果）%n 10. 用玻璃瓶盛出来（需要5450祭坛能量）%n%n当3种可选原料全都放入时，半径可达到最大值4格。如果你穿着巫师帽或者巫师袍，或者拥有较高炼药等级，你可能会获得不止一瓶药水。%n%n如果你有额外的资源，并且想跳过蒸馏器产出的物品，你可以选择用§5下界之星§r替换女神之泪和钻石熏气以获得§5+4容量§r。%n%n[note]更多信息请参考《巫师酿造手册》。点击“酿造”，翻到“酿造流程”一页。你可在那找到所有需要的信息。“药效”章节则会告诉你每种药水的作用。[/note]
 
 # Quest: The Hard Way to Change Biomes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcw.name=改变生物群系的困难方法
@@ -14419,15 +14419,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADpw.desc=把一块基础太阳能板和�
 
 # Quest: More Compact Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.name=§a§l更加紧凑的存储
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.desc=随着找到的铁越来越多，你会觉得铜箱子太小，塞不下你的全部家当了。%n%n[note]你本来就有一个太小的铜箱子？用对应的升级组件也能给它扩容。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.desc=随着找到的铁越来越多，你会觉得铜箱子太小，塞不下你的全部家当了。%n%n[note]你本来就有一个太小的铜箱子？用对应的升级物品也能给它扩容。[/note]
 
 # Quest: Diamond Chests... Ooo, Shiny
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.name=§2§l钻石箱子……哦，闪闪发亮
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.desc=在你造出切割机之后，你就可以制作一些钻石板，用来给你的新钻石箱子扩容——这次箱子会更大。%n%n[note]和之前的箱子一样，你也可以使用对应的升级道具来进行升级[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.desc=在造出切割机之后，你就可以制作一些钻石板，用来打造你全新的、容量更大的钻石箱子了。%n%n[note]和之前的箱子一样，你也可以使用对应的升级物品进行升级。[/note]
 
 # Quest: Even More Compact Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.name=§a§l更加更加紧凑的存储
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=要是金子攒够了，你就能把箱子再升一级，变成有9×9存储空间的金箱子。%n%n[note]你本来就有一个太小的铁箱子？用对应的升级组件也能给它扩容。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=要是金子攒够了，你就能把箱子再升一级，变成有9×9存储空间的金箱子。%n%n[note]你本来就有一个太小的铁箱子？用对应的升级物品也能给它扩容。[/note]
 
 # Quest: Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.name=种树傻瓜指南
@@ -14542,8 +14542,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZg.name=升级你的法杖核心
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZg.desc=核心镶饰台需要经验等级和Centivis以升级核心。每个核心可以升级五次，每次升级的经验消耗等级增加8，Centivis消耗翻倍。%n%n大部分核心均可在任意等级附加“朴素”升级（每级降低10％vis消耗）或者“潜能”升级（提升核心伤害或者增强非伤害效果）。拥有范围效果的核心（比如法杖核心：更替）可附加“增广”升级，通常使其作用范围在各个方向都扩大一格。某些升级只能在某些级别应用（通常仅在级别3或5），也有一些升级有前置需求。更多核心升级与其效果请查阅“来关注法杖核心&电力魔法工具吧！”章节。%n%n若需要重置升级，你可以在解锁了研究“核心祛魔”后在核心镶饰台中移除升级。它甚至能返还部分经验值！
 
 # Quest: Mallard Rust Smelly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.name=§9§l野鸭生锈臭臭（Mallard Rust Smelly）
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.desc=……还是合金冶炼炉（Alloy Blast Smelter）？这听起来合理多了。这台多方块机器可以生产更高级的合金，后者是更先进的多方块机器和焊料所必需的。这台机器直接将金属熔炼成液体。它甚至可以更快地熔化钨之类的金属！——至少在你的工业高炉有更好的线圈之前是这样的。%n%n[note]现在你解锁的多方块机器大多不是必需的，但它们相较于你现有的单方块机器有大幅增强。它们不仅处理速度更快，还具备一些高级功能，比如无需单元即可电解化合物，或是集多种模头于一身。它们还自带超净间环境。[/note]%n%n[note]译者注：多方块机器也自带低重力环境。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.name=§9§l炖屎炉
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.desc=……其实学名叫合金冶炼炉。嗯，这名字科学多了。这台多方块机器可以生产更高级的合金，用于制作更先进的多方块机器，还能满足你的焊料需求。这台机器会直接将原料熔炼成液体。它甚至可以更快地熔化钨之类的金属！——至少在你的工业高炉有更好的线圈之前是这样的。%n%n[note]现在你解锁的大部分多方块机器都是可选的，但它们相较于你现有的单方块机器有大幅增强。它们不仅处理速度更快，还具备一些高级功能，比如无需单元即可电解化合物，或是集多种模头于一身。它们还自带超净间环境。[/note]%n%n[note]译者注：标题原文是Mallard Rust Smelly（直译为“野鸭生锈臭臭”），是合金冶炼炉（Alloy Blast Smelter）的英文谐音。[/note]
 
 # Quest: Shake That Booty...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA.name=§5§l摇起来……
