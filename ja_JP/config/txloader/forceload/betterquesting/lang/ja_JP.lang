@@ -6654,8 +6654,8 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEg.name=Forestryとマルチファ�
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEg.desc=農業の自動化、樹木の交配、その他もろもろ.....%n%n§nカバーされているMod§r%nGregTech§r%n§7IndustrialCraft 2§r%nBuildCraft%n§9Forestry§r%n§7Extra Trees§r%n§7Gendustry§r
 
 # Quest: THE RAINMAKER
-betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.name=THE RAINMAKER
-betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.desc=The Rainmaker is a Forestry block capable of stopping/producing rain & creating thunderstorms.%n%nThe Rainmaker has no GUI, but can be right clicked with §a3§r different capsules:%n%n§cIodine Capsule:§r Produces Rain%n%n§cPhosphoric Iodine Capsule:§r Produces a Thunderstorm%n%n§cDissipation Charge:§r Stops Rain%n%nThe Rainmaker requires around ~30 seconds after activation for the §9rain§r and §9thunderstorm§r to start.%n%nThe dissipation charge will stop the rain after a few seconds until the next activation. 
+betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.name=[下書き]レインメーカー
+betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.desc=レインメーカーは、雨を止めたり降らしたり、雷雨を引き起こしたりできるForestryブロックです。%n%nRainmaker には GUI がありませんが、右クリックして §a3§r のさまざまなカプセルを使用できます。%n%n§cヨウ素カプセル:§r 雨を降らせる%n%n§cリンヨウ素カプセル:§r は雷雨を引き起こします%n%n§c散逸電荷:§r 雨を止める%n%nRainmaker は、起動後、§9rain§r および §9thunderstorm§r が開始されるまでに約 30 秒かかります。%n%n消散チャージにより、次の起動までの数秒後に雨が止みます。
 
 # Quest: Forestry Core Block
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACQQ.name=Forestryのコアブロック
@@ -6670,20 +6670,26 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACRA.name=熱電子工作機
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACRA.desc=§7《§r熱電子工作機§7／Thermionic Fabricator》§rは、電子管や色付きガラスのクラフトに使用します。稼働にはレッドストーンフラックス (RF) エネルギーが必要です。%n%n工作機で作る最初の機械です。一度温まると、動作のために一定の熱レベルを維持する必要があります。供給する電力の量によって、発生する熱量が決まります。現在の温度を維持するのに十分な電力を供給しない場合、温度はゆっくりと低下します。電力を継続的に消費するため、必要ないときは接続を外してください。
 
 # Quest: A Series of Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACRQ.name=A Series of Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACRQ.desc=Before you can craft your first farm block you need apatite tubes. Make some apatite rods first with a lathe, then use a forge hammer to join them into long apatite rods. You need golden bolts and a red alloy plate.%n%nPut some glass or sand into your thermionic fabricator and make your first tubes.%n%n[note]You can also use the circuit assembler for a better output. Why did we have you make the TF again?[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACRQ.name=[下書き]電子管シリーズ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACRQ.desc=最初のファームブロックを作成する前に、燐灰石 電子管が必要です。まず旋盤で燐灰石の棒を作り、次に鍛造ハンマーを使ってそれらを結合して長い燐灰石の棒にします。金色のボルトと赤い合金プレートが必要です。%n%n熱電子工作機にガラスまたは砂を入れて、最初の電子管を作成します。%n%n[note]より良い出力を得るために回路アセンブラを使用することもできます。なぜ再びTFを作ってもらったのでしょうか?[/note]
 
 # Quest: The Multifarm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACRg.name=The Multifarm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACRg.desc=The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). Place the underlying blocks corresponding to the farm type you built. In this case, Stone Bricks. You can place these blocks beside or under the multi structure, but not the layer above. It will search 6 blocks above these for dirt/farmland/sand/soul sand/humus depending on farm type, with the appropriate crops, saplings, etc. on top of that.%n%nYou can use different modes to collect different crops. Arboretum for trees, infernal for nether wart and so on. You can even mix and match modes on the same farm - cutting trees down for wood in part, and collecting fruit from trees without destroying it in another, for example. So long as they're on different sides, at least.%n%nYou may need to experiment a bit to see what works, but [url]https://wiki.gtnewhorizons.com/wiki/Multifarm[/url] has a decent list, though it doesn't specify cotton for managed crop farms for example. It might be a GTNH change, I dunno. A number of crops have an added CropsNH crop version as well, so you may prefer those for the higher yield if you level them up. Orchard mode works with Pam's, and Witchery, just to save you some time. Pam's nether crops however don't seem to work at all though.
+# EN name: The Multifarm
+# EN desc: The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). Place the underlying blocks corresponding to the farm type you built. In this case, Stone Bricks. You can place these blocks beside or under the multi structure, but not the layer above. It will search 6 blocks above these for dirt/farmland/sand/soul sand/humus depending on farm type, with the appropriate crops, saplings, etc. on top of that.%n%nYou can use different modes to collect different crops. Arboretum for trees, infernal for nether wart and so on. You can even mix and match modes on the same farm - cutting trees down for wood in part, and collecting fruit from trees without destroying it in another, for example. So long as they're on different sides, at least.%n%nYou may need to experiment a bit to see what works, but [url]https://ftbwiki.org/MultiFarm#Managed_Farms[/url] has a decent list, though it doesn't specify cotton for managed crop farms for example. It might be a GTNH change, I dunno. A number of crops have an added IC2 crop version as well, so you may prefer those for the higher yield if you level them up. Orchard mode works with Pam's, and Witchery, just to save you some time. Pam's nether crops however don't seem to work at all though.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACRg.name=[下書き]マルチファーム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACRg.desc=構築できる最小の農場には、36 のファームブロック (3x4x3 - 最大のものは 5x4x5、つまり 100 のファームブロック) が必要です。構築したファーム タイプに対応する基礎となるブロックを配置します。この場合は石レンガです。これらのブロックは多重構造の横または下に配置できますが、上のレイヤーには配置できません。農場の種類に応じて、これらの上の 6 ブロックで土/農地/砂/ソウルサンド/腐植土を検索し、その上に適切な作物や苗木などが配置されます。%n%nさまざまなモードを使用してさまざまな作物を収集できます。樹木なら樹木園、ネザーウォートなら地獄など。同じ農場でモードを組み合わせて使用​​することもできます。たとえば、一部では木材を得るために木を伐採し、別の農場では木を破壊せずに木から果物を集めることができます。少なくとも、彼らが異なる立場にある限りは。%n%n何が機能するかを確認するには少し実験する必要があるかもしれませんが、[url]https://ftbwiki.org/MultiFarm#Managed_Farms[/url] にはまともなリストがありますが、たとえば管理農場向けの綿花は指定されていません。それはGTNHの変更かもしれません、私は知りません。多くの作物には IC2 作物バージョンも追加されているため、レベルアップする場合はより高い収量を求める場合があります。オーチャード モードは、時間を節約するために、パムとウィッチャーと連携します。しかし、パムのネザー作物はまったく機能していないようです。
 
 # Quest: Farm Logic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACRw.name=Farm Logic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACRw.desc=This chip allows you to select the farm type (when combined with the right electron tubes), and not use the default of growing trees. Unless that's what you want, in which case you don't need it.%n%nFor each circuit tier, you can configure 1/4 more of your farm.
+# EN name: Farm Logic
+# EN desc: This chip allows you to select the farm type (when combined with the right electron tubes), and not use the default of growing trees. Unless that's what you want, in which case you don't need it.%n%nFor each circuit tier, you can configure 1/4 more of your farm.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACRw.name=[下書き]ファーム回路
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACRw.desc=このチップを使用すると、(適切な電子管と組み合わせた場合に) 農場のタイプを選択でき、デフォルトの成長ツリーを使用しなくなります。それがあなたが望むものでない限り、その場合にはそれは必要ありません。%n%n回線層ごとに、ファームのさらに 1/4 を構成できます。
 
 # Quest: Changing Your Foresty Circuit Configuration
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACSA.name=Changing Your Foresty Circuit Configuration
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACSA.desc=The (forestry) soldering iron is a tool used for attaching electron tubes to circuit boards in order to manipulate how an electrical engine works or to program multifarms, as well as upgrading the squeezer or centrifuge. Honestly, you'll probably only use it for the multifarm though.%n%nOnce electron tubes have been attached to a circuit board they cannot be removed, only replaced. The circuit board is automatically crafted as soon as the basic recipe requirements are met, so it's best practice to first place your electron tubes and then add the circuit board.%n%nThe soldering iron can also be used to remove the circuit board from electrical engines, multifarms, squeezers and centrifuges by opening the machine's GUI and left-clicking with the soldering iron on the circuit board slot.
+# EN name: Changing Your Foresty Circuit Configuration
+# EN desc: The (forestry) soldering iron is a tool used for attaching electron tubes to circuit boards in order to manipulate how an electrical engine works or to program multifarms, as well as upgrading the squeezer or centrifuge. Honestly, you'll probably only use it for the multifarm though.%n%nOnce electron tubes have been attached to a circuit board they cannot be removed, only replaced. The circuit board is automatically crafted as soon as the basic recipe requirements are met, so it's best practice to first place your electron tubes and then add the circuit board.%n%nThe soldering iron can also be used to remove the circuit board from electrical engines, multifarms, squeezers and centrifuges by opening the machine's GUI and left-clicking with the soldering iron on the circuit board slot.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACSA.name=[下書き]Forestry回路構成の変更
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACSA.desc=(Forestry用) はんだごては、電気エンジンの動作方法を操作したり、マルチファームをプログラムしたり、圧搾機や遠心分離機をアップグレードしたりするために、電子管を回路基板に取り付けるために使用されるツールです。正直なところ、おそらくマルチファームにしか使用しないでしょう。%n%n電子管は一度回路基板に取り付けられると取り外すことはできず、交換するしかありません。回路基板は、基本的なレシピ要件が満たされるとすぐに自動的に作成されるため、最初に電子管を配置してから回路基板を追加することをお勧めします。%n%nはんだごては、機械の GUI を開いて回路基板スロットをはんだごてで左クリックすることで、電気エンジン、マルチファーム、圧搾機、遠心分離機から回路基板を取り外すのにも使用できます。
 
 # Quest: Heating Coils
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACSQ.name=加熱コイル
@@ -6694,32 +6700,44 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACTA.name=燐灰石を見つける
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACTA.desc=今度は鉱石を探す時間です。燐灰石はForestryにおいて最も重要な素材です。それを使って肥料、ファームブロック、その他のものを作ることができます。鉱脈はY40～60の間で見つかります。
 
 # Quest: Multifarm: Hatch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACTQ.name=Multifarm: Hatch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACTQ.desc=You can supply and extract items from the farm by using farm hatches that are connected to pipe systems.%n%nSupplying items%nThe farm hatch is clever enough to know which item goes where. If an item isn't appropriate for the farm's configuration, the hatch will simply reject it.%n%nExtracting items%nAny item that is harvested by the Multifarm is automatically ejected by the farm hatches into inventories or pipes. Pipes can be used to extract from other sides. You may need more than one, or a better conveyor if it isn't extracting fast enough for you.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACTQ.name=[下書き]マルチファーム：ハッチ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACTQ.desc=パイプ システムに接続されたファーム ハッチを使用して、ファームからアイテムを供給したり抽出したりできます。%n%nアイテムの供給%n農場のハッチは、どのアイテムがどこに行くかを知るのに十分賢いです。アイテムが農場の構成に適切でない場合、ハッチはそのアイテムを単に拒否します。%n%nアイテムの抽出%nAマルチファームによって収穫されたアイテムは、ファームのハッチによって自動的にインベントリまたはパイプに排出されます。パイプを使用して他の側面から取り出すことができます。抽出速度が十分でない場合は、複数のコンベヤーが必要になる場合があります。また、より優れたコンベヤーが必要になる場合もあります。
 
 # Quest: Multifarm: Valve
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACTg.name=Multifarm: Valve
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACTg.desc=Most farms require water for hydration purposes. Although you can do it manually by supplying it through liquid containers (such as cans), you can also automate the process by using farm valves.%n%nBy connecting fluid pipes into the farm valve and supplying water, you can automatically fill the farm's water tank.%n%nIf it hasn't rained for a while, the required water will go up, up to 1500%%. Use an Everfull Urn, or Reservoir (RIO) for serious water needs.
+# EN name: Multifarm: Valve
+# EN desc: Most farms require water for hydration purposes. Although you can do it manually by supplying it through liquid containers (such as cans), you can also automate the process by using farm valves.%n%nBy connecting fluid pipes into the farm valve and supplying water, you can automatically fill the farm's water tank.%n%nIf it hasn't rained for a while, the required water will go up, up to 1500%%. Use an Everfull Urn, or Reservoir (RIO) for serious water needs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACTg.name=[下書き]マルチファーム：バルブ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACTg.desc=ほとんどの農場では水分補給のために水が必要です。液体容器 (缶など) を介して供給することで手動で行うこともできますが、ファーム バルブを使用してプロセスを自動化することもできます。%n%nファームバルブに流体配管を接続し給水することで、自動的にファームの水タンクに水を入れることができます。%n%nしばらく雨が降っていない場合、必要な水は最大 1500%% まで増加します。深刻な水の必要性がある場合は、Everfull Urn または Reservoir (RIO) を使用してください。
 
 # Quest: Multifarm: Control
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACTw.name=Multifarm: Control
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACTw.desc=You can control which fields of your farm work by applying a redstone signal to the control block. You can either shut down the whole farm by applying a redstone signal from top or below or you can disable a specific side by applying a redstone signal on the matching side of the control block.
+# EN name: Multifarm: Control
+# EN desc: You can control which fields of your farm work by applying a redstone signal to the control block. You can either shut down the whole farm by applying a redstone signal from top or below or you can disable a specific side by applying a redstone signal on the matching side of the control block.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACTw.name=[下書き]マルチファーム：コントロール
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACTw.desc=レッドストーン信号を制御ブロックに適用することで、農場のどの畑が機能するかを制御できます。上または下からレッドストーン信号を適用してファーム全体をシャットダウンするか、制御ブロックの一致する側にレッドストーン信号を適用して特定の側を無効にすることができます。
 
 # Quest: Multifarm: Gearbox
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACUA.name=Multifarm: Gearbox
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACUA.desc=To power your farm and have it automatically harvest crops, you will need at least one farm gearbox to supply power. You can use either RF or EU. If you use EU, make sure to use a cable to allow conversion. Farm operations can be hastened with additional gearboxes.%n%nTesting has shown that splitting the amps to 4 gearboxes (4A ULV) works better than sending 1A LV to 4 gearboxes.%n%nA max sized CropsNH Crop farm (5x4x5) using all space possible with max stat seeds (31/31/31) on a fast crop needs only 6A ULV to keep up.%n%nSimilarly, a max sized small farm (3x4x3) using all space possible with max stat seeds (31/31/31) on a high tier, moderate speed crop needs only 4A ULV.%n%nSending more power to the same gearbox doesn't work. If it can get to max RF capacity but your farm can't keep up, sending more power won't help, so add more gearboxes.%n%nIn addition, you lose 2 EU from the energy emitting device for every Amp of ULV (which is only 8 to begin with), so it's not nearly as efficient as using LV or higher. Just keep in mind that more A to more gearboxes is better than to the same one.%n%nOf course, if you mix your slower crops with your faster ones, you aren't likely to need to min-max to this extent.
+# EN name: Multifarm: Gearbox
+# EN desc: To power your farm and have it automatically harvest crops, you will need at least one farm gearbox to supply power. You can use either RF or EU. If you use EU, make sure to use a cable to allow conversion. Farm operations can be hastened with additional gearboxes.%n%nTesting has shown that splitting the amps to 4 gearboxes (4A ULV) works better than sending 1A LV to 4 gearboxes.%n%nA max sized IC2 Crop farm (5x4x5) using all space possible with max stat seeds (31/31/0) on a fast crop needs only 6A ULV to keep up.%n%nSimilarly, a max sized small farm (3x4x3) using all space possible with max stat seeds (31/31/0) on a high tier, moderate speed crop needs only 4A ULV.%n%nSending more power to the same gearbox doesn't work. If it can get to max RF capacity but your farm can't keep up, sending more power won't help, so add more gearboxes.%n%nIn addition, you lose 2 EU from the energy emitting device for every Amp of ULV (which is only 8 to begin with), so it's not nearly as efficient as using LV or higher. Just keep in mind that more A to more gearboxes is better than to the same one.%n%nOf course, if you mix your slower crops with your faster ones, you aren't likely to need to min-max to this extent.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACUA.name=[下書き]マルチファーム：ギアボックス
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACUA.desc=農場に電力を供給し、自動的に作物を収穫するには、電力を供給するために少なくとも 1 つの農場ギアボックスが必要です。 RF または EU のいずれかを使用できます。 EU を使用する場合は、必ず変換できるケーブルを使用してください。ギアボックスを追加することで農場作業を迅速化できます。%n%nテストの結果、アンプを 4 つのギアボックス (4A ULV) に分割する方が、1A LV を 4 つのギアボックスに送信するよりもうまく機能することがわかりました。%n%n最大サイズの IC2 作物ファーム (5x4x5) で可能なすべてのスペースを使用し、高速作物で最大統計シード (31/31/0) を使用する場合、維持するには 6A ULV のみが必要です。%n%n同様に、高 Tier で中程度の速度の作物で最大ステータス シード (31/31/0) を使用して可能なすべてのスペースを使用する最大サイズの小規模農場 (3x4x3) には、4A ULV のみが必要です。%n%n同じギアボックスにさらに多くのパワーを送っても機能しません。 RF 容量が最大に達してもファームが追いつかない場合は、電力を送信しても役に立たないため、ギアボックスを追加します。%n%nさらに、ULV のアンプごとにエネルギー放出装置から 2 EU が失われるため (最初は 8 しかありません)、LV 以上を使用する場合ほど効率的ではありません。同じギアボックスを使用するよりも、より多くのギアボックスに A を追加する方が良いことに注意してください。%n%nもちろん、遅い作物と速い作物を混合する場合は、ここまで最小値と最大値を調整する必要はありません。
 
 # Quest: Enhanced Farm Logic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACUQ.name=Enhanced Farm Logic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACUQ.desc=This circuit allows you to configure 2/4 areas of your farm.
+# EN name: Enhanced Farm Logic
+# EN desc: This circuit allows you to configure 2/4 areas of your farm.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACUQ.name=[下書き]強化されたファーム回路
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACUQ.desc=この回路を使用すると、ファームの 2/4 エリアを構成できます。
 
 # Quest: Refined Farm Logic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACUg.name=Refined Farm Logic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACUg.desc=This circuit allows you to configure 3/4 areas of your farm.
+# EN name: Refined Farm Logic
+# EN desc: This circuit allows you to configure 3/4 areas of your farm.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACUg.name=[下書き]洗練されたファーム回路
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACUg.desc=この回路を使用すると、ファームの 3/4 エリアを構成できます。
 
 # Quest: Intricate Farm Logic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACUw.name=Intricate Farm Logic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACUw.desc=This circuit allows you to configure 4/4 areas of your farm. Honestly, you should probably just skip the others.
+# EN name: Intricate Farm Logic
+# EN desc: This circuit allows you to configure 4/4 areas of your farm. Honestly, you should probably just skip the others.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACUw.name=[下書き]複雑なファーム回路
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACUw.desc=この回路を使用すると、ファームの 4/4 エリアを構成できます。正直に言うと、他のものはスキップした方がよいでしょう。
 
 # Quest: The Centrifuge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4g.name=遠心分離機
@@ -6738,20 +6756,26 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwA.name=泥炭エンジン
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwA.desc=泥炭エンジンは泥炭または瀝青質の泥炭で稼働します。泥炭は5,000 tick燃焼し、毎tick 10RFを出力します。泥炭1個から灰0.66個が出るため、泥炭3個で灰2個になります。瀝青質の泥炭は6,000 tick燃焼し、20RF/tを出力します。%n%n錫の電子管を使った自動農場で、泥炭地を構築できます。手動農場でも可能です。
 
 # Quest: Copper, Tin, Bronze Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwQ.name=Copper, Tin, Bronze Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwQ.desc=Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.%n%nUse a soldering iron to attach an electron tube to a circuit board.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwQ.name=[下書き]銅・錫・青銅の電子管
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwQ.desc=電子管は、農場を特別な種類の作物に設定するために使用され、エンジン、収穫場、および一部の製作レシピで使用できます。%n%nはんだごてを使用して、電子管を回路基板に取り付けます。
 
 # Quest: Iron, Golden, Diamantine Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwg.name=鉄、金、ダイヤモンドの電子管
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwg.desc=Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.%n%nUse a soldering iron to attach an electron tube to a circuit board.
+# EN name: Iron, Golden, Diamantine Tubes
+# EN desc: Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.%n%nUse a soldering iron to attach an electron tube to a circuit board.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwg.name=[下書き]鉄・金・ダイヤモンドの電子管
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwg.desc=電子管は、農場を特別な種類の作物に設定するために使用され、エンジン、収穫場、および一部の製作レシピで使用できます。%n%nはんだごてを使用して、電子管を回路基板に取り付けます。
 
 # Quest: Rubberised, Obsidian, Lapis Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEww.name=Rubberised, Obsidian, Lapis Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEww.desc=Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.%n%nUse a soldering iron to attach an electron tube to a circuit board.
+# EN name: Rubberised, Obsidian, Lapis Tubes
+# EN desc: Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.%n%nUse a soldering iron to attach an electron tube to a circuit board.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEww.name=[下書き]ゴム引き・黒曜石・ラピスの電子管
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEww.desc=電子管は、農場を特別な種類の作物に設定するために使用され、エンジン、収穫場、および一部の製作レシピで使用できます。%n%nはんだごてを使用して、電子管を回路基板に取り付けます。
 
 # Quest: Blazing, Ender, Emerald Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAExA.name=Blazing, Ender, Emerald Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAExA.desc=Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.%n%nUse a soldering iron to attach an electron tube to a circuit board.
+# EN name: Blazing, Ender, Emerald Tubes
+# EN desc: Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.%n%nUse a soldering iron to attach an electron tube to a circuit board.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAExA.name=[下書き]ブレイジング・エンダー・エメラルドの電子管
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAExA.desc=電子管は、農場を特別な種類の作物に設定するために使用され、エンジン、収穫場、および一部の製作レシピで使用できます。%n%nはんだごてを使用して、電子管を回路基板に取り付けます。
 
 # Quest: Brazil Nut
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0A.name=ブラジルナッツ
@@ -6854,16 +6878,20 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIVw.name=ブルーマホー
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIVw.desc=ブルーマホーは樹液がかなり多く、発酵槽を使用したバイオマス生産にもってこいです。バルサとキャメルソーンを交配して得られます。%n%n§6高い樹液量をゲットだ！
 
 # Quest: U-238 Tu-Wait, Seriously?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.name=U-238 Tu-Wait, Seriously?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.desc=If you want CropsNH crops to work with the multifarm, you now need this. Get the U-238 from thorium, and the endereyes from either your crops, villagers, or the normal way in HV. It also only searches 6 blocks above the farm structure block to prevent lag. So goodbye MF stacking, you always looked dumb, and didn't make any sense.%n%nThe largest size supports ~1100 crops, while the smallest supports ~600 depending on your layout if you use it for crops. This is because it will look for crops up to 5 blocks out further than normal in this mode (In the cardinal directions, it's further out in the corners. Just try it out, it's hard to describe). They're the same size as in previous versions, so you don't need to rejigger them.
+# EN name: U-238 Tu-Wait, Seriously?
+# EN desc: If you want IC2 crops to work with the multifarm, you now need this. Get the U-238 from thorium, and the endereyes from either your crops, villagers, or the normal way in HV. It also only searches 6 blocks above the farm structure block to prevent lag. So goodbye MF stacking, you always looked dumb, and didn't make any sense.%n%nThe largest size supports ~1100 crops, while the smallest supports ~600 depending on your layout if you use it for IC2 crops. This is because it will look for crops up to 5 blocks out further than normal in this mode (In the cardinal directions, it's further out in the corners. Just try it out, it's hard to describe). They're the same size as in previous versions, so you don't need to rejigger them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.name=[下書き]U-238 つ、ちょっと待って、マジで？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.desc=IC2 作物をマルチファームで動作させたい場合は、これが必要になります。 U-238はトリウムから入手し、エンダアイは作物、村人、またはHVの通常の方法から入手します。また、ラグを防ぐために、ファーム構造ブロックの上の 6 ブロックのみを検索します。それで、さようならMFスタッキング、あなたはいつも愚かに見えて、意味がありませんでした。%n%nIC2 クロップに使用する場合、最大サイズは最大 1100 個のクロップをサポートし、最小サイズはレイアウトに応じて最大 600 個のクロップをサポートします。これは、このモードでは通常よりも最大 5 ブロック離れた場所にある作物を検索するためです (基本的な方向では、さらに隅にあります。説明するのは難しいので試してみてください)。以前のバージョンと同じサイズなので、再調整する必要はありません。
 
 # Quest: Papaya
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIA.name=パパイヤ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIA.desc=パパイヤからは、果汁量の多いパパイヤの実を入手できます。ジュルルルッ！%n%n§aパパイヤとジュースをゲットだ！
 
 # Quest: Combustion Engine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALKw.name=内燃エンジン
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALKw.desc=The combustion engine combusts things for power like a car engine does. You need water in it if it's over 100 degrees, or it will explode. Don't run out of water! You turn it on with a redstone signal.%n%nYour options for fuel are:%nOil @30RF/t for a total of 150K%nEthanol @40RF/t for a total of 360K%nDiesel @60RF/t for a total of 1,500K%n%n[note]Make sure to use Oil, not raw, light, medium, or heavy oil.[/note]
+# EN name: Combustion Engine
+# EN desc: The combustion engine combusts things for power like a car engine does. You need water in it if it's over 100 degrees, or it will explode. Don't run out of water! You turn it on with a redstone signal.%n%nYour options for fuel are:%nOil @30RF/t for a total of 150K%nEthanol @40RF/t for a total of 360K%nDiesel @60RF/t for a total of 1,500K%n%n[note]Make sure to use Oil, not raw, light, medium, or heavy oil.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALKw.name=[提出済み]内燃エンジン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALKw.desc=内燃エンジンは、車のエンジンと同じように燃料を燃やして発電します。温度が100度を超えると水が必要で、ないと爆発します。水切れに注意してください。レッドストーン信号で起動します。%n%n使える燃料は次のとおりです:%n石油: 30RF/t、合計150K%nエタノール: 40RF/t、合計360K%nディーゼル: 60RF/t、合計1,500K%n%n[note]原油・軽質石油・中質石油・重質石油ではなく、必ず石油を使ってください。[/note]
 
 # Quest: Kinesis Pipes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALLA.name=伝導パイプ
@@ -6918,8 +6946,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOQ.name=クロミキイチゴ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOQ.desc=ヨーロッパキイチゴとオレンジを交配させるとクロミキイチゴが手に入ります。%n%n[warn]速い成長速度をゲットだ！[/warn]%n%n[note]ここにたどり着くまでにかなり時間がかかりましたよね。まあ、マルチファームとかで自動化すればもっと早かったでしょうがね。[/note]%n%n[note]次は究極の品種改良品を作成してみましょうか。[/note]
 
 # Quest: Forestry Core Block #2
-betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.name=Forestry Core Block #2
-betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.desc=The upgraded casing for Forestry, used in multiple recipes for endgame Gendustry items and the Rainmaker. 
+# EN name: Forestry Core Block #2
+# EN desc: The upgraded casing for Forestry, used in multiple recipes for endgame Gendustry items and the Rainmaker.
+betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.name=[下書き]Forestryコアブロック #2
+betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.desc=森林用のアップグレードされたケーシング。エンドゲーム Gendustry アイテムと Rainmaker の複数のレシピで使用されます。
 
 
 ## Quest Line: Multiblock Goals
