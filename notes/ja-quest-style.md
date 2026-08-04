@@ -42,6 +42,19 @@ ParaTranz / 手元ドラフト共通。既存の良い訳（とくに養蜂「�
 | Apiary | 養蜂箱 |
 | Alveary | 大型養蜂箱 |
 | Bee House | ビーハウス |
+| GT scanner | **GregTechのスキャナー**（「GTのスキャナー」に略さない） |
+
+時間単位 tick:
+
+- Minecraft の時間単位はカタカナ「ティック」ではなく **ラテン字 `tick`**（既存クエストの `EU/tick`・`mB/tick`・`tick毎秒` に合わせる）
+- 持続時間: `5,000 tick` / 毎tick: `毎tick`
+- レート略記: `RF/t`・`EU/t` でよい（丁寧にするなら `RF/tick`）
+
+数値（4桁以上）:
+
+- 既存の丁寧訳に合わせ、**半角カンマ区切り**を使う（例: `1,000`・`16,000`・`480,000EU`・`50,000秒`）
+- 原文の `1k` / `150K` のようなキロ略記は、**合計RFなど EN が K 表記のときだけ**踏襲してよい（例: 内燃エンジン `合計150K`）。tick 持続時間はカンマ区切りを優先（`1k ticks` → `1,000 tick`）
+- 温度の `K`（ケルビン）と混同しやすいので、tick／RF のキロ略記を安易に増やさない
 
 生産性の表現:
 
@@ -68,10 +81,18 @@ DeepL 利用時はこれらが落ちやすいので、原文と必ず突合す�
 - ユーザーが訳を確定したら `[下書き]` を `[自訳]` に変更する（手元での確定版）
 - ParaTranz へ投稿する確定文では `[下書き]` と `[自訳]` を外す
 
+CustomToolTips は `ja_JP/config/txloader/load/customtooltips/lang/ja_JP.lang`（キー `customtooltip.*`）。locale 専用 XML は置かない（あると本体のキー化 XML より優先され lang が効かない）。値の先頭に `[下書き]` / `[自訳]` を付ける。
+
+- 例: `customtooltip.bee_apiary=[下書き]有効生産確率…`
+
 ## 作業フロー（再掲）
 
 1. 訳は **ParaTranz** が本番。手元ブランチは下書き・用語揃え用
-2. 確認: `./sync-to-instance.sh --questbook` → **ゲーム完全再起動**（ワールド再入場だけでは lang は載らない）
+2. 確認: `./sync-verified-quests.sh` → **ゲーム完全再起動**（ワールド再入場だけでは lang は載らない）
+   - sync 対象は `notes/quest-ids-2.8.4.txt` にあるクエストのみ。章を増やすときはその ID リストへ追加する
+   - `Coins, Coins, Coins` 章は 2.9+ で Vending Machine 化され upstream 対象外のため、翻訳作業対象に含めない
+   - `初歩的な魔導学`（Novice Thaumaturgy / questline `AAAAAAAAAAAAAAAAAAAAFg`）は `notes/quest-ids-2.8.4.txt` 末尾に **103 ID** 追加済み（2.8.4 章 99 + master 整合の 4）。未訳一覧は `notes/novice-thaumaturgy-gap.txt`（英語のまま残っているものは約 57 件）
+   - `交配の方蜂`（Be(e) Breeding / questline `AAAAAAAAAAAAAAAAAAAAEw`）は `notes/quest-ids-2.8.4.txt` に **170 ID** 済み。切り出しは `notes/quest-ids-bee-breeding.txt`、未訳一覧は `notes/bee-breeding-gap.txt`
 3. `/bq_admin default load` はクエスト JSON 用。lang のリロードコマンドではない
 
 ## レビュー観点チェックリスト
@@ -91,9 +112,39 @@ DeepL 利用時はこれらが落ちやすいので、原文と必ず突合す�
 
 ## 作業の進め方（確定まで）
 
-1. 手元の `ja_JP.lang` を編集 → `./sync-to-instance.sh --questbook` → ゲーム再起動で確認  
+- `[下書き]` の間は、訳文の直前に比較用の英語原文をコメントで残す
+  - `# EN name: ...`
+  - `# EN desc: ...`
+  - `# EN desc:` の直後に空行を入れない（次行はすぐ `betterquesting.quest....name=`）
+- 訳を確定して `[自訳]` に戻すときに、対応する英語原文コメントを削除する
+
+1. 手元の `ja_JP.lang` を編集 → `./sync-verified-quests.sh` → ゲーム再起動で確認  
 2. **見た目・文言が確定してから** git commit / push（下書き段階ではコミットしない）  
 3. 公式反映は ParaTranz へ確定文を投稿
+
+## upstream マージ後の `[下書き]` 復元
+
+`origin/master` を `--theirs` で取り込むと、ParaTranz 未反映の `[下書き]` エントリは upstream 側に存在しないため消えます。マージ直後に次を実行してください。
+
+```bash
+./tools/restore_drafts_after_merge.sh
+./sync-verified-quests.sh
+```
+
+`restore_drafts_after_merge.sh` は merge 直前の `HEAD^1`（作業ブランチ側）から `[下書き]` を読み、upstream ベースの `ja_JP.lang` へ **置換または新規挿入** します。`sync-verified-quests.sh` は同期前に `tools/check_quest_lang_coverage.py` で ID リストと lang の欠落を検査します。
+
+消失の検証（`.desc=` / quest ID 件数比較）:
+
+```bash
+python tools/compare_quest_lang_snapshots.py \
+  "backup-20260718=/path/to/_backup_ja_JP_.../load_betterquesting_ja_JP.lang" \
+  "pre-merge=/tmp/pre-merge.lang" \
+  "current=ja_JP/config/txloader/forceload/betterquesting/lang/ja_JP.lang" \
+  --baseline pre-merge \
+  --id-list notes/quest-ids-2.8.4.txt
+```
+
+`pre-merge.lang` は `git show HEAD^1:ja_JP/config/txloader/forceload/betterquesting/lang/ja_JP.lang` などで取得します。
 
 ## 実績例: Impregnated Frames
 

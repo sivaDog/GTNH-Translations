@@ -6654,6 +6654,8 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEg.name=Forestryとマルチファ�
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEg.desc=農業の自動化、樹木の交配、その他もろもろ.....%n%n§nカバーされているMod§r%nGregTech§r%n§7IndustrialCraft 2§r%nBuildCraft%n§9Forestry§r%n§7Extra Trees§r%n§7Gendustry§r
 
 # Quest: THE RAINMAKER
+# EN name: THE RAINMAKER
+# EN desc: The Rainmaker is a Forestry block capable of stopping/producing rain & creating thunderstorms.%n%nThe Rainmaker has no GUI, but can be right clicked with §a3§r different capsules:%n%n§cIodine Capsule:§r Produces Rain%n%n§cPhosphoric Iodine Capsule:§r Produces a Thunderstorm%n%n§cDissipation Charge:§r Stops Rain%n%nThe Rainmaker requires around ~30 seconds after activation for the §9rain§r and §9thunderstorm§r to start.%n%nThe dissipation charge will stop the rain after a few seconds until the next activation.
 betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.name=[下書き]レインメーカー
 betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.desc=レインメーカーは、雨を止めたり降らしたり、雷雨を引き起こしたりできるForestryブロックです。%n%nRainmaker には GUI がありませんが、右クリックして §a3§r のさまざまなカプセルを使用できます。%n%n§cヨウ素カプセル:§r 雨を降らせる%n%n§cリンヨウ素カプセル:§r は雷雨を引き起こします%n%n§c散逸電荷:§r 雨を止める%n%nRainmaker は、起動後、§9rain§r および §9thunderstorm§r が開始されるまでに約 30 秒かかります。%n%n消散チャージにより、次の起動までの数秒後に雨が止みます。
 
@@ -6670,6 +6672,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACRA.name=熱電子工作機
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACRA.desc=§7《§r熱電子工作機§7／Thermionic Fabricator》§rは、電子管や色付きガラスのクラフトに使用します。稼働にはレッドストーンフラックス (RF) エネルギーが必要です。%n%n工作機で作る最初の機械です。一度温まると、動作のために一定の熱レベルを維持する必要があります。供給する電力の量によって、発生する熱量が決まります。現在の温度を維持するのに十分な電力を供給しない場合、温度はゆっくりと低下します。電力を継続的に消費するため、必要ないときは接続を外してください。
 
 # Quest: A Series of Tubes
+# EN name: A Series of Tubes
+# EN desc: Before you can craft your first farm block you need apatite tubes. Make some apatite rods first with a lathe, then use a forge hammer to join them into long apatite rods. You need golden bolts and a red alloy plate.%n%nPut some glass or sand into your thermionic fabricator and make your first tubes.%n%n[note]You can also use the circuit assembler for a better output. Why did we have you make the TF again?[/note]
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACRQ.name=[下書き]電子管シリーズ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACRQ.desc=最初のファームブロックを作成する前に、燐灰石 電子管が必要です。まず旋盤で燐灰石の棒を作り、次に鍛造ハンマーを使ってそれらを結合して長い燐灰石の棒にします。金色のボルトと赤い合金プレートが必要です。%n%n熱電子工作機にガラスまたは砂を入れて、最初の電子管を作成します。%n%n[note]より良い出力を得るために回路アセンブラを使用することもできます。なぜ再びTFを作ってもらったのでしょうか?[/note]
 
@@ -6700,6 +6704,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACTA.name=燐灰石を見つける
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACTA.desc=今度は鉱石を探す時間です。燐灰石はForestryにおいて最も重要な素材です。それを使って肥料、ファームブロック、その他のものを作ることができます。鉱脈はY40～60の間で見つかります。
 
 # Quest: Multifarm: Hatch
+# EN name: Multifarm: Hatch
+# EN desc: You can supply and extract items from the farm by using farm hatches that are connected to pipe systems.%n%nSupplying items%nThe farm hatch is clever enough to know which item goes where. If an item isn't appropriate for the farm's configuration, the hatch will simply reject it.%n%nExtracting items%nAny item that is harvested by the Multifarm is automatically ejected by the farm hatches into inventories or pipes. Pipes can be used to extract from other sides. You may need more than one, or a better conveyor if it isn't extracting fast enough for you.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACTQ.name=[下書き]マルチファーム：ハッチ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACTQ.desc=パイプ システムに接続されたファーム ハッチを使用して、ファームからアイテムを供給したり抽出したりできます。%n%nアイテムの供給%n農場のハッチは、どのアイテムがどこに行くかを知るのに十分賢いです。アイテムが農場の構成に適切でない場合、ハッチはそのアイテムを単に拒否します。%n%nアイテムの抽出%nAマルチファームによって収穫されたアイテムは、ファームのハッチによって自動的にインベントリまたはパイプに排出されます。パイプを使用して他の側面から取り出すことができます。抽出速度が十分でない場合は、複数のコンベヤーが必要になる場合があります。また、より優れたコンベヤーが必要になる場合もあります。
 
@@ -6756,6 +6762,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwA.name=泥炭エンジン
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwA.desc=泥炭エンジンは泥炭または瀝青質の泥炭で稼働します。泥炭は5,000 tick燃焼し、毎tick 10RFを出力します。泥炭1個から灰0.66個が出るため、泥炭3個で灰2個になります。瀝青質の泥炭は6,000 tick燃焼し、20RF/tを出力します。%n%n錫の電子管を使った自動農場で、泥炭地を構築できます。手動農場でも可能です。
 
 # Quest: Copper, Tin, Bronze Tubes
+# EN name: Copper, Tin, Bronze Tubes
+# EN desc: Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.%n%nUse a soldering iron to attach an electron tube to a circuit board.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwQ.name=[下書き]銅・錫・青銅の電子管
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwQ.desc=電子管は、農場を特別な種類の作物に設定するために使用され、エンジン、収穫場、および一部の製作レシピで使用できます。%n%nはんだごてを使用して、電子管を回路基板に取り付けます。
 
@@ -6786,32 +6794,44 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0Q.name=ココヤシ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0Q.desc=ココナッツは種油の王様です。一粒で300L入手できます。ココヤシはブラジルナッツとバルサの交配種です。%n%n§eココナッツと種油をゲットだ！
 
 # Quest: Industrial Grafter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1w.name=Industrial Grafter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1w.desc=If you're tired of constantly replacing branch cutters, this Industrial Grafter is rechargeable.%n%n[note]Or you could just make better ones.[/note]
+# EN name: Industrial Grafter
+# EN desc: If you're tired of constantly replacing branch cutters, this Industrial Grafter is rechargeable.%n%n[note]Or you could just make better ones.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1w.name=[自訳]産業用接木小刀
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1w.desc=枝切りバサミを何度も交換するのにうんざりしているなら、この§7《§r産業用接木小刀§7／Industrial Grafter》§rは充電式です。%n%n[note]あるいは、もっと良いものを作ればいいだけです。[/note]
 
 # Quest: Another Path to Ethanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAw.name=Another Path to Ethanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAw.desc=Using a fermenter with excess saplings or other garbage will give you Forestry biomass. Higher Sappiness trait on your trees will get you better results.
+# EN name: Another Path to Ethanol
+# EN desc: Using a fermenter with excess saplings or other garbage will give you Forestry biomass. Higher Sappiness trait on your trees will get you better results.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAw.name=[下書き]エタノールへの別の道
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAw.desc=余った苗木やその他のゴミを入れて発酵槽を使用すると、Forestryバイオマスが得られます。木の幸福度特性が高いほど、より良い結果が得られます。
 
 # Quest: Why No, This is Not Fit For Human Consumption
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBA.name=Why No, This is Not Fit For Human Consumption
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBA.desc=Taking the biomass from the Fermenter and using it in a still will give you Ethanol. Not really worth it for power, but useful if you want to turn it into ethylene. You could set it up on an old steam setup with nothing better to do to get a more useful power source out of it, or use the Ethanol to power the setup and the forestry farm.
+# EN name: Why No, This is Not Fit For Human Consumption
+# EN desc: Taking the biomass from the Fermenter and using it in a still will give you Ethanol. Not really worth it for power, but useful if you want to turn it into ethylene. You could set it up on an old steam setup with nothing better to do to get a more useful power source out of it, or use the Ethanol to power the setup and the forestry farm.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBA.name=[下書き]いいえ、これは人間用ではありません
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBA.desc=発酵槽からバイオマスを取り出して蒸留器で使用すると、エタノールが得られます。電力としてはあまり価値がありませんが、エチレンに変えたい場合には便利です。より有用な電源を得るために他に何もせずに古い蒸気セットアップにセットアップすることも、セットアップとForestry農場に電力を供給するためにエタノールを使用することもできます。
 
 # Quest: Better Fermenter Outputs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBw.name=Better Fermenter Outputs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBw.desc=With a Squeezer you can boost the output from your fermenter, saving on Fertilizer or Mulch and getting more per sapling. There's a variety of crops you can use to make fruit juice, so have fun breeding.
+# EN name: Better Fermenter Outputs
+# EN desc: With a Squeezer you can boost the output from your fermenter, saving on Fertilizer or Mulch and getting more per sapling. There's a variety of crops you can use to make fruit juice, so have fun breeding.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBw.name=[下書き]発酵槽の生産量の向上
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBw.desc=スクイーザーを使用すると、発酵槽からの生産量を増やすことができ、肥料やマルチを節約し、苗木あたりの収穫量を増やすことができます。果汁の原料となる作物はいろいろあるので、品種改良を楽しんでみてください。
 
 # Quest: Such Pretty Leaves...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIw.name=Such Pretty Leaves...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIw.desc=Now that you have entered MV you can begin breeding Forestry trees the smart way. Start by getting a Treealyzer, and scan the vanilla trees. They will transform into the forestry versions. You will need to gather honey or honeydew drops from bee combs to power the Treealyzer.%n%nIf you want to bulk scan saplings, you can feed them through a GT scanner filled with honey.%n%nYou can also try the Genetics mod to modify them. It's on the first bee tab.
+# EN name: Such Pretty Leaves...
+# EN desc: Now that you have entered MV you can begin breeding Forestry trees the smart way. Start by getting a Treealyzer, and scan the vanilla trees. They will transform into the forestry versions. You will need to gather honey or honeydew drops from bee combs to power the Treealyzer.%n%nIf you want to bulk scan saplings, you can feed them through a GT scanner filled with honey.%n%nYou can also try the Genetics mod to modify them. It's on the first bee tab.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIw.name=[下書き]こんなに綺麗な葉っぱ…
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIw.desc=MV に入ったので、賢い方法でForestryの木の繁殖を始めることができます。まずは Treealyzer を入手し、バニラの木をスキャンします。森林バージョンに変形します。 Treealyzer に電力を供給するには、蜂の巣から蜂蜜または甘露の滴を収集する必要があります。%n%n苗木を一括スキャンしたい場合は、蜂蜜を満たした GT スキャナーに苗木を供給します。%n%nGenetics mod を試してそれらを変更することもできます。最初のミツバチのタブにあります。
 
 # Quest: Collecting the Hybrids
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJA.name=雑種の収集
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJA.desc=運よく村で蜂を見つけたら、木の隣にある§7《§rビーハウス§7／Bee House》§rに入れてください。時間が経つと、蜂はゆっくりと木の葉に受粉していきます。§7《§r接木小刀§7／Grafter》§rで葉ブロックを壊すと苗木を100%%入手でき、Forestryの苗木を集めるのに役立ちます。ただし魔法の木には効かないようです。村人との取引で、耐久の長い§7《§r秘伝の接木小刀§7／Proven Grafter》§rを入手できます。魔法も調べてみてください。魔術師向けの長持ちする接木小刀がある、という噂を聞いたことがあるでしょう。%n%nGregTechにも便利な道具、§7《§r枝切りバサミ§7／Branch Cutter》§rがあります。
 
 # Quest: Seeing the Fruits of Your Labor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJQ.name=Seeing the Fruits of Your Labor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJQ.desc=It can be difficult to see which leafy blocks are pollinated. Craft a pair of spectacles to get a better view.
+# EN name: Seeing the Fruits of Your Labor
+# EN desc: It can be difficult to see which leafy blocks are pollinated. Craft a pair of spectacles to get a better view.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJQ.name=[下書き]努力の果実
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJQ.desc=どの葉のブロックが受粉しているかを確認するのは難しい場合があります。よりよく見えるようにメガネを作ります。
 
 # Quest: Orchard Apple
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAINQ.name=セイヨウリンゴ
@@ -10967,20 +10987,28 @@ betterquesting.quest.9UmsrQkNSbutaMzTgYMcsA.name=The Truth About Serum
 betterquesting.quest.9UmsrQkNSbutaMzTgYMcsA.desc=Genetics has its own little glassware for carrying chosen genes over to Larvae. The Serum Vial will let you carry one gene to a Larvae. That's kind of underwhelming, so it's better to combine a few of them into a Serum Array. Then you can have a full buffet and pick one of each possible trait.%n%nYou must "charge" the Serum in a Polymerizer. Then you can feed it into an Inoculator or a Splicer to modify a Larvae. Look at the number of charges left on the Serum to see how many times you can do this. You can recharge it by putting it back in a Polymerizer. So if you ever get a magic recipe, you can just leave a Serum Array of it around and just recharge it as you need it.%n%n[note]You cannot recharge Serums using a Thaumic Restorer.[/note]
 
 # Quest: To Scan or Not to Scan
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-A.name=To Scan or Not to Scan
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-A.desc=In order to get into bee breeding, you need a way to see all the traits, active and inactive. You only want to breed so called "pure" bees; For those, both "Active" and "Inactive" traits are identical.%n%n[note]BTW, it's not like the more 'advanced' versions are actually better, just that they have more functions. Use the one you like.[/note]
+# EN name: To Scan or Not to Scan
+# EN desc: In order to get into bee breeding, you need a way to see all the traits, active and inactive. You only want to breed so called "pure" bees; For those, both "Active" and "Inactive" traits are identical.%n%n[note]BTW, it's not like the more 'advanced' versions are actually better, just that they have more functions. Use the one you like.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-A.name=[下書き]スキャンする？しない？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-A.desc=蜂の交配を始めるには、顕性・潜性を問わずすべての特性を確認する手段が必要です。いわゆる「純種」の蜂だけを交配したいでしょう。純種では顕性と潜性の特性が一致しています。%n%n[note]ちなみに、より「高級」な版が必ずしも優れているわけではなく、機能が多いだけです。好きな方を使ってください。[/note]
 
 # Quest: Top-Tier Analyzer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-Q.name=Top-Tier Analyzer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-Q.desc=The best you can get, for all your scanning and analyzing needs.
+# EN name: Top-Tier Analyzer
+# EN desc: The best you can get, for all your scanning and analyzing needs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-Q.name=[下書き]最高級の分析機
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-Q.desc=スキャンと分析のニーズに応えられる、最高の一台です。
 
 # Quest: To Play God
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.name=To Play God
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.desc=In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be most readily available from fluid pockets on Mars. You will be able to continue, once you've acquired this.%n%nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you'll understand why you should look into the Genetics mod.%n%n[note]Make sure to make more with the Vat once you can actually make it.[/note]
+# EN name: To Play God
+# EN desc: In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be most readily available from fluid pockets on Mars. You will be able to continue, once you've acquired this.%n%nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you'll understand why you should look into the Genetics mod.%n%n[note]Make sure to make more with the Vat once you can actually make it.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.name=[下書き]神のごとく
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.desc=蜂を思いのままに突然変異・交配させ続けるには、§7《§r変異原§7／Mutagen》§rが必要です。この緑がかった、においのきつい液体は、火星の流体溜まりで最も手に入れやすいと思われる§7《§r細菌性汚泥§7／Bacterial Sludge》§rから精製する必要があります。これを手に入れれば、先へ進めます。%n%nその間、Gendustryは簡単すぎるのは承知の上で、Genetics modに取り組み始めることもできます...レシピを確認すれば、Genetics modを調べるべき理由がわかるでしょう。%n%n[note]実際に作れるようになったら、細菌培養槽で追加生産するのを忘れないでください。[/note]
 
 # Quest: Upgraded Home
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-w.name=Upgraded Home
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-w.desc=The Bee House can be used to stabilize mutations, for example if you have successfully bred two different bees, but the passive traits are different from the active ones.%n%nTo actually breed those together to get a new species, you'll need something different - the Apiary. Building them will require a Carpenter and Impregnated frames, along with Seed Oil and Creosote - quite a bit of industrialization! Or, if you're lucky, you can find a beekeeper villager to trade with. Maybe you can help the villagers §lget lucky§r to make more beekeeper villagers? If only Cupid and his bow were around...%n%nProduction rates in an empty Apiary are low - lower than a Bee House by quite a bit, in fact. But the Apiary has two big advantages - Frames, and Automation. You can now use your Untreated or Impregnated frames in here to boost output - and the boost is multiplied. So 3 x2 frames gives you 2 * 2 * 2 = 8x extra output! You can also automate I/O for the bees and their products, though not frames unfortunately.%n%nBees also don't live as long as in a Bee House, but that's actually a good thing.%n%nAlso, you should check the Genetics mod for useful machines. The Acclimatiser can give very picky bees a much wider temperature or humidity tolerance without having to breed it into them.
+# EN name: Upgraded Home
+# EN desc: The Bee House can be used to stabilize mutations, for example if you have successfully bred two different bees, but the passive traits are different from the active ones.%n%nTo actually breed those together to get a new species, you'll need something different - the Apiary. Building them will require a Carpenter and Impregnated frames, along with Seed Oil and Creosote - quite a bit of industrialization! Or, if you're lucky, you can find a beekeeper villager to trade with. Maybe you can help the villagers §lget lucky§r to make more beekeeper villagers? If only Cupid and his bow were around...%n%nProduction rates in an empty Apiary are low - lower than a Bee House by quite a bit, in fact. But the Apiary has two big advantages - Frames, and Automation. You can now use your Untreated or Impregnated frames in here to boost output - and the boost is multiplied. So 3 x2 frames gives you 2 * 2 * 2 = 8x extra output! You can also automate I/O for the bees and their products, though not frames unfortunately.%n%nBees also don't live as long as in a Bee House, but that's actually a good thing.%n%nAlso, you should check the Genetics mod for useful machines. The Acclimatiser can give very picky bees a much wider temperature or humidity tolerance without having to breed it into them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-w.name=[下書き]住居のアップグレード
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-w.desc=§7《§rビーハウス§7／Bee House》§rは突然変異を安定させるのに使えます。たとえば2種類の蜂の交配に成功したものの、潜性特性が顕性と一致していない場合などです。%n%n実際にそれらを交配して新種を得るには、別の装置、§7《§r養蜂箱§7／Apiary》§rが必要です。作るには§7《§r工作機§7／Carpenter》§rと含侵加工済み巣枠、§7《§r種油§7／Seed Oil》§rと§7《§rクレオソート§7／Creosote Oil》§rが要り、かなりの工業化が必要です！運が良ければ、養蜂家の村人と取引できるかもしれません。村人が§l幸運§rして養蜂家が増えるのを手伝えるでしょうか？キューピッドと弓が近くにあれば...%n%n空の養蜂箱の生産速度は低く、実際ビーハウスよりかなり低いです。しかし養蜂箱には2つの大きな利点、巣枠と自動化があります。未加工の巣枠や含侵加工済み巣枠を入れて出力を底上げでき、効果は乗算されます。2倍の巣枠を3個入れると2 * 2 * 2 = 8倍の追加出力です！蜂とその産物の入出力は自動化できますが、巣枠は残念ながら自動化できません。%n%n蜂はビーハウスより寿命が短いですが、それはむしろ利点です。%n%nまた、Genetics modの有用な機械も確認してください。§7《§r順応機§7／Acclimatiser》§rなら、環境にうるさい蜂に、交配しなくても温度・湿度耐性を大きく広げられます。
 
 # Quest: First Things First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9A.name=最初のはじめて
@@ -10995,112 +11023,164 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9g.name=新居
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9g.desc=かわいそうに、蜂のおうちはあなたが壊してしまいました。彼らに新しいおうちを建ててあげなければいけませんね。%n%n粗末な§7《§rビーハウス§7／Bee House》§rでは蜂の突然変異は起こりません。しかし、もっといい住処を作るには、どのみち§7《§r巣板§7／Comb》§rが必要です。生産効率はそこまで悪くありませんが、自動化はできません。%n%nひとつヒントを教えます。ビーハウスの近くにバニラの苗木を植えてみてください。ビーハウスは§7《§r養蜂箱§7／Apiary》§r等と比べて多くの面で劣りますが、素の状態の養蜂箱と比較して受粉速度に3倍のブーストがかかります。蜂は樹木の受粉を行うため、運が良ければForestry樹木の交配をはじめることができます。オークとシラカバは、Forestry樹木関連要素の入口としてぴったりです。%n%n当然ながら、何の対策も施さずに樹木交配を行っていると、ラグの原因となる蝶々の群れに頭を悩ませることになりますが...。%n%nまた、花の種類が「花」である蜂は花を繁茂させるということに気付いたかもしれません。これはラベンダーなどの珍しい花を入手するのに利用できます。蜂が花畑を際限なく広げることが煩わしいのであれば、周囲の土や草ブロックを取り払ったり、交配によってその特性を取り除いたり、受粉速度を遅く、活動範囲を狭くしたりするといいでしょう。
 
 # Quest: Analyze Them All
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9w.name=Analyze Them All
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9w.desc=Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other aspects. It is mandatory to keep track of those properties. This kit isn't very good since it doesn't give you information on their Inactive attributes, but waste not, want not.%n%nYou'll need to use paper to analyze each bee.
+# EN name: Analyze Them All
+# EN desc: Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other aspects. It is mandatory to keep track of those properties. This kit isn't very good since it doesn't give you information on their Inactive attributes, but waste not, want not.%n%nYou'll need to use paper to analyze each bee.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9w.name=[下書き]すべて分析しよう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9w.desc=蜂には行動、雨中や夜の振る舞いなどを決める多数の特性があります。これらの特性を把握することが必須です。§7《§rフィールドキット§7／Field Kit》§rは非活性特性の情報をくれないのであまり良くありませんが、もったいない精神で使いましょう。%n%n各蜂の分析には紙が必要です。
 
 # Quest: Mutatron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_A.name=Mutatron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_A.desc=Mutations can be boring, they can be annoying, and most times, they are frustrating. With this machine, you will get a 100 percent pure bred mutation. If the combination of princess and drone can result in multiple mutations, the outcome is random. But who cares?%n%n[note]You can now upgrade your leftover Bees Advanced bags to Bees Expert in the last quest tab.%n%nIf you missed grabbing an effect from a species, this is a way to get it again.%n%nYou'll need naquadah bees to make this, and the other Gendustry machines.[/note]
+# EN name: Mutatron
+# EN desc: Mutations can be boring, they can be annoying, and most times, they are frustrating. With this machine, you will get a 100 percent pure bred mutation. If the combination of princess and drone can result in multiple mutations, the outcome is random. But who cares?%n%n[note]You can now upgrade your leftover Bees Advanced bags to Bees Expert in the last quest tab.%n%nIf you missed grabbing an effect from a species, this is a way to get it again.%n%nYou'll need naquadah bees to make this, and the other Gendustry machines.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_A.name=[下書き]ミュータトロン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_A.desc=突然変異は退屈で、うっとうしく、多くの場合イライラさせられます。この機械があれば、100%%純粋な交配突然変異が得られます。王女蜂と雄蜂の組み合わせで複数の突然変異が起こり得る場合、結果はランダムです。でも誰が気にする？%n%n[note]最後のクエストタブで、余ったBees AdvancedバッグをBees Expertにアップグレードできるようになりました。%n%n種から効果を取り逃した場合、これで再取得できます。%n%nこれと他のGendustry機械を作るには、ナクアダ蜂が必要です。[/note]
 
 # Quest: Genetic Sampler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_Q.name=Genetic Sampler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_Q.desc=With this machine, you can extract a random trait from any bee, sapling, butterfly or flower. The bee/sapling/butterfly/flower will be destroyed in this process. Each process requires an empty gene sample and some labware.%n%nThe resulting sample is random, so make sure to recycle the extra gene samples you don't want.
+# EN name: Genetic Sampler
+# EN desc: With this machine, you can extract a random trait from any bee, sapling, butterfly or flower. The bee/sapling/butterfly/flower will be destroyed in this process. Each process requires an empty gene sample and some labware.%n%nThe resulting sample is random, so make sure to recycle the extra gene samples you don't want.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_Q.name=[下書き]遺伝子抽出機
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_Q.desc=§7《§r遺伝子抽出機§7／Genetic Sampler》§rで、蜂・苗木・蝶・花からランダムな特性を1つ抽出できます。この過程で蜂/苗木/蝶/花は破壊されます。各処理には§7《§r空白の遺伝子サンプル§7／Empty Gene Sample》§rと§7《§r遺伝子工学実験器具§7／Labware》§rが必要です。%n%n得られたサンプルはランダムなので、不要な遺伝子サンプルはリサイクルすることを忘れないでください。
 
 # Quest: Diamondware
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_g.name=Diamondware
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_g.desc=Also known as labware. Be prepared. In order to do serious bee-work, you need stacks of diamonds. I'm not joking, stacks! Better start working on that diamond bee!
+# EN name: Diamondware
+# EN desc: Also known as labware. Be prepared. In order to do serious bee-work, you need stacks of diamonds. I'm not joking, stacks! Better start working on that diamond bee!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_g.name=[下書き]遺伝子工学実験器具
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_g.desc=ラボウェア(labware)とも呼ばれます。覚悟してください。本気の養蜂には、ダイヤモンドがスタック単位で必要です。冗談ではありません、スタックです！ダイヤモンド蜂に取り組み始めましょう！
 
 # Quest: Genetic Imprinter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.name=Genetic Imprinter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.desc=With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.%n%nThe machine has a 40%% chance to kill ignoble bees.%n%nOne labware is consumed per operation.
+# EN name: Genetic Imprinter
+# EN desc: With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.%n%nThe machine has 30%% chance to downgrade pristine into ignoble and 80%% chance to kill ignoble bees.%n%nOne labware is consumed per operation.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.name=[下書き]遺伝子組替機
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.desc=この強力な§7《§r遺伝子組替機§7／Genetic Imprinter》§rで遺伝子サンプルを注入し、蜂・樹木・蝶のあらゆる側面を変更できます。遺伝子サンプル(またはパターン)は破壊されません。%n%n機械は遺伝子汚染個体を40%%の確率で殺します。%n%n1回の操作ごとに遺伝子工学実験器具が1個消費されます。
 
 # Quest: Genetic Transposer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.name=Genetic Transposer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.desc=DNA samples of species and/or traits are pretty valuable. You always should keep at least one of each gene sample you get your hands on in a chest somewhere safe. By using this machine, you are able to copy any gene sample, for the cost of an empty serum vial and some labware.%n%n[note]You don't actually need to keep all of them if you don't intend to use them of course.[/note]
+# EN name: Genetic Transposer
+# EN desc: DNA samples of species and/or traits are pretty valuable. You always should keep at least one of each gene sample you get your hand on in a chest somewhere safe. By using this machine, you are able to copy any gene sample, for the cost of an empty serum vial and some labware.%n%n[note]You don't actually need to keep all of them if you don't intend to use them of course.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.name=[下書き]遺伝子コピー機
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.desc=種や特性のDNAサンプルはかなり貴重です。手に入れた各遺伝子サンプルは、安全なチェストに少なくとも1つずつ保管すべきです。§7《§r遺伝子コピー機§7／Genetic Transposer》§rを使えば、空の接種液用バイアルと遺伝子工学実験器具を消費して、任意の遺伝子サンプルをコピーできます。%n%n[note]使う予定がなければ、すべてを保管する必要はありません。[/note]
 
 # Quest: Advanced Mutatron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAQ.name=Advanced Mutatron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAQ.desc=A more advanced version of the mutatron. It uses more energy to mutate a drone with a princess, and you can select which mutation you want to have. This machine is a must-have for high-tier bees.%n%n[note]You'll need neutronium bees to make this.[/note]
+# EN name: Advanced Mutatron
+# EN desc: A more advanced version of the mutatron. It uses more energy to mutate a drone with a princess, and you can select which mutation you want to have. This machine is a must-have for high-tier bees.%n%n[note]You'll need neutronium bees to make this.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAQ.name=[下書き]発展型ミュータトロン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAQ.desc=§7《§rミュータトロン§7／Mutatron》§rのより高度な版です。雄蜂と王女蜂の突然変異により多くのエネルギーを使いますが、望む突然変異を選べます。高位の蜂には必須の機械です。%n%n[note]これを作るには中子蜂が必要です。[/note]
 
 # Quest: Blank Gene Samples
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAg.name=Blank Gene Samples
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAg.desc=To get the various traits from a bee, you need a lot of power, labware and an empty gene sample. You don't need a lot of those, as you can just throw them in a furnace to remove remaining DNA of traits you don't need or want.%n%nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Genetics is used for bees, trees, and Botany flowers so it gets its own quest tab. Gendustry is really good for bees, but will require top tier equipment.
+# EN name: Blank Gene Samples
+# EN desc: To get the various traits from a bee, you need a lot of power, labware and an empty gene sample. You don't need a lot of those, as you can just throw them in a furnace to remove remaining DNA of traits you don't need or want.%n%nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Genetics is used for bees, trees, and Botany flowers so it gets its own quest tab. Gendustry is really good for bees, but will require top tier equipment.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAg.name=[下書き]空白の遺伝子サンプル
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAg.desc=蜂から各種特性を得るには、大量の電力、§7《§r遺伝子工学実験器具§7／Labware》§r、§7《§r空白の遺伝子サンプル§7／Blank Gene Sample》§rが必要です。大量は要りません。不要な特性のDNAはかまどに入れて消去できます。%n%nその間、Gendustryは簡単すぎるのは承知の上で、Genetics modに取り組み始めることもできます...Geneticsは蜂・樹木・Botanyの花に使われるため、専用のクエストタブがあります。Gendustryは蜂にとても優秀ですが、最上位装備が必要になります。
 
 # Quest: Genetic Template
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAw.name=Genetic Template
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAw.desc=Templates are used to combine multiple gene samples into one large batch. It can be used to apply multiple traits at once, but you can also replicate a bee from liquid DNA and protein, if you manage to fill all 13 traits in one template. These templates can also be copied, just like the small samples.
+# EN name: Genetic Template
+# EN desc: Templates are used to combine multiple gene samples into one large batch. It can be used to apply multiple traits at once, but you can also replicate a bee from liquid DNA and protein, if you manage to fill all 13 traits in one template. These templates can also be copied, just like the small samples.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAw.name=[下書き]遺伝子テンプレート
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAw.desc=§7《§r遺伝子テンプレート§7／Genetic Template》§rは複数の遺伝子サンプルを1つの大きなバッチにまとめるのに使います。複数の特性を一度に適用できますし、1つのテンプレートに13特性すべてを埋められれば、液体DNAとタンパク質から蜂を複製することもできます。小さなサンプルと同様、これらのテンプレートもコピーできます。
 
 # Quest: A Rather Cruel Disposal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBA.name=A Rather Cruel Disposal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBA.desc=You'll probably end up with a lot of excess drones while doing bees. (Or saplings if you do trees). Instead of throwing them away, you could also turn them into... something useful.
+# EN name: A Rather Cruel Disposal
+# EN desc: You'll probably end up with a lot of excess drones while doing bees. (Or saplings if you do trees). Instead of throwing them away, you could also turn them into... something useful.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBA.name=[下書き]やや残酷な処分
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBA.desc=養蜂をしていると、余った雄蜂が大量に出るでしょう(樹木なら苗木)。捨てる代わりに、...何か役に立つものに変えることもできます。
 
 # Quest: Arnie's Blender
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBQ.name=Arnie's Blender
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBQ.desc=They say breakfast is the most important meal of the day. This machine turns raw meat into liquid protein, which is used to create bees from scratch. Which has §oabsolutely nothing§r to do with breakfast.
+# EN name: Arnie's Blender
+# EN desc: They say breakfast is the most important meal of the day. This machine turns raw meat into liquid protein, which is used to create bees from scratch. Which has §oabsolutely nothing§r to do with breakfast.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBQ.name=[下書き]タンパク質溶解槽
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBQ.desc=朝食が一日で最も大切な食事だと言われます。この§7《§rタンパク質溶解槽§7／Arnie's Blender》§rは生肉を液体タンパク質に変え、ゼロから蜂を作るのに使います。朝食とは§oまったく§r関係ありません。
 
 # Quest: And There Shall be Light
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBg.name=And There Shall be Light
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBg.desc=Out of princesses to inject traits to? Too lazy to find hives and get more bees? Not a problem. With this nifty little device, you can use a ton of power, liquid DNA and protein to create any bee you wish to have. The only drawback is: All bees will be ignoble, which means they will die after a random amount of cycles after 90.%n%nOf course, there's an upgrade for the industrial apiary to deal with that
+# EN name: And There Shall be Light
+# EN desc: Out of princesses to inject traits to? Too lazy to find hives and get more bees? Not a problem. With this nifty little device, you can use a ton of power, liquid DNA and protein to create any bee you wish to have. The only drawback is: All bees will be ignoble, which means they will die after a random amount of cycles after 90.%n%nOf course, there's an upgrade for the industrial apiary to deal with that
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBg.name=[下書き]光あれ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBg.desc=特性を注入する王女蜂がなくなった？蜂巣を探して蜂を集めるのが面倒？問題ありません。この便利な小装置で、大量の電力・液体DNA・タンパク質を使い、望む蜂を何匹でも作れます。唯一の欠点は、すべての蜂が§7《§r遺伝子汚染個体§7／Ignoble》§rになることです。90サイクル以降、ランダムなサイクル数で死んでしまいます。%n%nもちろん、§7《§r産業用養蜂箱§7／Industrial Apiary》§rにはそれに対処するアップグレードがあります。
 
 # Quest: Only the Best: Temperature
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBw.name=Only the Best: Temperature
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBw.desc=On your way to awesome bees, you have to collect only the best traits available.%n%n[note]None is for testing jubilant state, while 3 is what you'll have on most of the time. You can hit all temp requirements with 3 if you work in a normal temp area. You can go up to 5 if you use the acclimatiser and want nether bees working in an icy area for some reason.[/note]
+# EN name: Only the Best: Temperature
+# EN desc: On your way to awesome bees, you have to collect only the best traits available.%n%n[note]None is for testing jubilant state, while 3 is what you'll have on most of the time. You can hit all temp requirements with 3 if you work in a normal temp area. You can go up to 5 if you use the acclimatiser and want nether bees working in an icy area for some reason.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBw.name=[下書き]最高だけ：温度耐性
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBw.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。%n%n[note]なしは満悦状態（特殊産物を生産できない）の確認用です。多くの場合3で十分です。常温エリアで作業するなら、3ですべての温度要件を満たせます。§7《§r順応機§7／Acclimatiser》§rを使い、何らかの理由で氷のエリアでネザー蜂を働かせたいなら、5まで上げることもできます。[/note]
 
 # Quest: Only the Best: Humidity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCA.name=Only the Best: Humidity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCA.desc=On your way to awesome bees, you have to collect only the best traits available.%n%n[note]None is for testing jubilant state, while 2 is what you'll have on most of the time. 3+ don't do anything as the range doesn't go that high.[/note]
+# EN name: Only the Best: Humidity
+# EN desc: On your way to awesome bees, you have to collect only the best traits available.%n%n[note]None is for testing jubilant state, while 2 is what you'll have on most of the time. 3+ don't do anything as the range doesn't go that high.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCA.name=[下書き]最高だけ：湿度耐性
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCA.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。%n%n[note]なしは満悦状態（特殊産物を生産できない）の確認用です。多くの場合2で十分です。3以上は湿度の範囲がそれほど広くないため、効果はありません。[/note]
 
 # Quest: Only the Best: Fertility
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCQ.name=Only the Best: Fertility
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCQ.desc=On your way to awesome bees, you have to collect only the best traits available. Bees bees everywhere!%n%n[note]F4 is great while breeding bees, but F1 is what you want to use when producing stuff.[/note]
+# EN name: Only the Best: Fertility
+# EN desc: On your way to awesome bees, you have to collect only the best traits available. Bees bees everywhere!%n%n[note]F4 is great while breeding bees, but F1 is what you want to use when producing stuff.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCQ.name=[下書き]最高だけ：繁殖力
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCQ.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。蜂が蜂でいっぱい！%n%n[note]F4は蜂の交配中に優秀ですが、生産に回すときはF1が望ましいです。[/note]
 
 # Quest: Highend species: Draconic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCg.name=Highend species: Draconic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCg.desc=On your way to awesome bees, you have to collect only the best traits available.
+# EN name: Highend species: Draconic
+# EN desc: On your way to awesome bees, you have to collect only the best traits available.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCg.name=[下書き]上級種：黒竜
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCg.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。
 
 # Quest: Highend species: Doctoral
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCw.name=Highend species: Doctoral
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCw.desc=On your way to awesome bees, you have to collect only the best traits available.
+# EN name: Highend species: Doctoral
+# EN desc: On your way to awesome bees, you have to collect only the best traits available.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCw.name=[下書き]上級種：博士
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCw.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。
 
 # Quest: Only the Best: Speed Blinding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDA.name=Only the Best: Speed Blinding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDA.desc=On your way to awesome bees, you have to collect only the best traits available. Buzz buzz buzz, working hard and really buzzing!
+# EN name: Only the Best: Speed Blinding
+# EN desc: On your way to awesome bees, you have to collect only the best traits available. Buzz buzz buzz, working hard and really buzzing!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDA.name=[下書き]最高だけ：瞬速
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDA.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。ブンブンブン、懸命に、本当にブンブンと働く！
 
 # Quest: Highend species: Silicon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDQ.name=Highend species: Silicon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDQ.desc=On your way to awesome bees, you have to collect only the best traits available.
+# EN name: Highend species: Silicon
+# EN desc: On your way to awesome bees, you have to collect only the best traits available.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDQ.name=[下書き]上級種：シリコン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDQ.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。
 
 # Quest: Only the Best: Rain
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDg.name=Only the Best: Rain
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDg.desc=On your way to awesome bees, you have to collect only the best traits available. Beekeeping in the rain! Make sure to keep your GT machines covered!
+# EN name: Only the Best: Rain
+# EN desc: On your way to awesome bees, you have to collect only the best traits available. Beekeeping in the rain! Make sure to keep your GT machines covered!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDg.name=[下書き]最高だけ：雨耐性
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDg.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。雨中の養蜂！GTの機械は雨ざらしにしないよう気をつけてください！
 
 # Quest: Only the Best: Day and Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.name=Only the Best: Day and Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.desc=On your way to awesome bees, you have to collect only the best traits available. Bee working day and night, all night and all day long!
+# EN name: Only the Best: Day and Night
+# EN desc: On your way to awesome bees, you have to collect only the best traits available. Bee working day and night, all night and all day long!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.name=[下書き]最高だけ：夜行性
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。昼も夜も、夜も昼も働き続ける蜂！
 
 # Quest: Only the Best: Cave
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.name=Only the Best: Cave
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.desc=On your way to awesome bees, you have to collect only the best traits available. Bees with Cave can work in housing that is covered - by more housing!
+# EN name: Only the Best: Cave
+# EN desc: On your way to awesome bees, you have to collect only the best traits available. Bees with Cave can work in housing that is covered - by more housing!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.name=[下書き]最高だけ：洞窟耐性
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.desc=すばらしい蜂を目指すなら、入手できる最高の特性だけを集めなければなりません。洞窟耐性を持つ蜂は、覆われた住居——つまり、さらに多くの住居で覆われた場所——でも働けます！
 
 # Quest: Go Find Some Tropical Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.name=熱帯種の蜂を探しに行こう
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.desc=次は熱帯種の蜂を見つける番です。蜂巣はジャングルバイオームで見つかります。とても攻撃的で、毒を刺されることがあるので注意してください。§7《§r滑らかな巣板§7／Silky Comb》§r を集め、そこから§7《§r絹質の繊維§7／Silk Wisp》§r を抽出して養蜂用防護服を作りましょう。できれば純系個体の蜂を入手してください。見つからないときは、大自然のコンパスで特定のバイオームを探すとよいでしょう。
 
 # Quest: Silky Combs and Propoli
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.name=Silky Combs and Propoli
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.desc=Collect silky combs and extract some silk wisp out of it in order to make some Apiarist's clothes.%n%nThis can take a very long time, so parallelize!%n%nUse a GregTech or Forestry Centrifuge to get Silky Propoli. For higher tier (and useful) combs you need a GT centrifuge.
+# EN name: Silky Combs and Propoli
+# EN desc: Collect silky combs and extract some silk wisp out of it in order to make some Apiarist's clothes.%n%nThis can take a very long time, so parallelize!%n%nUse a GregTech or Forestry Centrifuge to get Silky Propoli. For higher tier (and useful) combs you need a GT centrifuge.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.name=[下書き]滑らかな巣板とプロポリス
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.desc=§7《§r滑らかな巣板§7／Silky Comb》§rを集め、そこから§7《§r絹質の繊維§7／Silk Wisp》§rを抽出して養蜂用防護服を作りましょう。%n%n非常に時間がかかるので、並列化しましょう!%n%nGregTechまたはForestryの遠心分離機で§7《§r滑らかなプロポリス§7／Silky Propoli》§rを得られます。上位(有用な)巣板にはGT遠心分離機が必要です。
 
 # Quest: Woven Silk
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.name=Woven Silk
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.desc=Centrifuge your silky propoli to get some silk wisp at a chance of 60 percent. Put 9 silk wisp in the Forestry carpenter or GregTech assembler to get woven silk.%n%nThis fine fabric can be used for crafting Apiarist's Clothes or to upgrade a Forestry Backpacks to 45 slots.
+# EN name: Woven Silk
+# EN desc: Centrifuge your silky propoli to get some silk wisp at a chance of 60 percent. Put 9 silk wisp in the Forestry carpenter or GregTech assembler to get woven silk.%n%nThis fine fabric can be used for crafting Apiarist's Clothes or to upgrade a Forestry Backpacks to 45 slots.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.name=[下書き]絹質の織布
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.desc=§7《§r滑らかなプロポリス§7／Silky Propolis》§rを遠心分離機で遠心分離し、60%%の確率で§7《§r絹質の繊維§7／Silk Wisp》§rを得ます。絹質の繊維9個をForestryの§7《§r工作機§7／Carpenter》§rかGregTechの§7《§r組立機§7／Assembling Machine》§rに入れて、絹質の織布を作ります。%n%nこの上質な布地は、養蜂用防護服のクラフトや、Forestryのバックパックを45スロットにアップグレードするのに使えます。
 
 # Quest: Apiarist's Cloth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.name=Apiarist's Cloth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.desc=If you have collected 24 woven silk you can make a complete Apiarist's suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your EnderIO Dark Steel Armor to have the same effect.
+# EN name: Apiarist's Cloth
+# EN desc: If you have collected 24 woven silk you can make a complete Apiarist's suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your EnderIO Dark Steel Armor to have the same effect.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.name=[下書き]養蜂用防護服
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.desc=絹質の織布を24枚集めれば、蜂の刺やその他の有害な効果から身を守る養蜂用防護服一式を作れます。装備の各パーツは、Ender IOのダークスチール防具を同じ効果付きにアップグレードするのにも使えます。
 
 # Quest: A Chest for Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.name=A Chest for Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.desc=A chest for bees only. It can hold up to 125 different bees in one chest.
+# EN name: A Chest for Bees
+# EN desc: A chest for bees only. It can hold up to 125 different bees in one chest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.name=[下書き]養蜂家のチェスト
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.desc=蜂だけを保管できるチェストです。1つのチェストに最大125種類の蜂を収納できます。
 
 # Quest: Frames
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWA.name=巣枠
@@ -11111,168 +11191,246 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.name=含侵加工済み巣枠
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.desc=§7《§r含侵加工済み巣枠§7／Impregnated Frame》§rは、 未加工の巣枠よりもさらに優秀です。%n各巣枠は蜂の生産性を倍にします。耐久は未加工の巣枠より長く、 §7《§r秘伝の巣枠§7／Proven Frame》§r よりは短めです。
 
 # Quest: Production Frames
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWg.name=Production Frames
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWg.desc=You can make proven frames or purchase them from a villager. If you can't find a beekeeper, there are a couple of different options to get one. Rescue a zombie villager, add doors to a village to get them to make kids, or perhaps use a cupid's bow and arrow...%n%nAbout magic frames:%nThey're the core of magically endowed frames. They also have a special ability - no maximum production chance. Normal frames are ineffective to get above 16x production (4 frames) but with magic frames you can keep going - just watch out, above 16x you'll be working your bees so hard they have a chance to degenerate into ignoble ones. This can happen any bee tick, not just when they die. Frames to lower genetic decay will lower the chances of this happening.%n%nOf course, with very long lifespans, high production genes, swarmers, and tons of frames, you may think this is worth it.%n%nNote that normal products have a cap of 200%% produced, and specialties 100%%.
+# EN name: Production Frames
+# EN desc: You can make proven frames or purchase them from a villager. If you can't find a beekeeper, there are a couple of different options to get one. Rescue a zombie villager, add doors to a village to get them to make kids, or perhaps use a cupid's bow and arrow...%n%nAbout magic frames:%nThey're the core of magically endowed frames. They also have a special ability - no maximum production chance. Normal frames are ineffective to get above 16x production (4 frames) but with magic frames you can keep going - just watch out, above 16x you'll be working your bees so hard they have a chance to degenerate into ignoble ones. This can happen any bee tick, not just when they die. Frames to lower genetic decay will lower the chances of this happening.%n%nOf course, with very long lifespans, high production genes, swarmers, and tons of frames, you may think this is worth it.%n%nNote that normal products have a cap of 200%% produced, and specialties 100%%.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWg.name=[下書き]生産用巣枠
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWg.desc=§7《§r秘伝の巣枠§7／Proven Frame》§rを作るか、村人から購入できます。養蜂家が見つからない場合、ゾンビ村人を救う、村にドアを追加して子供を増やす、あるいはキューピッドの弓矢を使う...などの方法があります。%n%n魔法の巣枠について:%n§7《§r魔法の巣枠§7／Magic Frame》§rは魔力を帯びた巣枠の核です。特殊能力もあります - 生産確率の上限がありません。通常の巣枠では16倍(4枚)以上の生産性は非効率ですが、魔法の巣枠なら先へ進めます - ただし16倍を超えると蜂を酷使しすぎて、遺伝子汚染個体に退化する可能性があります。これは蜂が死ぬときだけでなく、どの蜂刻でも起こり得ます。遺伝子衰退を下げる巣枠は発生確率を下げます。%n%nもちろん、非常に長い寿命、高生産遺伝子、分蜂室、大量の巣枠があれば、それだけの価値があると思うかもしれません。%n%n通常産物の上限は200%%、特殊産物の上限は100%%です。
 
 # Quest: Alvearies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.name=Alvearies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.desc=The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks.%n%nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.%n%nCertain bees will not produce their specialty items unless they are Jubilant. This requires matching their preferred Temperature/Humidity, without any genetic modifiers. Some bees also need a block of something beneath them as well.%n%nIt is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.%n%n[note]If you're mutating bees that need a specific block in it, you need to place the required block under the middle bottom, and have the one directly above be a normal alveary block.[/note]
+# EN name: Alvearies
+# EN desc: The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks.%n%nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.%n%nCertain bees will not produce their specialty items unless they are Jubilant. This requires matching their preferred Temperature/Humidity, without any genetic modifiers. Some bees also need a block of something beneath them as well.%n%nIt is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.%n%n[note]If you're mutating bees that need a specific block in it, you need to place the required block under the middle bottom, and have the one directly above be a normal alveary block.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.name=[下書き]大型養蜂箱
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.desc=§7《§r大型養蜂箱§7／Alveary》§rは§7《§r養蜂箱§7／Apiary》§rの上位版です。生産速度の自然な向上(およびExtra Beesの巣枠入れで最大6枚の巣枠を追加できること)と、他ブロックによる改造が可能なため、巣板をより速く生産できます。%n%n§7《§r大型養蜂箱用暖房器§7／Alveary Heater》§rや§7《§r大型養蜂箱用冷房器§7／Alveary Fan》§rで内部温度を調整し、より暑いまたは寒い気候を必要とする蜂に対応できます。%n%n特定の蜂は満足していないと特殊生産物を出しません。遺伝子改変なしで、好みの温度/湿度と一致している必要があります。蜂によっては下に特定ブロックが必要な場合もあります。%n%n§7《§r大型養蜂箱用変異誘発装置§7／Mutator》§rで突然変異率を上げたり、§7《§r大型養蜂箱用光源§7／Alveary Lighting》§rと§7《§r大型養蜂箱防雨装置§7／Alveary Rain Shield》§rで、夜行性や降雨特性のない蜂がそれぞれ夜間や雨中でも働けたり、§7《§r分蜂室§7／Swarmer》§rで余ったローヤルゼリーから限世代の王女蜂を作れたりします。%n%n[note]特定ブロックが必要な蜂を交配させる場合、必要ブロックを底面中央の下に置き、その真上は通常の大型養蜂箱ブロックにしてください。[/note]
 
 # Quest: Humid and Warm?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5w.name=湿潤で温暖？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5w.desc=バイオームの湿度や温度を推測するのはやめましょう。 §7《§r活動環境探知器§7／Habitat Locator》§rを使えば、 現在地の気候を調べられます。
 
 # Quest: Put the Drones in a Jar and Shake it Up
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6A.name=Put the Drones in a Jar and Shake it Up
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6A.desc=Once you get good effects from your bees, instead of just trashing the excess drones, you can put them in collector's jars to get the effects anywhere in your base.%n%nHealing? XP? Poison?%n%nThe collector's jars can even be piped or connected to a conveyor so that drones last a long time.%n%n[note]PS: Using the regen effect of Imperial bees while doing Blood Magic may be useful.[/note]
+# EN name: Put the Drones in a Jar and Shake it Up
+# EN desc: Once you get good effects from your bees, instead of just trashing the excess drones, you can put them in collector's jars to get the effects anywhere in your base.%n%nHealing? XP? Poison?%n%nThe collector's jars can even be piped or connected to a conveyor so that drones last a long time.%n%n[note]PS: Using the regen effect of Imperial bees while doing Blood Magic may be useful.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6A.name=[下書き]雄蜂を瓶に入れて振る
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6A.desc=蜂から良い効果が得られるようになったら、余った雄蜂を捨てる代わりに、§7《§r蜂収集家の瓶§7／Bee Collector's Jar》§rに入れて、拠点のどこでも効果を得られます。%n%n回復？経験値？毒？%n%n蜂収集家の瓶はパイプやコンベアーに接続して、雄蜂を長く使い続けることもできます。%n%n[note]補足：Blood Magicを進める際、§7《§r皇帝§7／Imperial》§r蜂の再生効果が役立つことがあります。[/note]
 
 # Quest: Death to Bees!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.name=Death to Bees!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.desc=These frames will let you kill your bees faster. It's to breed the next generation sooner, right? Not because you don't like them?
+# EN name: Death to Bees!
+# EN desc: These frames will let you kill your bees faster. It's to breed the next generation sooner, right? Not because you don't like them?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.name=[下書き]蜂に死を!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.desc=これらの巣枠は蜂をより早く死なせます。次の世代を早く交配するためですよね?蜂が嫌いなわけじゃないですよね?
 
 # Quest: Keep Them Around
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.name=Keep Them Around
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.desc=These frames will keep your bees buzzing for longer. If you care, that is.
+# EN name: Keep Them Around
+# EN desc: These frames will keep your bees buzzing for longer. If you care, that is.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.name=[下書き]長く居させておこう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.desc=これらの巣枠は蜂をより長くブンブンさせ続けます。気にかけるなら、ですが。
 
 # Quest: Are the Bees Buzzing, or Screaming?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6w.name=Are the Bees Buzzing, or Screaming?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6w.desc=These frames cause mutations at an increased rate. They're super useful.%n%nAbout the stats on frames you see when holding shift, you'll note that some have a different number in brackets next to them, this means that this is the maximum they can be stacked. This only applies to the Extra Bees ones.%n%nThe stats on the frames are also multiplicative instead of additive, so after 4 frames in an alveary, soul frames will max out. On the other hand, accelerated frames will take 9 to get there, but you can just keep on going.%n%nIf you pile up the multipliers, 5x from stimulator, 3x from mutator, and 4x1.8x frames, it'll get you to 157x, getting you those 1%% bees in a single generation!
+# EN name: Are the Bees Buzzing, or Screaming?
+# EN desc: These frames cause mutations at an increased rate. They're super useful.%n%nAbout the stats on frames you see when holding shift, you'll note that some have a different number in brackets next to them, this means that this is the maximum they can be stacked. This only applies to the Extra Bees ones.%n%nThe stats on the frames are also multiplicative instead of additive, so after 4 frames in an alveary, soul frames will max out. On the other hand, accelerated frames will take 9 to get there, but you can just keep on going.%n%nIf you pile up the multipliers, 5x from stimulator, 3x from mutator, and 4x1.8x frames, it'll get you to 157x, getting you those 1%% bees in a single generation!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6w.name=[下書き]蜂はブンブン?それとも叫び?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6w.desc=これらの巣枠は突然変異率を上げます。とても有用です。%n%nShiftを押しながら見る巣枠のステータスでは、括弧内に別の数字があるものがあります。これは重ねがけできる最大値です。Extra Bees製の巣枠にのみ適用されます。%n%n巣枠のステータスは加算ではなく乗算です。大型養蜂箱で4枚入れると§7《§r魂の巣枠§7／Soul Frame》§rは上限に達します。一方、§7《§r加速の巣枠§7／Accelerated Frame》§rは9枚で上限ですが、それ以上も入れられます。%n%n倍率を積み上げると、刺激装置5倍、変異誘発装置3倍、巣枠4x1.8倍で157倍になり、1世代で1%%の蜂が手に入ります!
 
 # Quest: Breeding Bees Into Oblivion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7A.name=Breeding Bees Into Oblivion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7A.desc=If bee breeding is a dice game, then these are the biggest factors you'd control to win:%n%n1. Fertility: How many dice you can roll each turn.%n2. Mutation Rate: How good of a roll you need to make.%n3. Lifespan: How often you can play the game.%n%nThe Oblivion Frame dramatically helps with #3 by reducing the bee's lifespan to the point that you can play the breeding dice game in one "tick" of 27.5 seconds. A bee with the "Shortest" lifespan trait cycles for 10 ticks (275 seconds), so you'd minimally cut the cycle by a whole order of magnitude!%n%nYou can find Oblivion Frames in Stronghold libraries. This is how you can get them in the early game for very aggressive bee breeding. Later, you can make them from Dragon Eggs. These frames are very precious and you don't want their durability to run out. A typical repair method is to use a Thaumic Restorer on them.%n%n§oWait, to find a Stronghold reliably, I need some Eyes of Ender, and that's an HV-tier Chemical Reactor recipe!§r If you happen to have a Large Chemical Reactor, remember that it overclocks perfectly, so you can crank er' up with a bunch of MV-tier Energy Input Hatches.%n%n§nThe Oblivion Bee Meta%n§r%nThe oblivion bee meta can be enough to breed most bees quickly. You could do the whole bee breeding quest line with it, but you can ultimately improve on it with Alvearies and genetic modification. What you need for this meta is:%n%n1. An Apiary%n2. An Oblivion Frame%n3. Some way to repair the frame (typically: thaumic restorer)%n4. A Beealyzer and a lot of honey%n%nThis is a hands-on process. You don't automatically send the princess and drones back through because you need to watch the oblivion frame's durability. You inspect all the offspring bees after each cycle and hand-pick which to try next after a pass through the Beealyzer.%n%nYou can accelerate the Apiary with a World Accelerator. [warn]Be sure to protect the World Accelerator and supporting equipment from rain![/warn] You can use glass or a breakable clear glass so the Apiary can still see the sky while the World Accelerator is protected. If you need to use batteries, you can use a State Cell to draw out a button pulse to the world accelerator so it runs juuust long enough for an accelerated cycle.
+# EN name: Bees Buzzing Beyond the Dark
+# EN desc: If even the soul frame takes too long for your taste, the oblivion frame will destroy a bee in a single bee tick (27s). Be careful using more than one, there are rumors it might harm your princesses...%n%n[note]You can find them in Stronghold libraries or make them from Dragon Eggs. You can also use a Thaumic Restorer to fix it, and most frames too.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7A.name=[下書き]忘却の巣枠で蜂を育成
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7A.desc=養蜂をサイコロゲームに例えるなら、勝つためにコントロールすべき最大の要素は次の3つです:%n%n1. 繁殖力: 1ターンに何個サイコロを振れるか。%n2. 突然変異率: 成功に必要な出目の良さ。%n3. 寿命: ゲームを何度プレイできるか。%n%n§7《§r忘却の巣枠§7／Oblivion Frame》§rは#3を劇的に助け、蜂の寿命を27.5秒の1「蜂刻」で交配サイコロゲームを回せるまで短縮します。「最短」寿命特性の蜂は10蜂刻(275秒)で1サイクルするため、最低でも周期を1桁短縮できます!%n%n§7《§r忘却の巣枠§7／Oblivion Frame》§rは要塞の図書室で見つかります。ゲーム序盤に非常に積極的な養蜂を行う場合、これが入手手段です。後にはドラゴンの卵から作れるようになります。これらの巣枠は非常に貴重で、耐久が尽きてほしくはないでしょう。典型的な修理方法は§7《§rThaumic Restorer§7／Thaumic Restorer》§rを使うことです。%n%n§o待てよ、要塞を確実に見つけるには末影の目が必要で、それはHV Tierの化学反応器レシピだ!§r大型化学反応器があるなら、完璧にオーバークロックするので、MV Tierのエネルギー入力ハッチを大量に載せて回せます。%n%n§n忘却蜂メタ§r%n%n忘却蜂メタは、ほとんどの蜂を素早く交配させるのに十分です。養蜂クエストライン全体をこれで進められますが、最終的には大型養蜂箱と遺伝子改変で改善できます。このメタに必要なもの:%n%n1. §7《§r養蜂箱§7／Apiary》§r%n2. §7《§r忘却の巣枠§7／Oblivion Frame》§r%n3. 巣枠を修理する方法(通常: Thaumic Restorer)%n4. §7《§r蜂分析器§7／Beealyzer》§rと大量のハチミツ%n%n手作業が必要な工程です。忘却の巣枠の耐久を監視する必要があるため、王女蜂と雄蜂を自動で戻すことはしません。各サイクル後に全ての子孫蜂を調べ、§7《§r蜂分析器§7／Beealyzer》§rに通したあと、次に試す個体を手で選びます。%n%n§7《§r養蜂箱§7／Apiary》§rを§7《§r世界加速器§7／World Accelerator》§rで加速できます。[warn]世界加速器と付帯設備が雨に濡れないよう保護してください![/warn]ガラスや破壊可能な透明ガラスを使えば、世界加速器を保護しつつ養蜂箱が空を見える状態にできます。バッテリーを使う必要がある場合、§7《§rState Cell§7／State Cell》§rでボタンパルスを世界加速器に送り、加速後の1サイクル分だけ稼働させられます。
 
 # Quest: Upgrade Your Forestry Backpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.name=Upgrade Your Forestry Backpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.desc=With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.%n%nYou need a carpenter, your old backpack and a bit of seed oil.%n%nIf the recipe isn't working, put the bag in a crafting grid to reset its NBT data. After removing anything in it of course.
+# EN name: Upgrade Your Forestry Backpack
+# EN desc: With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.%n%nYou need a carpenter, your old backpack and a bit of seed oil.%n%nIf the recipe isn't working, put the bag in a crafting grid to reset its NBT data. After removing anything in it of course.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.name=[下書き]Forestryバックパックの強化
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.desc=絹質の織布でForestryのバックパックをアップグレードできます。各バッグは45スロットになります。%n%n§7《§r工作機§7／Carpenter》§r、古いバックパック、少量の§7《§r種油§7／Seed Oil》§rが必要です。%n%nレシピが認識されない場合は、中身をすべて取り出したうえで、バッグをクラフトグリッドに入れてNBTデータをリセットしてください。
 
 # Quest: Master Registry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.name=Master Registry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.desc=The master beekeeper needs a master registry. Make sure you don't get any tears in your apiaries as you collect all the requirements!
+# EN name: Master Registry
+# EN desc: The master beekeeper needs a master registry. Make sure you don't get any tears in your apiaries as you collect all the requirements!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.name=[下書き]完璧な登録簿
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.desc=熟練の養蜂家には完璧な登録簿が必要です。要件をすべて集める間、養蜂箱で涙を流さないように！
 
 # Quest: Welcome to Biology Class!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.name=Welcome to Biology Class!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.desc=Binnie's Genetics mod will allow you to pick and chose traits for bees, trees and Botany flowers. But not for free! Doing this comes at a price.%n%n[note]Note: We'll be focusing just on the bees in this section.[/note]%n%nYou will need a few streams of resources you can automate into passive generation. These are used across the process in different machines for different purposes, but Growth Medium is a super-resource you can substitute for some of the steps if you're able to produce that in abundance.%n%nThe research process can be easily automated. Gene modification and drone generation can be automated, but are slow and infrequent enough that you will probably just attend to them when you need them.%n%nThe general idea is to sequence a pile of leftover drones until you get all the traits you want from it. You'll then have those traits forever and can inject your own combinations of everything you've found into drone Larvae to make new drones that carry those traits. Larvae hatch only into drones. You don't get to directly hatch princesses and queens, so you have to worry about these new traits sticking across generations.%n%nThese genetic edits don't let you create new traits out of thin air. They just let you pick and choose what you have already researched, and that has to come out of bees you already have. You may use this to set up all your production bees through the rest of the game, but traits like 4x fertility also help with breeding.%n%nYou'll want to prepare a lab workspace for this. The actual machines won't take too much space. In fact, you'll probably wind up smacking a bunch of them against world accelerators, which will require direct contact due to using Tile Entity mode. What will end up taking up more space is any passive resource generation you prepare to make the process more hands-free.%n%nYou will need an alveary with a hatchery to produce Larvae of the base bee you want to modify.%n%nThese machines require RF power. It's recommended to provide power to an Ender IO capacitor and power these machines with RF instead of powering directly with GT EU. You can connect GT EU power up to these, but you run into strange consumption from amperage conversion glitches, or machines not getting power despite looking like they have proper cabling.%n%nUltimately, you'll need at least 7 of these casings and could end up making 14+ casings for all the machines you may opt to produce. You will also need HV-tier circuit production. There is §oone§o§r EV circuit involved in the complete process too.%n%n[note]We give special credit to Three for a video explaining all these machines and their interplay:%n%n§oAn Early Game Guide to Genetically Modify your Bees in Gregtech: New Horizons§r%n[url]https://www.youtube.com/watch?v=EmhDlga2SCA[/url]%n%nNote that he will rant about the quest book. That was--ahem--an older version of the quest book.%n[/note]
+# EN name: Welcome to Biology Class!
+# EN desc: Binnie's Genetics mod will allow you to pick and chose traits for bees, trees and Botany flowers. But not for free! Doing this comes at a price.%n%nIt's better to provide power to an Ender IO capacitor and then power these machines with RF, instead of powering directly with GT EU, because they don't work well with GT's EU amp system.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.name=[下書き]生物学の時間です！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.desc=BinnieのGenetics modでは、蜂、樹木、Botanyの花の特性を選び取れます。ただしタダではありません！代償を払う必要があります。%n%n[note]注: この章では蜂だけに焦点を当てます。[/note]%n%n自動化して受動生産できる資源ラインがいくつか必要です。工程全体で異なる機械・目的に使われますが、増殖培地は大量生産できれば一部の工程を置き換えられる超資源です。%n%n研究工程は容易に自動化できます。遺伝子改造と雄蜂生産も自動化できますが、遅く頻度も低いので、必要なときに手を入れる程度でよいでしょう。%n%n基本方針は、余った雄蜂を大量にシーケンス解析し、欲しい特性をすべて取り出すことです。一度得た特性は永久に保持され、見つけた特性の組み合わせを雄蜂の幼虫に注入して、その特性を持つ新しい雄蜂を作れます。幼虫が孵化するのは雄蜂だけです。王女蜂や女王蜂を直接孵化させることはできないので、新しい特性が世代を超えて残るか気にする必要があります。%n%nこれらの遺伝子編集で、新しい特性を無から生み出すことはできません。すでに研究済みの特性から選び取るだけで、それはすでに持っている蜂から得る必要があります。ゲーム後半の生産蜂すべてをこうして設定できますが、繁殖力4倍のような特性は交配にも役立ちます。%n%nこれ用のラボ作業スペースを用意しましょう。機械本体はそれほど場所を取りません。実際、TileEntityモードの世界加速器に直結させることになるかもしれません。より手間を減らす受動資源生産の方が、最終的にはもっと場所を取ります。%n%n改造したい基礎蜂の幼虫を生産するには、§7《§r大型養蜂箱用孵化場§7／Alveary Hatchery》§r付きの大型養蜂箱が必要です。%n%nこれらの機械はRF電力が必要です。Ender IOのコンデンサーに電力を供給し、GT EUを直接つなぐよりRFで動かすことを推奨します。GT EUを接続することもできますが、電流変換の不具合で消費がおかしくなったり、配線は正しく見えているのに電力が入らないことがあります。%n%n最終的に、この外装は少なくとも7個必要で、作る機械次第では14個以上になることもあります。HV級回路の生産も必要です。工程全体を通して§oEV§o§r級回路が1つだけ関わります。%n%n[note]Three氏に、これらの機械と連携を解説した動画への特別な感謝を:%n%n§oAn Early Game Guide to Genetically Modify your Bees in Gregtech: New Horizons§r%n[url]https://www.youtube.com/watch?v=EmhDlga2SCA[/url]%n%nクエストブックについて文句を言っていますが、それは--ええと--古い版のクエストブックでした。%n[/note]
 
 # Quest: Making Bees More Comfortable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIg.name=Making Bees More Comfortable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIg.desc=The Acclimatiser can widen the temperature tolerance of a bee. This is technically a little side quest with Binnie's Genetics machines, but these alterations are permanent and carry into their genome.%n%nNote that the bee's species determines its favored temperature for jubilance. You can't use this to make a bee produce secondary products in a different climate.%n%nDrones, princesses, queens, and even larvae can go in these machines. This means you can boost one queen and be set for life for that bee.%n%n(You can also use it for pollen, butterflies, caterpillars, plants...)%n%nWhen a specimen's tolerance has been pushed as far as it can go, that bee will go in the output slot. The typical thing to do here is pipe the bee automatically into another Acclimatiser like a little trauma conga line. At the end, the bee should be able to tolerate being anywhere.%n%nHere's what you can use for what at what factors:%n* Temperature down%n  * ice: 0.75%n  * snowball: 0.15%n* Temperature up%n  * lava (canned!): 0.75%n  * blaze powder: 0.5%n  * blaze rod: 0.75%n* Humidity up:%n  * water (canned!): 0.75%n* Humidity down:%n  * sand: 0.15%n%nFluid containers are consumed. If only you had a waxy substance in overabundance you could use for throwaway fluids!%n%n[note]The Ole' "Both Trick": If your specimen already has at least Up/Down 1 for temperature or humidity, acclimatising it in the opposite direction will make it Both 1. The trick is that it'll now grow both ways for the price of expanding only in one.%n%nSo, if handling canned water and lava is annoying, and you can start with Up 1 for temperature and humidity, then you can just bombard it with temperature and humidity lowering steps. It'll switch to Both 1 and then eventually Both 5 without ever raising temperature or humidity again.%n%nThis lets you skip out on canning liquids, you sly dog.%n[/note]
+# EN name: Making Bees More Comfortable
+# EN desc: The acclimatiser is a key machine for breeding your bees. With lots of power and the appropriate ingredients you can toughen your bees to thrive anywhere. It's recommend to use an EnderIO capacitor to power this device. However, even with climate hardiness your bees still won't produce special items unless they are in their favorite climate. Along with the bee, put in these items to adjust the bee's traits:%n%nSnowball - More cold tolerance%nLava - More heat tolerance%nSand - More dry tolerance%nWater - More wet tolerance%n%nYou should know that the acclimatiser doesn't return capsules or cells. The amount of items needed is pretty random.%n%n[note]A nice trick is to start with a bee that already has both. Then you can use either direction to increase it further! You don't need any lava if you do it like this. And no cells either. You can just use sand and snowballs.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIg.name=[下書き]蜂を快適に
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIg.desc=§7《§r順応機§7／Acclimatiser》§rは蜂の温度耐性を広げられます。BinnieのGenetics機械に関する小さな枝分かれクエストですが、この変更は永久的でゲノムにも引き継がれます。%n%n蜂の種は満足する最適温度を決めます。この機械で別の気候でも第二生産物を出させることはできません。%n%n雄蜂、王女蜂、女王蜂、幼虫まで入れられます。女王蜂1匹を強化すれば、その蜂は生涯使い続けられるということです。%n%n(花粉、蝶、毛虫、植物などにも使えます...)%n%n標本の耐性を限界まで押し上げると、その蜂は搬出スロットに移ります。典型的なやり方は、小さなトラウマ・コンガのように、蜂をパイプで次の順応機へ自動搬送することです。最後には、どんな環境でも耐えられるはずです。%n%n用途と係数は次のとおりです:%n* 温度を下げる%n  * 氷: 0.75%n  * 雪球: 0.15%n* 温度を上げる%n  * 溶岩(缶詰！): 0.75%n  * ブレイズパウダー: 0.5%n  * ブレイズロッド: 0.75%n* 湿度を上げる:%n  * 水(缶詰！): 0.75%n* 湿度を下げる:%n  * 砂: 0.15%n%n流体容器は消費されます。余り気味のロウ状の物質があれば、使い捨て液体容器にできたのに...！%n%n[note]Oleの「両方向トリック」: 標本がすでに温度または湿度で上下1以上を持っている場合、反対方向に順応させると両方向1になります。ポイントは、片方向だけの拡張コストで両方向に伸びることです。%n%n缶詰の水と溶岩の扱いが面倒なら、温度と湿度がそれぞれ上1から始められるなら、温度と湿度を下げる工程だけを繰り返せます。両方向1に切り替わり、最終的には両方向5になり、温度や湿度を上げる必要はなくなります。%n%nこうすれば液体の缶詰を省略できます、狡猾なあなた。%n[/note]
 
 # Quest: Incubator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKA.name=Incubator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKA.desc=The Incubator is a general production machine that serves two purposes:%n%n1. Hatching (modified) Larvae into drones at the end of the whole process.%n2. Heating items and liquids to produce different resources you will need in different parts of the entire research and modification process.%n%nThere are up to five different resources you can create from Incubators:%n%n1. Liquid Growth Medium: Water + Growth Medium%n2. Bacteria: Liquid Growth Medium + Wheat OR more Bacteria + Growth Medium%n3. Enzyme: Bacteria + Sugar%n4. Bacteria Vector: Bacteria + Blaze Powder OR more Bacteria Vector + Growth Medium%n5. Polymerizing Bacteria: Bacteria + Bonemeal OR more Polymerizing Bacteria + Growth Medium%n%nThree of the recipes can optionally be extended by injecting them with more Growth Medium instead of using a different ingredient. If you're able to produce a bunch of Growth Medium, consider "priming" incubators for these outputs and then switching them to use Growth Medium indefinitely in a feedback loop.%n%nEnzyme is usually produced in a pipeline from Bacteria, which is in turn produced from Liquid Growth Medium.%n%nBacteria Vector is only used by the Inoculator to modify Larvae, and you don't need it if you use a Splicer instead.%n%nPS: You'll also need a source for Ethanol for the Genepool and the Isolator. This technology line has a drinking problem.%n%nPPS: Blaze Powder also comes up with at least Fluorescent Dye later.
+# EN name: Incubator
+# EN desc: This is a crafting machine that heats items and liquids to a temperature that encourages bacterial growth.%n%nThe first step of incubation is the creation of Liquid Growth Medium, which is made from incubating Water and Growth Medium. This is subsequently incubated with Wheat to give Bacteria. This solution of bacteria can then be incubated a third time with Sugar to give Enzyme. This is an important compound used in other machines.%n%nThe best way to create enzyme is therefore to chain three incubators together, for each step of the process.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKA.name=[下書き]培養槽
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKA.desc=§7《§r培養槽§7／Incubator》§rは2つの目的を持つ汎用生産機械です:%n%n1. 一連の工程の最後に、(改造した)幼虫を雄蜂に孵化させる。%n2. 研究・改造の各段階で必要になる資源を、物品と液体を加熱して生産する。%n%n培養槽で作れる資源は最大5種類あります:%n%n1. 液体増殖培地: 水 + 増殖培地%n2. 細菌培養液: 液体増殖培地 + 小麦、または細菌培養液 + 増殖培地%n3. 酵素: 細菌培養液 + 砂糖%n4. 細菌ベクター: 細菌培養液 + ブレイズパウダー、または細菌ベクター + 増殖培地%n5. DNA増幅細菌: 細菌培養液 + 骨粉、またはDNA増幅細菌 + 増殖培地%n%n3つのレシピは、別の材料の代わりに増殖培地を追加注入することで延長できます。増殖培地を大量生産できるなら、これらの出力用に培養槽を「準備」してから、増殖培地のフィードバックループに切り替えるのがよいでしょう。%n%n酵素は通常、細菌培養液から、細菌培養液は液体増殖培地から、というラインで生産します。%n%n細菌ベクターは§7《§r接種機§7／Inoculator》§rで幼虫を改造する場合にのみ必要で、§7《§r接続機§7／Splicer》§rを使うなら不要です。%n%n追記: §7《§r遺伝子プール§7／Genepool》§rと§7《§r分離機§7／Isolator》§rにはエタノール供給も必要です。この技術ラインには飲酒問題があります。%n%n追々記: ブレイズパウダーは、後で蛍光色素などでも登場します。
 
 # Quest: Bees By the Millions
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.name=Bees By the Millions
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.desc=If you need endgame high speed production, industrial apiaries are the way to go. Industrial Apiaries take upgrade frames that never break. Production frames can be stacked up to 8 high. It also has many options for emulation, more pollen retrieval, and others.%n%nThe Industrial Apiary is now a GT machine. It takes up to UV voltage and up to 4 amps but the base usage is just 37 EU/t. You can no longer use a World Accelerator and there is only the one machine, so no GT overclocking. Instead, there are new §oacceleration upgrades§r that act similar to a World Accelerator but are directly integrated into the machine. You will want to use them, they increase the speed and energy usage by a lot. The final tier also increases productivity.%n%nBut I shouldn't drone on too long. Go make one and find out yourself.
+# EN name: Bees By the Millions
+# EN desc: If you need endgame high speed production, industrial apiaries are the way to go. Industrial Apiaries take upgrade frames that never break. Production frames can be stacked up to 8 high. It also has many options for emulation, more pollen retrieval, and others.%n%nThe Industrial Apiary is now a GT machine. It takes up to UV voltage and up to 4 amps but the base usage is just 37 EU/t. You can no longer use a World Accelerator and there is only the one machine, so no GT overclocking. Instead, there are new §oacceleration upgrades§r that act similar to a World Accelerator but are directly integrated into the machine. You will want to use them, they increase the speed and energy usage by a lot. The final tier also increases productivity.%n%nBut I shouldn't drone on too long. Go make one and find out yourself.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.name=[下書き]数百万匹の蜂
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.desc=エンドゲームの高速生産が必要なら、§7《§r産業用養蜂箱§7／Industrial Apiary》§r一択です。産業用養蜂箱は壊れないアップグレード枠を受け付けます。生産アップグレードは最大8個まで重ねられます。環境模倣、花粉回収量増加など、多くの選択肢もあります。%n%n産業用養蜂箱は現在GTマシンです。UVまで、最大4Aまで受け付けますが、基本消費電力は37 EU/tだけです。§7《§r世界加速器§7／World Accelerator》§rはもう使えず、マシンは1種類のみなのでGTオーバークロックもありません。代わりに、§o加速アップグレード§rが新登場し、世界加速器と同様に動作しますがマシンに直接組み込まれます。使う価値は十分あり、速度と消費電力を大幅に上げます。最終Tierは生産性も上げます。%n%n長々と書きすぎました。作って自分で確かめてください。
 
 # Quest: Fastest Way to Get There
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.name=Fastest Way to Get There
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.desc=A GT++ Mutagenic frame will get your bees to their final destination faster than you can blink. Just remember to wear your rubber suit while making it!%n%n[note]These will break in the alveary before they take effect since their durability is under 6. So you can only get to 125x, but I think that's enough, don't you?[/note]
+# EN name: Fastest Way to Get There
+# EN desc: A GT++ Mutagenic frame will get your bees to their final destination faster than you can blink. Just remember to wear your rubber suit while making it!%n%n[note]These will break in the alveary before they take effect since their durability is under 6. So you can only get to 125x, but I think that's enough, don't you?[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.name=[下書き]最速の到達方法
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.desc=§7《§r変異誘発の巣枠§7／Mutagenic Frame》§rは、まばたきするより速く蜂を最終目的地へ導きます。作るときはゴムスーツを着るのを忘れないで!%n%n[note]耐久が6未満のため、大型養蜂箱では効果が出る前に壊れます。125倍までしか上げられませんが、十分でしょう?[/note]
 
 # Quest: Upgrading the Alveary
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKw.name=Upgrading the Alveary
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKw.desc=These basic upgrades to the Alveary make it more powerful.%n%nFrame Housing - Automation-enabled frame slot for the Alveary. Uses §55 durability§r every bee tick (27s). If it runs out on that tick, it has no effect.%nAlveary Stabilizer - Prevents the bees from mutating into another species. Ideal for breeding traits into a line.%nAlveary Transmission - Power input for upgrades that use power.%nAlveary Sieve - Instead of the pollen from a bee fertilizing a nearby tree, it is stored here and can be manually applied. Requires manually placing woven silk in the inventory.%nSwarmer - Creates additional Ignoble queens in hives around the Alveary. These are genetic copies of the original. This uses Royal Jelly or Aromatic Lumps. The latter are more effective.%n%n[note]Note that all upgrade blocks must be in the bottom 2 layers. The center block also cannot be an upgrade block, though the bottom center can.[/note]%n%n[warn]When using power, the transmission block will suck down entire amps to fill a tiny amount. Use the EnderIO capacitors or something similar to prevent this.[/warn]
 
 # Quest: Busy Bees Buzzing Boldly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.name=Busy Bees Buzzing Boldly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.desc=These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.%n%nRain Shield - Can work through the rain%nLighting - Can work day and night%nAlveary Heater - Increases temperature a flat 30%% each (needs power)%nAlveary Fan - Decreases temperature a flat 20%% each (needs power)%nAlveary Hygroregulator[sic] - Has two modes, water and lava%nLava - Temp+10%%, Humidity-20%%%nWater - Temp-10%%, Humidity+20%%%n%nUnfortunately, there's no way to make them like caves with a block.
+# EN name: Busy Bees Buzzing Boldly
+# EN desc: These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.%n%nRain Shield - Can work through the rain%nLighting - Can work day and night%nAlveary Heater - Increases temperature a flat 20%% each (needs power)%nAlveary Fan - Decreases temperature a flat 20%% each (needs power)%nAlveary Hygroregulator[sic] - Has two modes, water and lava%nLava - Temp+10%%, Humidity-20%%%nWater - Temp-10%%, Humidity+20%%%n%nUnfortunately, there's no way to make them like caves with a block.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.name=[下書き]働き蜂、大胆にブンブン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.desc=これらのアップグレードは、環境要因で生産が止まらないよう蜂を働かせ続けることで、生産率を大幅に向上させます。%n%n大型養蜂箱防雨装置 - 雨中でも働ける%n大型養蜂箱用光源 - 昼夜を問わず働ける%n大型養蜂箱用暖房器 - 温度を1台あたり一律30%%上げる(要電力)%n大型養蜂箱用冷房器 - 温度を1台あたり一律20%%下げる(要電力)%n大型養蜂箱用湿度調節器 - 水と溶岩の2モード%n溶岩 - 温度+10%%、湿度-20%%%n水 - 温度-10%%、湿度+20%%%n%n残念ながら、ブロックで洞窟耐性を与える方法はありません。
 
 # Quest: A Stim a Day Keeps the Doctor Awake
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILQ.name=A Stim a Day Keeps the Doctor Awake
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILQ.desc=Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. Use a Forestry Soldering Iron on an Intricate Circuit Board to set four slots worth of electron tubes. The tubes' capabilities are listed here as percentages:%n%nIron ET -> +0.5 Production%nDiamantine ET -> +1.5 Production%nApatine ET -> 1.5x Pollination (Max 5x)%nObsidian ET -> 0.8x Lifespan%nLapis ET -> 1.5x Lifespan (Max 5x)%nBlazing ET -> Simulates Hellish temperature%nGolden ET -> 1.5x Mutation Rate (Max 5x)%nTin ET -> 0.4x Territory (Min 0.1) & -0.1 Production%nBronze ET -> 1.5x Territory (Max 5x)%n%nGenetic Decay is also increased by 50%% for all of them. This affects how long until ignoble bees die off, so don't worry about it if your bees are pristine.%n%nRemember that lifespan is represented by ticks, not time. You need a world accelerator if you want a lifespan that is really less than 1 tick.%n%n[note]Breeder's Notes:%n12x Golden ETs and 20x Obsidian ETs across eight of these will make a super breeding party alveary; it will spike your mutation chances while dramatically decreasing lifespan. If you have been using the oblivion frame in an apiary to shorten lifespan for breeding, then this *does not* replace that because you cannot use world accelerators in alvearies. So the shortest you can reduce a bee's life cycle to is 1 tick = 27 seconds. On the other hand, dramatically increasing the mutation rate in the alveary may be faster for crossbreeding.%n%nProduction Apiarist's Notes:%nAlternately, you can slam down three of these with:%n* 10x Diamantine%n* 2x Iron%nThat'll take you right up to the production limit. Any higher and you risk your pristine princesses turning ignoble from overwork.[/note]
+# EN name: A Stim a Day Keeps the Doctor Awake
+# EN desc: Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. All numbers are in percent:%n%nIron ET - Production: 150 (Max 500)%nDiamantine ET - Production: 250 (Max 1000)%nApatine ET - Pollination: 150 (Max 500)%nObsidian ET - Lifespan: 80 (Min 20)%nLapis ET - Lifespan: 150 (Max 500)%nBlazing ET - Simulates hellish temperature%nGolden ET - Mutation rate: 150 (Max 500)%nTin ET - Territory: 40 (Min 10) Prod: 90 (Min 50)%nBronze ET - Territory: 150 (Max 500)%n%nGenetic Decay is also increased by 50%% for all of them. This affects how long until ignoble bees die off, so don't worry about it if your bees are pristine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILQ.name=[下書き]刺激は一日一つ、医者も眠れない
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILQ.desc=4本の電子管を載せられる回路基板に対応する§7《§r大型養蜂箱用刺激装置§7／Electrical Stimulator》§rは、さまざまな機能を提供します。Forestryの§7《§rはんだごて§7／Soldering Iron》§rで§7《§r複雑な回路基板§7／Intricate Circuit Board》§rに4スロット分の電子管を設定してください。電子管の能力はパーセントで次のとおりです:%n%n鉄の電子管 -> +0.5 生産性%nダイヤモンドの電子管 -> +1.5 生産性%n燐灰石の電子管 -> 1.5x 受粉(最大5x)%n黒曜石の電子管 -> 0.8x 寿命%nラピスラズリの電子管 -> 1.5x 寿命(最大5x)%n燃え盛る電子管 -> 地獄的温度を模倣%n金の電子管 -> 1.5x 突然変異率(最大5x)%n錫の電子管 -> 0.4x 縄張り(最小0.1) & -0.1 生産性%n青銅の電子管 -> 1.5x 縄張り(最大5x)%n%n遺伝子衰退もすべて50%%増加します。遺伝子汚染個体が消滅するまでの時間に影響するため、純系個体なら心配不要です。%n%n寿命は時間ではなく蜂刻で表されます。1蜂刻未満の寿命が必要なら§7《§r世界加速器§7／World Accelerator》§rが必要です。%n%n[note]交配者メモ:%n8台中12個の金の電子管と20個の黒曜石の電子管を載せると、超交配パーティー大型養蜂箱になります。突然変異率を急上昇させ、寿命を大幅に短縮します。養蜂箱で§7《§r忘却の巣枠§7／Oblivion Frame》§rを使って寿命を短くしていた場合、これは*代替にならない*ことに注意してください。大型養蜂箱では世界加速器が使えないため、蜂の寿命周期を短くできる最短は1蜂刻=27秒です。一方、大型養蜂箱で突然変異率を劇的に上げる方が交配では速い場合があります。%n%n生産養蜂家メモ:%n代わりに3台に次を載せられます:%n* ダイヤモンドの電子管 10個%n* 鉄の電子管 2個%nこれで生産上限ぎりぎりまで行けます。それ以上は純系の王女蜂が過労で遺伝子汚染個体になるリスクがあります。[/note]
 
 # Quest: X-Men, or Should I Say X-Bee?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.name=X-Men, or Should I Say X-Bee?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.desc=The Mutator can vastly accelerate genetic mutations, even allowing those ultra rare bees to be bred. Items inserted into the Mutator control how much mutation it causes.%n%nSoul Sand - 50 percent increase%nEnder Pearl - 100 percent increase%nEye of Ender - 300 percent increase
+# EN name: X-Men, or Should I Say X-Bee?
+# EN desc: The Mutator can vastly accelerate genetic mutations, even allowing those ultra rare bees to be bred. Items inserted into the Mutator control how much mutation it causes.%n%nSoul Sand - 50 percent increase%nEnder Pearl - 100 percent increase%nEye of Ender - 300 percent increase
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.name=[下書き]X-Men、いやX-Bee?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.desc=§7《§r大型養蜂箱用変異誘発装置§7／Mutator》§rは遺伝的突然変異を大幅に加速し、超レアな蜂の交配も可能にします。変異誘発装置に入れたアイテムが、どれだけ突然変異を起こすかを決めます。%n%n魂の砂 - 50%%増加%n末影パール - 100%%増加%n末影の目 - 300%%増加
 
 # Quest: Genepool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.name=Genepool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.desc=You will need to feed Raw DNA into a Polymerizer to prime your gene samples for injection into Larvae. The Genepool eats Enzyme and guzzles Ethanol in order to produce more Raw DNA than you could ever find even in a public gas station's restroom.%n%nIt is basically a chipper shredder for your leftover drones. You were hoarding them because you might need them some day, right? Today's that day! Whatever you put in here is going to go bye-bye. Make sure you keep some of your different drones around just in case.%n%nIt will also take saplings, flowers, and any excess Larvae you should be pumping out by now for modification and hatching.%n
+# EN name: Genepool
+# EN desc: Another important resource is Raw DNA. This can be obtained from any breedable organism such as bees, trees or flowers, and is created in the Genepool. The Genepool requires both Ethanol and Enzyme to digest the DNA, and will destroy the organism. Note this gives raw DNA, and does not preserve any genes or alleles present.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.name=[下書き]遺伝子プール
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.desc=生のDNAを§7《§r増幅機§7／Polymerizer》§rに投入し、幼虫への注入用に遺伝子サンプルを準備する必要があります。§7《§r遺伝子プール§7／Genepool》§rは酵素を消費し、エタノールをがぶ飲みして、公営ガソリンスタンドのトイレですら見つからない量の生のDNAを生産します。%n%n基本的には余った雄蜂用の粉砕機です。いつか必要になるかもと溜め込んでいましたよね？今日がその日です！ここに入れたものはすべて消えます。念のため、いろいろな雄蜂は少し残しておきましょう。%n%n苗木、花、改造・孵化用に今頃量産している余剰幼虫も受け付けます。%n
 
 # Quest: Isolator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.name=Isolator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.desc=The Isolator will take Ethanol and Enzyme to extract a single gene from a candidate bee. Sometimes it gets hungry and eats the bee too. Don't feed it any bees you won't mind getting destroyed!%n%nYou must provide a Blank Sequence to store the output gene. This will be stored with a "faint" level of strength that can be sequenced slowly, or made stronger to be sequenced faster by passing the sequence through a Polymerizer.%n%nThe exact gene you get from the bee is going to be a random choice from that bee's genome. You won't know what it is until you run it through the Sequencer. It will then be accessible forever in the Gene Database.%n%nYou can wind up isolating the same gene from the same bee multiple times. It's just bad luck. They won't be isolated in any particular order.%n%nThe Sequencer will drain the container back into a Blank Sequence, so you can feed them back into the Isolator. You only ever need to make a few Blank Sequences because you can just loop like this indefinitely. If, however, you have a sequenced gene and want to make it blank again immediately, then just run it through your smelting/furnace device of choice.
+# EN name: Isolator
+# EN desc: The Isolator acts in a similar way to the Genepool, but does not completely destroy genes. It instead allows the isolation of a single gene from an organism, without destroying it. The exact gene is random, and is written into a Blank Sequence. Until the sequence is analyzed in an Analyzer, it will be unknown what the gene is. It doesn't however need to be analyzed before being sent to the Sequencer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.name=[下書き]分離機
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.desc=分離機はエタノールと酵素を使って、候補の蜂から1つの遺伝子を抽出します。腹が減ると蜂ごと食べてしまうこともあります。失っても構わない蜂以外は与えないでください！%n%n出力遺伝子を保存するには§7《§r空白のシーケンス用バイアル§7／Blank Sequence》§rが必要です。「微弱」レベルの強度で保存され、ゆっくりシーケンス解析できます。配列を§7《§r増幅機§7／Polymerizer》§rに通せば強度を上げ、より速くシーケンス解析できます。%n%n蜂から得られる遺伝子は、その蜂のゲノムからランダムに選ばれます。§7《§rDNAシーケンサー§7／Sequencer》§rで解析するまで何かはわかりません。解析後は§7《§r遺伝子データベース§7／Gene Database》§rから永久に参照できます。%n%n同じ蜂から同じ遺伝子を何度も分離してしまうことがあります。運が悪いだけです。特定の順序で分離されるわけではありません。%n%nDNAシーケンサーは容器を空にして空白のシーケンス用バイアルに戻すので、分離機に再投入できます。空白のシーケンス用バイアルは数個あれば十分で、このループを無限に回せます。ただし、シーケンス済みの遺伝子をすぐ空白に戻したい場合は、好みの精錬装置やかまどに通してください。
 
 # Quest: Sequencer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.name=Sequencer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.desc=After obtaining a DNA Sequence with the gene that you wish, it must be placed in the Sequencer. This uses Fluorescent Dye to determine the correct sequence, and when completed, logs the discovery. The important thing here is that §nthe discovery goes to the person who placed the machine.%n%n§rThis process takes §l16 minutes§r! If the gene has been passed through a Polymeriser beforehand, it'll speed it up to only 4 minutes. You could also hug the machine with World Accelerators in Tile Entity mode to speed it up further.%n
+# EN name: Sequencer
+# EN desc: After obtaining a DNA Sequence with the gene that you wish, it must be placed in the Sequencer. This uses Fluorescent Dye to determine the correct sequence, and when completed logs the discovery. The important thing here is that the discovery goes to the person who placed the machine.%n%nGenes are sequenced faster if the sequence has been placed in a Polymeriser first to increase the strength.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.name=[下書き]DNAシーケンサー
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.desc=欲しい遺伝子を含むDNA配列を入手したら、§7《§rDNAシーケンサー§7／Sequencer》§rに入れる必要があります。§7《§r蛍光色素§7／Fluorescent Dye》§rを使って正しい配列を判定し、完了すると発見が記録されます。重要なのは、§n発見が機械を設置した人のものになる§rという点です。%n%n§rこの工程は§l16分§rかかります！事前に§7《§r増幅機§7／Polymeriser》§rを通していれば、わずか4分に短縮されます。Tile Entityモードの§7《§r世界加速機§7／World Accelerator》§rをくっつければ、さらに高速化できます。%n
 
 # Quest: Polymeriser
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.name=Polymeriser
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.desc=The Polymeriser is necessary to turn Serum into something you can actually inject into a Larvae. It has a bonus use of strengthening an isolated gene so it can be sequenced faster by a factor of 4x.%n%nThe Polymeriser requires Raw DNA and Polymerising Bacteria. Raw DNA is obtained from the Genepool, and Polymerising Bacteria is made from incubating bacteria with bone meal. Gold nuggets can be used as a catalyst to speed up the process. You can also make more Polymerising Bacteria by feeding it back into an Incubator with Growth Medium.%n%nWhen using the Polymeriser to prepare some Serum for a Larvae, the result will have a number of "charges." In other words, you get multiple uses out of it. This is nice because you are going to need to make a bunch of drones if you are trying to get all those traits to stick. Remember that you cannot use this process to modify a princess or queen directly! If you are satisfied before you use up all the Serum, you can recycle it by passing it through a smelter/furnace of your choice.%n%nIt takes two minutes to polymerise stuff. If you already use a World Accelerator for sequencing, then the Polymeriser would also benefit from cuddling up with that accelerator on another side.
+# EN name: Polymeriser
+# EN desc: Serums and sequences can be placed in a Polymeriser to increase their strength and amount of DNA held within. Serums need to be polymerised at least once before being used in the inoculator. To polymerise, both Raw DNA and Polymerising Bacteria are required. Raw DNA is obtained from the Genepool, and Polymerising Bacteria is made from incubating bacteria with bone meal. Gold nuggets can be used as a catalyst to speed up the process.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.name=[下書き]増幅機
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.desc=§7《§r増幅機§7／Polymeriser》§rは、接種液を幼虫に実際に注入できる形に変えるために必要です。分離した遺伝子を強化して、シーケンス解析を4倍速くする副次用途もあります。%n%n増幅機には§7《§r液体DNA§7／Raw DNA》§rと§7《§rDNA増幅細菌§7／Polymerising Bacteria》§rが必要です。液体DNAは§7《§r遺伝子プール§7／Genepool》§rから得られ、DNA増幅細菌は細菌と骨粉を培養槽で培養して作ります。金のナゲットを触媒として使えば工程を加速できます。増殖培地とともに培養槽に戻せば、DNA増幅細菌を追加生産することもできます。%n%n増幅機で幼虫用の接種液を調製すると、結果には「チャージ」回数が付きます。つまり複数回使えます。すべての特性を定着させたいなら大量の雄蜂が必要になるので助かります。王女蜂や女王蜂を直接改造するにはこの工程は使えません！接種液を使い切る前に満足したら、好みの精錬装置やかまどでリサイクルできます。%n%n増幅には2分かかります。シーケンス解析に世界加速機を使っているなら、増幅機も反対側にくっつけて同じ加速の恩恵を受けられます。
 
 # Quest: Gene Database
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.name=Gene Database
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.desc=Discovered genes are logged into the Gene Database. This handheld device lists all genes by the type of organism they apply to.%n%n§oThis device requires an EV circuit! Of all the things in the Binnie's Genetics line, it has the most technologically sophisticated requirement!%n§r%nUse an Empty Serum Vial or Empty Serum Array on the different discovered traits to prepare a cocktail you want to inject into a Larvae. If you misclick, you can just click on the one you wanted without consequence.%n
+# EN name: Gene Database
+# EN desc: Discovered genes are logged into the Gene Database. This handheld device lists all genes by the type of organism they apply to. To add a gene to an Empty Serum Vial to allow inoculation, the desired gene can be clicked on while holding the vial. An Empty Serum Array can be used to hold more than one gene at once.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.name=[下書き]遺伝子データベース
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.desc=発見した遺伝子は§7《§r遺伝子データベース§7／Gene Database》§rに記録されます。この携帯型装置は、適用される生物の種類ごとにすべての遺伝子を一覧表示します。%n%n§oこの装置にはEV回路が必要です！BinnieのGeneticsラインの中で、最も技術的に高度な要求条件を持つものです！%n§r%n§7《§r空の接種液用バイアル§7／Empty Serum Vial》§rまたは§7《§r空の接種液用アレイ§7／Empty Serum Array》§rを使い、発見済みの特性をクリックして、幼虫に注入したいカクテルを準備します。クリックを間違えても、目的のものをクリックし直すだけで問題ありません。%n
 
 # Quest: Lab Stand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAINA.name=Lab Stand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAINA.desc=The Lab Stand is a block on which an Apiarist Database, Arborist Database, Botanist Database or Gene Database can be placed by right-clicking on the placed stand with the database, attaching it and allowing the database to be accessed by right-clicking on the stand.%n%nThis is not a required structure, but people like to put their Gene Database on one as a kind of trophy case.
+# EN name: Lab Stand
+# EN desc: The Lab Stand is a block on which an Apiarist Database, Arborist Database, Botanist Database or Gene Database can be placed by right-clicking on the placed stand with the database, attaching it and allowing the database to be accessed by right-clicking on the stand.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAINA.name=[下書き]実験台
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAINA.desc=§7《§r実験台§7／Lab Stand》§rは、養蜂データベース、樹木データベース、植物学データベース、遺伝子データベースを置けるブロックです。設置した実験台にデータベースを持って右クリックすると取り付けられ、実験台を右クリックしてデータベースにアクセスできます。%n%n必須の設備ではありませんが、遺伝子データベースをトロフィーケースのように飾る人が多いです。
 
 # Quest: Registry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAINg.name=Registry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAINg.desc=The Registry combines the existing four databases into a new sleek browser to allow the properties, mutations and genes of all discovered bees, trees, butterflies and flowers.
+# EN name: Registry
+# EN desc: The Registry combines the existing four databases into a new sleek browser to allow the properties, mutations and genes of all discovered bees, trees, butterflies and flowers.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAINg.name=[下書き]登録簿
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAINg.desc=§7《§r登録簿§7／Registry》§rは既存の4つのデータベースを新しいブラウザに統合し、発見済みの蜂、樹木、蝶、花の特性・突然変異・遺伝子を閲覧できます。
 
 # Quest: Droning On
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAINw.name=Droning On
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAINw.desc=§n§rFinally! You can hack bees*! You have two choices, and you will only ever need one. Either way you go, you will hatch the modified drone using an Incubator that's been loaded with Bacteria Vector afterwards.%n%nBoth scale their requirements by the number of genes you intend to apply to a single Larvae.%n%n§nThe Inoculator§r%n%nRun Time: 10 minutes per gene%nRF Cost: 600,000 RF per gene%nRF/t: 50%nBacteria Vector: 15 mB per gene.%n%nThis one has a lower power and recipe cost at the expense of needing Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms. The consumption for Bacteria Vector is quite low.%n%nIt is also §oslooooow§... %n§r%n§nThe Splicer§r%n%nRun Time: 1 minute per gene%nRF Cost: 12,000,000 RF per gene%nRF/t: §l1,000%n§r%nThe Splicer is much like the Inoculator in function, however it has the benefit of not requiring any liquid. Its power consumption is terrifying compared to the Inoculator, but overall it only consumes twice the RF despite gobbling it much faster.%n%n*or trees and flowers via their pollen, or butterflies via their caterpillars.
+# EN name: Droning On
+# EN desc: §n§rFinally! You can hack bees*! You have two choices, and you will only ever need one. Either way you go, you will hatch the modified drone using an Incubator that's been loaded with Bacteria Vector afterwards.%n%nBoth scale their requirements by the number of genes you intend to apply to a single Larvae.%n%n§nThe Inoculator§r%n%nRun Time: 10 minutes per gene%nRF Cost: 600,000 RF per gene%nRF/t: 50%nBacteria Vector: 15 mB per gene.%n%nThis one has a lower power and recipe cost at the expense of needing Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms. The consumption for Bacteria Vector is quite low.%n%nIt is also §oslooooow§... %n§r%n§nThe Splicer§r%n%nRun Time: 1 minute per gene%nRF Cost: 12,000,000 RF per gene%nRF/t: §l1,000%n§r%nThe Splicer is much like the Inoculator in function, however it has the benefit of not requiring any liquid. Its power consumption is terrifying compared to the Inoculator, but overall it only consumes twice the RF despite gobbling it much faster.%n%n*or trees and flowers via their pollen, or butterflies via their caterpillars.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAINw.name=[下書き]雄蜂の話
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAINw.desc=§n§rついに蜂を改造*できます！選択肢は2つ、必要なのはどちらか一方だけです。どちらを選んでも、改造した雄蜂は§7《§r細菌ベクター§7／Bacteria Vector》§rを入れた培養槽で孵化させます。%n%nどちらも、1匹の幼虫に適用する遺伝子の数に応じて要求量がスケールします。%n%n§n接種機§r%n%n実行時間: 遺伝子1つあたり10分%nRF消費: 遺伝子1つあたり600,000 RF%nRF/t: 50%n細菌ベクター: 遺伝子1つあたり15 mB。%n%nこちらは電力とレシピコストが低い代わりに、細菌とブレイズパウダーを培養して作る細菌ベクターが必要です。細菌ベクターの消費量はかなり低いです。%n%n§oとても遅い§r...%n%n§n接続機§r%n%n実行時間: 遺伝子1つあたり1分%nRF消費: 遺伝子1つあたり12,000,000 RF%nRF/t: §l1,000%n§r%n接続機は機能面では接種機に非常によく似ていますが、液体を必要としない利点があります。接種機と比べると電力消費は恐ろしいですが、全体のRF消費は2倍程度に留まり、消費速度ははるかに速いです。%n%n*樹木と花は花粉経由、蝶は毛虫経由でも同様です。
 
 # Quest: Figuring Out Butterflies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.name=Figuring Out Butterflies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.desc=Butterflies don't do much, but this analyzer will give you details on their abilities.
+# EN name: Figuring Out Butterflies
+# EN desc: Butterflies don't do much, but this analyzer will give you details on their abilities.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.name=[下書き]蝶を調べる
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.desc=蝶自体はあまり役に立ちませんが、§7《§r蝶分析機§7／Flutterlyzer》§rなら能力の詳細を確認できます。
 
 # Quest: Bee More Knowledgeable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.name=Bee More Knowledgeable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.desc=This database keeps track of everything bee.
+# EN name: Bee More Knowledgeable
+# EN desc: This database keeps track of everything bee.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.name=[下書き]「蜂」富な知識
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.desc=このデータベースは、蜂に関するすべてを記録します。
 
 # Quest: Fluttering Facts
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.name=Fluttering Facts
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.desc=This database tracks all your knowledge of butterflies.%n%nBTW, see the BBB tab for the Botany stuff.
+# EN name: Fluttering Facts
+# EN desc: This database tracks all your knowledge of butterflies.%n%nBTW, see the BBB tab for the Botany stuff.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.name=[下書き]ひらひらの豆知識
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.desc=このデータベースは、蝶に関する知識をすべて記録します。%n%nBotany関連は「キッチリ基地を建築」タブを参照してください。
 
 # Quest: Keep Calm and Bee On
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzw.name=Keep Calm and Bee On
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzw.desc=This frame will let your bees last longer, and also increase the territory to help with tree breeding.
+# EN name: Keep Calm and Bee On
+# EN desc: This frame will let your bees last longer, and also increase the territory to help with tree breeding.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzw.name=[下書き]落ち着いて蜂を続けよう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzw.desc=この巣枠は蜂の寿命を延ばし、縄張りも広げて樹木の交配を助けます。
 
 # Quest: Ghetto Biome Changing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcA.name=貧乏人のバイオーム変更
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcA.desc=特定のバイオームに変えたくなく、蜂向けの中性的な環境が欲しいだけなら、オーラ節を使う手もあります。§7《§rシルバーウッドの苗木§7／Silverwood Sapling》§rを植えて純粋なオーラ節を得るか、別の方法で移設してみてください。%n%n「素の」純粋なオーラ節は、§7《§r生命§7／Victus》§rを持たない限り何も変えません。邪悪や汚染のオーラ節を試すこともできますが...返金はありません。これらのオーラ節の半径は11です。バイオームを元に戻すには§7《§r天上の華§7／Ethereal Bloom》§rを使います(半径7)。ペックとウィスプは『Magical』タイプのバイオームにスポーンすることに注意してください。シルバーウッド
+# EN name: Ghetto Biome Changing
+# EN desc: If you don't want to change the biome to a specific one, and just want a neutral environment for your bees, maybe using nodes is for you. You can try planting a Silverwood Sapling to get one with a pure node, or use other methods to move one.%n%nKeep in mind a 'bare' pure node won't change anything unless it has Victus. You can try to use Sinister or Tainted, but...no refunds. These nodes have a radius of 11. To change the biome back, use an Ethereal Bloom (radius of 7). Keep in mind that both Pech and Wisps spawn in 'Magical' type biomes.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcA.name=[提出済み]貧乏人のバイオーム変更
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcA.desc=特定のバイオームに変えたくなく、蜂向けの中性的な環境が欲しいだけなら、オーラ節を使う手もあります。§7《§rシルバーウッドの苗木§7／Silverwood Sapling》§rを植えて純粋なオーラ節を得るか、別の方法で移設してみてください。%n%n「素の」純粋なオーラ節は、§7《§r生命§7／Victus》§rを持たない限り何も変えません。邪悪や汚染のオーラ節を試すこともできますが...返金はありません。これらのオーラ節の半径は11です。バイオームを元に戻すには§7《§r天上の華§7／Ethereal Bloom》§rを使います(半径7)。ペックとウィスプは『Magical』タイプのバイオームにスポーンすることに注意してください。
 
 # Quest: Bee Slurry, the Breakfast of, Well, Weirdos
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0A.name=Bee Slurry, the Breakfast of, Well, Weirdos
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0A.desc=Why would you even need this?
+# EN name: Bee Slurry, the Breakfast of, Well, Weirdos
+# EN desc: Why would you even need this?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0A.name=[下書き]蜂スラリー、変人の朝食
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0A.desc=そもそもこれ、何に必要なんです?
 
 # Quest: A Backpack for Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuQ.name=A Backpack for Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuQ.desc=It's exactly what it says. It's also incredibly useful.
+# EN name: A Backpack for Bees
+# EN desc: It's exactly what it says. It's also incredibly useful.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuQ.name=[下書き]蜂用バックパック
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuQ.desc=名前のとおりです。非常に便利です。
 
 # Quest: A Chest for...Butterflies? Really?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKug.name=A Chest for...Butterflies? Really?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKug.desc=Store your completely useless butterflies in this.
+# EN name: A Chest for...Butterflies? Really?
+# EN desc: Store your completely useless butterflies in this.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKug.name=[下書き]蝶用チェスト?マジで?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKug.desc=完全に役立たない蝶をここに保管できます。
 
 # Quest: A Bag for Butterflies, yawn
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuw.name=A Bag for Butterflies, §oyawn§r
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuw.desc=I'm not sure this has any utility value since the butterflies are going to all be in chunkloaded areas, and thus near your base, but feel free to make it anyway.
+# EN name: A Bag for Butterflies, §oyawn§r
+# EN desc: I'm not sure this has any utility value since the butterflies are going to all be in chunkloaded areas, and thus near your base, but feel free to make it anyway.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuw.name=[下書き]蝶用バッグ、§oyawn§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuw.desc=蝶はすべてチャンク読み込みされたエリア、つまり拠点付近にいるはずなので、実用性があるかは不明ですが、好きなら作ってください。
 
 # Quest: Only the Best: Tree Breeding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvA.name=Only the Best: Tree Breeding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvA.desc=For those who love Forestry trees.
+# EN name: Only the Best: Tree Breeding
+# EN desc: For those who love Forestry trees.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvA.name=[下書き]最高だけ：樹木培育
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvA.desc=Forestryの樹木が好きな人向けです。
 
 # Quest: Only the Worst: Trees Suck!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvQ.name=Only the Worst: Trees Suck!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvQ.desc=For those who don't like flowers or trees :(.
+# EN name: Only the Worst: Trees Suck!
+# EN desc: For those who don't like flowers or trees :(.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvQ.name=[下書き]最低だけ：樹木は嫌い！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvQ.desc=花や樹木が好きではない人向け:(。
 
 # Quest: Get it Together Bees!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzw.name=Get it Together Bees!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzw.desc=These frames help prevent genetic decay.
+# EN name: Get it Together Bees!
+# EN desc: These frames help prevent genetic decay.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzw.name=[下書き]蜂よ、しっかりしろ!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzw.desc=これらの巣枠は遺伝子衰退を防ぐのに役立ちます。
 
 # Quest: IAADDS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.name=IAADDS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.desc=Aka the Mega Apiary.%n%nIt has three primary modes (change with screwdriver) and two operation modes (change with shift+screwdriver):%n%nINPUT MODE: Does not take power. Put your queens in the input bus to put them in the internal buffer.%n%nOUTPUT MODE: Does not take power. Will give your bees back to the output bus.%n%nOPERATING MODE - NORMAL: The processing time is 5 seconds. Uses 1 Amp LuV per queen. All bees are affected by 64x acceleration and 8 Production Upgrades as well as a Genetic Stabilizer Upgrade. The IAADDS also simulates a perfect environment for all bees.%n%nYou can provide royal jelly to increase the outputs. 1 royal jelly grants 5%% bonus per bee. They will be consumed on each start of operation and be applied to that operation only. The maximum bonus is 200%%. The normal bee stats still apply of course, though the IAADDS is able to provide a perfect environment for any bee.%n%nOPERATING MODE - SWARMER: In this mode you can only insert 1 queen. The IAADDS will then slowly produce ignoble princesses for 100 royal jelly per operation. The base processing time is 1 minute but you can overclock this process. The base usage is 1 Amp IV.%n%n[note]Yes you need thousands of queens, not princesses.[/note]
+# EN name: IAADDS
+# EN desc: Aka the Mega Apiary.%n%nIt has three primary modes (change with screwdriver) and two operation modes (change with shift+screwdriver):%n%nINPUT MODE: Does not take power. Put your queens in the input bus to put them in the internal buffer.%n%nOUTPUT MODE: Does not take power. Will give your bees back to the output bus.%n%nOPERATING MODE - NORMAL: The processing time is 5 seconds. Uses 1 Amp LuV per queen. All bees are affected by 64x acceleration and 8 Production Upgrades as well as a Genetic Stabilizer Upgrade. The IAADDS also simulates a perfect environment for all bees.%n%nYou can provide royal jelly to increase the outputs. 1 royal jelly grants 5%% bonus per bee. They will be consumed on each start of operation and be applied to that operation only. The maximum bonus is 200%%. The normal bee stats still apply of course, though the IAADDS is able to provide a perfect environment for any bee.%n%nOPERATING MODE - SWARMER: In this mode you can only insert 1 queen. The IAADDS will then slowly produce ignoble princesses for 100 royal jelly per operation. The base processing time is 1 minute but you can overclock this process. The base usage is 1 Amp IV.%n%n[note]Yes you need thousands of queens, not princesses.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.name=[下書き]IAADDS
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.desc=通称メガ養蜂箱。%n%nスクリュードライバーで切り替える3つの主要モードと、Shift+スクリュードライバーで切り替える2つの動作モードがあります:%n%n入力モード: 電力不要。女王蜂を入力バスに入れると内部バッファに格納されます。%n%n出力モード: 電力不要。蜂を出力バスに返します。%n%n稼働モード - 通常: 処理時間5秒。女王蜂1匹あたりLuV 1A使用。全蜂に64倍加速、生産アップグレード8個、遺伝子安定化アップグレードが適用されます。IAADDSは全蜂に完璧な環境も模倣します。%n%nローヤルゼリーを供給すると出力が増えます。1ローヤルゼリーで蜂1匹あたり5%%ボーナス。各稼働開始時に消費され、その稼働にのみ適用されます。最大ボーナス200%%。通常の蜂ステータスも適用されますが、IAADDSは任意の蜂に完璧な環境を提供できます。%n%n稼働モード - 分蜂: このモードでは女王蜂1匹のみ投入可能。IAADDSは1回の稼働あたりローヤルゼリー100個を消費し、遺伝子汚染個体の王女蜂をゆっくり生産します。基本処理時間1分ですがオーバークロック可能。基本消費IV 1A。%n%n[note]王女蜂ではなく、何千匹もの女王蜂が必要です。[/note]
 
 # Quest: Pollen Collection Kit
-betterquesting.quest.FLhv4l1HSSmaLiwukzMVSg.name=Pollen Collection Kit
-betterquesting.quest.FLhv4l1HSSmaLiwukzMVSg.desc=The easy way to get some pollen, just right-click on leaves. The Pollen Collection Kits are one-time use though, so maybe make a few.
+# EN name: Pollen Collection Kit
+# EN desc: The easy way to get some pollen, just right-click on leaves. The Pollen Collection Kits are one-time use though, so maybe make a few.
+betterquesting.quest.FLhv4l1HSSmaLiwukzMVSg.name=[下書き]花粉採集キット
+betterquesting.quest.FLhv4l1HSSmaLiwukzMVSg.desc=花粉を手軽に集める方法は、葉に右クリックするだけです。ただし§7《§r花粉採集キット§7／Pollen Collection Kit》§rは使い切りなので、いくつか作っておくとよいでしょう。
 
 # Quest: Living It Larvae
 betterquesting.quest.Hhjp0qVoTpGwa7tXdFxDIg.name=Living It Larvae
@@ -11412,12 +11570,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADJA.name=爆薬種 - 産業用TNT
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADJA.desc=内破圧縮機との相性は抜群です。
 
 # Quest: Breed some cultivated bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.name=Breed some cultivated bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.desc=Common Princess and Forest Drone can be bred to cultivated bees.%n%nCultivated bees have the shortest lifespan - this means they make great princesses to breed with your newly bred drones. The queen will die quickly, quickly giving genetic material to work with. Make sure the traits you want are kept!%n%nThey are also a Fast production bee, which means lots of honey combs for powering your Beealyzer or Treealyzer.%n%nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your cultivated bees are pure with a Beealyzer or GT scanner.%n%nThe main bee breeding quests will require pure bees but you can use Ignoble or Pristine princesses.
+# EN name: Breed some cultivated bees
+# EN desc: Common Princess and Forest Drone can be bred to cultivated bees.%n%nCultivated bees have the shortest lifespan - this means they make great princesses to breed with your newly bred drones. The queen will die quickly, quickly giving genetic material to work with. Make sure the traits you want are kept!%n%nThey are also a Fast production bee, which means lots of honey combs for powering your Beealyzer or Treealyzer.%n%nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your cultivated bees are pure with a Beealyzer or GT scanner.%n%nThe main bee breeding quests will require pure bees but you can use Ignoble or Pristine princesses.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.name=[下書き]洗練種の蜂を交配しよう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.desc=§7《§r平凡種§7／Common》§rの王女蜂と§7《§r森林種§7／Forest》§rの雄蜂を交配すると、§7《§r洗練種§7／Cultivated》§rが生まれます。%n%n洗練種は寿命が最短です。そのため、新たに交配で得た雄蜂との掛け合わせに使う王女蜂として最適です。女王蜂がすぐ死ぬので、遺伝材料を素早く得られます。欲しい特性が残るよう注意してください!%n%nまた生産速度は「速い」なので、§7《§r蜂分析器§7／Beealyzer》§rや§7《§r樹木分析器§7／Treealyzer》§rを動かすための§7《§r巣板§7／Honey Comb》§rがたくさん得られます。%n%n洗練種は0.9分ごとに巣板を生産します。なお、生産時間は蜂の基本生産速度と産物の希少度に基づく概算であり、実際の生産時間を正確に表すものではありません。%n%n§7《§r蜂分析器§7／Beealyzer》§rまたはGregTechのスキャナーで洗練種が純種であることを確かめてください。%n%n主な蜂の交配クエストは純種の提出が必要ですが、王女蜂は§7《§r遺伝子汚染個体§7／Ignoble》§rでも§7《§r純系個体§7／Pristine》§rでも構いません。
 
 # Quest: Breed some common bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.name=平凡な蜂を交配しよう
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=To cross breed bees you need two different species of bees. One drone and one princess from different naturally-generating hives (Meadows and Forest as an example).%n%nBee Houses do not allow crossbreeding. You need an Apiary to cross-breed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing the mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.%n%n[note]Breeder's Notes:%n%nRiiiight from the start, they have a trick for you. The Common bee is bred from most mundane species smashed into each other. The problem is the Cultivated species, which is next in line, is bred with most mundane species along with Common. Noble and Diligent then are crossed from Common and Cultivated. You could start with two mundane bees, have the results loop back unattended, and run that whole progression. Here's an example active:inactive mix you could get on a princess over time:%n%nMeadows:Forest%nMeadows:Common (Yay!)%nCommon:Meadows (Double yay! Active trait!)%nCultivated:Common (Boo!)%n. . . some time passes . . .%nDiligent:Noble (Wait, what?!)%n%nMeanwhile, this quest would still be sitting there, waiting for you to submit Common bees. Whoops!%n%nIf Cultivated starts to show up, just stuff any princesses and drones involved into a chest and act like that didn't happen for now. You can use them when you complete this quest to jumpstart the Cultivated species.%n%nNow, if you don't have any way to speed up breeding and don't want to stand around to micromanage, you can try filtering, or just checking on the result from time to time. Either way, maybe don't leave it going overnight if you're on a server.%n[/note]
+# EN name: Breed some common bees
+# EN desc: To cross breed bees you need two different species of bees. One drone and one princess from different naturally-generating hives (Meadows and Forest as an example).%n%nBee Houses do not allow crossbreeding. You need an Apiary to cross-breed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing the mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.%n%n[note]Breeder's Notes:%n%nRiiiight from the start, they have a trick for you. The Common bee is bred from most mundane species smashed into each other. The problem is the Cultivated species, which is next in line, is bred with most mundane species along with Common. Noble and Diligent then are crossed from Common and Cultivated. You could start with two mundane bees, have the results loop back unattended, and run that whole progression. Here's an example active:inactive mix you could get on a princess over time:%n%nMeadows:Forest%nMeadows:Common (Yay!)%nCommon:Meadows (Double yay! Active trait!)%nCultivated:Common (Boo!)%n. . . some time passes . . .%nDiligent:Noble (Wait, what?!)%n%nMeanwhile, this quest would still be sitting there, waiting for you to submit Common bees. Whoops!%n%nIf Cultivated starts to show up, just stuff any princesses and drones involved into a chest and act like that didn't happen for now. You can use them when you complete this quest to jumpstart the Cultivated species.%n%nNow, if you don't have any way to speed up breeding and don't want to stand around to micromanage, you can try filtering, or just checking on the result from time to time. Either way, maybe don't leave it going overnight if you're on a server.%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.name=[下書き]平凡な蜂を交配しよう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=蜂を交配するには、異なる2種の蜂が必要です。自然生成の蜂巣から得た、別種の雄蜂と王女蜂を1匹ずつ用意してください（例: §7《§r草原種§7／Meadows》§rと§7《§r森林種§7／Forest》§r）。%n%n§7《§rビーハウス§7／Bee House》§rでは交配できません。 新種へ交配するには§7《§r養蜂箱§7／Apiary》§rが必要です。特定の巣枠はこの過程に役立ちます。寿命を短くすれば交配が早く進み、突然変異率を上げれば変異、ひいては珍しい蜂をより早く得られます。%n%n§7《§r平凡種§7／Common》§rは2.2分ごとに§7《§r巣板§7／Honey Comb》§rを生産します。なお、生産時間は蜂の基本生産速度と産物の希少度に基づく概算であり、実際の生産時間を正確に表すものではありません。%n%n§7《§r蜂分析器§7／Beealyzer》§rまたはGregTechのスキャナーで遺伝を確認し、純種であることを確かめてください。%n%n[note]養蜂家のメモ:%n%n最初から、ちょっとした罠があります。平凡種は、ほとんどのありふれた種同士をぶつけ合わせて交配します。問題は、次に来る§7《§r洗練種§7／Cultivated》§rが、平凡種とほとんどのありふれた種を掛けて生まれることです。そのあと§7《§r高貴種§7／Noble》§rと§7《§r熱心種§7／Diligent》§rは、平凡種と洗練種から交配されます。ありふれた蜂2種から始めて、結果を放置でループさせれば、この進行一式が回ってしまうこともあります。王女蜂に時間とともに現れうる、顕性:潜性の組み合わせの例です:%n%n草原:森林%n草原:平凡（やった！）%n平凡:草原（二度やった！ 顕性特性だ！）%n洗練:平凡（うわ…）%n. . . しばらく経つと . . .%n熱心:高貴（えっ、なにこれ？！）%n%nそのあいだ、このクエストは平凡種の提出を待ち続けていることでしょう。しまった！%n%n洗練種が出始めたら、関係する王女蜂と雄蜂はチェストにしまい、今はなかったことにしておきましょう。このクエスト完了後に、洗練種の足掛かりとして使えます。%n%n交配を速める手段がなく、つきっきりで管理したくない場合は、フィルタを試すか、たまに結果を確認する程度でもよいでしょう。いずれにせよ、サーバーでは一晩放置しない方がよいかもしれません。%n[/note]
 
 # Quest: Breed some noble bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXg.name=Breed some noble bees
@@ -12290,8 +12452,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.name=Fuuuuuu...(sion)!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.desc=Your arcane table does a great job with infusing primal vis into items while crafting. However, you feel that there must be more. What if you could infuse items with all kinds of magic aspects? The possibilities are endless...
 
 # Quest: Yet Another Brick in the Wall...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w.name=Yet Another Brick in the Wall...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w.desc=A magical one this time. You're on your way to infusion which needs 8 of these. Another 4 will be needed for the alchemical furnace.%n%n§3Yes, you need an MV PLE, deal with it.
+# EN name: Yet Another Brick in the Wall...
+# EN desc: A magical one this time. You're on your way to infusion which needs 8 of these. Another 4 will be needed for the alchemical furnace.%n%n§3Yes, you need an MV PLE, deal with it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w.name=[自訳]壁にもうひとつレンガ…
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w.desc=今度は魔法のレンガです。注入の儀式には§7《§r神秘の石レンガ§7／Arcane Stone Brick》§rが8個必要です。§7《§r錬金かまど§7／Alchemical Furnace》§rの作成にはさらに4個です。%n%n§3ええ、MV級の精密レーザー刻印機が要ります。覚悟しておいてください。
 
 # Quest: Essentia Cooking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8A.name=Essentia Cooking
@@ -12346,8 +12510,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABAA.name=石炭じゃない
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABAA.desc=もっといいものですよ。褐炭よりはずっと。%n%nさらに、§7《§r錬金かまど§7／錬金かまど》§rで燃料として使うと、アイテムの分解速度が向上します。§7《§rレンガ高炉§7／Brickd Blast Furnace》§rでも使用できます。
 
 # Quest: Save the Squids, We Must
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAQ.name=Save the Squids, We Must
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAQ.desc=A very convenient way to make PETA activists happy and get ink at the same time.%n%nHint: The essentia in those roses might be useful...
+# EN name: Save the Squids, We Must
+# EN desc: A very convenient way to make PETA activists happy and get ink at the same time.%n%nHint: The essentia in those roses might be useful...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAQ.name=[自訳]イカを救わねばならぬ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAQ.desc=PETAの活動家を喜ばせつつ、同時にインクも手に入れられる、とても便利な方法です。%n%nヒント: あの§7《§r影のバラ§7／Umbral Rose》§rに 含まれるエッセンシアは、役に立つかもしれません…
 
 # Quest: Infinite... Lava?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABAg.name=Infinite... Lava?
@@ -12438,8 +12604,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA.name=黄昏の森で詰んだ？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA.desc=もしあなたが黄昏の森にいるときにポータルが壊れると、一種の詰み状態に陥ります。%n%n[note]このクエストは24時間ごとに再び実行でき、いくつかの素材を消費して脱出用の新しい §7《§r粗雑で間に合わせのポータル生成機§7／Quick and Dirty Portal Generator》§r を入手できます。[/note]%n%n§6念のために予備を作っておき、黄昏側のチェストに入れておくといった対策も、依然として有効です。
 
 # Quest: Where'd I Put That Amber?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.name=Where'd I Put That Amber?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.desc=Every Thaumcraft Infused Stone vein has a bit of amber ore in it. I'm sure you have a bunch by now.
+# EN name: Where'd I Put That Amber?
+# EN desc: Every Thaumcraft Infused Stone vein has a bit of amber ore in it. I'm sure you have a bunch by now.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.name=[自訳]琥珀、どこにやったっけ？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.desc=Thaumcraftの染み込んだ石鉱脈には、どれも少し§7《§r琥珀鉱石§7／Amber Ore》§rが混ざっています。もうかなり集めたはずです。
 
 # Quest: Just Tell Me What to Scan Already!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.name=結局何をスキャンすればいいか教えてくれ！
@@ -12490,8 +12658,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ.name=Boots Are Made For Walking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ.desc=And swimming. These boots of the traveller will make you a blur as you go around the world. You'll need to research infusion before you can make these.%n%n§3There are also Electric versions with greater discounts in the Getting Around... tab.
 
 # Quest: I Can See Everything
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzg.name=I Can See Everything
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzg.desc=With your new wand, you can make Goggles of Revealing. You can now see nodes clearly, more so than with the thaumometer, but all the time! Additionally, the goggles give you a 5 percent vis discount.%n%nSimple lens upgrades will grant you various seeing abilities as well.%n%nLater you can make more advanced goggles and even integrate the goggles into advanced armors.%n%nWith TC Node Tracker, it makes remembering nodes trivial. The default key is I. You can select from the list of nodes you have scanned, and an in-world arrow will show you the way. You can also sort the list.
+# EN name: I Can See Everything
+# EN desc: With your new wand, you can make Goggles of Revealing. You can now see nodes clearly, more so than with the thaumometer, but all the time! Additionally, the goggles give you a 5 percent vis discount.%n%nSimple lens upgrades will grant you various seeing abilities as well.%n%nLater you can make more advanced goggles and even integrate the goggles into advanced armors.%n%nWith TC Node Tracker, it makes remembering nodes trivial. The default key is I. You can select from the list of nodes you have scanned, and an in-world arrow will show you the way. You can also sort the list.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzg.name=[自訳]何でも見える
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzg.desc=新しい杖があれば、§7《§r洞察の眼鏡§7／Goggles of Revealing》§rを 作成できます。オーラ節がはっきり見えるようになり、ソーモメーターよりもくっきり、しかも常時です！加えて、眼鏡はVis消費を5%%軽減します。%n%n簡単なレンズ強化を施せば、さまざまな視覚能力も得られます。%n%n後にはより高度な眼鏡を作れるほか、高度な防具に眼鏡を統合することもできます。%n%nTC Node Trackerを使えば、 オーラ節の位置を覚えるのは朝飯前です。デフォルトのキーはIです。スキャン済みのオーラ節を一覧から選ぶと、ワールド内に矢印が道を示してくれます。一覧の並び替えもできます。
 
 # Quest: Infinite Bats! Wait, What??
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w.name=Infinite Bats! Wait, What??
@@ -12506,16 +12676,20 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.name=魔法の金属 - ナイトメ�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.desc=§7《§rナイトメタル§7／Kngihtmetal》§r は §7《§r黄昏の森§7／Twilight Forest》§r に生息する固有の種族、ゴブリンのみが鍛えることができる、魔法的な金属の一種です。%n%n具体的には、 §7《§rカブトヤドカリ§7／Helmet Crab》§r や §7《§rゴブリン騎士 (上)§7／Upper Goblin Knight》§r がドロップする §7《§r鎧の欠片§7／Armor Shard》§r を9つ集め、かまどで製錬することとで、抽出ができます。%nあるいは単純に、ゴブリン騎士の要塞のダンジョンチェストから、インゴットを入手することもできます。%n%n§7《§r葉鋼§7／Steeleaf》§r と同じく、後の時代では、 §7《§rソーラーファクトリー§7／Solar Factory》§r でGregTech製のソーラーパネルを製造する際に、素材として要求されます。%n%nCropsNHを進めれば、 §7《§rナイトメタルの鉱石ベリー§7／Knightly Oreberry》§r の栽培で、パッシブのナイトメタル生産ラインを構築することもできます。これは特に、ソーラーパネルを量産するうえで役に立ちます！%nあるいは、 §7《§r究極型エンティティ処理装置§7／Extreme Entity Crusher》§r を使用してください！%n%n§5この素材を使うと、特別な防具を作ることができるようです。§r
 
 # Quest: Clothes Make the Magical Man or Woman
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.name=Clothes Make the Magical Man or Woman
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.desc=The Witching Gadgets Spinning Wheel will unlock a few materials and items. Hopefully without that creep Rumpelstiltskin! Make sure you get the WG Spinning Wheel and not the Witchery version.
+# EN name: Clothes Make the Magical Man or Woman
+# EN desc: The Witching Gadgets Spinning Wheel will unlock a few materials and items. Hopefully without that creep Rumpelstiltskin! Make sure you get the WG Spinning Wheel and not the Witchery version.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.name=[自訳]人は服でなり、魔法使いも
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.desc=Witching Gadgetsの§7《§r紡車§7／Spinning Wheel》§rを作ると、 いくつかの材料とアイテムの研究が解放されます。かの藁を金に紡ぐグリム童話の気持ち悪い小人ルンペルシュティルツヒンが出てくるのだけは勘弁、とは思いますが！%n%nWitchery版ではなく、Witching Gadgets版の紡車を作るようにしてください。
 
 # Quest: Everything Fuzzy? Try Some Lenses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEw.name=Everything Fuzzy? Try Some Lenses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEw.desc=Now that you have Goggles of Revealing, Thaumic Horizons offers various lenses with handy uses. This one will grant night vision. Try out some of the others.
 
 # Quest: BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYg.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYg.desc=Automagy is a little subtle about what the "smort" mage needs to do next. Make some crystalline brains and scan them to unlock the next stage. You'll want to use the zombie brains you've been collecting from dangerous Furious zombies spawned by Eerie nodes.
+# EN name: BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
+# EN desc: Automagy is a little subtle about what the "smort" mage needs to do next. Make some crystalline brains and scan them to unlock the next stage. You'll want to use the zombie brains you've been collecting from dangerous Furious zombies spawned by Eerie nodes.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYg.name=[自訳]脳脳脳脳脳脳脳脳脳脳脳
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYg.desc=Automagyは、"スマート"な魔導士が次に何をすべきか、少し分かりにくく示しています。§7《§r結晶化した脳みそ§7／Crystalline Brain》§rをいくつか作り、スキャンして次の段階の研究を解放しましょう。§7《§rイーリー§7／Eerie》§rのオーラ節からスポーンする危険な§7《§r激怒したゾンビ§7／Furious Zombie》§rから 集めてきたゾンビの脳みそを使うことになるでしょう。
 
 # Quest: Gimme gimme gimme
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYw.name=Gimme gimme gimme
@@ -12562,8 +12736,10 @@ betterquesting.quest.PKOdH3D6SsG3LQN6-pFF_A.name=スキャンを簡単に
 betterquesting.quest.PKOdH3D6SsG3LQN6-pFF_A.desc=わかっています。Thaumcraftの序盤は研究が多く、手持ちの1000個ものアイテムをいちいち地面に投げて相をスキャンしたくないですよね。そこで、この面倒な作業を素早く簡単にするため、2つの便利なQOL向上機能を追加しました。%n%n1. アイテムを地面に投げる必要はありません。インベントリから直接スキャンできます。%n%n2. あなたは、中身を確認する気にもならないガラクタで満杯のラージチェストを、すでに何十個も積み上げているかもしれません。そこで、2つ目の機能――チェスト丸ごとスキャンです！§7《§rソーモメーター§7／Thaumometer》§r を構えたままチェストにシフト右クリックするだけで、中に入っているすべてのアイテムをスキャンできます。ただし、そのためには事前に§7《§rソーモノミコン§7／Thaumonomicon》§r で分解についてもう少し学ぶ必要があります。%n%n[note]ヒント: チェスト全体をスキャンする研究を完了するには、ソーモノミコンで「基礎知識」（一つ目のタブ）を開き、次の研究ルートを完了してください: 研究について -> 研究のノウハウ -> 分解テーブル -> コンテナの調査 [/note]
 
 # Quest: More Health
-betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=More Health
-betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=No matter how much of a crack shot you become it doesn't help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider's body. Usually incredible amounts of pain follow...%n%nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.%n%nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you'll be thankful you made these things.
+# EN name: More Health
+# EN desc: No matter how much of a crack shot you become it doesn't help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider's body. Usually incredible amounts of pain follow...%n%nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.%n%nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you'll be thankful you made these things.
+betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=[自訳]体力をもっと
+betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=どれだけ名射手になっても、§7《§rウィッチスパイダー§7／Witch Spider》§rの背中の赤い印に気づく前に、指が勝手にクロスボウを撃ってしまえば意味がありません。たいてい、その後は想像を絶する痛みが待っています…%n%n新しい杖があれば、§7《§r赤色のハートの器§7／Red Heart Canister》§rを作成できます。専用のインベントリスロットに最大10個まで装備でき、1個につき最大体力がハート1つ分増えます。%n%n十分とは言えないかもしれませんが、生きて立っていられるか、棺に横たわるかの差になったとき、作っておいてよかったと思うでしょう。
 
 # Quest: A Pechuliar Merchant
 betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.name=へんぺくりんな行商人
@@ -14760,8 +14936,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.name=Angel Wings - Combine!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.desc=The Angel Wings aren't very protective on their own. Crafting the Infused Quantum Chestplate allows you to combine with the Angel Wings to have a functional and protective combination!%n%n[note]This is still not nearly as good as the other option, the GraviChestPlate.[/note]
 
 # Quest: Light It Up!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=§c§lLight It Up!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful...%n%nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
+# EN name: §c§lLight It Up!
+# EN desc: The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful...%n%nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=[自訳]§c§l照らせ！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=§7《§r神秘のランプ§7／Arcane Lamp》§rは、 自身を中心とした半径16ブロックの球状範囲に、§7《§r松明§7／Torch》§rのように働く追加の光源を生成します。壁の向こうの洞窟なども含まれます。便利かもしれません…%n%n§7《§r神秘の掘削機の基礎§7／Arcane Bore Base》§rに取り付けると、§7《§r神秘のランプ§7／Arcane Lamp》§rは追加の能力を得ます。掘削機が掘ったトンネルを照らします。
 
 # Quest: Pimp Your Wand Focus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZg.name=Pimp Your Wand Focus
