@@ -6770,7 +6770,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0Q.desc=ココナッツは種油の王�
 # Quest: Industrial Grafter
 # EN name: Industrial Grafter
 # EN desc: If you're tired of constantly replacing branch cutters, this Industrial Grafter is rechargeable.%n%n[note]Or you could just make better ones.[/note]
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1w.name=[自訳]産業用接木小刀
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1w.name=[提出済み]産業用接木小刀
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1w.desc=枝切りバサミを何度も交換するのにうんざりしているなら、この§7《§r産業用接木小刀§7／Industrial Grafter》§rは充電式です。%n%n[note]あるいは、もっと良いものを作ればいいだけです。[/note]
 
 # Quest: Another Path to Ethanol
@@ -11470,14 +11470,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADJA.desc=内破圧縮機との相性は�
 # Quest: Breed some cultivated bees
 # EN name: Breed some cultivated bees
 # EN desc: Common Princess and Forest Drone can be bred to cultivated bees.%n%nCultivated bees have the shortest lifespan - this means they make great princesses to breed with your newly bred drones. The queen will die quickly, quickly giving genetic material to work with. Make sure the traits you want are kept!%n%nThey are also a Fast production bee, which means lots of honey combs for powering your Beealyzer or Treealyzer.%n%nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your cultivated bees are pure with a Beealyzer or GT scanner.%n%nThe main bee breeding quests will require pure bees but you can use Ignoble or Pristine princesses.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.name=[下書き]洗練種の蜂を交配しよう
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.desc=§7《§r平凡種§7／Common》§rの王女蜂と§7《§r森林種§7／Forest》§rの雄蜂を交配すると、§7《§r洗練種§7／Cultivated》§rが生まれます。%n%n洗練種は寿命が最短です。そのため、新たに交配で得た雄蜂との掛け合わせに使う王女蜂として最適です。女王蜂がすぐ死ぬので、遺伝材料を素早く得られます。欲しい特性が残るよう注意してください!%n%nまた生産速度は「速い」なので、§7《§r蜂分析器§7／Beealyzer》§rや§7《§r樹木分析器§7／Treealyzer》§rを動かすための§7《§r巣板§7／Honey Comb》§rがたくさん得られます。%n%n洗練種は0.9分ごとに巣板を生産します。なお、生産時間は蜂の基本生産速度と産物の希少度に基づく概算であり、実際の生産時間を正確に表すものではありません。%n%n§7《§r蜂分析器§7／Beealyzer》§rまたはGregTechのスキャナーで洗練種が純種であることを確かめてください。%n%n主な蜂の交配クエストは純種の提出が必要ですが、王女蜂は§7《§r遺伝子汚染個体§7／Ignoble》§rでも§7《§r純系個体§7／Pristine》§rでも構いません。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.name=[提出済み]洗練種の蜂を交配しよう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.desc=§7《§r平凡種§7／Common》§rの王女蜂と§7《§r森林種§7／Forest》§rの雄蜂を交配すると、§7《§r洗練種§7／Cultivated》§rが生まれます。%n%n洗練種は寿命が最短です。そのため、新たに交配で得た雄蜂との掛け合わせに使う王女蜂として最適です。女王蜂がすぐ死ぬので、遺伝材料を素早く得られます。欲しい特性が残るよう注意してください!%n%nまた生産速度は「速い」なので、蜂分析器や樹木分析器を動かすための巣板がたくさん得られます。%n%n洗練種は0.9分ごとに巣板を生産します。なお、生産時間は蜂の基本生産速度と産物の希少度に基づく概算であり、実際の生産時間を正確に表すものではありません。%n%n蜂分析器またはGregTechのスキャナーで洗練種が純種であることを確かめてください。%n%n主な蜂の交配クエストは純種の提出が必要ですが、王女蜂は遺伝子汚染個体でも純系個体でも構いません。
 
 # Quest: Breed some common bees
 # EN name: Breed some common bees
 # EN desc: To cross breed bees you need two different species of bees. One drone and one princess from different naturally-generating hives (Meadows and Forest as an example).%n%nBee Houses do not allow crossbreeding. You need an Apiary to cross-breed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing the mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.%n%n[note]Breeder's Notes:%n%nRiiiight from the start, they have a trick for you. The Common bee is bred from most mundane species smashed into each other. The problem is the Cultivated species, which is next in line, is bred with most mundane species along with Common. Noble and Diligent then are crossed from Common and Cultivated. You could start with two mundane bees, have the results loop back unattended, and run that whole progression. Here's an example active:inactive mix you could get on a princess over time:%n%nMeadows:Forest%nMeadows:Common (Yay!)%nCommon:Meadows (Double yay! Active trait!)%nCultivated:Common (Boo!)%n. . . some time passes . . .%nDiligent:Noble (Wait, what?!)%n%nMeanwhile, this quest would still be sitting there, waiting for you to submit Common bees. Whoops!%n%nIf Cultivated starts to show up, just stuff any princesses and drones involved into a chest and act like that didn't happen for now. You can use them when you complete this quest to jumpstart the Cultivated species.%n%nNow, if you don't have any way to speed up breeding and don't want to stand around to micromanage, you can try filtering, or just checking on the result from time to time. Either way, maybe don't leave it going overnight if you're on a server.%n[/note]
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.name=[下書き]平凡な蜂を交配しよう
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=蜂を交配するには、異なる2種の蜂が必要です。自然生成の蜂巣から得た、別種の雄蜂と王女蜂を1匹ずつ用意してください（例: §7《§r草原種§7／Meadows》§rと§7《§r森林種§7／Forest》§r）。%n%n§7《§rビーハウス§7／Bee House》§rでは交配できません。 新種へ交配するには§7《§r養蜂箱§7／Apiary》§rが必要です。特定の巣枠はこの過程に役立ちます。寿命を短くすれば交配が早く進み、突然変異率を上げれば変異、ひいては珍しい蜂をより早く得られます。%n%n§7《§r平凡種§7／Common》§rは2.2分ごとに§7《§r巣板§7／Honey Comb》§rを生産します。なお、生産時間は蜂の基本生産速度と産物の希少度に基づく概算であり、実際の生産時間を正確に表すものではありません。%n%n§7《§r蜂分析器§7／Beealyzer》§rまたはGregTechのスキャナーで遺伝を確認し、純種であることを確かめてください。%n%n[note]養蜂家のメモ:%n%n最初から、ちょっとした罠があります。平凡種は、ほとんどのありふれた種同士をぶつけ合わせて交配します。問題は、次に来る§7《§r洗練種§7／Cultivated》§rが、平凡種とほとんどのありふれた種を掛けて生まれることです。そのあと§7《§r高貴種§7／Noble》§rと§7《§r熱心種§7／Diligent》§rは、平凡種と洗練種から交配されます。ありふれた蜂2種から始めて、結果を放置でループさせれば、この進行一式が回ってしまうこともあります。王女蜂に時間とともに現れうる、顕性:潜性の組み合わせの例です:%n%n草原:森林%n草原:平凡（やった！）%n平凡:草原（二度やった！ 顕性特性だ！）%n洗練:平凡（うわ…）%n. . . しばらく経つと . . .%n熱心:高貴（えっ、なにこれ？！）%n%nそのあいだ、このクエストは平凡種の提出を待ち続けていることでしょう。しまった！%n%n洗練種が出始めたら、関係する王女蜂と雄蜂はチェストにしまい、今はなかったことにしておきましょう。このクエスト完了後に、洗練種の足掛かりとして使えます。%n%n交配を速める手段がなく、つきっきりで管理したくない場合は、フィルタを試すか、たまに結果を確認する程度でもよいでしょう。いずれにせよ、サーバーでは一晩放置しない方がよいかもしれません。%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=蜂を交配するには、異なる2種の蜂が必要です。自然生成の蜂巣から得た、別種の雄蜂と王女蜂を1匹ずつ用意してください（例: §7《§r草原種§7／Meadows》§rと§7《§r森林種§7／Forest》§r）。%n%n§7《§rビーハウス§7／Bee House》§rでは交配できません。 新種へ交配するには§7《§r養蜂箱§7／Apiary》§rが必要です。特定の巣枠はこの過程に役立ちます。寿命を短くすれば交配が早く進み、突然変異率を上げれば変異、ひいては珍しい蜂をより早く得られます。%n%n§7《§r平凡種§7／Common》§rは2.2分ごとに巣板を生産します。なお、生産時間は蜂の基本生産速度と産物の希少度に基づく概算であり、実際の生産時間を正確に表すものではありません。%n%n蜂分析器またはGregTechのスキャナーで遺伝を確認し、純種であることを確かめてください。%n%n[note]養蜂家のメモ:%n%n最初から、ちょっとした罠があります。平凡種は、ほとんどのありふれた種同士をぶつけ合わせて交配します。問題は、次に来る§7《§r洗練種§7／Cultivated》§rが、平凡種とほとんどのありふれた種を掛けて生まれることです。そのあと§7《§r高貴種§7／Noble》§rと§7《§r熱心種§7／Diligent》§rは、平凡種と洗練種から交配されます。ありふれた蜂2種から始めて、結果を放置でループさせれば、この進行一式が回ってしまうこともあります。王女蜂に時間とともに現れうる、顕性:潜性の組み合わせの例です:%n%n草原:森林%n草原:平凡（やった！）%n平凡:草原（二度やった！ 顕性特性だ！）%n洗練:平凡（うわ…）%n. . . しばらく経つと . . .%n熱心:高貴（えっ、なにこれ？！）%n%nそのあいだ、このクエストは平凡種の提出を待ち続けていることでしょう。しまった！%n%n洗練種が出始めたら、関係する王女蜂と雄蜂はチェストにしまい、今はなかったことにしておきましょう。このクエスト完了後に、洗練種の足掛かりとして使えます。%n%n交配を速める手段がなく、つきっきりで管理したくない場合は、フィルタを試すか、たまに結果を確認する程度でもよいでしょう。いずれにせよ、サーバーでは一晩放置しない方がよいかもしれません。%n[/note]
 
 # Quest: Breed some noble bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXg.name=Breed some noble bees
@@ -12352,7 +12352,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.desc=Your arcane table does a great 
 # Quest: Yet Another Brick in the Wall...
 # EN name: Yet Another Brick in the Wall...
 # EN desc: A magical one this time. You're on your way to infusion which needs 8 of these. Another 4 will be needed for the alchemical furnace.%n%n§3Yes, you need an MV PLE, deal with it.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w.name=[自訳]壁にもうひとつレンガ…
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w.name=[提出済み]壁にもうひとつレンガ…
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w.desc=今度は魔法のレンガです。注入の儀式には§7《§r神秘の石レンガ§7／Arcane Stone Brick》§rが8個必要です。§7《§r錬金かまど§7／Alchemical Furnace》§rの作成にはさらに4個です。%n%n§3ええ、MV級の精密レーザー刻印機が要ります。覚悟しておいてください。
 
 # Quest: Essentia Cooking
@@ -12410,7 +12410,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABAA.desc=もっといいものですよ�
 # Quest: Save the Squids, We Must
 # EN name: Save the Squids, We Must
 # EN desc: A very convenient way to make PETA activists happy and get ink at the same time.%n%nHint: The essentia in those roses might be useful...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAQ.name=[自訳]イカを救わねばならぬ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAQ.name=[提出済み]イカを救わねばならぬ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABAQ.desc=PETAの活動家を喜ばせつつ、同時にインクも手に入れられる、とても便利な方法です。%n%nヒント: あの§7《§r影のバラ§7／Umbral Rose》§rに 含まれるエッセンシアは、役に立つかもしれません…
 
 # Quest: Infinite... Lava?
@@ -12504,7 +12504,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA.desc=もしあなたが黄昏の森�
 # Quest: Where'd I Put That Amber?
 # EN name: Where'd I Put That Amber?
 # EN desc: Every Thaumcraft Infused Stone vein has a bit of amber ore in it. I'm sure you have a bunch by now.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.name=[自訳]琥珀、どこにやったっけ？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.name=[提出済み]琥珀、どこにやったっけ？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.desc=Thaumcraftの染み込んだ石鉱脈には、どれも少し§7《§r琥珀鉱石§7／Amber Ore》§rが混ざっています。もうかなり集めたはずです。
 
 # Quest: Just Tell Me What to Scan Already!
@@ -12558,7 +12558,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ.desc=And swimming. These boots of th
 # Quest: I Can See Everything
 # EN name: I Can See Everything
 # EN desc: With your new wand, you can make Goggles of Revealing. You can now see nodes clearly, more so than with the thaumometer, but all the time! Additionally, the goggles give you a 5 percent vis discount.%n%nSimple lens upgrades will grant you various seeing abilities as well.%n%nLater you can make more advanced goggles and even integrate the goggles into advanced armors.%n%nWith TC Node Tracker, it makes remembering nodes trivial. The default key is I. You can select from the list of nodes you have scanned, and an in-world arrow will show you the way. You can also sort the list.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzg.name=[自訳]何でも見える
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzg.name=[提出済み]何でも見える
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzg.desc=新しい杖があれば、§7《§r洞察の眼鏡§7／Goggles of Revealing》§rを 作成できます。オーラ節がはっきり見えるようになり、ソーモメーターよりもくっきり、しかも常時です！加えて、眼鏡はVis消費を5%%軽減します。%n%n簡単なレンズ強化を施せば、さまざまな視覚能力も得られます。%n%n後にはより高度な眼鏡を作れるほか、高度な防具に眼鏡を統合することもできます。%n%nTC Node Trackerを使えば、 オーラ節の位置を覚えるのは朝飯前です。デフォルトのキーはIです。スキャン済みのオーラ節を一覧から選ぶと、ワールド内に矢印が道を示してくれます。一覧の並び替えもできます。
 
 # Quest: Infinite Bats! Wait, What??
@@ -12576,7 +12576,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.desc=§7《§rナイトメタル§7�
 # Quest: Clothes Make the Magical Man or Woman
 # EN name: Clothes Make the Magical Man or Woman
 # EN desc: The Witching Gadgets Spinning Wheel will unlock a few materials and items. Hopefully without that creep Rumpelstiltskin! Make sure you get the WG Spinning Wheel and not the Witchery version.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.name=[自訳]人は服でなり、魔法使いも
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.name=[提出済み]人は服でなり、魔法使いも
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.desc=Witching Gadgetsの§7《§r紡車§7／Spinning Wheel》§rを作ると、 いくつかの材料とアイテムの研究が解放されます。かの藁を金に紡ぐグリム童話の気持ち悪い小人ルンペルシュティルツヒンが出てくるのだけは勘弁、とは思いますが！%n%nWitchery版ではなく、Witching Gadgets版の紡車を作るようにしてください。
 
 # Quest: Everything Fuzzy? Try Some Lenses
@@ -12586,7 +12586,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEw.desc=Now that you have Goggles of Re
 # Quest: BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
 # EN name: BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
 # EN desc: Automagy is a little subtle about what the "smort" mage needs to do next. Make some crystalline brains and scan them to unlock the next stage. You'll want to use the zombie brains you've been collecting from dangerous Furious zombies spawned by Eerie nodes.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYg.name=[自訳]脳脳脳脳脳脳脳脳脳脳脳
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYg.name=[提出済み]脳脳脳脳脳脳脳脳脳脳脳
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYg.desc=Automagyは、"スマート"な魔導士が次に何をすべきか、少し分かりにくく示しています。§7《§r結晶化した脳みそ§7／Crystalline Brain》§rをいくつか作り、スキャンして次の段階の研究を解放しましょう。§7《§rイーリー§7／Eerie》§rのオーラ節からスポーンする危険な§7《§r激怒したゾンビ§7／Furious Zombie》§rから 集めてきたゾンビの脳みそを使うことになるでしょう。
 
 # Quest: Gimme gimme gimme
@@ -12636,7 +12636,7 @@ betterquesting.quest.PKOdH3D6SsG3LQN6-pFF_A.desc=わかっています。Thaumcr
 # Quest: More Health
 # EN name: More Health
 # EN desc: No matter how much of a crack shot you become it doesn't help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider's body. Usually incredible amounts of pain follow...%n%nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.%n%nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you'll be thankful you made these things.
-betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=[自訳]体力をもっと
+betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=[提出済み]体力をもっと
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=どれだけ名射手になっても、§7《§rウィッチスパイダー§7／Witch Spider》§rの背中の赤い印に気づく前に、指が勝手にクロスボウを撃ってしまえば意味がありません。たいてい、その後は想像を絶する痛みが待っています…%n%n新しい杖があれば、§7《§r赤色のハートの器§7／Red Heart Canister》§rを作成できます。専用のインベントリスロットに最大10個まで装備でき、1個につき最大体力がハート1つ分増えます。%n%n十分とは言えないかもしれませんが、生きて立っていられるか、棺に横たわるかの差になったとき、作っておいてよかったと思うでしょう。
 
 # Quest: A Pechuliar Merchant
@@ -14836,7 +14836,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.desc=The Angel Wings aren't very pro
 # Quest: Light It Up!
 # EN name: §c§lLight It Up!
 # EN desc: The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful...%n%nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=[自訳]§c§l照らせ！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=[提出済み]§c§l照らせ！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=§7《§r神秘のランプ§7／Arcane Lamp》§rは、 自身を中心とした半径16ブロックの球状範囲に、§7《§r松明§7／Torch》§rのように働く追加の光源を生成します。壁の向こうの洞窟なども含まれます。便利かもしれません…%n%n§7《§r神秘の掘削機の基礎§7／Arcane Bore Base》§rに取り付けると、§7《§r神秘のランプ§7／Arcane Lamp》§rは追加の能力を得ます。掘削機が掘ったトンネルを照らします。
 
 # Quest: Pimp Your Wand Focus
