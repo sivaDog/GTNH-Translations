@@ -1087,9 +1087,12 @@ tc.research_name.ElectricCloud=Electric Cloud
 tc.research_text.ElectricCloud=Still the same Nitor
 tc.research_page.ElectricCloud1=All thaumaturges (except Crimson ones, I guess) enjoy the shine and heat of the magic flame called Nitor, don't they? You decided to make it more... energetic. Well, you did it.<BR><BR>You have created a new kind of magic flame — the Electric Cloud. It behaves and looks like normal Nitor, but it has purple colour and creates light-purple lightning charges around itself. To upgrade into an Electric Cloud you need to click RMB on Nitor with an advanced battery (or better) on hand.
 tc.research_page.ElectricCloud2=<IMG>emt:textures/researches/electric_cloud.png:0:0:255:255:0.6</IMG>
-tc.research_name.FeatherWings=Feather Wings
-tc.research_text.FeatherWings=It only works in anime...
-tc.research_page.FeatherWings=Duct-taping feathers to cardboard sheets, formed in the shape of wings, sounded like a good idea. At least, you can thrust yourself in the air when the spacebar is hit. Not much, but it'll work. Using any wings underwater or during the rain sounds like a very bad idea. Included: fall damage reduction, 25%.
+# EN name: Feather Wings
+# EN text: It only works in anime...
+# EN page: Duct-taping feathers to cardboard sheets, formed in the shape of wings, sounded like a good idea. At least, you can thrust yourself in the air when the spacebar is hit. Not much, but it'll work. Using any wings underwater or during the rain sounds like a very bad idea. Included: fall damage reduction, 25%.
+tc.research_name.FeatherWings=[提出済み]羽根の翼
+tc.research_text.FeatherWings=アニメでしか通用しない...
+tc.research_page.FeatherWings=ボール紙シートに羽根をダクトテープで貼り付け、翼の形に整えてみた。悪くない考えに思えた。<BR>少なくとも、スペースキーを押せば空中へ体を押し出せる。大した高さではないが、それでも用は足りるだろう。水中や雨の中で翼を使うのは、とても良い考えとは言えない。<BR>落下ダメージは25%ほど軽減されるようだ。
 tc.research_name.ThaumiumReinforcedWings=魔導金属で強化された翼
 tc.research_text.ThaumiumReinforcedWings=Already much better
 tc.research_page.ThaumiumReinforcedWings=The magically infused metal Thaumium is well known. Therefore, reinforcing your cardboard wings with Thaumium sounded like a good idea. You can thrust yourself much higher on spacebar hit, and slow your fall down when spacebar is held. Sneak to go down at a steady pace. Included: fall damage reduction, 50%.

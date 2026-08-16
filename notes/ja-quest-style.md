@@ -2,6 +2,8 @@
 
 ParaTranz / 手元ドラフト共通。既存の良い訳（とくに養蜂「巣枠」クエスト）に揃える。
 
+ソーモノミコン本文は対象外。口調・書式は `notes/ja-thaumonomicon-style.md`（常体の独白）。
+
 ## 口調
 
 - クエストブック本文は **敬体（です・ます）**
@@ -73,15 +75,22 @@ ParaTranz / 手元ドラフト共通。既存の良い訳（とくに養蜂「�
 
 DeepL 利用時はこれらが落ちやすいので、原文と必ず突合する。
 
-## 下書きマーク（手元ブランチのみ）
+## 手元マーク（検索用・手元ブランチのみ）
 
-自分が翻訳したクエストは、確定前はゲーム内で公式訳と区別できるよう **`name` の先頭に `[下書き]`** を付ける。確定後は **`[自訳]`** に変更する。`desc` には付けない。
+自分が訳したクエストをあとから拾いやすいよう、**`name` の先頭**に次のいずれか **1つ** を付ける。`desc` には付けない。重ね書きしない（`[下書き]` → `[自訳]` → `[提出済み]` と置き換える）。
+
+| マーク | 意味 | 検索 |
+|--------|------|------|
+| `[下書き]` | ゲーム未確認、または文言が未確定 | 作業中 |
+| `[自訳]` | ゲームで見て手元では確定 | 投稿待ち |
+| `[提出済み]` | ParaTranz に投稿した | 自分の投稿分 |
 
 - 例: `name=[下書き]含侵加工済み巣枠`
-- ユーザーが訳を確定したら `[下書き]` を `[自訳]` に変更する（手元での確定版）
-- ParaTranz へ投稿する確定文では `[下書き]` と `[自訳]` を外す
+- ゲーム内タイトルにも出る。公式訳と区別するための印
+- **ParaTranz へ貼る文面からはマークを外す。** 手元ファイルには残して検索できるようにする
+- 検索例: エディタで `[下書き]` / `[自訳]` / `[提出済み]` をファイル内検索
 
-CustomToolTips は `ja_JP/config/txloader/load/customtooltips/lang/ja_JP.lang`（キー `customtooltip.*`）。locale 専用 XML は置かない（あると本体のキー化 XML より優先され lang が効かない）。値の先頭に `[下書き]` / `[自訳]` を付ける。
+CustomToolTips は `ja_JP/config/txloader/load/customtooltips/lang/ja_JP.lang`（キー `customtooltip.*`）。locale 専用 XML は置かない（あると本体のキー化 XML より優先され lang が効かない）。値の先頭に同じ3マークを付ける。
 
 - 例: `customtooltip.bee_apiary=[下書き]有効生産確率…`
 
@@ -93,6 +102,9 @@ CustomToolTips は `ja_JP/config/txloader/load/customtooltips/lang/ja_JP.lang`�
    - `Coins, Coins, Coins` 章は 2.9+ で Vending Machine 化され upstream 対象外のため、翻訳作業対象に含めない
    - `初歩的な魔導学`（Novice Thaumaturgy / questline `AAAAAAAAAAAAAAAAAAAAFg`）は `notes/quest-ids-2.8.4.txt` 末尾に **103 ID** 追加済み（2.8.4 章 99 + master 整合の 4）。未訳一覧は `notes/novice-thaumaturgy-gap.txt`（英語のまま残っているものは約 57 件）
    - `交配の方蜂`（Be(e) Breeding / questline `AAAAAAAAAAAAAAAAAAAAEw`）は `notes/quest-ids-2.8.4.txt` に **170 ID** 済み。切り出しは `notes/quest-ids-bee-breeding.txt`、未訳一覧は `notes/bee-breeding-gap.txt`
+   - `EUの蓄電と変圧`（Storing and Transforming EU / questline `AAAAAAAAAAAAAAAAAAAAIQ`）は **69 ID** 済み（master のみの TurboCharger は除外）。切り出しは `notes/quest-ids-storing-and-transf.txt`
+   - `基本的な自動化`（Basic Automation / questline `AAAAAAAAAAAAAAAAAAAADg`）は **35 ID** 済み。2.8.4 と master は同一。切り出しは `notes/quest-ids-basic-automation.txt`
+   - `旅に出かけよう...`（Getting Around... / questline `bAal8kZ3R8eRTwaHgbYkKA`）は **71 ID** 済み（master のみの ChaosLocator は除外）。切り出しは `notes/quest-ids-getting-around.txt`
 3. `/bq_admin default load` はクエスト JSON 用。lang のリロードコマンドではない
 
 ## レビュー観点チェックリスト
@@ -116,22 +128,23 @@ CustomToolTips は `ja_JP/config/txloader/load/customtooltips/lang/ja_JP.lang`�
   - `# EN name: ...`
   - `# EN desc: ...`
   - `# EN desc:` の直後に空行を入れない（次行はすぐ `betterquesting.quest....name=`）
-- 訳を確定して `[自訳]` に戻すときに、対応する英語原文コメントを削除する
+- 訳を確定して `[自訳]` にするときに、対応する英語原文コメントを削除する
+- ParaTranz へ投稿したら、手元の `[自訳]` を `[提出済み]` にする
 
 1. 手元の `ja_JP.lang` を編集 → `./sync-verified-quests.sh` → ゲーム再起動で確認  
 2. **見た目・文言が確定してから** git commit / push（下書き段階ではコミットしない）  
-3. 公式反映は ParaTranz へ確定文を投稿
+3. 公式反映は ParaTranz へ確定文を投稿（手元マークは外した文面）
 
-## upstream マージ後の `[下書き]` 復元
+## upstream マージ後の手元マーク復元
 
-`origin/master` を `--theirs` で取り込むと、ParaTranz 未反映の `[下書き]` エントリは upstream 側に存在しないため消えます。マージ直後に次を実行してください。
+`origin/master` を `--theirs` で取り込むと、ParaTranz 未反映の `[下書き]` / `[自訳]` / `[提出済み]` エントリは upstream 側に存在しないため消えます。マージ直後に次を実行してください。
 
 ```bash
 ./tools/restore_drafts_after_merge.sh
 ./sync-verified-quests.sh
 ```
 
-`restore_drafts_after_merge.sh` は merge 直前の `HEAD^1`（作業ブランチ側）から `[下書き]` を読み、upstream ベースの `ja_JP.lang` へ **置換または新規挿入** します。`sync-verified-quests.sh` は同期前に `tools/check_quest_lang_coverage.py` で ID リストと lang の欠落を検査します。
+`restore_drafts_after_merge.sh` は merge 直前の `HEAD^1`（作業ブランチ側）から **`[下書き]`** を読み、upstream ベースの `ja_JP.lang` へ **置換または新規挿入** します。`[自訳]` / `[提出済み]` はスクリプト対象外なので、消えたら作業ブランチ側から手で戻す。`sync-verified-quests.sh` は同期前に `tools/check_quest_lang_coverage.py` で ID リストと lang の欠落を検査します。
 
 消失の検証（`.desc=` / quest ID 件数比較）:
 
