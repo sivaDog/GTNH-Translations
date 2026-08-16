@@ -1,38 +1,38 @@
 ## Misc
-customtooltip.quest_reset_warning=§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!
-customtooltip.blast_resistance_warning=§4Blast resistance is now %s. DOES NOT PROTECT AGAINST NUKES!
-customtooltip.cooldown_seconds=Cooldown %s seconds
-customtooltip.infinite_energy=§dInfinite Energy
-customtooltip.expensive_device=§3Now: Quite Expensive Device
-customtooltip.riches_imagination=§3Riches beyond your imagination
+customtooltip.quest_reset_warning=§4このブロックは§nすべてのクエスト進捗をリセット§r§4し、Tier 0からやり直させます。本当にそうしたい場合を除き、設置や使用はしないでください。
+customtooltip.blast_resistance_warning=§4 爆発耐久値は%sです。核爆発には耐えられません！
+customtooltip.cooldown_seconds=クールダウン: %s秒
+customtooltip.infinite_energy=§d無限のエネルギー
+customtooltip.expensive_device=§3QED (Quite Expensive Device)
+customtooltip.riches_imagination=§3想像を絶する富
 customtooltip.ender_collector_warning=§4Warning: When broken, the powerful ender collector may vanish in an attempt to collect itself!...and take nearby items with it!
-customtooltip.max_voltage_eu=§4Maximum voltage in: %s EU/t
-customtooltip.need_gloves=§4You need Gloves for it?
-customtooltip.prolonged_use_warning=§4Prolonged use is not recommended...
-customtooltip.perpetual_locomotion=§dPerpetual Locomotion
+customtooltip.max_voltage_eu=§4最大入力電圧: %s EU/t
+customtooltip.need_gloves=グローブが必要？
+customtooltip.prolonged_use_warning=§4長期間の使用は非推奨です...
+customtooltip.perpetual_locomotion=§d永久機関
 
-customtooltip.disabled_item=§4Disabled Item; No recipe
-customtooltip.personal_use=§3Only For Personal Use
+customtooltip.disabled_item=§4アイテム無効化済み; レシピはありません
+customtooltip.personal_use=§3個人使用に限る
 customtooltip.left_click_disabled=§4left click disabled
-customtooltip.recharge_tier_machine=Recharge in a %s-tier §7Machine
+customtooltip.recharge_tier_machine=%s-tier§7の機械で充電可能
 
 ## Bags
-customtooltip.backpack_slots=%s Slots
-customtooltip.crafting_backpack_slots=Crafting Backpack with %s Inventory Slots
+customtooltip.backpack_slots=%s スロット
+customtooltip.crafting_backpack_slots=%sスロットのインベントリ付きクラフト用バックパック
 
 ## Chisel
-customtooltip.chisel_mod=§5Chisel from Chisel Mod
+customtooltip.chisel_mod=§5Chisel Modのノミ
 
 ## Core Mod
-customtooltip.oven_gloves_slot=§3Put both Gloves in the Baubles Ring Slot
-customtooltip.cannot_wear=§4Don't try to wear this, you can't
+customtooltip.oven_gloves_slot=§3Baublesの指輪スロットに両方のグローブを装着してください
+customtooltip.cannot_wear=§4これを着ようとしないでください、着用はできません
 customtooltip.very_toxic=§4Very toxic
-customtooltip.blood_altar_pillar=§5Used for Blood Altar Tier %s Pillars
-customtooltip.reinforced_stone_stats=§3Hardness %s §4Blast Resistance %s
+customtooltip.blood_altar_pillar=§5血の祭壇のTier %sの柱に使用する
+customtooltip.reinforced_stone_stats=§3硬度: %s §4爆発耐久値: %s
 customtooltip.chunkloader_coin=%s%sH Chunkloader Coin, %sH in Passive Chunkloader, %sH in Personal Chunkloader
 customtooltip.chunkloader_ender_fragment=§11H Use in Personal Chunkloader
 customtooltip.ender_pearl_chunkloader=§81H Chunkloader Use in Passive and 4H in Personal Chunkloader
-customtooltip.donation_servers=§4Can be used for Donation on Servers only
+customtooltip.donation_servers=§4サーバーへの寄付専用
 
 ## Draconic Evolution
 customtooltip.slush_warning=§2I hope you are not going to eat this later.
@@ -50,15 +50,15 @@ customtooltip.crystallized_shards=§b§lCrystallized shards stabilized by a maxi
 customtooltip.battery_tier=%s-tier
 
 ## OMT
-customtooltip.omt_hardness_resistance=Hardness: %s - Blast Resistance: %s
+customtooltip.omt_hardness_resistance=硬度: %s - 爆発耐久値: %s
 
 ## Tinkers Construct
-customtooltip.smeltery_purity_warning=§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing.
-customtooltip.crops_nh_oreberries=Can be placed on empty Crop Sticks. See their growth requirements in NEI.
+customtooltip.smeltery_purity_warning=§3乾式製錬炉で処理した金属の一部は、規格に満たない純度のためGregTechでの加工に使用できません
+customtooltip.crops_nh_oreberries=空の支柱に植えられます。生育条件をNEIで確認してください
 
 ## GG
-customtooltip.check_ebf_recipe=§3Check Flawed Crystal recipe in EBF
-customtooltip.check_press_recipe=§3Check Plate recipe in Forming Press
+customtooltip.check_ebf_recipe=§3傷のある結晶のEBFレシピを確認してください
+customtooltip.check_press_recipe=§3プレートの§8《§3成型プレス機§8／Forming Press》§3レシピを確認してください
 
 ## Bee Housings
 customtooltip.bee_apiary=[下書き]有効生産確率(パーセント)は\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nです。ここで b は基本生産確率(パーセント)、\np は生産補正(加算、養蜂箱では初期値 -0.9)、\nt は養蜂箱では 1、\ns は蜂の速度値です\n産出は各蜂刻(27.5秒)の終了時に行われます\n主産出は基本確率で1回、さらに半分の基本確率で1回判定されます

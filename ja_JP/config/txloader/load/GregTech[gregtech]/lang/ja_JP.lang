@@ -200,7 +200,7 @@ gt.voltage.tier=-tier
 gt.blockmachines.cable.desc=最大電圧: %s\n最大アンペア数: %s\n1ブロック・アンペア毎の減衰: %s
 gt.blockmachines.gt_frame.desc.format=カバーを貼り付けることができる、それだけ。
 gt.blockmachines.transformer.desc=%s -> %s (§8《§7ソフトマレット§8／Soft Mallet》§7を使用して反転)
-gt.blockmachines.transformer_advanced.desc=%sAを入力し、%sAを出力\n§8《§7ドライバー§8／Screwdriver》§7でハーフモード(2A/8A)に切り替え
+gt.blockmachines.transformer_advanced.desc=%sAを入力し、%sAを出力する\n§8《§7ドライバー§8／Screwdriver》§7でハーフモード(%sA/%sA)に切り替え
 gt.blockmachines.bronze_hull.desc=初めての蒸気機械に
 gt.blockmachines.highpressure_hull.desc=蒸気機械の改良に
 gt.blockmachines.basic_hull.desc=§rこれを使うには§5無§d限§4大§cの§e想§a像§bす§3る§9力§rが必要です。
@@ -1719,6 +1719,9 @@ gt.mbtt.structure.any_front_bottom_casing=正面最下段の任意の外装
 gt.mbtt.structure.around_controller=本体の周囲
 gt.mbtt.structure.any_back_center_casing=背面中央の任意の外装
 gt.mbtt.structure.any_front_shielding_casing=正面の任意の防護外装
+gt.mbtt.structure.front_center_of_central_column_4th_layer=中央の円柱の正面中央、4段目
+gt.mbtt.structure.any_bottom_center_casing=底面中央の任意の外装
+gt.mbtt.structure.surrounding_central_column=中央の円柱の周囲
 
 # Generic machine types
 gt.mbtt.machine_type.spacetime_manipulator=Spacetime Manipulator, EOH
@@ -2218,7 +2221,7 @@ GT5U.machines.chunks=チャンク
 GT5U.machines.miner=採掘機
 GT5U.machines.powersource.power=電力
 GT5U.machines.powersource.steam=蒸気
-GT5U.machines.steam.amount=%1$s/%2$sL 蒸気
+GT5U.machines.steam.amount=%1$s/%2$s 蒸気
 GT5U.machines.pump=ポンプ
 GT5U.machines.separatebus.true=入力バスの分離モードを有効にしました
 GT5U.machines.separatebus.false=入力バスの分離モードを無効にしました
@@ -5910,6 +5913,10 @@ nei.options.tools.dump.gt5u.batch_mode=Batch mode missing support
 nei.options.tools.dump.gt5u.batch_modes=Batch mode missing supports
 nei.options.tools.dump.gt5u.recipe_locking=Recipe locking missing support
 nei.options.tools.dump.gt5u.recipe_lockings=Recipe locking missing supports
+nei.options.tools.dump.gt5u.fuels=Turbine Fuel Data
+nei.options.tools.dump.gt5u.fuelss=Turbine Fuels dumped to dumps/fuels.json
+nei.options.tools.dump.gt5u.rotors=Turbine Rotor Data
+nei.options.tools.dump.gt5u.rotorss=Turbine Rotors dumped to dumps/rotors.json
 nei.options.tools.dump.gt5u.warn_env=You're outside of the pack. Some IDs present in the full pack might be missing in this dump.
 nei.options.tools.dump.gt5u.mode.0=未使用
 nei.options.tools.dump.gt5u.mode.1=使用済
@@ -9155,7 +9162,7 @@ GT5U.tooltip.bec-diode.bec-hatch-pos=Center left casing (input), center right ca
 
 # BEC Assembler Structure Hints
 GT5U.tooltip.bec-assembler.controller-pos=Front center, 16th layer
-GT5U.tooltip.bec-assembler.hatch-pos=Any electromagnetically-isolated casing
+GT5U.tooltip.bec-assembler.hatch-pos=Any outer electromagnetically-isolated casing, every other IO port ring 
 GT5U.tooltip.bec-assembler.bec-hatch-pos=Center left or right casing
 GT5U.tooltip.bec-assembler.los-hatch-pos=Center side casing of each ring
 

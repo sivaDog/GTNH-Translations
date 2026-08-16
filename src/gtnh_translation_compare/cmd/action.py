@@ -97,10 +97,22 @@ class Action:
         # Dedupe by the local path the file will actually be written to, not the raw
         # ParaTranz relpath: ParaTranz-side duplicate names (e.g. "Foo (+3)") and casing
         # differences only collapse to the same path once path_converter has run.
+        resource_file_map: Dict[str, tuple[bool, TranslationFile]] = {}
+        remainder_files: list[TranslationFile] = []
         for translation_file in translation_files:
-            translation_file.relpath = str(
-                path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
-            )
+            if path_converter is _resources_to_txloader_path:
+                isCanonical, path = _resources_to_txloader_path_internal(translation_file.relpath)
+                translation_file.relpath = str(path)
+                if isCanonical:
+                    resource_file_map[translation_file.relpath] = (isCanonical, translation_file)
+                elif translation_file.relpath not in resource_file_map or not resource_file_map[translation_file.relpath][0]:
+                    resource_file_map[translation_file.relpath] = (isCanonical, translation_file)
+            else:
+                translation_file.relpath = str(
+                    path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
+                )
+                remainder_files.append(translation_file)
+        translation_files = [file for _, file in resource_file_map.values()] + remainder_files
         translation_files = _dedupe_case_insensitive_paths(translation_files)
 
         for translation_file in translation_files:
@@ -279,6 +291,11 @@ class Action:
         relpath = get_relpath(settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH)
         write_file(os.path.abspath(relpath), ctt_content)
 
+        # Pack-side lang file, not shipped in any mod jar, so it has to be fetched separately
+        override_names_content = _download_from_gtnh(settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH)
+        relpath = get_relpath(settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH)
+        write_file(os.path.abspath(relpath), override_names_content)
+
         git_commit(
             str(repo_path),
             [str(base_path)],
@@ -342,6 +359,7 @@ class Action:
         for pack_relpath in (
             settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH,
             settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH,
+            settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH,
         ):
             if pack_relpath in changed_relpaths:
                 await self._pack_lang_file_to_paratranz(base_path, pack_relpath)
@@ -385,6 +403,7 @@ class Action:
         base_path: Path = repo_path / subdirectory
         await self._pack_lang_file_to_paratranz(base_path, settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
         await self._pack_lang_file_to_paratranz(base_path, settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH)
+        await self._pack_lang_file_to_paratranz(base_path, settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH)
 
         lang_files = []
         for file_path in glob.glob(f'./{base_path}/resources/*/lang/en_US.lang'):
@@ -456,7 +475,7 @@ class Action:
         jar_files: Sequence[Filetype] = modpack.lang_files(settings.TARGET_LANG)
         logger.info(f"There are {len(jar_files)} existing translations in mod jars")
         all_paratranz_files = await self.client.get_all_files()
-        count = 1
+        skipped: list[str] = []
 
         def prepare_string_to_upload(string_item: StringItem) -> bool:
             jar_translation = jar_lang_file.properties.get(string_item.key)
@@ -471,12 +490,17 @@ class Action:
             # updated since the creation of the translation file and the script wrongly guesses it's legit translation.
             return False
 
-        for jar_lang_file in jar_files:
+        for count, jar_lang_file in enumerate(jar_files, 1):
             matched_paratranz_files = list(filter(lambda f: f.name.removesuffix(".json") == jar_lang_file.relpath, all_paratranz_files))
             if len(matched_paratranz_files) > 1:
                 raise RuntimeError(f"There're multiple matching files, this shouldn't happen! {jar_lang_file.relpath}")
             if len(matched_paratranz_files) == 0:
-                raise RuntimeError(f"No file matched, maybe you didn't sync files to ParaTraz? {jar_lang_file.relpath}")
+                # Not every mod in the modpack is tracked on ParaTranz, so a missing file is expected.
+                # It can also mean the file did not get synced, hence the annotation instead of a silent skip.
+                print(f"::warning::No file matched on ParaTranz, skipping: {jar_lang_file.relpath}")
+                logger.warning(f"No file matched on ParaTranz, skipping: {jar_lang_file.relpath}")
+                skipped.append(jar_lang_file.relpath)
+                continue
             matched_paratranz_file = matched_paratranz_files[0]
             paratranz_string_list = await self.client.get_strings(matched_paratranz_file.id)
 
@@ -495,9 +519,9 @@ class Action:
                 await self.client.upload_strings(new_string_list)
                 logger.info(f"Uploaded {jar_lang_file.relpath}!")
 
-            count += 1
-            if count > len(jar_files):
-                break
+        if skipped:
+            print(f"::warning::Skipped {len(skipped)} jar lang files with no matching ParaTranz file")
+            logger.warning("Skipped files:\n{}", "\n".join(skipped))
 
     def upload_jar_translations(self, modpack_path: str, interactive: bool = True) -> None:
         asyncio.run(self._upload_jar_translations(Path(modpack_path), interactive))
@@ -575,9 +599,13 @@ def is_mod_lang_file(name: str) -> bool:
 
 
 def _resources_to_txloader_path(path: str) -> Path:
+    return _resources_to_txloader_path_internal(path)[1]
+
+def _resources_to_txloader_path_internal(path: str) -> tuple[bool, Path]:
     # Existing projects use resource folder on PT
     cfg = Path("config")
     provided = Path(path)
+    isCanonical = True
     if provided.parts and provided.parts[0] == "config":
         logger.info(f"Skip normalizing path for {path}")
     elif provided.parts and provided.parts[0] == "resources":
@@ -585,13 +613,14 @@ def _resources_to_txloader_path(path: str) -> Path:
         for i in range(len(parts)):
             result = re.sub(r"\(\+\d+\)", "", parts[i])
             if result != parts[i]:
+                isCanonical = False
                 logger.warning(f"Trimmed path for {parts[i]}")
                 parts[i] = result
         provided = cfg / "txloader" / "load" / Path(*parts[1:])
     else:
         logger.warning(f"Unknown path {path}")
         provided = cfg / "txloader" / "load" / provided
-    return provided
+    return (isCanonical, provided)
 
 
 MOD_DOMAIN_RE = re.compile(r"\[([^\[\]]+)\]$")
