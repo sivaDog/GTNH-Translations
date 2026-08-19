@@ -11137,7 +11137,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.desc=これらの巣枠は蜂をよ�
 # Quest: Keep Them Around
 # EN name: Keep Them Around
 # EN desc: These frames will keep your bees buzzing for longer. If you care, that is.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.name=[下書き]長く居させておこう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.name=[提出済み]長く居させておこう
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.desc=これらの巣枠は蜂をより長くブンブンさせ続けます。気にかけるなら、ですが。
 
 # Quest: Are the Bees Buzzing, or Screaming?
@@ -11840,7 +11840,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.desc=Enchanting drops from Arcane be
 # Quest: Eldritch
 # EN name: Eldritch
 # EN desc: Eldritch are the start of the magic bee family. Breed them from Mystical and Cultivated.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpQ.name=[下書き]禁忌種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpQ.name=[提出済み]禁忌種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpQ.desc=§7《§r禁忌種§7／Eldritch》§rは魔法の蜂の系統の始まりです。神秘種と洗練種を交配してみましょう。
 
 # Quest: Supernatural
