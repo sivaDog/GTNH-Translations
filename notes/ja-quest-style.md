@@ -25,7 +25,8 @@ ParaTranz / 手元ドラフト共通。既存の良い訳（とくに養蜂「�
   - NG: `§r は、` / `§r よりも`
   - OK: `§rは、` / `§rよりも`
 - 全角かっこ `（）`・全角スペースは使わない（表示崩れ）
-- `§l`（太字）は極力使わず、強調は既存方針に合わせる（多くは `§n`）
+- 題名: 色コード（`§6` など）は原文に合わせ、太字 `§l` は公式方針どおり `§n` に置換する（ParaTranz #25118。英語題に `§n` は使われていない）
+- 本文: 原文の `§n`（見出し・下線）はそのまま残す。原文の `§l` は太字を使わず、機械名は《》、強調は `§n` か既存の書き方に寄せる
 
 ## スペース（重要）
 
@@ -99,6 +100,7 @@ CustomToolTips は `ja_JP/config/txloader/load/customtooltips/lang/ja_JP.lang`�
 1. 訳は **ParaTranz** が本番。手元ブランチは下書き・用語揃え用
 2. 確認: `./sync-verified-quests.sh` → **ゲーム完全再起動**（ワールド再入場だけでは lang は載らない）
    - sync 対象は `notes/quest-ids-2.8.4.txt` にあるクエストのみ。章を増やすときはその ID リストへ追加する
+   - 章ごとではなく個別クエストだけ載せる場合も、同じリストへ ID を足せばよい（末尾 `Pickups` セクション）。章に所属している必要はない。2.8.4 に存在する ID であることだけ確認する。現在: `AAAAAAAAAAAAAAAAAAAHeQ`（Gut-Enough / 活版印刷）、`AAAAAAAAAAAAAAAAAAAHeg`（Do You Feel Unlucky / 幸運本）
    - `Coins, Coins, Coins` 章は 2.9+ で Vending Machine 化され upstream 対象外のため、翻訳作業対象に含めない
    - `初歩的な魔導学`（Novice Thaumaturgy / questline `AAAAAAAAAAAAAAAAAAAAFg`）は `notes/quest-ids-2.8.4.txt` 末尾に **103 ID** 追加済み（2.8.4 章 99 + master 整合の 4）。未訳一覧は `notes/novice-thaumaturgy-gap.txt`（英語のまま残っているものは約 57 件）
    - `交配の方蜂`（Be(e) Breeding / questline `AAAAAAAAAAAAAAAAAAAAEw`）は `notes/quest-ids-2.8.4.txt` に **170 ID** 済み。切り出しは `notes/quest-ids-bee-breeding.txt`、未訳一覧は `notes/bee-breeding-gap.txt`

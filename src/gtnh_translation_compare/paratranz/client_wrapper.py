@@ -4,7 +4,7 @@ from typing import Optional, List, Sequence, cast, Callable
 
 from asyncache import cached  # type: ignore[import]
 from cachetools import LRUCache  # type: ignore[import]
-from httpx import AsyncClient, Response, HTTPStatusError
+from httpx import AsyncClient, Response, HTTPStatusError, TransportError
 from loguru import logger
 from pydantic import BaseModel
 from tenacity import retry, wait_fixed, stop_after_attempt, retry_if_exception, WrappedFn, RetryCallState
@@ -15,18 +15,24 @@ from gtnh_translation_compare.paratranz.types import File, StringItem, StringPag
 def retry_after_429() -> Callable[[WrappedFn], WrappedFn]:
     wait_seconds = 60
 
-    def is_http_429_error(exception: BaseException) -> bool:
-        return isinstance(exception, HTTPStatusError) and exception.response.status_code == 429
+    def is_retryable_error(exception: BaseException) -> bool:
+        if isinstance(exception, HTTPStatusError) and exception.response.status_code == 429:
+            return True
+        # ParaTranz occasionally times out or drops the connection without
+        # responding (httpx.ReadTimeout, httpx.RemoteProtocolError, etc.);
+        # these are transient and worth retrying the same as a 429.
+        return isinstance(exception, TransportError)
 
     def before_sleep(retry_state: RetryCallState) -> None:
+        exception = retry_state.outcome.exception() if retry_state.outcome else None
         logger.warning(
-            f"received a 429 response, "
+            f"request failed with {type(exception).__name__ if exception else 'unknown error'}, "
             f"waiting {wait_seconds} seconds before retrying "
             f"for the { {2: '2nd', 3: '3rd'}.get(retry_state.attempt_number + 1)} time"
         )
 
     return retry(
-        retry=retry_if_exception(is_http_429_error),
+        retry=retry_if_exception(is_retryable_error),
         wait=wait_fixed(wait_seconds),
         stop=stop_after_attempt(3),
         before_sleep=before_sleep,
