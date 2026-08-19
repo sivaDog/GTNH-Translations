@@ -11498,13 +11498,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXg.name=[提出済み]高貴種の蜂�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXg.desc=平凡種と洗練種を交配すると、§7《§r高貴種§7／Noble》§rが生まれます。%n%n高貴種は3.8分ごとに§7《§r滴る巣板§7／Dripping Comb》§rを生産し、§7《§rハニーデュー§7／Honeydew》§rも出します。なお、生産時間は蜂の基本生産速度と産物の希少度に基づく概算であり、実際の生産時間を正確に表すものではありません。%n%n酔っ払った養蜂家が、ハニーデューと少しの魔術で秘伝の巣枠を作る方法を完成させた、という話を耳にしたことがあります。自分でも試してみる価値はあるかもしれません。
 
 # Quest: Dripping Combs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXw.name=Dripping Combs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXw.desc=Your noble bees produce some dripping combs.%nA good source for honey, and if you have a magical mind, honeydew for proven frames.
+# EN name: Dripping Combs
+# EN desc: Your noble bees produce some dripping combs.%nA good source for honey, and if you have a magical mind, honeydew for proven frames.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXw.name=[提出済み]滴る巣板
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXw.desc=高貴種は§7《§r滴る巣板§7／Dripping Comb》§rを生産します。%nハチミツの良い入手源で、魔術をやるなら§7《§r秘伝の巣枠§7／Proven Frame》§r用のハニーデューにもなります。
 
 # Quest: Breed some majestic bees
 # EN name: Breed some majestic bees
 # EN desc: Cross breeding noble and cultivated bees can result in majestic bees.%n%nIf you didn't get it from Wintry bees already, Majestic bees have a very important attribute - high fertility. They will leave 4 drones when they die. This means lots of genetic material for the next generation to work with.%n%nMajestic bees produce dripping combs every 1.5 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYA.name=[下書き]雄大種の蜂を交配しよう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYA.name=[提出済み]雄大種の蜂を交配しよう
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYA.desc=高貴種と洗練種を交配すると、§7《§r雄大種§7／Majestic》§rが生まれます。%n%n§7《§r冬季種§7／Wintry》§rからまだ得ていなければ、雄大種にはとても重要な特性、高い繁殖力があります。死ぬと雄蜂が4匹残ります。次世代に使える遺伝材料がたくさん得られるということです。%n%n雄大種は1.5分ごとに滴る巣板を生産します。なお、生産時間は蜂の基本生産速度と産物の希少度に基づく概算であり、実際の生産時間を正確に表すものではありません。
 
 # Quest: Breed some imperial bees
