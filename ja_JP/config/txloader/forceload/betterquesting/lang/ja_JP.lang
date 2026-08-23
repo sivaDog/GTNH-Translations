@@ -7821,12 +7821,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzA.name=§8§lDo You Hear That Engine R
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzA.desc=Your old and trusty combustion engines don't quite cut it anymore, not to mention they're polluting the place. If you want to keep burning liquids, you need to build a better engine. This multiblock can produce 1A of EV voltage by default and 3A if you supply it with oxygen. However, this power doesn't come for free - you need to supply the machine with small amounts of lubricant constantly (and oxygen if you want to boost both its efficiency and output).%n%nYou will also require 3 Input Hatches, a Muffler, and a Dynamo Hatch. Their tiers are up to you.%n%nCetane Boosted Diesel and High Octane Gasoline (HOG) are excellent fuel sources for this engine.%n%nYou will need to keep the area in front of the engine clear so it can pull enough air - not even torches.
 
 # Quest: The Church of Benzene's Holy Altar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTQ.name=§6§lThe Church of Benzene's Holy Altar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTQ.desc=The MV Gas Turbine pairs excellently with Benzene, now that you can actually make it. Look at the "Bio for the Masses" tab for more details on how to go about it, or just check NEI. Benzene is renewable from trees, and it's a powerful source of EU that can keep you going for several tiers as long as you upgrade it with the new multiblocks you unlock over time.%n%nIt's a good idea to switch off Steam, since you need big pipes to carry that around and the fuel efficiency on Steam Turbines is lower. Instead, make a Pyrolyse Oven or an Advanced Coke Oven to make Charcoal faster, extract Benzene from it and run it through a few of these Gas Turbines.
+# EN name: The Church of Benzene's Holy Altar
+# EN desc: The MV Gas Turbine pairs excellently with Benzene, now that you can actually make it. Look at the "Bio for the Masses" tab for more details on how to go about it, or just check NEI. Benzene is renewable from trees, and it's a powerful source of EU that can keep you going for several tiers as long as you upgrade it with the new multiblocks you unlock over time.%n%nIt's a good idea to switch off Steam, since you need big pipes to carry that around and the fuel efficiency on Steam Turbines is lower. Instead, make a Pyrolyse Oven or an Advanced Coke Oven to make Charcoal faster, extract Benzene from it and run it through a few of these Gas Turbines.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTQ.name=[提出済み]§6§nベンゼン教会の聖なる祭壇
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTQ.desc=ベンゼンが作れるようになった今、MVガスタービンとの相性は抜群です。作り方の詳細は「大衆("マス")のためのバイオ」タブを見るか、NEIを確認してください。ベンゼンは樹木から再生でき、強力なEU源です。後から解錠される新しいマルチブロックで載せ替えていけば、数Tierは持たせられます。%n%n蒸気は太いパイプが必要で、蒸気タービンの燃料効率も低いので、蒸気からは切り替えるのがよいでしょう。代わりに熱分解炉か発展型コークス炉で木炭を速く作り、そこからベンゼンを抽出して、このガスタービンを数台回しましょう。
 
 # Quest: Diesel Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.name=§6§lDiesel Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.desc=The MV Combustion Generator burns Light Fuel faster than the LV version, but you can also automate Diesel and burn that instead, since it's even more powerful. It is arguably the easiest and most efficient way to generate lots of power for automation at this stage, and it'll last you a couple more tiers if you upgrade it as you go.%n%nAdditionally, Diesel can be used as fuel for the Copterpack, a good jetpack that makes it much easier to move around, inside and outside of your base. It's heavily recommended that you make one, if you have Diesel.%n%n[note]This will also unlock new quests in the Armors and Jetpacks tab.[/note]
+# EN name: Diesel Power
+# EN desc: The MV Combustion Generator burns Light Fuel faster than the LV version, but you can also automate Diesel and burn that instead, since it's even more powerful. It is arguably the easiest and most efficient way to generate lots of power for automation at this stage, and it'll last you a couple more tiers if you upgrade it as you go.%n%nAdditionally, Diesel can be used as fuel for the Copterpack, a good jetpack that makes it much easier to move around, inside and outside of your base. It's heavily recommended that you make one, if you have Diesel.%n%n[note]This will also unlock new quests in the Armors and Jetpacks tab.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.name=[提出済み]§6§nディーゼル発電
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.desc=MV燃焼発電機は、LV版より速く軽油を燃やしますが、より強力な§7《§rディーゼル§7／Diesel》§rを自動化して燃やすこともできます。この段階では、自動化向けの大量発電としておそらく最も簡単で効率的な手段であり、進めるにつれて上位機に載せ替えれば、さらに数Tierは持たせられます。%n%nまた、ディーゼルは§7《§rコプターパック§7／Copterpack》§rの燃料にもなります。拠点の内外を動きやすくする、優れたジェットパックです。ディーゼルがあるなら、作っておくことを強くおすすめします。%n%n[note]これにより、§7《§r防具とジェットパック§7／Armors and Jetpacks》§rタブに新しいクエストも解錠されます。[/note]
 
 # Quest: Fluid Regulator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§n流体調節器
@@ -11804,8 +11808,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpg.name=Supernatural
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpg.desc=What have those two brothers gotten into now? The Supernatural bee is a keystone of the Magical branch of bees. Check NEI for details on the best lunar phase for breeding. Breed it from Charmed and Enchanted.
 
 # Quest: Enchanted
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpw.name=Enchanted
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpw.desc=Enchanted is the next step in the progression. Breed them from Charmed and Eldritch.
+# EN name: Enchanted
+# EN desc: Enchanted is the next step in the progression. Breed them from Charmed and Eldritch.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpw.name=[提出済み]魅了種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpw.desc=§7《§r魅了種§7／Enchanted》§rは魔法の蜂の系統の次の一歩です。魅惑種と禁忌種を交配してみましょう。
 
 # Quest: Charmed
 # EN name: Charmed
@@ -11904,12 +11910,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvg.name=魔鉄種 - 魔導金属
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvg.desc=Thaumium is pretty easy to make, but with this bee you can automate and get enormous quantities. It requires a block of Thaumium. Breed them from Edenic and Ignis.
 
 # Quest: Skulking
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvw.name=Skulking
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvw.desc=Skulking bees are the core of the various mob bees. Check out the rest of the recipes in NEI, there are too many to show here. Breed them using Eldritch and Modest.
+# EN name: Skulking
+# EN desc: Skulking bees are the core of the various mob bees. Check out the rest of the recipes in NEI, there are too many to show here. Breed them using Eldritch and Modest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvw.name=[提出済み]隠密種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvw.desc=§7《§r隠密種§7／Skulking》§rは、さまざまなMob系の蜂の核です。NEIで残りのレシピを確認してください。ここには多すぎて載せきれません。禁忌種と質素種を交配してみましょう。
 
 # Quest: Spidery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIwA.name=Spidery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIwA.desc=Watch out, the effect from this bee will attract spiders. But it has one nice trait - a large working area. Perfect for breeding into your fast pollinators or for providing useful effects. Breed it from Skulking and Tropical.
+# EN name: Spidery
+# EN desc: Watch out, the effect from this bee will attract spiders. But it has one nice trait - a large working area. Perfect for breeding into your fast pollinators or for providing useful effects. Breed it from Skulking and Tropical.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIwA.name=[提出済み]蜘蛛種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIwA.desc=注意してください。§7《§r蜘蛛種§7／Spidery》§rの効果はクモを引き寄せます。ただし良い特性が一つあります。作業範囲が広いことです。受粉の速い蜂へ交配するのにも、有用な効果を持たせるのにも最適です。隠密種と熱帯種を交配してみましょう。
 
 # Quest: Thaumic Shards
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIwQ.name=魔片種 - 根源相の結晶片
