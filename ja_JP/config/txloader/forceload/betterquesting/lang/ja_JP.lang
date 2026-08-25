@@ -11661,15 +11661,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIfw.desc=隠者種は、閑静種と同�
 
 # Quest: Demonic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgA.name=悪魔種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgA.desc=この蜂はあなたを燃やしてくるので、育てるときは注意してください！また、巣板の他にグロウストーンを生産してくれます。ネザー内で邪悪種と残虐種を交配してみましょう。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgA.desc=この蜂はあなたを燃やしてくるので、育てるときは注意してください！また、巣板の他にグロウストーンを生産してくれます。ネザー内で不吉種と残虐種を交配してみましょう。
 
 # Quest: Sinister
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.name=邪悪種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.desc=邪悪種は周囲のmobやプレイヤーを傷つけます。養蜂用の服を身に付けるのを忘れないでください。ネザー内で謙遜種と洗練種を交配してみましょう。%n%n『煮えたぎる巣板』の名は伊達ではありません！遠心分離すると燐光体を入手でき、これを圧搾すると溶岩ができます。溶岩ですよ溶岩！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.name=不吉種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.desc=不吉種は周囲のmobやプレイヤーを傷つけます。養蜂用の服を身に付けるのを忘れないでください。ネザー内で謙遜種と洗練種を交配してみましょう。%n%n『煮えたぎる巣板』の名は伊達ではありません！遠心分離すると燐光体を入手でき、これを圧搾すると溶岩ができます。溶岩ですよ溶岩！
 
 # Quest: Fiendish
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgg.name=残虐種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgg.desc=邪悪種と同様に、ネザーの環境と養蜂用の服が必要になるでしょう。邪悪種と洗練種を交配してみましょう。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgg.desc=不吉種と同様に、ネザーの環境と養蜂用の服が必要になるでしょう。不吉種と洗練種を交配してみましょう。
 
 # Quest: Secluded
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgw.name=閑静種
@@ -11681,7 +11681,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.desc=この蜂も養蜂家にとっ�
 
 # Quest: Frugal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhQ.name=質素種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhQ.desc=質素種自体が有用というわけではありませんが、多くの交配の元となる蜂です。謙遜種と邪悪種から交配できますが、暑くて乾燥したバイオーム(ネザーでも可)である必要があります。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhQ.desc=質素種自体が有用というわけではありませんが、多くの交配の元となる蜂です。謙遜種と不吉種から交配できますが、暑くて乾燥したバイオーム(ネザーでも可)である必要があります。
 
 # Quest: Redstone Alloy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhg.name=赤珪種 - レッドストーン合金
