@@ -10923,8 +10923,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9g.desc=かわいそうに、蜂のお�
 # Quest: Analyze Them All
 # EN name: Analyze Them All
 # EN desc: Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other aspects. It is mandatory to keep track of those properties. This kit isn't very good since it doesn't give you information on their Inactive attributes, but waste not, want not.%n%nYou'll need to use paper to analyze each bee.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9w.name=[下書き]すべて分析しよう
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9w.desc=蜂には行動、雨中や夜の振る舞いなどを決める多数の特性があります。これらの特性を把握することが必須です。§7《§rフィールドキット§7／Field Kit》§rは非活性特性の情報をくれないのであまり良くありませんが、もったいない精神で使いましょう。%n%n各蜂の分析には紙が必要です。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9w.name=[提出済み]すべて分析しよう
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB9w.desc=蜂には、何をするか、雨の日や夜にどう振る舞うかなど、多数の特性があります。これらの特性を把握することが必須です。§7《§rフィールドキット§7／Field Kit》§rは潜性の情報をくれないのであまり良くありませんが、ないよりはましなので使いましょう。%n%n各蜂の分析には紙が必要です。
 
 # Quest: Mutatron
 # EN name: Mutatron
@@ -11059,14 +11059,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.desc=次は熱帯種の蜂を見つ�
 # Quest: Silky Combs and Propoli
 # EN name: Silky Combs and Propoli
 # EN desc: Collect silky combs and extract some silk wisp out of it in order to make some Apiarist's clothes.%n%nThis can take a very long time, so parallelize!%n%nUse a GregTech or Forestry Centrifuge to get Silky Propoli. For higher tier (and useful) combs you need a GT centrifuge.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.name=[下書き]滑らかな巣板とプロポリス
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.desc=§7《§r滑らかな巣板§7／Silky Comb》§rを集め、そこから§7《§r絹質の繊維§7／Silk Wisp》§rを抽出して養蜂用防護服を作りましょう。%n%n非常に時間がかかるので、並列化しましょう!%n%nGregTechまたはForestryの遠心分離機で§7《§r滑らかなプロポリス§7／Silky Propoli》§rを得られます。上位(有用な)巣板にはGT遠心分離機が必要です。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.name=[提出済み]滑らかな巣板とプロポリス
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.desc=§7《§r滑らかな巣板§7／Silky Comb》§rを集め、そこから§7《§r絹質の繊維§7／Silk Wisp》§rを抽出して§7《§r養蜂用防護服§7／Apiarist's Clothes》§rを作りましょう。%n%n非常に時間がかかるので、複数台で同時に進めましょう！%n%nGregTechまたはForestryの遠心分離機で§7《§r滑らかなプロポリス§7／Silky Propolis》§rを得られます。より上位で有用な巣板には、GregTechの遠心分離機が必要です。
 
 # Quest: Woven Silk
 # EN name: Woven Silk
 # EN desc: Centrifuge your silky propoli to get some silk wisp at a chance of 60 percent. Put 9 silk wisp in the Forestry carpenter or GregTech assembler to get woven silk.%n%nThis fine fabric can be used for crafting Apiarist's Clothes or to upgrade a Forestry Backpacks to 45 slots.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.name=[下書き]絹質の織布
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.desc=§7《§r滑らかなプロポリス§7／Silky Propolis》§rを遠心分離機で遠心分離し、60%%の確率で§7《§r絹質の繊維§7／Silk Wisp》§rを得ます。絹質の繊維9個をForestryの§7《§r工作機§7／Carpenter》§rかGregTechの§7《§r組立機§7／Assembling Machine》§rに入れて、絹質の織布を作ります。%n%nこの上質な布地は、養蜂用防護服のクラフトや、Forestryのバックパックを45スロットにアップグレードするのに使えます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.name=[提出済み]絹質の織布
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.desc=§7《§r滑らかなプロポリス§7／Silky Propolis》§rを遠心分離機にかけると、60%%の確率で§7《§r絹質の繊維§7／Silk Wisp》§rが得られます。絹質の繊維9個をForestryの工作機かGregTechの組立機に入れて、§7《§r絹質の織布§7／Woven Silk》§rを作りましょう。%n%nこの上質な布地は、§7《§r養蜂用防護服§7／Apiarist's Clothes》§rのクラフトや、Forestryのバックパックを45スロットにアップグレードするのに使えます。
 
 # Quest: Apiarist's Cloth
 # EN name: Apiarist's Cloth
@@ -11135,8 +11135,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.desc=絹質の織布でForestryの�
 # Quest: Master Registry
 # EN name: Master Registry
 # EN desc: The master beekeeper needs a master registry. Make sure you don't get any tears in your apiaries as you collect all the requirements!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.name=[下書き]完璧な登録簿
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.desc=熟練の養蜂家には完璧な登録簿が必要です。要件をすべて集める間、養蜂箱で涙を流さないように！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.name=[提出済み]完璧な登録簿
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.desc=完璧な養蜂家には§7《§r完璧な登録簿§7／Master Registry》§rが必要です。要件をすべて集めるあいだ、養蜂箱で涙を流さないように！
 
 # Quest: Welcome to Biology Class!
 # EN name: Welcome to Biology Class!
@@ -11247,14 +11247,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.desc=蝶はあまり役に立ちま�
 # Quest: Bee More Knowledgeable
 # EN name: Bee More Knowledgeable
 # EN desc: This database keeps track of everything bee.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.name=[下書き]「蜂」富な知識
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.desc=このデータベースは、蜂に関するすべてを記録します。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.name=[提出済み]蜂富（ほうふ）な知識
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.desc=§7《§r養蜂データベース§7／Apiarist Database》§rは、蜂に関するすべてを記録します。
 
 # Quest: Fluttering Facts
 # EN name: Fluttering Facts
 # EN desc: This database tracks all your knowledge of butterflies.%n%nBTW, see the BBB tab for the Botany stuff.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.name=[下書き]ひらひらの豆知識
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.desc=このデータベースは、蝶に関する知識をすべて記録します。%n%nBotany関連は「キッチリ基地を建築」タブを参照してください。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.name=[提出済み]ひらひらの豆知識
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.desc=§7《§r鱗翅類学データベース§7／Lepidopterist Database》§rは、蝶に関する知識をすべて記録します。%n%nちなみに、Botany関連は「キッチリ基地を建築」のタブを参照してください。
 
 # Quest: Keep Calm and Bee On
 # EN name: Keep Calm and Bee On
@@ -11279,7 +11279,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuQ.desc=名前のとおりです。非�
 # Quest: A Chest for...Butterflies? Really?
 # EN name: A Chest for...Butterflies? Really?
 # EN desc: Store your completely useless butterflies in this.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKug.name=[下書き]蝶用チェスト?マジで?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKug.name=[提出済み]蝶用チェスト?マジで?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKug.desc=完全に役立たない蝶をここに保管できます。
 
 # Quest: A Bag for Butterflies, yawn
@@ -11812,8 +11812,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIqA.name=魅惑種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIqA.desc=チャームド ～魔女3姉妹～! §7《§r魅惑種§7／Charmed》§rは魔法の蜂の系統の次の一歩です。禁忌種と洗練種を交配してみましょう。
 
 # Quest: Mysterious
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIqQ.name=Mysterious
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIqQ.desc=Just your mysterious stranger... Breed them from Eldritch and Esoteric.
+# EN name: Mysterious
+# EN desc: Just your mysterious stranger... Breed them from Eldritch and Esoteric.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIqQ.name=[提出済み]奇妙種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIqQ.desc=§7《§r奇妙種§7／Mysterious》§rは、いつもの謎の訪問者です...禁忌種と秘伝種を交配してみましょう。
 
 # Quest: Esoteric
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIqg.name=秘伝種
