@@ -11184,8 +11184,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWg.desc=§7《§r秘伝の巣枠§7／P
 # Quest: Alvearies
 # EN name: Alvearies
 # EN desc: The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks.%n%nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.%n%nCertain bees will not produce their specialty items unless they are Jubilant. This requires matching their preferred Temperature/Humidity, without any genetic modifiers. Some bees also need a block of something beneath them as well.%n%nIt is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.%n%n[note]If you're mutating bees that need a specific block in it, you need to place the required block under the middle bottom, and have the one directly above be a normal alveary block.[/note]
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.name=[下書き]大型養蜂箱
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.desc=§7《§r大型養蜂箱§7／Alveary》§rは§7《§r養蜂箱§7／Apiary》§rの上位版です。生産速度の自然な向上(およびExtra Beesの巣枠入れで最大6枚の巣枠を追加できること)と、他ブロックによる改造が可能なため、巣板をより速く生産できます。%n%n§7《§r大型養蜂箱用暖房器§7／Alveary Heater》§rや§7《§r大型養蜂箱用冷房器§7／Alveary Fan》§rで内部温度を調整し、より暑いまたは寒い気候を必要とする蜂に対応できます。%n%n特定の蜂は満足していないと特殊生産物を出しません。遺伝子改変なしで、好みの温度/湿度と一致している必要があります。蜂によっては下に特定ブロックが必要な場合もあります。%n%n§7《§r大型養蜂箱用変異誘発装置§7／Mutator》§rで突然変異率を上げたり、§7《§r大型養蜂箱用光源§7／Alveary Lighting》§rと§7《§r大型養蜂箱防雨装置§7／Alveary Rain Shield》§rで、夜行性や降雨特性のない蜂がそれぞれ夜間や雨中でも働けたり、§7《§r分蜂室§7／Swarmer》§rで余ったローヤルゼリーから限世代の王女蜂を作れたりします。%n%n[note]特定ブロックが必要な蜂を交配させる場合、必要ブロックを底面中央の下に置き、その真上は通常の大型養蜂箱ブロックにしてください。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.name=[提出済み]大型養蜂箱
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.desc=§7《§r大型養蜂箱§7／Alveary》§rは養蜂箱の上位版です。生産速度の自然な向上(およびExtra Beesの§7《§r大型養蜂箱用巣枠入れ§7／Frame Housing》§rで最大6枚の巣枠を追加できること)と、他ブロックによる改造が可能なため、巣板をより速く生産できます。%n%n§7《§r大型養蜂箱用暖房器§7／Alveary Heater》§rや§7《§r大型養蜂箱用冷房器§7／Alveary Fan》§rで内部温度を調整し、より暑いまたは寒い気候を必要とする蜂に対応できます。%n%n特定の蜂は§7《§r満足§7／Jubilant》§r状態でないと特殊生産物を出しません。遺伝子改変なしで、好みの温度/湿度と一致している必要があります。蜂によっては下に特定ブロックが必要な場合もあります。%n%n§7《§r大型養蜂箱用変異誘発装置§7／Mutator》§rで突然変異率を上げたり、§7《§r大型養蜂箱用光源§7／Alveary Lighting》§rと§7《§r大型養蜂箱防雨装置§7／Rain Shield》§rで、夜行性や雨耐性のない蜂がそれぞれ夜間や雨中でも働けたり、分蜂室で余ったローヤルゼリーから限られた世代数の王女蜂を作れたりします。%n%n[note]特定ブロックが必要な蜂を交配させる場合、必要ブロックを底面中央の下に置き、その真上は通常の大型養蜂箱ブロックにしてください。[/note]
 
 # Quest: Humid and Warm?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5w.name=湿潤で温暖？
@@ -11198,8 +11198,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6A.desc=蜂から良い効果が得ら�
 # Quest: Death to Bees!
 # EN name: Death to Bees!
 # EN desc: These frames will let you kill your bees faster. It's to breed the next generation sooner, right? Not because you don't like them?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.name=[下書き]蜂に死を!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.desc=これらの巣枠は蜂をより早く死なせます。次の世代を早く交配するためですよね?蜂が嫌いなわけじゃないですよね?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.name=[提出済み]蜂に死を！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.desc=これらの巣枠は蜂をより早く死なせます。次の世代を早く交配するためですよね？蜂が嫌いなわけじゃないですよね？
 
 # Quest: Keep Them Around
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.name=長く居させておこう
@@ -11208,8 +11208,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.desc=これらの巣枠は蜂をよ�
 # Quest: Are the Bees Buzzing, or Screaming?
 # EN name: Are the Bees Buzzing, or Screaming?
 # EN desc: These frames cause mutations at an increased rate. They're super useful.%n%nAbout the stats on frames you see when holding shift, you'll note that some have a different number in brackets next to them, this means that this is the maximum they can be stacked. This only applies to the Extra Bees ones.%n%nThe stats on the frames are also multiplicative instead of additive, so after 4 frames in an alveary, soul frames will max out. On the other hand, accelerated frames will take 9 to get there, but you can just keep on going.%n%nIf you pile up the multipliers, 5x from stimulator, 3x from mutator, and 4x1.8x frames, it'll get you to 157x, getting you those 1%% bees in a single generation!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6w.name=[下書き]蜂はブンブン?それとも叫び?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6w.desc=これらの巣枠は突然変異率を上げます。とても有用です。%n%nShiftを押しながら見る巣枠のステータスでは、括弧内に別の数字があるものがあります。これは重ねがけできる最大値です。Extra Bees製の巣枠にのみ適用されます。%n%n巣枠のステータスは加算ではなく乗算です。大型養蜂箱で4枚入れると§7《§r魂の巣枠§7／Soul Frame》§rは上限に達します。一方、§7《§r加速の巣枠§7／Accelerated Frame》§rは9枚で上限ですが、それ以上も入れられます。%n%n倍率を積み上げると、刺激装置5倍、変異誘発装置3倍、巣枠4x1.8倍で157倍になり、1世代で1%%の蜂が手に入ります!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6w.name=[提出済み]蜂はブンブン？それとも叫び？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6w.desc=これらの巣枠は突然変異率を上げます。とても有用です。%n%nShiftを押しながら見る巣枠のステータスでは、括弧内に別の数字があるものがあります。これは重ねがけできる最大値です。Extra Bees製の巣枠にのみ適用されます。%n%n巣枠のステータスは加算ではなく乗算です。大型養蜂箱で4枚入れると§7《§r魂の巣枠§7／Soul Frame》§rは上限に達します。一方、§7《§r加速の巣枠§7／Accelerated Frame》§rは9枚で上限ですが、それ以上も入れられます。%n%n倍率を積み上げると、大型養蜂箱用刺激装置の5倍、大型養蜂箱用変異誘発装置の3倍、巣枠4x1.8倍で157倍になり、突然変異率1%%の蜂も1世代で得られます！
 
 # Quest: Breeding Bees Into Oblivion
 # EN name: Breeding Bees Into Oblivion
@@ -11220,8 +11220,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7A.desc=養蜂をサイコロゲーム�
 # Quest: Upgrade Your Forestry Backpack
 # EN name: Upgrade Your Forestry Backpack
 # EN desc: With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.%n%nYou need a carpenter, your old backpack and a bit of seed oil.%n%nIf the recipe isn't working, put the bag in a crafting grid to reset its NBT data. After removing anything in it of course.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.name=[下書き]Forestryバックパックの強化
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.desc=絹質の織布でForestryのバックパックをアップグレードできます。各バッグは45スロットになります。%n%n§7《§r工作機§7／Carpenter》§r、古いバックパック、少量の§7《§r種油§7／Seed Oil》§rが必要です。%n%nレシピが認識されない場合は、中身をすべて取り出したうえで、バッグをクラフトグリッドに入れてNBTデータをリセットしてください。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.name=[提出済み]Forestryバックパックのアップグレード
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.desc=絹質の織布でForestryのバックパックをアップグレードできます。各バックパックは45スロットになります。%n%n工作機、古いバックパック、少量の種油が必要です。%n%nレシピが認識されない場合は、中身をすべて取り出したうえで、バックパックをクラフトグリッドに入れてNBTデータをリセットしてください。
 
 # Quest: Master Registry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.name=完璧な登録簿
@@ -11386,8 +11386,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvQ.desc=花や樹木が好きではな�
 # Quest: Get it Together Bees!
 # EN name: Get it Together Bees!
 # EN desc: These frames help prevent genetic decay.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzw.name=[下書き]蜂よ、しっかりしろ!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzw.desc=これらの巣枠は遺伝子衰退を防ぐのに役立ちます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzw.name=[提出済み]蜂よ、しっかりしろ！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzw.desc=これらの巣枠は遺伝子衰退を下げるのに役立ちます。
 
 # Quest: IAADDS
 # EN name: IAADDS
@@ -11883,8 +11883,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpQ.name=禁忌種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpQ.desc=§7《§r禁忌種§7／Eldritch》§rは魔法の蜂の系統の始まりです。神秘種と洗練種を交配してみましょう。
 
 # Quest: Supernatural
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpg.name=Supernatural
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpg.desc=What have those two brothers gotten into now? The Supernatural bee is a keystone of the Magical branch of bees. Check NEI for details on the best lunar phase for breeding. Breed it from Charmed and Enchanted.
+# EN name: Supernatural
+# EN desc: What have those two brothers gotten into now? The Supernatural bee is a keystone of the Magical branch of bees. Check NEI for details on the best lunar phase for breeding. Breed it from Charmed and Enchanted.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpg.name=[下書き]超自然種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpg.desc=あの二人の兄弟はまた何に手を出したんでしょう？§7《§r超自然種§7／Supernatural》§rは魔法の蜂の系統の要です。交配に最適な月相はNEIで確認してください。魅惑種と魅了種を交配してみましょう。
 
 # Quest: Enchanted
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpw.name=魅了種
