@@ -1907,12 +1907,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeg.name=§6§nツイてない気分で�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeg.desc=もう大丈夫です! エメラルドと本をいくつか渡せば、§7《§r活版印刷機§7／Printing Press》§rで使える幸運Iの本を差し上げます。複製したら、金床で幸運Iの本2冊を合成して幸運IIにできます。幸運IIの本を複製すれば幸運IIIになります!%n%n幸運IIIの本と、そのバッグのTierに応じたアイテムがあれば、§7《§r報酬バッグ§7／Lootbag》§rのはずれ報酬を外せます。より良いものが手に入ります!%n%n§7《§rソウルバウンド§7／Soulbound》§rも便利なエンチャントです。死亡しても、エンチャントしたアイテムをインベントリに残せます。
 
 # Quest: Where's That Handyman When You Need Him?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfA.name=§6§lWhere's That Handyman When You Need Him?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfA.desc=A Needs Maintenance cover will send out a redstone signal when the controller it's attached to requires maintenance. This is handy for the cleanroom you'll need to build in HV, since maintenance issues reduces cleanliness level and will cause voided materials.%n%nFor the cleanroom you can place this on the top or bottom. For other machines you might want to place it on the side so you can have access to the front face. In that case, you can use a soldering iron and fine solder to have it emit a strong redstone signal that will penetrate through a block next to the cover.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfA.name=[提出済み]§6§l困ったとき、便利屋はどこへ？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfA.desc=§7《§rメンテナンス要求検知カバー§7／Needs Maintenance Cover》§rは、取り付けたコントローラーがメンテナンスを必要とするときにレッドストーン信号を出します。HVの段階で建てるクリーンルームでは特に便利です。メンテナンス不足は清浄度を下げ、材料が虚空化する原因になります。%n%nクリーンルームでは上面か下面に付けられます。他の機械では操作面を確保するため側面に付けたい場合もあります。そのときははんだごてと細いはんだ合金ワイヤーでレッドストーン出力を強に設定すると、カバーの隣のブロックを通して強いレッドストーン信号を出せます。
 
 # Quest: BEEEP BEEEP BEEEP
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfQ.name=§6§nビープ、ビープ、ビープ！！！
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfQ.desc=Knowing that your cleanroom needs maintenance is pretty important. Instead of just turning on a light, why not use a howler alarm? It'll notify you up to 128 blocks away.%n%n[warn]Warning: May cause uncontrollable urine leakage when activated.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfQ.name=[提出済み]§6§nビープ、ビープ、ビープ！！！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfQ.desc=クリーンルームのメンテナンスが必要かどうかを把握するのはかなり重要です。ランプを点けるだけなら、§7《§rハウラーアラーム§7／Howler Alarm》§rを使ってみませんか？最大128ブロック先まで知らせてくれます。%n%n[warn]警告: 作動すると制御不能の失禁を招く可能性があります。[/warn]
 
 # Quest: Grinding Heads Are Better Than None
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJg.name=§6§lGrinding Heads Are Better Than None
