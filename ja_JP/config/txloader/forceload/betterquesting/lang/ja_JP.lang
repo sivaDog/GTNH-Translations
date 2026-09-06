@@ -5758,8 +5758,10 @@ betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.name=Indestructible Vessel
 betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.desc=In light of your thaumaturgical research, you have come to the conclusion that Greatwood is, in fact, a great material for constructing a resilient boat. Utilizing this material to its fullest potential has allowed you to construct a boat that is slightly faster and will never break on collision.
 
 # Quest: Basic Flight Potion
-betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.name=Basic Flight Potion
-betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.desc=Tired of jetpacks? Want normal flight with no strings attached? Look no further!%n%nUsing your brand new MV Assembler and a Chicken Trophy, you can craft a basic Potion of Flight from Blood Magic, giving you 7 minutes of Creative flight with 8 uses before you have to make a new one.%n%n[note]Chicken Trophies are a rare drop from killing chickens.[/note]%n%n[note]Once you unlock Blood Magic, you can craft your own Flight Potion Flasks with a duration of up to 19 minutes, and refill them with any Filling Agent in an Alchemic Chemistry set.[/note]
+# EN name: Basic Flight Potion
+# EN desc: Tired of jetpacks? Want normal flight with no strings attached? Look no further!%n%nUsing your brand new MV Assembler and a Chicken Trophy, you can craft a basic Potion of Flight from Blood Magic, giving you 7 minutes of Creative flight with 8 uses before you have to make a new one.%n%n[note]Chicken Trophies are a rare drop from killing chickens.[/note]%n%n[note]Once you unlock Blood Magic, you can craft your own Flight Potion Flasks with a duration of up to 19 minutes, and refill them with any Filling Agent in an Alchemic Chemistry set.[/note]
+betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.name=[提出済み]基本の飛行ポーション
+betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.desc=ジェットパックに飽きていませんか？ひも付きなしの普通の飛行が欲しいですか？それならこれです！%n%n新しいMVの組立機と§7《§rニワトリのトロフィー§7／Chicken Trophy》§rを使えば、Blood Magicの基本的な§7《§r飛行ポーション§7／Potion of Flight》§rを作れます。クリエイティブ飛行が7分間使え、新しいものを作るまで8回使用できます。%n%n[note]ニワトリのトロフィーは、ニワトリを倒したときにまれにドロップします。[/note]%n%n[note]Blood Magicを開放すれば、持続時間が最大19分の飛行ポーション入りフラスコを自作でき、錬金化学用具で任意の充填剤を使って補充できます。[/note]
 
 # Quest: Relocator
 betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.name=Relocator
@@ -7053,8 +7055,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOQ.desc=ヨーロッパキイチゴと�
 # Quest: Forestry Core Block #2
 # EN name: Forestry Core Block #2
 # EN desc: The upgraded casing for Forestry, used in multiple recipes for endgame Gendustry items and the Rainmaker.
-betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.name=[下書き]Forestryコアブロック #2
-betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.desc=森林用のアップグレードされたケーシング。エンドゲーム Gendustry アイテムと Rainmaker の複数のレシピで使用されます。
+betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.name=[提出済み]Forestryのコアブロック #2
+betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.desc=§7《§r硬質外装§7／Hardened Casing》§rはForestry向けの上位外装です。エンドゲームのGendustryアイテムやレインメーカーの複数のレシピで使われます。
 
 
 ## Quest Line: Multiblock Goals
@@ -11174,7 +11176,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.desc=§7《§r滑らかなプロポ�
 # Quest: Apiarist's Cloth
 # EN name: Apiarist's Cloth
 # EN desc: If you have collected 24 woven silk you can make a complete Apiarist's suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your EnderIO Dark Steel Armor to have the same effect.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.name=[下書き]養蜂用防護服
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.name=[提出済み]養蜂用防護服
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.desc=絹質の織布を24枚集めれば、蜂の刺やその他の有害な効果から身を守る養蜂用防護服一式を作れます。装備の各パーツは、Ender IOのダークスチール防具を同じ効果付きにアップグレードするのにも使えます。
 
 # Quest: A Chest for Bees
@@ -11234,8 +11236,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.desc=完璧な養蜂家には§7《�
 # Quest: Welcome to Biology Class!
 # EN name: Welcome to Biology Class!
 # EN desc: Binnie's Genetics mod will allow you to pick and chose traits for bees, trees and Botany flowers. But not for free! Doing this comes at a price.%n%nIt's better to provide power to an Ender IO capacitor and then power these machines with RF, instead of powering directly with GT EU, because they don't work well with GT's EU amp system.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.name=[下書き]生物学の時間です！
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.desc=BinnieのGenetics modでは、蜂、樹木、Botanyの花の特性を選び取れます。ただしタダではありません！代償を払う必要があります。%n%n[note]注: この章では蜂だけに焦点を当てます。[/note]%n%n自動化して受動生産できる資源ラインがいくつか必要です。工程全体で異なる機械・目的に使われますが、増殖培地は大量生産できれば一部の工程を置き換えられる超資源です。%n%n研究工程は容易に自動化できます。遺伝子改造と雄蜂生産も自動化できますが、遅く頻度も低いので、必要なときに手を入れる程度でよいでしょう。%n%n基本方針は、余った雄蜂を大量にシーケンス解析し、欲しい特性をすべて取り出すことです。一度得た特性は永久に保持され、見つけた特性の組み合わせを雄蜂の幼虫に注入して、その特性を持つ新しい雄蜂を作れます。幼虫が孵化するのは雄蜂だけです。王女蜂や女王蜂を直接孵化させることはできないので、新しい特性が世代を超えて残るか気にする必要があります。%n%nこれらの遺伝子編集で、新しい特性を無から生み出すことはできません。すでに研究済みの特性から選び取るだけで、それはすでに持っている蜂から得る必要があります。ゲーム後半の生産蜂すべてをこうして設定できますが、繁殖力4倍のような特性は交配にも役立ちます。%n%nこれ用のラボ作業スペースを用意しましょう。機械本体はそれほど場所を取りません。実際、TileEntityモードの世界加速器に直結させることになるかもしれません。より手間を減らす受動資源生産の方が、最終的にはもっと場所を取ります。%n%n改造したい基礎蜂の幼虫を生産するには、§7《§r大型養蜂箱用孵化場§7／Alveary Hatchery》§r付きの大型養蜂箱が必要です。%n%nこれらの機械はRF電力が必要です。Ender IOのコンデンサーに電力を供給し、GT EUを直接つなぐよりRFで動かすことを推奨します。GT EUを接続することもできますが、電流変換の不具合で消費がおかしくなったり、配線は正しく見えているのに電力が入らないことがあります。%n%n最終的に、この外装は少なくとも7個必要で、作る機械次第では14個以上になることもあります。HV級回路の生産も必要です。工程全体を通して§oEV§o§r級回路が1つだけ関わります。%n%n[note]Three氏に、これらの機械と連携を解説した動画への特別な感謝を:%n%n§oAn Early Game Guide to Genetically Modify your Bees in Gregtech: New Horizons§r%n[url]https://www.youtube.com/watch?v=EmhDlga2SCA[/url]%n%nクエストブックについて文句を言っていますが、それは--ええと--古い版のクエストブックでした。%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.name=[提出済み]生物学の授業へようこそ！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.desc=BinnieのGenetics modでは、蜂・樹木・Botanyの花の特性を選んで組み合わせられます。ただし無料ではありません！代償が伴います。%n%n[note]注: この節では蜂だけに焦点を当てます。[/note]%n%n自動化して受動生産できる資源の流れがいくつか必要です。工程全体で機械や目的ごとに使われますが、§7《§r増殖培地§7／Growth Medium》§rは大量生産できれば一部の工程を置き換えられる超資源です。%n%n研究工程は容易に自動化できます。遺伝子改変と雄蜂の生産も自動化できますが、遅く頻度も低いので、必要なときに手を入れる程度でよいでしょう。%n%n基本方針は、余った雄蜂を大量にシーケンス解析し、欲しい特性をすべて取り出すことです。一度得た特性は永久に保持され、見つけた特性の組み合わせを雄蜂の幼虫に注入して、その特性を持つ新しい雄蜂を作れます。幼虫が孵化するのは雄蜂だけです。王女蜂や女王蜂を直接孵化させることはできないので、新しい特性が世代を超えて残るかどうかを気にする必要があります。%n%nこれらの遺伝子改変で、新しい特性を無から生み出すことはできません。すでに研究済みの特性から選び取るだけで、それはすでに持っている蜂から得る必要があります。ゲーム後半の生産蜂すべてをこうして整えられますが、繁殖力4倍のような特性は交配にも役立ちます。%n%nこれ用のラボ作業スペースを用意しましょう。機械本体はそれほど場所を取りません。実際、世界加速器にいくつもくっつけることになるかもしれません。Tile Entityモードでは直結が必要だからです。より手間を減らすための受動資源生産の方が、最終的にはもっと場所を取ります。%n%n改造したい基礎蜂の幼虫を生産するには、§7《§r大型養蜂箱用孵化場§7／Alveary Hatchery》§r付きの大型養蜂箱が必要です。%n%nこれらの機械はRF電力が必要です。Ender IOのコンデンサーに電力を供給し、GT EUを直接つなぐよりRFで動かすことを推奨します。GT EUを接続することもできますが、アンペア変換の不具合で消費がおかしくなったり、配線は正しく見えているのに電力が入らないことがあります。%n%n最終的に、§7《§r強化外装§7／Reinforced Casing》§rは少なくとも7個必要で、作る機械次第では14個以上になることもあります。HV級回路の生産も必要です。工程全体を通して§o1つだけ§o§rEV級回路が関わります。%n%n[note]これらの機械と連携を解説した動画を作ってくれたThree氏に特別な感謝を:%n%n§oAn Early Game Guide to Genetically Modify your Bees in Gregtech: New Horizons§r%n[url]https://www.youtube.com/watch?v=EmhDlga2SCA[/url]%n%nクエストブックについて文句を言っていますが、それは..ええと...古い版のクエストブックでした。%n[/note]
 
 # Quest: Making Bees More Comfortable
 # EN name: Making Bees More Comfortable
