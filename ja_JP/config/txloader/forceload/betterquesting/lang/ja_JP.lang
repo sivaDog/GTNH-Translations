@@ -6251,8 +6251,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF9g.name=§9§n最強のクロスボウ�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF9g.desc=§7《§rエナジェティック合金§7／Energetic Alloy》§r はとても優れた金属です。%n%n軽量でとても丈夫なので、 §7《§rクロスボウリム§7／Crossbow Limb》§r の素材に適しています。引く速度は少し遅めですが、高速で射出されたボルトは敵を打ち砕き、圧倒することができます。耐久性も高めで §7《§r炭素§7／Carbon》§r よりも優れていることでしょう。%n%nエナジェティック合金は §7《§rボルト§7／Bolt》§r の本体部として使っても優秀です。この情報は役に立ちましたか？
 
 # Quest: Electrogoggles
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFRQ.name=Electrogoggles
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFRQ.desc=As you wander with your Goggles of Revealing you noticed that they tend to break easy. So craft yourself some electric ones that just need to be charged again!
+# EN name: Electrogoggles
+# EN desc: As you wander with your Goggles of Revealing you noticed that they tend to break easy. So craft yourself some electric ones that just need to be charged again!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFRQ.name=[提出済み]洞察の電動ゴーグル
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFRQ.desc=洞察の眼鏡を付けて歩き回っていると、すぐに壊れてしまうことに気づいたでしょう。充電し直せばまた使える、§7《§r洞察の電動ゴーグル§7／Electric Goggles of Revealing》§rを作りましょう！
 
 # Quest: Nano Goggles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFRg.name=Nano Goggles
@@ -8919,7 +8921,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMNQ.desc=This one is almost a flex, at t
 # Quest: Sodium Hydroxide
 # EN name: Sodium Hydroxide
 # EN desc: The Biodiesel needs a bit of powder magic. In reality, this powder is another chemical that this chain uses, Sodium Hydroxide, NaOH. The bad part is that you can't continue without making this, but there's a boon to this: you only need a little bit of it, around 1 dust to make 45 buckets of Biodiesel.%n%nUnlike in the other steps, you can probably get away with batch crafting this instead of automating it, and still have consistent power from this fuel line. One stack of this dust is enough to make more than 100 million EU's worth of power, as long as the other fluids are automated. Given that, you can forget about it for a long time, but not forever. If you choose to not automate it yet, make sure you check it from time to time.%n%n(This can be automated from Salt Water, which can be automated from Tearstalks. You get Chlorine and Hydrogen as well.)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMNg.name=[下書き]水酸化ナトリウム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMNg.name=[提出済み]水酸化ナトリウム
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMNg.desc=バイオディーゼルには、少し粉の魔法が必要です。実際には、この粉は生産ラインで使うもう一つの化学物質、§7《§r水酸化ナトリウム§7／Sodium Hydroxide》§r(NaOH)です。これがないと進めないのは痛いところですが、利点もあります。必要な量はごくわずかで、粉1つでおよそ45バケツのバイオディーゼルが作れます。%n%n他の工程と違い、自動化せずバッチで作っても、この燃料ラインは安定して回せるでしょう。他の流体が自動化されていれば、この粉1スタックで1億EUを超える発電分に足ります。したがって、長いあいだ忘れても構いませんが、永遠にではありません。まだ自動化しないなら、ときどき在庫を確認してください。%n%n(塩水から自動化でき、塩水はナミダタケから自動化できます。塩素と水素も得られます。)
 
 # Quest: Upgrading Your Benzene
