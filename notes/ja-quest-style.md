@@ -115,6 +115,7 @@ CustomToolTips は `ja_JP/config/txloader/load/customtooltips/lang/ja_JP.lang`�
    - `EUの蓄電と変圧`（Storing and Transforming EU / questline `AAAAAAAAAAAAAAAAAAAAIQ`）は **69 ID** 済み（master のみの TurboCharger は除外）。切り出しは `notes/quest-ids-storing-and-transf.txt`
    - `基本的な自動化`（Basic Automation / questline `AAAAAAAAAAAAAAAAAAAADg`）は **35 ID** 済み。2.8.4 と master は同一。切り出しは `notes/quest-ids-basic-automation.txt`
    - `旅に出かけよう...`（Getting Around... / questline `bAal8kZ3R8eRTwaHgbYkKA`）は **71 ID** 済み（master のみの ChaosLocator は除外）。切り出しは `notes/quest-ids-getting-around.txt`
+   - `花の力`（Flower Power / questline `AAAAAAAAAAAAAAAAAAAAIA`）は **44 ID** 済み（2.8.4 Quests/FlowerPower と同一）。切り出しは `notes/quest-ids-flower-power.txt`
 3. `/bq_admin default load` はクエスト JSON 用。lang のリロードコマンドではない
 
 ## レビュー観点チェックリスト
