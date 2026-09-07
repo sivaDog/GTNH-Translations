@@ -11903,8 +11903,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIqw.name=天上種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIqw.desc=§7《§r天上種§7／Ethereal》§rは、すべての魔法の相の蜂にとって不可欠です。奥義種と超自然種を交配してみましょう。
 
 # Quest: Aqua
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIrA.name=Aqua
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIrA.desc=Aqua requires a Water Crystal Cluster. It will produce Water infused dust. Staying nearby will clear potion effects, like drinking a bucket of milk. Might be useful for the clever industrial engineer! Breed them from two Watery.
+# EN name: Aqua
+# EN desc: Aqua requires a Water Crystal Cluster. It will produce Water infused dust. Staying nearby will clear potion effects, like drinking a bucket of milk. Might be useful for the clever industrial engineer! Breed them from two Watery.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIrA.name=[提出済み]水源種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIrA.desc=§7《§r水源種§7／Aqua》§rには§7《§r水の結晶株§7／Water Crystal Cluster》§rが必要です。§7《§r水の染み込んだ粉§7／Water Infused Dust》§rを生産します。近くにいると牛乳バケツを飲んだときのようにポーション効果を消去します。賢い工業エンジニアには役立つかもしれません！水質種同士を交配してみましょう。
 
 # Quest: Firey
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIrQ.name=火質種
