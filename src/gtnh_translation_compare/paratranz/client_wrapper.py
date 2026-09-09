@@ -14,6 +14,9 @@ from gtnh_translation_compare.paratranz.types import File, StringItem, StringPag
 
 def retry_after_429() -> Callable[[WrappedFn], WrappedFn]:
     wait_seconds = 60
+    # ParaTranz counts requests per token and all languages sync with the same one, so a run that
+    # creates hundreds of files at once queues across several rate limit windows before it lands.
+    max_attempts = 6
 
     def is_retryable_error(exception: BaseException) -> bool:
         if isinstance(exception, HTTPStatusError) and exception.response.status_code == 429:
@@ -28,13 +31,13 @@ def retry_after_429() -> Callable[[WrappedFn], WrappedFn]:
         logger.warning(
             f"request failed with {type(exception).__name__ if exception else 'unknown error'}, "
             f"waiting {wait_seconds} seconds before retrying "
-            f"for the { {2: '2nd', 3: '3rd'}.get(retry_state.attempt_number + 1)} time"
+            f"({retry_state.attempt_number + 1} of {max_attempts})"
         )
 
     return retry(
         retry=retry_if_exception(is_retryable_error),
         wait=wait_fixed(wait_seconds),
-        stop=stop_after_attempt(3),
+        stop=stop_after_attempt(max_attempts),
         before_sleep=before_sleep,
     )
 
@@ -146,6 +149,14 @@ class ClientWrapper:
         return strings
 
     async def upload_file(self, paratranz_file: ParatranzFile) -> None:
+        if not paratranz_file.string_items:
+            # A source file with nothing to translate, such as an empty guide page, makes
+            # ParaTranz answer the create without a file object, and the sync used to die on
+            # that response and drop every file queued behind it.
+            print(f"::warning::skipping source file with no strings: {paratranz_file.file_name}")
+            logger.warning("skipping source file with no strings: {}", paratranz_file.file_name)
+            return
+
         file_id = await self._find_file_id_by_file(paratranz_file.file_name)
 
         if file_id is None:
