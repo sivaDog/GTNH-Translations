@@ -10178,8 +10178,10 @@ betterquesting.quest.FFDyUcsHTpiFg7_Yjr8vGA.name=[提出済み]より良い物�
 betterquesting.quest.FFDyUcsHTpiFg7_Yjr8vGA.desc=ストレージの準備ができたので、自動化のほうに進みたいですか？%n%n物流制御パイプ Mk1では、複雑な機能に必要なモジュールを十分に入れられません。もっと良いものが必要です。%n%n§7《§r物流制御パイプ Mk2§7／Chassis Mk2》§rはモジュールを2個入れられます。今のところはこれで十分でしょう。
 
 # Quest: Requestin' a Recipe
-betterquesting.quest.FYOm8b1PRTKsyVjFdpBqjg.name=Requestin' a Recipe
-betterquesting.quest.FYOm8b1PRTKsyVjFdpBqjg.desc=Most of the time you are requesting things because you need to craft something. So here is the Logistics Request Table.%n%nThis thing comes with a 3*3 crafting grid that you can load with a NEI recipe and request the recipe. There is also an inventory buffer that you can use to store items within.
+# EN name: Requestin' a Recipe
+# EN desc: Most of the time you are requesting things because you need to craft something. So here is the Logistics Request Table.%n%nThis thing comes with a 3*3 crafting grid that you can load with a NEI recipe and request the recipe. There is also an inventory buffer that you can use to store items within.
+betterquesting.quest.FYOm8b1PRTKsyVjFdpBqjg.name=[提出済み]レシピを要求
+betterquesting.quest.FYOm8b1PRTKsyVjFdpBqjg.desc=アイテムを要求するのは、たいてい何かをクラフトしたいときです。そこで登場するのが§7《§r要求作業台§7／Logistics Request Table》§rです。%n%n3*3のクラフトグリッドがあり、NEIのレシピを読み込んでそのまま要求できます。アイテムを置いておけるインベントリバッファもあります。
 
 # Quest: Sorting Incoming
 betterquesting.quest.FkDubMYaQ5GKGvvfHZ73yw.name=Sorting Incoming
