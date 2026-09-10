@@ -10150,8 +10150,10 @@ betterquesting.quest.7_AtC62nTAKG1nTYoyS-8g.name=供給をお願い
 betterquesting.quest.7_AtC62nTAKG1nTYoyS-8g.desc=アイテムにストレージ用の回収モジュールと要求用の供給モジュールがあるように、流体にもほぼ同等のパイプがあります。%n%n§7《§r流体供給パイプ§7／Logistics Fluid Provider Pipe》§rがその役割を担います。必要としている他のパイプや機械へ流体を供給します。
 
 # Quest: Crafting on Demand
-betterquesting.quest.8CwALDydSAaz9GGQm5tB-g.name=Crafting on Demand
-betterquesting.quest.8CwALDydSAaz9GGQm5tB-g.desc=We can now request items, but it sucks when the systems lack the component while we CAN craft those components.%n%nThe system needs to know how to craft the items it is requesting.%n%nTo get started, get a crafting module. Both automation of machine-crafted recipes and crafting table recipes need this module, in one way or another.
+# EN name: Crafting on Demand
+# EN desc: We can now request items, but it sucks when the systems lack the component while we CAN craft those components.%n%nThe system needs to know how to craft the items it is requesting.%n%nTo get started, get a crafting module. Both automation of machine-crafted recipes and crafting table recipes need this module, in one way or another.
+betterquesting.quest.8CwALDydSAaz9GGQm5tB-g.name=[提出済み]クラフト・オン・デマンド
+betterquesting.quest.8CwALDydSAaz9GGQm5tB-g.desc=アイテムを要求できるようになりましたが、自分でクラフトできる部品なのに、システム側に無いと困ります。%n%nシステムは、要求しているアイテムの作り方を知る必要があります。%n%nまずは§7《§r加工モジュール§7／Crafting Module》§rを用意しましょう。機械レシピの自動化も、作業台レシピの自動化も、形は違えどこのモジュールが必要です。
 
 # Quest: Chassis
 betterquesting.quest.9OtAPqTQQBaCixJITgpnFg.name=物流制御パイプ
@@ -10244,8 +10246,10 @@ betterquesting.quest.l26l6_loSeyuxQYps9XbbA.name=Modular Upgrades
 betterquesting.quest.l26l6_loSeyuxQYps9XbbA.desc=Upgrades can be applied for pipes and modules, but an extra upgrade is needed if we need to apply upgrades to modules.%n%nHere is the Upgrade Module Upgrade. But regardless of how many of these you stuff into a chassis, there will always be 2 module upgrades per module.%n%n[note]Author's Note: Why is the Upgrade Module Upgrade the ONLY upgrade that has a more 3D-style texture while the other modules and upgrades are completely flat?[/note]
 
 # Quest: Automating Crafting Table Recipes
-betterquesting.quest.qp3SFb9oSXKi5Yio_VwgEw.name=Automating Crafting Table Recipes
-betterquesting.quest.qp3SFb9oSXKi5Yio_VwgEw.desc=Automating crafting table recipes is a good first step to automate your processes.%n%nTo achieve this goal, get yourself a crafting logistics pipe and a logistics crafting table.%n%nYou can import a crafting table recipe into a logistics crafting table and you can click the "import" button on the crafting logistics pipes GUI that is connected to the crafting table to import the recipe into the pipe.
+# EN name: Automating Crafting Table Recipes
+# EN desc: Automating crafting table recipes is a good first step to automate your processes.%n%nTo achieve this goal, get yourself a crafting logistics pipe and a logistics crafting table.%n%nYou can import a crafting table recipe into a logistics crafting table and you can click the "import" button on the crafting logistics pipes GUI that is connected to the crafting table to import the recipe into the pipe.
+betterquesting.quest.qp3SFb9oSXKi5Yio_VwgEw.name=[下書き]作業台レシピの自動化
+betterquesting.quest.qp3SFb9oSXKi5Yio_VwgEw.desc=作業台レシピの自動化は、工程を自動化する第一歩としておすすめです。%n%nそのためには、§7《§r加工パイプ§7／Crafting Logistics Pipe》§rと§7《§rロジスティクス作業台§7／Logistics Crafting Table》§rを用意しましょう。%n%n作業台レシピをロジスティクス作業台に読み込み、作業台に接続した加工パイプのGUIで「インポート」ボタンを押せば、レシピをパイプへ取り込めます。
 
 # Quest: I NEED THAT!!!!!!
 betterquesting.quest.tT0NrRMyTqePf1jeIx7krw.name=I NEED THAT!!!!!!
