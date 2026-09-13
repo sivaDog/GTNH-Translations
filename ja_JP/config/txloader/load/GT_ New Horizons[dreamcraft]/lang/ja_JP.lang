@@ -1144,9 +1144,12 @@ tc.research_page.InventoryChargingRing=While other thaumaturgists use rings to c
 tc.research_name.ArmorChargingRing=Armor Charging Ring
 tc.research_text.ArmorChargingRing=Passive life-saver
 tc.research_page.ArmorChargingRing=You have found the low but constant recharge rate of your new ring to be more useful than anticipated, but it would be nice if it charged your armor when there wasn't a tool in need of power.  By infusing a few more power sources and a piece of armor, you have found a way to have it do just that. Sadly, the new power sources do not increase the recharge rate, but progress is progress.
-tc.research_name.ElectricGogglesofRevealing=Electric Goggles of Revealing
-tc.research_text.ElectricGogglesofRevealing=The best of both worlds
-tc.research_page.ElectricGogglesofRevealing=You have found a way to detect auras using purely electronic means, no longer requiring mystical energy that can be depleted over time. You can now create a pair of Goggles of Revealing that can be recharged with EU while being able to see Aura Nodes just as you could before. A diamond helmet is required to house the sensitive vis sensing circuitry and prevent it from being damaged, which also has the added benefit of providing extra protection.
+# EN name: Electric Goggles of Revealing
+# EN text: The best of both worlds
+# EN page: You have found a way to detect auras using purely electronic means, no longer requiring mystical energy that can be depleted over time. You can now create a pair of Goggles of Revealing that can be recharged with EU while being able to see Aura Nodes just as you could before. A diamond helmet is required to house the sensitive vis sensing circuitry and prevent it from being damaged, which also has the added benefit of providing extra protection.
+tc.research_name.ElectricGogglesofRevealing=[提出済み]洞察の電動ゴーグル
+tc.research_text.ElectricGogglesofRevealing=魔術と科学のいいとこ取り
+tc.research_page.ElectricGogglesofRevealing=時とともに尽きてしまう神秘的なエネルギーに頼らず、純粋に電子的な手段でオーラを検知する方法を見つけた。<BR><BR>これで、EUで充電し直せる洞察の眼鏡を作れるようになった。オーラ節はこれまでと変わらず見えるままだ。繊細なVis感知回路を収め、破損から守るにはダイヤモンドのヘルメットが必要になるが、そのぶん防御力も上がるという利点がついてくる。
 tc.research_name.NanosuitGogglesofRevealing=Nanosuit Goggles of Revealing
 tc.research_text.NanosuitGogglesofRevealing=Top-tier eye protection
 tc.research_page.NanosuitGogglesofRevealing=You have discovered a way to incorporate your previous vis sensors to a Nanosuit Helmet without moving too much around. By infusing the nano helmet with magic, you will be able to use it to see Aura Nodes. During the magical process, the control circuits for the night vision feature are replaced with capacitors to absorb the excess magical energy and vis-sensing microchips. This will prevent you from turning off the night vision effect of the helmet.
