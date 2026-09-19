@@ -10210,8 +10210,10 @@ betterquesting.quest.VISeokU3R-efeF88FwLGLw.name=Time to See The Process
 betterquesting.quest.VISeokU3R-efeF88FwLGLw.desc=Want to see how the system is handling the request and fix it when you find things get stuck? Here is the upgrade for you.%n%nThe Crafting Monitoring Upgrade can let you view the current progress of the request. So if you find your crafting request is taking an abnormally long time and nothing is crafted by your machines, you may want to take a look here.%n%nIt can be applied to your Logistics Request Table.
 
 # Quest: EVEN EVEN BETTER CHASSIS
-betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw.name=EVEN EVEN BETTER CHASSIS
-betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw.desc=What? You need better chassis already? Need even more recipe slots?%n%nHere is the Chassis Mk4. It holds 4 modules.
+# EN name: EVEN EVEN BETTER CHASSIS
+# EN desc: What? You need better chassis already? Need even more recipe slots?%n%nHere is the Chassis Mk4. It holds 4 modules.
+betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw.name=[提出済み]もっともっと良い物流制御パイプ
+betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw.desc=なに？もうもっと良い物流制御パイプが必要ですか？レシピスロットもまだ足りませんか？%n%n§7《§r物流制御パイプ Mk4§7／Chassis Mk4》§rです。モジュールを4個入れられます。
 
 # Quest: Inserting Fluids
 betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA.name=流体の挿入
