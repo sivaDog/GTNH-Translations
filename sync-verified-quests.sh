@@ -12,7 +12,8 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
-INSTANCE_MC="${INSTANCE_MC:-$HOME/AppData/Roaming/PrismLauncher/instances/GT_New_Horizons_2.8.4_Java_17-25/.minecraft}"
+. "$REPO_ROOT/tools/sync-common.sh"
+resolve_instance_mc
 ID_LIST="$REPO_ROOT/notes/quest-ids-2.8.4.txt"
 SOURCE_LANG="$REPO_ROOT/ja_JP/config/txloader/forceload/betterquesting/lang/ja_JP.lang"
 QB_DST="$INSTANCE_MC/config/txloader/forceload/betterquesting/lang/ja_JP.lang"
@@ -25,23 +26,23 @@ cleanup() {
 trap cleanup EXIT
 
 if [[ ! -f "$ID_LIST" ]]; then
-  echo "Missing quest id list: $ID_LIST" >&2
+  echo "Missing quest id list: $(short_path "$ID_LIST")" >&2
   exit 1
 fi
 if [[ ! -f "$SOURCE_LANG" ]]; then
-  echo "Missing questbook lang: $SOURCE_LANG" >&2
+  echo "Missing questbook lang: $(short_path "$SOURCE_LANG")" >&2
   exit 1
 fi
 if [[ ! -d "$INSTANCE_MC" ]]; then
-  echo "Missing instance .minecraft: $INSTANCE_MC" >&2
-  echo "Set INSTANCE_MC to your Prism instance path." >&2
+  echo "Missing instance .minecraft: $(short_path "$INSTANCE_MC")" >&2
+  echo "Set INSTANCE_MC in .env or pass it inline." >&2
   exit 1
 fi
 
 cd "$REPO_ROOT"
-echo "Repo:     $REPO_ROOT"
+echo "Repo:     $(short_path "$REPO_ROOT")"
 echo "Branch:   $(git branch --show-current 2>/dev/null || echo '(detached)')"
-echo "Instance: $INSTANCE_MC"
+echo "Instance: $(short_path "$INSTANCE_MC")"
 
 python "$REPO_ROOT/tools/check_quest_lang_coverage.py" \
   --ids "$ID_LIST" \

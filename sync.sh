@@ -7,6 +7,9 @@
 #   ./sync.sh thaums       # dreamcraft Thaumonomicon only
 #   ./sync.sh igi          # InGame Info XML only
 #   INSTANCE_MC=/path/to/.minecraft ./sync.sh
+#
+# The instance path comes from INSTANCE_MC, or from INSTANCE_MC in .env
+# (gitignored). Nothing machine-specific is stored in this repo.
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"

@@ -20,7 +20,8 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
-INSTANCE_MC="${INSTANCE_MC:-$HOME/AppData/Roaming/PrismLauncher/instances/GT_New_Horizons_2.8.4_Java_17-25/.minecraft}"
+. "$REPO_ROOT/tools/sync-common.sh"
+resolve_instance_mc
 REL_LANG="config/txloader/load/InGame Info XML[ingameinfo]/lang/ja_JP.lang"
 SOURCE_LANG="$REPO_ROOT/ja_JP/$REL_LANG"
 FORCE_DST="$INSTANCE_MC/config/txloader/forceload/InGame Info XML[ingameinfo]/lang/ja_JP.lang"
@@ -33,20 +34,20 @@ cleanup() {
 trap cleanup EXIT
 
 if [[ ! -f "$SOURCE_LANG" ]]; then
-  echo "Missing ingameinfo lang: $SOURCE_LANG" >&2
+  echo "Missing ingameinfo lang: $(short_path "$SOURCE_LANG")" >&2
   exit 1
 fi
 if [[ ! -d "$INSTANCE_MC" ]]; then
-  echo "Missing instance .minecraft: $INSTANCE_MC" >&2
-  echo "Set INSTANCE_MC to your Prism instance path." >&2
+  echo "Missing instance .minecraft: $(short_path "$INSTANCE_MC")" >&2
+  echo "Set INSTANCE_MC in .env or pass it inline." >&2
   exit 1
 fi
 
 cd "$REPO_ROOT"
-echo "Repo:     $REPO_ROOT"
+echo "Repo:     $(short_path "$REPO_ROOT")"
 echo "Branch:   $(git branch --show-current 2>/dev/null || echo '(detached)')"
-echo "Instance: $INSTANCE_MC"
-echo "Source:   $SOURCE_LANG"
+echo "Instance: $(short_path "$INSTANCE_MC")"
+echo "Source:   $(short_path "$SOURCE_LANG")"
 for mark in 下書き 自訳 提出済み; do
   n="$(grep -c "^[^#].*=\[$mark\]" "$SOURCE_LANG" || true)"
   [[ "$n" -gt 0 ]] && echo "Marks:    [$mark] $n 件"
@@ -62,12 +63,12 @@ MSYS2_ARG_CONV_EXCL='*' python "$(winpath "$REPO_ROOT/tools/build_ingameinfo_2_8
 mkdir -p "$(dirname "$FORCE_DST")"
 cp -a "$BUILT" "$FORCE_DST"
 echo "Wrote forceload (game-visible on 2.8.4)"
-echo "  $FORCE_DST"
+echo "  $(short_path "$FORCE_DST")"
 
 if [[ -f "$LOAD_DST" ]]; then
   cp -a "$BUILT" "$LOAD_DST"
   echo "Wrote load (leftover overlay; not used while forceload exists)"
-  echo "  $LOAD_DST"
+  echo "  $(short_path "$LOAD_DST")"
 fi
 
 echo "Synced InGame Info XML ja_JP."

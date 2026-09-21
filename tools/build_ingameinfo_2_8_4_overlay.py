@@ -124,8 +124,9 @@ def main() -> int:
         out.append("%s=%s" % (key, value))
 
     io.open(args.output, "w", encoding="utf-8", newline=newline).write(newline.join(out))
-    print("overlay: %d keys (%d aliases + %d extra) -> %s"
-          % (len(ALIASES) + len(EXTRA), len(ALIASES), len(EXTRA), args.output))
+    # The output is a temp file; printing its path would leak the home directory.
+    print("overlay: %d keys (%d aliases + %d extra)"
+          % (len(ALIASES) + len(EXTRA), len(ALIASES), len(EXTRA)))
     return 0
 
 

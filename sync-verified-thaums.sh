@@ -12,37 +12,38 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
-INSTANCE_MC="${INSTANCE_MC:-$HOME/AppData/Roaming/PrismLauncher/instances/GT_New_Horizons_2.8.4_Java_17-25/.minecraft}"
+. "$REPO_ROOT/tools/sync-common.sh"
+resolve_instance_mc
 REL_LANG="config/txloader/load/GT_ New Horizons[dreamcraft]/lang/ja_JP.lang"
 SOURCE_LANG="$REPO_ROOT/ja_JP/$REL_LANG"
 FORCE_DST="$INSTANCE_MC/config/txloader/forceload/GT_ New Horizons[dreamcraft]/lang/ja_JP.lang"
 LOAD_DST="$INSTANCE_MC/config/txloader/load/GT_ New Horizons[dreamcraft]/lang/ja_JP.lang"
 
 if [[ ! -f "$SOURCE_LANG" ]]; then
-  echo "Missing dreamcraft lang: $SOURCE_LANG" >&2
+  echo "Missing dreamcraft lang: $(short_path "$SOURCE_LANG")" >&2
   exit 1
 fi
 if [[ ! -d "$INSTANCE_MC" ]]; then
-  echo "Missing instance .minecraft: $INSTANCE_MC" >&2
-  echo "Set INSTANCE_MC to your Prism instance path." >&2
+  echo "Missing instance .minecraft: $(short_path "$INSTANCE_MC")" >&2
+  echo "Set INSTANCE_MC in .env or pass it inline." >&2
   exit 1
 fi
 
 cd "$REPO_ROOT"
-echo "Repo:     $REPO_ROOT"
+echo "Repo:     $(short_path "$REPO_ROOT")"
 echo "Branch:   $(git branch --show-current 2>/dev/null || echo '(detached)')"
-echo "Instance: $INSTANCE_MC"
-echo "Source:   $SOURCE_LANG"
+echo "Instance: $(short_path "$INSTANCE_MC")"
+echo "Source:   $(short_path "$SOURCE_LANG")"
 
 mkdir -p "$(dirname "$FORCE_DST")"
 cp -a "$SOURCE_LANG" "$FORCE_DST"
 echo "Wrote forceload (game-visible on 2.8.4)"
-echo "  $FORCE_DST"
+echo "  $(short_path "$FORCE_DST")"
 
 if [[ -f "$LOAD_DST" ]]; then
   cp -a "$SOURCE_LANG" "$LOAD_DST"
   echo "Wrote load (leftover overlay; not used while forceload exists)"
-  echo "  $LOAD_DST"
+  echo "  $(short_path "$LOAD_DST")"
 fi
 
 echo "Synced dreamcraft Thaumonomicon ja_JP."
