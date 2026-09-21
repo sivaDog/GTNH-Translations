@@ -103,6 +103,21 @@ CustomToolTips は `ja_JP/config/txloader/load/customtooltips/lang/ja_JP.lang`�
 
 - 例: `customtooltip.bee_apiary=[下書き]有効生産確率…`
 
+InGame Info XML は `ja_JP/config/txloader/load/InGame Info XML[ingameinfo]/lang/ja_JP.lang`（キー `ingameinfoxml.*` / `commands.ingameinfoxml.*`）。設定GUIと `/igi taglist` の文言。クエストと違い `desc` も含め **全 274 値**（en_US と 1:1）の先頭にマークを付ける（ファイル丸ごとが手元下書きのため）。
+
+- 例: `ingameinfoxml.tag.biome.desc=[下書き]バイオーム名。`
+- 下書き中は各行の直前に `# EN: <原文>` を置く。確定して `[自訳]` にするときに削除する
+- `§0`〜`§f` / `§etrue§r` / `%s` / `<space>` は原文のまま残す。`true` / `false` はタグの出力値なので訳さない
+- 反映は `./sync.sh igi`（instance の forceload と load を両方上書き）→ **ゲーム完全再起動**
+- HUD 本体は `ja_JP/config/InGameInfoXML/InGameInfo_ja_JP.xml` で、この lang とは別物（sync 対象外）
+- **en_US.lang に無い実キーが 8 つある**。**正本の lang には入れない**（ParaTranz に原文が無く、キーを混ぜると 1:1 が崩れる）。`tools/build_ingameinfo_2_8_4_overlay.py` が sync 時に足す。jar の実装が引くキーに en_US が追従していないため、GUIにキー文字列が素通しで出る。ParaTranz の原文に無いので投稿できず、upstream 報告の対象
+  - 設定GUI: `setLanguageKey("ingameinfoxml.config." + プロパティ名)` なのでプロパティ名がそのままキー。`scale` → **`scale(new)`** に改名（旧 `scale` キーはもう効かない）、**`ShowHUD`** は GTNH 追加オプション
+  - タグ一覧: `Tag.getLocalizedDescription()` が `"ingameinfoxml.tag." + タグ名 + ".desc"` を引く。**`bmlpNum`** / **`bmmaxlpNum`** / **`potionnegative`** / **`worldtimetotal`** の4件が未登録
+  - 内訳: **改名2件**（`scale(new)` は `scale` の値を引き写すだけなので ParaTranz の更新に自動追従）と、**上流に対応キーが無い6件**（訳文はツールの表が持つ）
+  - ツールは「引き写し元のキーが消えた」「lang 側に同じキーが生えた」場合に exit 1 で止まる。`set -e` なのでインスタンスへは書かれない
+  - 棚卸し方法: jar の各 `register()` が渡すタグ名を javap で全列挙して lang と突合する（使い捨てスクリプト）
+  - 誤検出に注意: 装備タグは `equipped`/`helmet` 等の接頭辞を実行時に連結するので `name` `damage` 等の断片が、TFC の `tfcskill*` は `getLocalizedDescription()` を上書きして `fmtskill*` を引くので、どちらも「未登録」に見える
+
 ## 作業フロー（再掲）
 
 1. 訳は **ParaTranz** が本番。手元ブランチは下書き・用語揃え用
