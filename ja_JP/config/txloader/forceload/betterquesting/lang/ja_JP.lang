@@ -11921,12 +11921,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.name=Aer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.desc=For Aer bees to appear, you must put an Air Crystal Cluster beneath the bee housing. They will produce Aer infused dust for you. Being nearby will grant a Swiftness buff. Breed them from two Windy.
 
 # Quest: Solum
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsQ.name=Solum
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsQ.desc=Solum bees require Earth Crystal Clusters. They can produce Earth infused dust. It will also give you a mining speed boost. Breed them from two Earthen.
+# EN name: Solum
+# EN desc: Solum bees require Earth Crystal Clusters. They can produce Earth infused dust. It will also give you a mining speed boost. Breed them from two Earthen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsQ.name=[提出済み]地源種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsQ.desc=§7《§r地源種§7／Solum》§rには地の結晶株が必要です。§7《§r地の染み込んだ粉§7／Earth Infused Dust》§rを生産します。採掘速度も上がります。土質種同士を交配してみましょう。
 
 # Quest: Ignis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsg.name=Ignis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsg.desc=Ignis bees require Fire Crystal Clusters beneath the bee housing. They will produce Fire infused dust. Watch out! They will set nearby entities on fire! Breed them from two Firey.
+# EN name: Ignis
+# EN desc: Ignis bees require Fire Crystal Clusters beneath the bee housing. They will produce Fire infused dust. Watch out! They will set nearby entities on fire! Breed them from two Firey.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsg.name=[提出済み]火源種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsg.desc=§7《§r火源種§7／Ignis》§rには、巣の下に火の結晶株が必要です。§7《§r火の染み込んだ粉§7／Fire Infused Dust》§rを生産します。注意してください！近くのエンティティに火をつけます！火質種同士を交配してみましょう。
 
 # Quest: Watery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsw.name=水質種
@@ -12157,8 +12161,10 @@ betterquesting.quest.v-1MbhJWRuiGFBX8KEvsUg.name=憤怒種
 betterquesting.quest.v-1MbhJWRuiGFBX8KEvsUg.desc=ラポトロン種やパイロジウム種へ向かう交配ルートを進めるなら、まずは§7《§r憤怒種§7／Furious》§rを交配しましょう。ネザーで残虐種と猛性種を使って交配できます。猛性種はネザーの野外で見つかります。%n%n注意: 憤怒種は下向きにファイヤーチャージを発生させるので、交配場所は耐火にしておいてください！
 
 # Quest: Volcanic
-betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.name=Volcanic
-betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.desc=One step closer to your goal, these bees can be bred from Furious and Demonic Bees while inside the Nether. Just like their Furious counterparts, they will spawn fire charges while working.
+# EN name: Volcanic
+# EN desc: One step closer to your goal, these bees can be bred from Furious and Demonic Bees while inside the Nether. Just like their Furious counterparts, they will spawn fire charges while working.
+betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.name=[提出済み]火山種
+betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.desc=目標にもう一歩近づきました。ネザー内で憤怒種と悪魔種を交配できます。憤怒種と同じく、作業中にファイヤーチャージを発生させます。
 
 # Quest: Oberon
 betterquesting.quest.zMRva-UMR1-ZlN73PLW3Lw.name=オベロン
