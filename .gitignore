@@ -217,3 +217,10 @@ cython_debug/
 .test.sh
 .temp/
 .paratranz_cache/
+
+### Editor
+# VS Code workspace settings are per-developer here
+.vscode/
+
+# One-off analysis dumps; regenerate rather than track
+*.csv
