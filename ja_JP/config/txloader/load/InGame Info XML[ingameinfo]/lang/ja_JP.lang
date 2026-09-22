@@ -1,596 +1,322 @@
 # [下書き] sivaDog 手元下書き。確定したら [自訳]、ParaTranz 投稿後は [提出済み] に置き換える
 # ParaTranz へ貼るときは行頭の [下書き] を外す。'# EN:' は原文比較用で、確定時に削除する
 # gui - config - categories
-# EN: General
-ingameinfoxml.config.category.general=[提出済み]全般
-# EN: General options.
-ingameinfoxml.config.category.general.tooltip=[提出済み]全般の設定。
-# EN: Alignment
-ingameinfoxml.config.category.alignment=[提出済み]表示位置
-# EN: Alignment offset options.
-ingameinfoxml.config.category.alignment.tooltip=[提出済み]表示位置のオフセット設定。
+ingameinfoxml.config.category.general=全般
+ingameinfoxml.config.category.general.tooltip=全般の設定。
+ingameinfoxml.config.category.alignment=表示位置
+ingameinfoxml.config.category.alignment.tooltip=表示位置のオフセット設定。
 
 # gui - config - general
-# EN: Filename
-ingameinfoxml.config.filename=[提出済み]ファイル名
-# EN: The configuration that should be loaded on startup.
-ingameinfoxml.config.filename.tooltip=[提出済み]起動時に読み込む設定ファイル。
-# EN: Replace Debug Overlay
-ingameinfoxml.config.replaceDebug=[提出済み]デバッグ画面を置き換え
-# EN: Replace the debug overlay (F3) with the InGameInfoXML overlay.
-ingameinfoxml.config.replaceDebug.tooltip=[提出済み]デバッグ画面(F3)をInGameInfoXMLのオーバーレイに置き換える。
-# EN: Show in Chat
-ingameinfoxml.config.showInChat=[提出済み]チャットに表示
-# EN: Display the overlay in chat.
-ingameinfoxml.config.showInChat.tooltip=[提出済み]チャット画面でもオーバーレイを表示する。
-# EN: Show on Player List
-ingameinfoxml.config.showOnPlayerList=[提出済み]プレイヤーリストに表示
-# EN: Display the overlay on the player list.
-ingameinfoxml.config.showOnPlayerList.tooltip=[提出済み]プレイヤーリスト表示中もオーバーレイを表示する。
-# EN: Scale
-ingameinfoxml.config.scale=[提出済み]表示倍率
-# EN: The overlay will be scaled by this amount.
-ingameinfoxml.config.scale.tooltip=[提出済み]オーバーレイをこの倍率で拡大縮小する。
-# EN: File Tag Interval
-ingameinfoxml.config.fileInterval=[提出済み]fileタグの読み込み間隔
-# EN: The interval between file reads for the 'file' tag (in seconds).
-ingameinfoxml.config.fileInterval.tooltip=[提出済み]'file'タグがファイルを読み直す間隔(秒)。
+ingameinfoxml.config.filename=ファイル名
+ingameinfoxml.config.filename.tooltip=起動時に読み込む設定ファイル。
+ingameinfoxml.config.replaceDebug=デバッグ画面を置き換え
+ingameinfoxml.config.replaceDebug.tooltip=デバッグ画面(F3)をInGameInfoXMLのオーバーレイに置き換える。
+ingameinfoxml.config.showInChat=チャットに表示
+ingameinfoxml.config.showInChat.tooltip=チャット画面でもオーバーレイを表示する。
+ingameinfoxml.config.showOnPlayerList=プレイヤーリストに表示
+ingameinfoxml.config.showOnPlayerList.tooltip=プレイヤーリスト表示中もオーバーレイを表示する。
+ingameinfoxml.config.scale=表示倍率
+ingameinfoxml.config.scale.tooltip=オーバーレイをこの倍率で拡大縮小する。
+ingameinfoxml.config.fileInterval=fileタグの読み込み間隔
+ingameinfoxml.config.fileInterval.tooltip='file'タグがファイルを読み直す間隔(秒)。
 
 # gui - config - alignment
-# EN: Top Left
-ingameinfoxml.config.topleft=[提出済み]左上
-# EN: Offsets for the top left side of the screen (X<space>Y).
-ingameinfoxml.config.topleft.tooltip=[提出済み]画面左上のオフセット (X<space>Y)。
-# EN: Top Center
-ingameinfoxml.config.topcenter=[提出済み]上中央
-# EN: Offsets for the top center side of the screen (X<space>Y).
-ingameinfoxml.config.topcenter.tooltip=[提出済み]画面上中央のオフセット (X<space>Y)。
-# EN: Top Right
-ingameinfoxml.config.topright=[提出済み]右上
-# EN: Offsets for the top right side of the screen (X<space>Y).
-ingameinfoxml.config.topright.tooltip=[提出済み]画面右上のオフセット (X<space>Y)。
-# EN: Middle Left
-ingameinfoxml.config.middleleft=[提出済み]左中央
-# EN: Offsets for the middle left side of the screen (X<space>Y).
-ingameinfoxml.config.middleleft.tooltip=[提出済み]画面左中央のオフセット (X<space>Y)。
-# EN: Middle Center
-ingameinfoxml.config.middlecenter=[提出済み]中央
-# EN: Offsets for the middle center side of the screen (X<space>Y).
-ingameinfoxml.config.middlecenter.tooltip=[提出済み]画面中央のオフセット (X<space>Y)。
-# EN: Middle Right
-ingameinfoxml.config.middleright=[提出済み]右中央
-# EN: Offsets for the middle right side of the screen (X<space>Y).
-ingameinfoxml.config.middleright.tooltip=[提出済み]画面右中央のオフセット (X<space>Y)。
-# EN: Bottom Left
-ingameinfoxml.config.bottomleft=[提出済み]左下
-# EN: Offsets for the bottom left side of the screen (X<space>Y).
-ingameinfoxml.config.bottomleft.tooltip=[提出済み]画面左下のオフセット (X<space>Y)。
-# EN: Bottom Center
-ingameinfoxml.config.bottomcenter=[提出済み]下中央
-# EN: Offsets for the bottom center side of the screen (X<space>Y).
-ingameinfoxml.config.bottomcenter.tooltip=[提出済み]画面下中央のオフセット (X<space>Y)。
-# EN: Bottom Right
-ingameinfoxml.config.bottomright=[提出済み]右下
-# EN: Offsets for the bottom right side of the screen (X<space>Y).
-ingameinfoxml.config.bottomright.tooltip=[提出済み]画面右下のオフセット (X<space>Y)。
+ingameinfoxml.config.topleft=左上
+ingameinfoxml.config.topleft.tooltip=画面左上のオフセット (X<space>Y)。
+ingameinfoxml.config.topcenter=上中央
+ingameinfoxml.config.topcenter.tooltip=画面上中央のオフセット (X<space>Y)。
+ingameinfoxml.config.topright=右上
+ingameinfoxml.config.topright.tooltip=画面右上のオフセット (X<space>Y)。
+ingameinfoxml.config.middleleft=左中央
+ingameinfoxml.config.middleleft.tooltip=画面左中央のオフセット (X<space>Y)。
+ingameinfoxml.config.middlecenter=中央
+ingameinfoxml.config.middlecenter.tooltip=画面中央のオフセット (X<space>Y)。
+ingameinfoxml.config.middleright=右中央
+ingameinfoxml.config.middleright.tooltip=画面右中央のオフセット (X<space>Y)。
+ingameinfoxml.config.bottomleft=左下
+ingameinfoxml.config.bottomleft.tooltip=画面左下のオフセット (X<space>Y)。
+ingameinfoxml.config.bottomcenter=下中央
+ingameinfoxml.config.bottomcenter.tooltip=画面下中央のオフセット (X<space>Y)。
+ingameinfoxml.config.bottomright=右下
+ingameinfoxml.config.bottomright.tooltip=画面右下のオフセット (X<space>Y)。
 
 # gui - tag list
-# EN: Tag List
-gui.ingameinfoxml.taglist=[提出済み]タグ一覧
+gui.ingameinfoxml.taglist=タグ一覧
 
 # gui - tag list - categories
-# EN: Formatting
-ingameinfoxml.tag.category.formatting.name=[提出済み]書式
-# EN: Miscellaneous
-ingameinfoxml.tag.category.misc.name=[提出済み]その他
-# EN: Mouse Over
-ingameinfoxml.tag.category.mouseover.name=[提出済み]カーソル対象
-# EN: Nearby Players
-ingameinfoxml.tag.category.nearbyplayer.name=[提出済み]周囲のプレイヤー
-# EN: Player - Equipment
-ingameinfoxml.tag.category.playerequipment.name=[提出済み]プレイヤー - 装備
-# EN: Player - General
-ingameinfoxml.tag.category.playergeneral.name=[提出済み]プレイヤー - 全般
-# EN: Player - Position
-ingameinfoxml.tag.category.playerposition.name=[提出済み]プレイヤー - 位置
-# EN: Player - Potion Effects
-ingameinfoxml.tag.category.playerpotion.name=[提出済み]プレイヤー - ポーション効果
-# EN: Riding
-ingameinfoxml.tag.category.riding.name=[提出済み]騎乗
-# EN: Time
-ingameinfoxml.tag.category.time.name=[提出済み]時間
-# EN: World
-ingameinfoxml.tag.category.world.name=[提出済み]ワールド
-# EN: Blood Magic
-ingameinfoxml.tag.category.bloodmagic.name=[提出済み]Blood Magic
-# EN: Simply Jetpacks
-ingameinfoxml.tag.category.simplyjetpacks.name=[提出済み]Simply Jetpacks
-# EN: TerraFirmaCraft
-ingameinfoxml.tag.category.terrafirmacraft.name=[提出済み]TerraFirmaCraft
-# EN: Thaumcraft
-ingameinfoxml.tag.category.thaumcraft.name=[提出済み]Thaumcraft
-# EN: GregTech
-ingameinfoxml.tag.category.gregtech.name=[提出済み]GregTech
+ingameinfoxml.tag.category.formatting.name=書式
+ingameinfoxml.tag.category.misc.name=その他
+ingameinfoxml.tag.category.mouseover.name=カーソル対象
+ingameinfoxml.tag.category.nearbyplayer.name=周囲のプレイヤー
+ingameinfoxml.tag.category.playerequipment.name=プレイヤー - 装備
+ingameinfoxml.tag.category.playergeneral.name=プレイヤー - 全般
+ingameinfoxml.tag.category.playerposition.name=プレイヤー - 位置
+ingameinfoxml.tag.category.playerpotion.name=プレイヤー - ポーション効果
+ingameinfoxml.tag.category.riding.name=騎乗
+ingameinfoxml.tag.category.time.name=時間
+ingameinfoxml.tag.category.world.name=ワールド
+ingameinfoxml.tag.category.bloodmagic.name=Blood Magic
+ingameinfoxml.tag.category.simplyjetpacks.name=Simply Jetpacks
+ingameinfoxml.tag.category.terrafirmacraft.name=TerraFirmaCraft
+ingameinfoxml.tag.category.thaumcraft.name=Thaumcraft
+ingameinfoxml.tag.category.gregtech.name=GregTech
 
 # gui - tag list - formatting tags
-# EN: Black color (§0EXAMPLE§r).
-ingameinfoxml.tag.black.desc=[提出済み]黒 (§0見本§r)。
-# EN: Dark blue color (§1EXAMPLE§r).
-ingameinfoxml.tag.darkblue.desc=[提出済み]濃い青 (§1見本§r)。
-# EN: Dark green color (§2EXAMPLE§r).
-ingameinfoxml.tag.darkgreen.desc=[提出済み]濃い緑 (§2見本§r)。
-# EN: Dark aqua color (§3EXAMPLE§r).
-ingameinfoxml.tag.darkaqua.desc=[提出済み]濃い水色 (§3見本§r)。
-# EN: Dark red color (§4EXAMPLE§r).
-ingameinfoxml.tag.darkred.desc=[提出済み]濃い赤 (§4見本§r)。
-# EN: Dark purple color (§5EXAMPLE§r).
-ingameinfoxml.tag.darkpurple.desc=[提出済み]濃い紫 (§5見本§r)。
-# EN: Gold color (§6EXAMPLE§r).
-ingameinfoxml.tag.gold.desc=[提出済み]金 (§6見本§r)。
-# EN: Gray color (§7EXAMPLE§r).
-ingameinfoxml.tag.gray.desc=[提出済み]灰色 (§7見本§r)。
-# EN: Dark grey color (§8EXAMPLE§r).
-ingameinfoxml.tag.darkgrey.desc=[提出済み]濃い灰色 (§8見本§r)。
-# EN: Blue color (§9EXAMPLE§r).
-ingameinfoxml.tag.blue.desc=[提出済み]青 (§9見本§r)。
-# EN: Green color (§aEXAMPLE§r).
-ingameinfoxml.tag.green.desc=[提出済み]緑 (§a見本§r)。
-# EN: Aqua color (§bEXAMPLE§r).
-ingameinfoxml.tag.aqua.desc=[提出済み]水色 (§b見本§r)。
-# EN: Red color (§cEXAMPLE§r).
-ingameinfoxml.tag.red.desc=[提出済み]赤 (§c見本§r)。
-# EN: Light purple color (§dEXAMPLE§r).
-ingameinfoxml.tag.lightpurple.desc=[提出済み]明るい紫 (§d見本§r)。
-# EN: Yellow color (§eEXAMPLE§r).
-ingameinfoxml.tag.yellow.desc=[提出済み]黄 (§e見本§r)。
-# EN: White color (§fEXAMPLE§r).
-ingameinfoxml.tag.white.desc=[提出済み]白 (§f見本§r)。
-# EN: Obfuscated text (§kEXAMPLE§r).
-ingameinfoxml.tag.obfuscated.desc=[提出済み]難読化された文字 (§k見本§r)。
-# EN: Bold text (§lEXAMPLE§r).
-ingameinfoxml.tag.bold.desc=[提出済み]太字 (§l見本§r)。
-# EN: Strike through text (§mEXAMPLE§r).
-ingameinfoxml.tag.strikethrough.desc=[提出済み]打ち消し線 (§m見本§r)。
-# EN: Underlined text (§nEXAMPLE§r).
-ingameinfoxml.tag.underline.desc=[提出済み]下線 (§n見本§r)。
-# EN: Italic text (§oEXAMPLE§r).
-ingameinfoxml.tag.italic.desc=[提出済み]斜体 (§o見本§r)。
-# EN: Reset formatting.
-ingameinfoxml.tag.reset.desc=[提出済み]書式をリセットする。
+ingameinfoxml.tag.black.desc=黒 (§0見本§r)。
+ingameinfoxml.tag.darkblue.desc=濃い青 (§1見本§r)。
+ingameinfoxml.tag.darkgreen.desc=濃い緑 (§2見本§r)。
+ingameinfoxml.tag.darkaqua.desc=濃い水色 (§3見本§r)。
+ingameinfoxml.tag.darkred.desc=濃い赤 (§4見本§r)。
+ingameinfoxml.tag.darkpurple.desc=濃い紫 (§5見本§r)。
+ingameinfoxml.tag.gold.desc=金 (§6見本§r)。
+ingameinfoxml.tag.gray.desc=灰色 (§7見本§r)。
+ingameinfoxml.tag.darkgrey.desc=濃い灰色 (§8見本§r)。
+ingameinfoxml.tag.blue.desc=青 (§9見本§r)。
+ingameinfoxml.tag.green.desc=緑 (§a見本§r)。
+ingameinfoxml.tag.aqua.desc=水色 (§b見本§r)。
+ingameinfoxml.tag.red.desc=赤 (§c見本§r)。
+ingameinfoxml.tag.lightpurple.desc=明るい紫 (§d見本§r)。
+ingameinfoxml.tag.yellow.desc=黄 (§e見本§r)。
+ingameinfoxml.tag.white.desc=白 (§f見本§r)。
+ingameinfoxml.tag.obfuscated.desc=難読化された文字 (§k見本§r)。
+ingameinfoxml.tag.bold.desc=太字 (§l見本§r)。
+ingameinfoxml.tag.strikethrough.desc=打ち消し線 (§m見本§r)。
+ingameinfoxml.tag.underline.desc=下線 (§n見本§r)。
+ingameinfoxml.tag.italic.desc=斜体 (§o見本§r)。
+ingameinfoxml.tag.reset.desc=書式をリセットする。
 
 # gui - tag list - misc
-# EN: Amount of maximum memory.
-ingameinfoxml.tag.memmax.desc=[提出済み]最大メモリ量。
-# EN: Amount of total memory.
-ingameinfoxml.tag.memtotal.desc=[提出済み]確保済みメモリ量。
-# EN: Amount of free memory.
-ingameinfoxml.tag.memfree.desc=[提出済み]空きメモリ量。
-# EN: Amount of memory in use.
-ingameinfoxml.tag.memused.desc=[提出済み]使用中のメモリ量。
-# EN: Current FPS.
-ingameinfoxml.tag.fps.desc=[提出済み]現在のFPS。
-# EN: Current resource pack.
-ingameinfoxml.tag.resourcepack.desc=[提出済み]現在のリソースパック。
-# EN: Amount of rendered entities.
-ingameinfoxml.tag.entitiesrendered.desc=[提出済み]描画中のエンティティ数。
-# EN: Amount of loaded entities.
-ingameinfoxml.tag.entitiestotal.desc=[提出済み]読み込み済みのエンティティ数。
-# EN: Amount of loaded chunks.
-ingameinfoxml.tag.loadedchunks.desc=[提出済み]読み込み済みのチャンク数。
-# EN: Server domain or IP and the port if it's not 25565, localhost if it's a local game.
-ingameinfoxml.tag.server.desc=[提出済み]サーバーのドメインまたはIP。ポートが25565以外ならポートも付く。ローカルなら localhost。
-# EN: Server domain, localhost if it's a local game.
-ingameinfoxml.tag.servername.desc=[提出済み]サーバーのドメイン。ローカルなら localhost。
-# EN: Server IP, 127.0.0.1 if it's a local game.
-ingameinfoxml.tag.serverip.desc=[提出済み]サーバーのIP。ローカルなら 127.0.0.1。
-# EN: Server port, -1 if it's a local game.
-ingameinfoxml.tag.serverport.desc=[提出済み]サーバーのポート。ローカルなら -1。
-# EN: Current ping, -1 if no data.
-ingameinfoxml.tag.ping.desc=[提出済み]現在のping。データが無ければ -1。
-# EN: Current ping icon, empty string if no data.
-ingameinfoxml.tag.pingicon.desc=[提出済み]現在のpingアイコン。データが無ければ空文字。
+ingameinfoxml.tag.memmax.desc=最大メモリ量。
+ingameinfoxml.tag.memtotal.desc=確保済みメモリ量。
+ingameinfoxml.tag.memfree.desc=空きメモリ量。
+ingameinfoxml.tag.memused.desc=使用中のメモリ量。
+ingameinfoxml.tag.fps.desc=現在のFPS。
+ingameinfoxml.tag.resourcepack.desc=現在のリソースパック。
+ingameinfoxml.tag.entitiesrendered.desc=描画中のエンティティ数。
+ingameinfoxml.tag.entitiestotal.desc=読み込み済みのエンティティ数。
+ingameinfoxml.tag.loadedchunks.desc=読み込み済みのチャンク数。
+ingameinfoxml.tag.server.desc=サーバーのドメインまたはIP。ポートが25565以外ならポートも付く。ローカルなら localhost。
+ingameinfoxml.tag.servername.desc=サーバーのドメイン。ローカルなら localhost。
+ingameinfoxml.tag.serverip.desc=サーバーのIP。ローカルなら 127.0.0.1。
+ingameinfoxml.tag.serverport.desc=サーバーのポート。ローカルなら -1。
+ingameinfoxml.tag.ping.desc=現在のping。データが無ければ -1。
+ingameinfoxml.tag.pingicon.desc=現在のpingアイコン。データが無ければ空文字。
 
 # gui - tag list - mouse over
-# EN: Name of the entity or block under the cursor, an empty string if there is nothing.
-ingameinfoxml.tag.mouseovername.desc=[提出済み]カーソルが指しているエンティティまたはブロックの名前。何も無ければ空文字。
-# EN: Unique name of the entity or block under the cursor, an empty string if there is nothing.
-ingameinfoxml.tag.mouseoveruniquename.desc=[提出済み]カーソルが指しているエンティティまたはブロックの固有名。何も無ければ空文字。
-# EN: Entity id or block id under the cursor, zero if there is nothing.
-ingameinfoxml.tag.mouseoverid.desc=[提出済み]カーソルが指しているエンティティIDまたはブロックID。何も無ければ 0。
-# EN: Block metadata under the cursor, zero if there is nothing.
-ingameinfoxml.tag.mouseovermetadata.desc=[提出済み]カーソルが指しているブロックのメタデータ。何も無ければ 0。
-# EN: Weak redstone power of the block, -1 if there is nothing.
-ingameinfoxml.tag.mouseoverpowerweak.desc=[提出済み]そのブロックの弱いレッドストーン出力。何も無ければ -1。
-# EN: Strong redstone power of the block, -1 if there is nothing.
-ingameinfoxml.tag.mouseoverpowerstrong.desc=[提出済み]そのブロックの強いレッドストーン出力。何も無ければ -1。
-# EN: Input redstone power of the block, -1 if there is nothing.
-ingameinfoxml.tag.mouseoverpowerinput.desc=[提出済み]そのブロックへのレッドストーン入力。何も無ければ -1。
+ingameinfoxml.tag.mouseovername.desc=カーソルが指しているエンティティまたはブロックの名前。何も無ければ空文字。
+ingameinfoxml.tag.mouseoveruniquename.desc=カーソルが指しているエンティティまたはブロックの固有名。何も無ければ空文字。
+ingameinfoxml.tag.mouseoverid.desc=カーソルが指しているエンティティIDまたはブロックID。何も無ければ 0。
+ingameinfoxml.tag.mouseovermetadata.desc=カーソルが指しているブロックのメタデータ。何も無ければ 0。
+ingameinfoxml.tag.mouseoverpowerweak.desc=そのブロックの弱いレッドストーン出力。何も無ければ -1。
+ingameinfoxml.tag.mouseoverpowerstrong.desc=そのブロックの強いレッドストーン出力。何も無ければ -1。
+ingameinfoxml.tag.mouseoverpowerinput.desc=そのブロックへのレッドストーン入力。何も無ければ -1。
 
 # gui - tag list - nearby player
-# EN: Distance to x-th nearby player.
-ingameinfoxml.tag.nearbyplayerdistance.desc=[提出済み]近くのx番目のプレイヤーまでの距離。
-# EN: Name of the x-th nearby player.
-ingameinfoxml.tag.nearbyplayername.desc=[提出済み]近くのx番目のプレイヤーの名前。
+ingameinfoxml.tag.nearbyplayerdistance.desc=近くのx番目のプレイヤーまでの距離。
+ingameinfoxml.tag.nearbyplayername.desc=近くのx番目のプレイヤーの名前。
 
 # gui - tag list - player equipment
-# EN: Equipped item's name.
-ingameinfoxml.tag.equippedname.desc=[提出済み]手持ちアイテムの名前。
-# EN: Equipped item's unique name.
-ingameinfoxml.tag.equippeduniquename.desc=[提出済み]手持ちアイテムの固有名。
-# EN: Equipped item's damage.
-ingameinfoxml.tag.equippeddamage.desc=[提出済み]手持ちアイテムの損傷値。
-# EN: Equipped item's max damage.
-ingameinfoxml.tag.equippedmaxdamage.desc=[提出済み]手持ちアイテムの最大耐久値。
-# EN: Equipped item's damage left.
-ingameinfoxml.tag.equippeddamageleft.desc=[提出済み]手持ちアイテムの残り耐久値。
-# EN: Equipped item's metadata.
-ingameinfoxml.tag.equippeditemmeta.desc=[提出済み]手持ちアイテムのメタデータ。
-# EN: Equipped item's numeric ID.
-ingameinfoxml.tag.equippeditemid.desc=[提出済み]手持ちアイテムの数値ID。
-# EN: Quantity of the equipped item in the inventory.
-ingameinfoxml.tag.equippedquantity.desc=[提出済み]インベントリ内にある手持ちアイテムの個数。
-# EN: Equipped item's icon.
-ingameinfoxml.tag.equippedicon.desc=[提出済み]手持ちアイテムのアイコン。
-# EN: Equipped item's large icon.
-ingameinfoxml.tag.equippedlargeicon.desc=[提出済み]手持ちアイテムの大きいアイコン。
-# EN: Helmet's name.
-ingameinfoxml.tag.helmetname.desc=[提出済み]ヘルメットの名前。
-# EN: Helmet's unique name.
-ingameinfoxml.tag.helmetuniquename.desc=[提出済み]ヘルメットの固有名。
-# EN: Helmet's damage.
-ingameinfoxml.tag.helmetdamage.desc=[提出済み]ヘルメットの損傷値。
-# EN: Helmet's max damage.
-ingameinfoxml.tag.helmetmaxdamage.desc=[提出済み]ヘルメットの最大耐久値。
-# EN: Helmet's damage left.
-ingameinfoxml.tag.helmetdamageleft.desc=[提出済み]ヘルメットの残り耐久値。
-# EN: Helmet's metadata.
-ingameinfoxml.tag.helmetitemmeta.desc=[提出済み]ヘルメットのメタデータ。
-# EN: Helmet's numeric ID.
-ingameinfoxml.tag.helmetitemid.desc=[提出済み]ヘルメットの数値ID。
-# EN: Quantity of the helmet in the inventory.
-ingameinfoxml.tag.helmetquantity.desc=[提出済み]インベントリ内にあるヘルメットの個数。
-# EN: Helmet's icon.
-ingameinfoxml.tag.helmeticon.desc=[提出済み]ヘルメットのアイコン。
-# EN: Helmet's large icon.
-ingameinfoxml.tag.helmetlargeicon.desc=[提出済み]ヘルメットの大きいアイコン。
-# EN: Chestplate's name.
-ingameinfoxml.tag.chestplatename.desc=[提出済み]チェストプレートの名前。
-# EN: Chestplate's unique name.
-ingameinfoxml.tag.chestplateuniquename.desc=[提出済み]チェストプレートの固有名。
-# EN: Chestplate's damage.
-ingameinfoxml.tag.chestplatedamage.desc=[提出済み]チェストプレートの損傷値。
-# EN: Chestplate's max damage.
-ingameinfoxml.tag.chestplatemaxdamage.desc=[提出済み]チェストプレートの最大耐久値。
-# EN: Chestplate's damage left.
-ingameinfoxml.tag.chestplatedamageleft.desc=[提出済み]チェストプレートの残り耐久値。
-# EN: Chestplate's metadata.
-ingameinfoxml.tag.chestplateitemmeta.desc=[提出済み]チェストプレートのメタデータ。
-# EN: Chestplate's numeric ID.
-ingameinfoxml.tag.chestplateitemid.desc=[提出済み]チェストプレートの数値ID。
-# EN: Quantity of the chestplate in the inventory.
-ingameinfoxml.tag.chestplatequantity.desc=[提出済み]インベントリ内にあるチェストプレートの個数。
-# EN: Chestplate's icon.
-ingameinfoxml.tag.chestplateicon.desc=[提出済み]チェストプレートのアイコン。
-# EN: Chestplate's large icon.
-ingameinfoxml.tag.chestplatelargeicon.desc=[提出済み]チェストプレートの大きいアイコン。
-# EN: Leggings' name.
-ingameinfoxml.tag.leggingsname.desc=[提出済み]レギンスの名前。
-# EN: Leggings' unique name.
-ingameinfoxml.tag.leggingsuniquename.desc=[提出済み]レギンスの固有名。
-# EN: Leggings' damage.
-ingameinfoxml.tag.leggingsdamage.desc=[提出済み]レギンスの損傷値。
-# EN: Leggings' max damage.
-ingameinfoxml.tag.leggingsmaxdamage.desc=[提出済み]レギンスの最大耐久値。
-# EN: Leggings' damage left.
-ingameinfoxml.tag.leggingsdamageleft.desc=[提出済み]レギンスの残り耐久値。
-# EN: Leggings' metadata.
-ingameinfoxml.tag.leggingsitemmeta.desc=[提出済み]レギンスのメタデータ。
-# EN: Leggings' numeric ID.
-ingameinfoxml.tag.leggingsitemid.desc=[提出済み]レギンスの数値ID。
-# EN: Quantity of the leggings in the inventory.
-ingameinfoxml.tag.leggingsquantity.desc=[提出済み]インベントリ内にあるレギンスの個数。
-# EN: Leggings' icon.
-ingameinfoxml.tag.leggingsicon.desc=[提出済み]レギンスのアイコン。
-# EN: Leggings' large icon.
-ingameinfoxml.tag.leggingslargeicon.desc=[提出済み]レギンスの大きいアイコン。
-# EN: Boots' name.
-ingameinfoxml.tag.bootsname.desc=[提出済み]ブーツの名前。
-# EN: Boots' unique name.
-ingameinfoxml.tag.bootsuniquename.desc=[提出済み]ブーツの固有名。
-# EN: Boots' damage.
-ingameinfoxml.tag.bootsdamage.desc=[提出済み]ブーツの損傷値。
-# EN: Boots' max damage.
-ingameinfoxml.tag.bootsmaxdamage.desc=[提出済み]ブーツの最大耐久値。
-# EN: Boots' damage left.
-ingameinfoxml.tag.bootsdamageleft.desc=[提出済み]ブーツの残り耐久値。
-# EN: Boots' metadata.
-ingameinfoxml.tag.bootsitemmeta.desc=[提出済み]ブーツのメタデータ。
-# EN: Boots' numeric ID.
-ingameinfoxml.tag.bootsitemid.desc=[提出済み]ブーツの数値ID。
-# EN: Quantity of the boots in the inventory.
-ingameinfoxml.tag.bootsquantity.desc=[提出済み]インベントリ内にあるブーツの個数。
-# EN: Boots' icon.
-ingameinfoxml.tag.bootsicon.desc=[提出済み]ブーツのアイコン。
-# EN: Boots' large icon.
-ingameinfoxml.tag.bootslargeicon.desc=[提出済み]ブーツの大きいアイコン。
+ingameinfoxml.tag.equippedname.desc=手持ちアイテムの名前。
+ingameinfoxml.tag.equippeduniquename.desc=手持ちアイテムの固有名。
+ingameinfoxml.tag.equippeddamage.desc=手持ちアイテムの損傷値。
+ingameinfoxml.tag.equippedmaxdamage.desc=手持ちアイテムの最大耐久値。
+ingameinfoxml.tag.equippeddamageleft.desc=手持ちアイテムの残り耐久値。
+ingameinfoxml.tag.equippeditemmeta.desc=手持ちアイテムのメタデータ。
+ingameinfoxml.tag.equippeditemid.desc=手持ちアイテムの数値ID。
+ingameinfoxml.tag.equippedquantity.desc=インベントリ内にある手持ちアイテムの個数。
+ingameinfoxml.tag.equippedicon.desc=手持ちアイテムのアイコン。
+ingameinfoxml.tag.equippedlargeicon.desc=手持ちアイテムの大きいアイコン。
+ingameinfoxml.tag.helmetname.desc=ヘルメットの名前。
+ingameinfoxml.tag.helmetuniquename.desc=ヘルメットの固有名。
+ingameinfoxml.tag.helmetdamage.desc=ヘルメットの損傷値。
+ingameinfoxml.tag.helmetmaxdamage.desc=ヘルメットの最大耐久値。
+ingameinfoxml.tag.helmetdamageleft.desc=ヘルメットの残り耐久値。
+ingameinfoxml.tag.helmetitemmeta.desc=ヘルメットのメタデータ。
+ingameinfoxml.tag.helmetitemid.desc=ヘルメットの数値ID。
+ingameinfoxml.tag.helmetquantity.desc=インベントリ内にあるヘルメットの個数。
+ingameinfoxml.tag.helmeticon.desc=ヘルメットのアイコン。
+ingameinfoxml.tag.helmetlargeicon.desc=ヘルメットの大きいアイコン。
+ingameinfoxml.tag.chestplatename.desc=チェストプレートの名前。
+ingameinfoxml.tag.chestplateuniquename.desc=チェストプレートの固有名。
+ingameinfoxml.tag.chestplatedamage.desc=チェストプレートの損傷値。
+ingameinfoxml.tag.chestplatemaxdamage.desc=チェストプレートの最大耐久値。
+ingameinfoxml.tag.chestplatedamageleft.desc=チェストプレートの残り耐久値。
+ingameinfoxml.tag.chestplateitemmeta.desc=チェストプレートのメタデータ。
+ingameinfoxml.tag.chestplateitemid.desc=チェストプレートの数値ID。
+ingameinfoxml.tag.chestplatequantity.desc=インベントリ内にあるチェストプレートの個数。
+ingameinfoxml.tag.chestplateicon.desc=チェストプレートのアイコン。
+ingameinfoxml.tag.chestplatelargeicon.desc=チェストプレートの大きいアイコン。
+ingameinfoxml.tag.leggingsname.desc=レギンスの名前。
+ingameinfoxml.tag.leggingsuniquename.desc=レギンスの固有名。
+ingameinfoxml.tag.leggingsdamage.desc=レギンスの損傷値。
+ingameinfoxml.tag.leggingsmaxdamage.desc=レギンスの最大耐久値。
+ingameinfoxml.tag.leggingsdamageleft.desc=レギンスの残り耐久値。
+ingameinfoxml.tag.leggingsitemmeta.desc=レギンスのメタデータ。
+ingameinfoxml.tag.leggingsitemid.desc=レギンスの数値ID。
+ingameinfoxml.tag.leggingsquantity.desc=インベントリ内にあるレギンスの個数。
+ingameinfoxml.tag.leggingsicon.desc=レギンスのアイコン。
+ingameinfoxml.tag.leggingslargeicon.desc=レギンスの大きいアイコン。
+ingameinfoxml.tag.bootsname.desc=ブーツの名前。
+ingameinfoxml.tag.bootsuniquename.desc=ブーツの固有名。
+ingameinfoxml.tag.bootsdamage.desc=ブーツの損傷値。
+ingameinfoxml.tag.bootsmaxdamage.desc=ブーツの最大耐久値。
+ingameinfoxml.tag.bootsdamageleft.desc=ブーツの残り耐久値。
+ingameinfoxml.tag.bootsitemmeta.desc=ブーツのメタデータ。
+ingameinfoxml.tag.bootsitemid.desc=ブーツの数値ID。
+ingameinfoxml.tag.bootsquantity.desc=インベントリ内にあるブーツの個数。
+ingameinfoxml.tag.bootsicon.desc=ブーツのアイコン。
+ingameinfoxml.tag.bootslargeicon.desc=ブーツの大きいアイコン。
 
 # gui - tag list - player general
-# EN: Light level at your current position.
-ingameinfoxml.tag.light.desc=[提出済み]現在地の明るさレベル。
-# EN: Light level at your current position (feet level).
-ingameinfoxml.tag.lightfeet.desc=[提出済み]現在地の明るさレベル(足元)。
-# EN: Light level at your current position without sunlight.
-ingameinfoxml.tag.lightnosun.desc=[提出済み]日光を除いた現在地の明るさレベル。
-# EN: Light level at your current position without sunlight (feel level).
-ingameinfoxml.tag.lightnosunfeet.desc=[提出済み]日光を除いた現在地の明るさレベル(足元)。
-# EN: Sunlight level at your current position.
-ingameinfoxml.tag.lightsun.desc=[提出済み]現在地の日光レベル。
-# EN: Sunlight level at your current position (feel level).
-ingameinfoxml.tag.lightsunfeet.desc=[提出済み]現在地の日光レベル(足元)。
-# EN: Player's score.
-ingameinfoxml.tag.score.desc=[提出済み]プレイヤーのスコア。
-# EN: Player's gamemode name.
-ingameinfoxml.tag.gamemode.desc=[提出済み]プレイヤーのゲームモード名。
-# EN: Player's gamemode id.
-ingameinfoxml.tag.gamemodeid.desc=[提出済み]プレイヤーのゲームモードID。
-# EN: Player's current health points.
-ingameinfoxml.tag.health.desc=[提出済み]プレイヤーの現在の体力。
-# EN: Player's maximum health points.
-ingameinfoxml.tag.maxhealth.desc=[提出済み]プレイヤーの最大体力。
-# EN: Player's armor points.
-ingameinfoxml.tag.armor.desc=[提出済み]プレイヤーの防具値。
-# EN: Player's food points.
-ingameinfoxml.tag.foodlevel.desc=[提出済み]プレイヤーの満腹度。
-# EN: Player's maximum food points.
-ingameinfoxml.tag.maxfoodlevel.desc=[提出済み]プレイヤーの最大満腹度。
-# EN: Player's food saturation.
-ingameinfoxml.tag.saturation.desc=[提出済み]プレイヤーの隠し満腹度。
-# EN: Player's food exhaustion.
-ingameinfoxml.tag.exhaustion.desc=[提出済み]プレイヤーの消耗度。
-# EN: Player's air ticks.
-ingameinfoxml.tag.airticks.desc=[提出済み]プレイヤーの残り空気tick。
-# EN: Player's maximum air ticks.
-ingameinfoxml.tag.maxairticks.desc=[提出済み]プレイヤーの最大空気tick。
-# EN: Player's level.
-ingameinfoxml.tag.playerlevel.desc=[提出済み]プレイヤーの経験値レベル。
-# EN: Player's current experience.
-ingameinfoxml.tag.xpthislevel.desc=[提出済み]プレイヤーの現在の経験値。
-# EN: Player's experience until level up.
-ingameinfoxml.tag.xpuntilnext.desc=[提出済み]レベルアップまでに必要な経験値。
-# EN: Player's total required experience for the current level.
-ingameinfoxml.tag.xpcap.desc=[提出済み]現在のレベルに必要な合計経験値。
-# EN: Player's username.
-ingameinfoxml.tag.username.desc=[提出済み]プレイヤー名。
-# EN: §etrue§r if the player is underwater, §efalse§r otherwise.
-ingameinfoxml.tag.inwater.desc=[提出済み]プレイヤーが水中にいるなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the player is wet, §efalse§r otherwise.
-ingameinfoxml.tag.wet.desc=[提出済み]プレイヤーが濡れているなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the player is alive, §efalse§r otherwise.
-ingameinfoxml.tag.alive.desc=[提出済み]プレイヤーが生存しているなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the player is on fire, §efalse§r otherwise.
-ingameinfoxml.tag.burning.desc=[提出済み]プレイヤーが燃えているなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the player is riding, §efalse§r otherwise.
-ingameinfoxml.tag.riding.desc=[提出済み]プレイヤーが乗り物に乗っているなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the player is sneaking, §efalse§r otherwise.
-ingameinfoxml.tag.sneaking.desc=[提出済み]プレイヤーがスニークしているなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the player is sprinting, §efalse§r otherwise.
-ingameinfoxml.tag.sprinting.desc=[提出済み]プレイヤーがダッシュしているなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the player is invisible, §efalse§r otherwise.
-ingameinfoxml.tag.invisible.desc=[提出済み]プレイヤーが透明化しているなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the player is eating, §efalse§r otherwise.
-ingameinfoxml.tag.eating.desc=[提出済み]プレイヤーが食事しているなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the player is invulnerable, §efalse§r otherwise.
-ingameinfoxml.tag.invulnerable.desc=[提出済み]プレイヤーが無敵状態であるなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.light.desc=現在地の明るさレベル。
+ingameinfoxml.tag.lightfeet.desc=現在地の明るさレベル(足元)。
+ingameinfoxml.tag.lightnosun.desc=日光を除いた現在地の明るさレベル。
+ingameinfoxml.tag.lightnosunfeet.desc=日光を除いた現在地の明るさレベル(足元)。
+ingameinfoxml.tag.lightsun.desc=現在地の日光レベル。
+ingameinfoxml.tag.lightsunfeet.desc=現在地の日光レベル(足元)。
+ingameinfoxml.tag.score.desc=プレイヤーのスコア。
+ingameinfoxml.tag.gamemode.desc=プレイヤーのゲームモード名。
+ingameinfoxml.tag.gamemodeid.desc=プレイヤーのゲームモードID。
+ingameinfoxml.tag.health.desc=プレイヤーの現在の体力。
+ingameinfoxml.tag.maxhealth.desc=プレイヤーの最大体力。
+ingameinfoxml.tag.armor.desc=プレイヤーの防具値。
+ingameinfoxml.tag.foodlevel.desc=プレイヤーの満腹度。
+ingameinfoxml.tag.maxfoodlevel.desc=プレイヤーの最大満腹度。
+ingameinfoxml.tag.saturation.desc=プレイヤーの隠し満腹度。
+ingameinfoxml.tag.exhaustion.desc=プレイヤーの消耗度。
+ingameinfoxml.tag.airticks.desc=プレイヤーの残り空気tick。
+ingameinfoxml.tag.maxairticks.desc=プレイヤーの最大空気tick。
+ingameinfoxml.tag.playerlevel.desc=プレイヤーの経験値レベル。
+ingameinfoxml.tag.xpthislevel.desc=プレイヤーの現在の経験値。
+ingameinfoxml.tag.xpuntilnext.desc=レベルアップまでに必要な経験値。
+ingameinfoxml.tag.xpcap.desc=現在のレベルに必要な合計経験値。
+ingameinfoxml.tag.username.desc=プレイヤー名。
+ingameinfoxml.tag.inwater.desc=プレイヤーが水中にいるなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.wet.desc=プレイヤーが濡れているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.alive.desc=プレイヤーが生存しているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.burning.desc=プレイヤーが燃えているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.riding.desc=プレイヤーが乗り物に乗っているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.sneaking.desc=プレイヤーがスニークしているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.sprinting.desc=プレイヤーがダッシュしているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.invisible.desc=プレイヤーが透明化しているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.eating.desc=プレイヤーが食事しているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.invulnerable.desc=プレイヤーが無敵状態であるなら§etrue§r、そうでなければ§efalse§r。
 
 # gui - tag list - player position
-# EN: Player's X chunk coordinate.
-ingameinfoxml.tag.chunkx.desc=[提出済み]プレイヤーのチャンクX座標。
-# EN: Player's Z chunk coordinate.
-ingameinfoxml.tag.chunkz.desc=[提出済み]プレイヤーのチャンクZ座標。
-# EN: Player's X chunk offset coordinate (0-15).
-ingameinfoxml.tag.chunkoffsetx.desc=[提出済み]チャンク内でのプレイヤーのX座標(0-15)。
-# EN: Player's Z chunk offset coordinate (0-15).
-ingameinfoxml.tag.chunkoffsetz.desc=[提出済み]チャンク内でのプレイヤーのZ座標(0-15)。
-# EN: Player's X coordinate.
-ingameinfoxml.tag.x.desc=[提出済み]プレイヤーのX座標。
-# EN: Player's Y coordinate.
-ingameinfoxml.tag.y.desc=[提出済み]プレイヤーのY座標。
-# EN: Player's Y coordinate (feel level).
-ingameinfoxml.tag.yfeet.desc=[提出済み]プレイヤーのY座標(足元)。
-# EN: Player's Z coordinate.
-ingameinfoxml.tag.z.desc=[提出済み]プレイヤーのZ座標。
-# EN: Player's X coordinate rounded to the closest whole number.
-ingameinfoxml.tag.xi.desc=[提出済み]プレイヤーのX座標(整数に四捨五入)。
-# EN: Player's Y coordinate rounded to the closest whole number.
-ingameinfoxml.tag.yi.desc=[提出済み]プレイヤーのY座標(整数に四捨五入)。
-# EN: Player's Y coordinate rounded to the closest whole number (feel level).
-ingameinfoxml.tag.yfeeti.desc=[提出済み]プレイヤーのY座標(足元、整数に四捨五入)。
-# EN: Player's Z coordinate rounded to the closest whole number.
-ingameinfoxml.tag.zi.desc=[提出済み]プレイヤーのZ座標(整数に四捨五入)。
-# EN: Player's speed.
-ingameinfoxml.tag.speed.desc=[提出済み]プレイヤーの速度。
-# EN: Player's speed along the x axis.
-ingameinfoxml.tag.speedx.desc=[提出済み]プレイヤーのX軸方向の速度。
-# EN: Player's speed along the y axis.
-ingameinfoxml.tag.speedy.desc=[提出済み]プレイヤーのY軸方向の速度。
-# EN: Player's speed along the z axis.
-ingameinfoxml.tag.speedz.desc=[提出済み]プレイヤーのZ軸方向の速度。
-# EN: Player's speed horizontally.
-ingameinfoxml.tag.speedxz.desc=[提出済み]プレイヤーの水平方向の速度。
-# EN: Player's direction in degrees from -180 to 180.
-ingameinfoxml.tag.direction.desc=[提出済み]プレイヤーの向き(-180から180度)。
-# EN: Rough direction the player is currently facing (South, West, North, East).
-ingameinfoxml.tag.roughdirection.desc=[提出済み]プレイヤーが現在向いているおおよその方角(South, West, North, East)。
-# EN: Fine direction the player is currently facing (South, South West, West, North West, ...).
-ingameinfoxml.tag.finedirection.desc=[提出済み]プレイヤーが現在向いている細かい方角(South, South West, West, North West, ...)。
-# EN: Abbreviated rough direction the player is currently facing (S, W, N, E).
-ingameinfoxml.tag.abrroughdirection.desc=[提出済み]プレイヤーが現在向いているおおよその方角の略記(S, W, N, E)。
-# EN: Abbreviated fine direction the player is currently facing (S, SW, W, NW, ...).
-ingameinfoxml.tag.abrfinedirection.desc=[提出済み]プレイヤーが現在向いている細かい方角の略記(S, SW, W, NW, ...)。
-# EN: A small textual direction HUD.
-ingameinfoxml.tag.directionhud.desc=[提出済み]文字で表示する小さな方角HUD。
+ingameinfoxml.tag.chunkx.desc=プレイヤーのチャンクX座標。
+ingameinfoxml.tag.chunkz.desc=プレイヤーのチャンクZ座標。
+ingameinfoxml.tag.chunkoffsetx.desc=チャンク内でのプレイヤーのX座標(0-15)。
+ingameinfoxml.tag.chunkoffsetz.desc=チャンク内でのプレイヤーのZ座標(0-15)。
+ingameinfoxml.tag.x.desc=プレイヤーのX座標。
+ingameinfoxml.tag.y.desc=プレイヤーのY座標。
+ingameinfoxml.tag.yfeet.desc=プレイヤーのY座標(足元)。
+ingameinfoxml.tag.z.desc=プレイヤーのZ座標。
+ingameinfoxml.tag.xi.desc=プレイヤーのX座標(整数に四捨五入)。
+ingameinfoxml.tag.yi.desc=プレイヤーのY座標(整数に四捨五入)。
+ingameinfoxml.tag.yfeeti.desc=プレイヤーのY座標(足元、整数に四捨五入)。
+ingameinfoxml.tag.zi.desc=プレイヤーのZ座標(整数に四捨五入)。
+ingameinfoxml.tag.speed.desc=プレイヤーの速度。
+ingameinfoxml.tag.speedx.desc=プレイヤーのX軸方向の速度。
+ingameinfoxml.tag.speedy.desc=プレイヤーのY軸方向の速度。
+ingameinfoxml.tag.speedz.desc=プレイヤーのZ軸方向の速度。
+ingameinfoxml.tag.speedxz.desc=プレイヤーの水平方向の速度。
+ingameinfoxml.tag.direction.desc=プレイヤーの向き(-180から180度)。
+ingameinfoxml.tag.roughdirection.desc=プレイヤーが現在向いているおおよその方角(South, West, North, East)。
+ingameinfoxml.tag.finedirection.desc=プレイヤーが現在向いている細かい方角(South, South West, West, North West, ...)。
+ingameinfoxml.tag.abrroughdirection.desc=プレイヤーが現在向いているおおよその方角の略記(S, W, N, E)。
+ingameinfoxml.tag.abrfinedirection.desc=プレイヤーが現在向いている細かい方角の略記(S, SW, W, NW, ...)。
+ingameinfoxml.tag.directionhud.desc=文字で表示する小さな方角HUD。
 
 # gui - tag list - player potion
-# EN: Name of the x-th potion effect.
-ingameinfoxml.tag.potioneffect.desc=[提出済み]x番目のポーション効果の名前。
-# EN: Duration of the x-th potion effect in seconds.
-ingameinfoxml.tag.potionduration.desc=[提出済み]x番目のポーション効果の残り時間(秒)。
-# EN: Duration of the x-th potion effect in ticks.
-ingameinfoxml.tag.potiondurationticks.desc=[提出済み]x番目のポーション効果の残り時間(tick)。
-# EN: Icon of the x-th potion effect.
-ingameinfoxml.tag.potionicon.desc=[提出済み]x番目のポーション効果のアイコン。
-# EN: Large icon of the x-th potion effect.
-ingameinfoxml.tag.potionlargeicon.desc=[提出済み]x番目のポーション効果の大きいアイコン。
+ingameinfoxml.tag.potioneffect.desc=x番目のポーション効果の名前。
+ingameinfoxml.tag.potionduration.desc=x番目のポーション効果の残り時間(秒)。
+ingameinfoxml.tag.potiondurationticks.desc=x番目のポーション効果の残り時間(tick)。
+ingameinfoxml.tag.potionicon.desc=x番目のポーション効果のアイコン。
+ingameinfoxml.tag.potionlargeicon.desc=x番目のポーション効果の大きいアイコン。
 
 # gui - tag list - riding
-# EN: §etrue§r if the player is riding a horse, §efalse§r otherwise.
-ingameinfoxml.tag.ridinghorse.desc=[提出済み]プレイヤーが馬に乗っているなら§etrue§r、そうでなければ§efalse§r。
-# EN: Horse's health.
-ingameinfoxml.tag.horsehealth.desc=[提出済み]馬の体力。
-# EN: Horse's maximum health.
-ingameinfoxml.tag.horsemaxhealth.desc=[提出済み]馬の最大体力。
-# EN: Horse's speed.
-ingameinfoxml.tag.horsespeed.desc=[提出済み]馬の速さ。
-# EN: Horse's jump strength.
-ingameinfoxml.tag.horsejumpstrength.desc=[提出済み]馬の跳躍力。
+ingameinfoxml.tag.ridinghorse.desc=プレイヤーが馬に乗っているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.horsehealth.desc=馬の体力。
+ingameinfoxml.tag.horsemaxhealth.desc=馬の最大体力。
+ingameinfoxml.tag.horsespeed.desc=馬の速さ。
+ingameinfoxml.tag.horsejumpstrength.desc=馬の跳躍力。
 
 # gui - tag list - time
-# EN: Minecraft day, starting from 0.
-ingameinfoxml.tag.day.desc=[提出済み]Minecraft内の日数。0から始まる。
-# EN: Minecraft hour.
-ingameinfoxml.tag.mctimeh.desc=[提出済み]Minecraft内の時。
-# EN: Minecraft minute.
-ingameinfoxml.tag.mctimem.desc=[提出済み]Minecraft内の分。
-# EN: Minecraft time (24 hour format).
-ingameinfoxml.tag.mctime24.desc=[提出済み]Minecraft内の時刻(24時間表記)。
-# EN: Minecraft time (12 hour format).
-ingameinfoxml.tag.mctime12.desc=[提出済み]Minecraft内の時刻(12時間表記)。
-# EN: Real time (24 hour format).
-ingameinfoxml.tag.rltime24.desc=[提出済み]現実の時刻(24時間表記)。
-# EN: Real time (12 hour format).
-ingameinfoxml.tag.rltime12.desc=[提出済み]現実の時刻(12時間表記)。
+ingameinfoxml.tag.day.desc=Minecraft内の日数。0から始まる。
+ingameinfoxml.tag.mctimeh.desc=Minecraft内の時。
+ingameinfoxml.tag.mctimem.desc=Minecraft内の分。
+ingameinfoxml.tag.mctime24.desc=Minecraft内の時刻(24時間表記)。
+ingameinfoxml.tag.mctime12.desc=Minecraft内の時刻(12時間表記)。
+ingameinfoxml.tag.rltime24.desc=現実の時刻(24時間表記)。
+ingameinfoxml.tag.rltime12.desc=現実の時刻(12時間表記)。
 
 # gui - tag list - world
-# EN: World name.
-ingameinfoxml.tag.worldname.desc=[提出済み]ワールド名。
-# EN: World size.
-ingameinfoxml.tag.worldsize.desc=[提出済み]ワールドのサイズ。
-# EN: World size in MiB.
-ingameinfoxml.tag.worldsizemb.desc=[提出済み]ワールドのサイズ(MiB)。
-# EN: World seed.
-ingameinfoxml.tag.seed.desc=[提出済み]ワールドのシード値。
-# EN: World difficulty name.
-ingameinfoxml.tag.difficulty.desc=[提出済み]ワールドの難易度名。
-# EN: World difficulty id.
-ingameinfoxml.tag.difficultyid.desc=[提出済み]ワールドの難易度ID。
-# EN: Dimension name.
-ingameinfoxml.tag.dimension.desc=[提出済み]ディメンション名。
-# EN: Dimension id.
-ingameinfoxml.tag.dimensionid.desc=[提出済み]ディメンションID。
-# EN: Biome name.
-ingameinfoxml.tag.biome.desc=[提出済み]バイオーム名。
-# EN: Biome id.
-ingameinfoxml.tag.biomeid.desc=[提出済み]バイオームID。
-# EN: §etrue§r if it's daytime, §efalse§r otherwise.
-ingameinfoxml.tag.daytime.desc=[提出済み]昼であるなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if it's raining, §efalse§r otherwise.
-ingameinfoxml.tag.raining.desc=[提出済み]雨が降っているなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if it's thundering, §efalse§r otherwise.
-ingameinfoxml.tag.thundering.desc=[提出済み]雷雨であるなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if it's snowing, §efalse§r otherwise.
-ingameinfoxml.tag.snowing.desc=[提出済み]雪が降っているなら§etrue§r、そうでなければ§efalse§r。
-# EN: Time until the next rain.
-ingameinfoxml.tag.nextrain.desc=[提出済み]次の降雨までの時間。
-# EN: §etrue§r if the current chunk is a slime chunk, §efalse§r otherwise.
-ingameinfoxml.tag.slimes.desc=[提出済み]現在のチャンクがスライムチャンクなら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the world is in hardcore mode, §efalse§r otherwise.
-ingameinfoxml.tag.hardcore.desc=[提出済み]ワールドがハードコアモードなら§etrue§r、そうでなければ§efalse§r。
-# EN: Biome temperature.
-ingameinfoxml.tag.temperature.desc=[提出済み]バイオームの気温。
-# EN: Biome temperature at your current position.
-ingameinfoxml.tag.localtemperature.desc=[提出済み]現在地のバイオームの気温。
-# EN: Biome humidity.
-ingameinfoxml.tag.humidity.desc=[提出済み]バイオームの湿度。
+ingameinfoxml.tag.worldname.desc=ワールド名。
+ingameinfoxml.tag.worldsize.desc=ワールドのサイズ。
+ingameinfoxml.tag.worldsizemb.desc=ワールドのサイズ(MiB)。
+ingameinfoxml.tag.seed.desc=ワールドのシード値。
+ingameinfoxml.tag.difficulty.desc=ワールドの難易度名。
+ingameinfoxml.tag.difficultyid.desc=ワールドの難易度ID。
+ingameinfoxml.tag.dimension.desc=ディメンション名。
+ingameinfoxml.tag.dimensionid.desc=ディメンションID。
+ingameinfoxml.tag.biome.desc=バイオーム名。
+ingameinfoxml.tag.biomeid.desc=バイオームID。
+ingameinfoxml.tag.daytime.desc=昼であるなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.raining.desc=雨が降っているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.thundering.desc=雷雨であるなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.snowing.desc=雪が降っているなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.nextrain.desc=次の降雨までの時間。
+ingameinfoxml.tag.slimes.desc=現在のチャンクがスライムチャンクなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.hardcore.desc=ワールドがハードコアモードなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.temperature.desc=バイオームの気温。
+ingameinfoxml.tag.localtemperature.desc=現在地のバイオームの気温。
+ingameinfoxml.tag.humidity.desc=バイオームの湿度。
 
 # gui - tag list - integration - blood magic
-# EN: Current §4Essence§r.
-ingameinfoxml.tag.bmlp.desc=[提出済み]現在の§4ライフエッセンス§r。
-# EN: Maximum §4Essence§r.
-ingameinfoxml.tag.bmmaxlp.desc=[提出済み]最大§4ライフエッセンス§r。
+ingameinfoxml.tag.bmlp.desc=現在の§4ライフエッセンス§r。
+ingameinfoxml.tag.bmmaxlp.desc=最大§4ライフエッセンス§r。
 
 # gui - tag list - integration - simply jetpacks
-# EN: Jetpack energy.
-ingameinfoxml.tag.sjenergy.desc=[提出済み]ジェットパックのエネルギー。
-# EN: Jetpack maximum energy.
-ingameinfoxml.tag.sjmaxenergy.desc=[提出済み]ジェットパックの最大エネルギー。
-# EN: Jetpack energy left in percents.
-ingameinfoxml.tag.sjpercent.desc=[提出済み]ジェットパックの残りエネルギー(%)。
-# EN: §etrue§r if the jetpack is enabled, §efalse§r otherwise.
-ingameinfoxml.tag.sjenabled.desc=[提出済み]ジェットパックが有効なら§etrue§r、そうでなければ§efalse§r。
-# EN: §etrue§r if the jetpack is in hover mode, §efalse§r otherwise.
-ingameinfoxml.tag.sjhover.desc=[提出済み]ジェットパックがホバーモードなら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.sjenergy.desc=ジェットパックのエネルギー。
+ingameinfoxml.tag.sjmaxenergy.desc=ジェットパックの最大エネルギー。
+ingameinfoxml.tag.sjpercent.desc=ジェットパックの残りエネルギー(%)。
+ingameinfoxml.tag.sjenabled.desc=ジェットパックが有効なら§etrue§r、そうでなければ§efalse§r。
+ingameinfoxml.tag.sjhover.desc=ジェットパックがホバーモードなら§etrue§r、そうでなければ§efalse§r。
 
 # gui - tag list - integration - terrafirmacraft
-# EN: Rainfall at your current position.
-ingameinfoxml.tag.tfcrainfall.desc=[提出済み]現在地の降水量。
-# EN: Temperature at your current position.
-ingameinfoxml.tag.tfctemperature.desc=[提出済み]現在地の気温。
-# EN: Average yearly temperature at your current position.
-ingameinfoxml.tag.tfcaveragetemperature.desc=[提出済み]現在地の年間平均気温。
-# EN: Temperature with external heat sources at your current position.
-ingameinfoxml.tag.tfctemperatureheatsources.desc=[提出済み]外部の熱源を含めた現在地の温度。
-# EN: Season.
-ingameinfoxml.tag.tfcseason.desc=[提出済み]季節。
-# EN: Date.
-ingameinfoxml.tag.tfcdate.desc=[提出済み]日付。
-# EN: Day.
-ingameinfoxml.tag.tfcday.desc=[提出済み]日。
-# EN: Month.
-ingameinfoxml.tag.tfcmonth.desc=[提出済み]月。
-# EN: Year.
-ingameinfoxml.tag.tfcyear.desc=[提出済み]年。
-# EN: %s information.
-ingameinfoxml.tag.fmtskill.desc=[提出済み]%sの情報。
-# EN: Current rank for %s.
-ingameinfoxml.tag.fmtskillrank.desc=[提出済み]%sの現在のランク。
-# EN: Current progress in %s.
-ingameinfoxml.tag.fmtskillprogress.desc=[提出済み]%sの現在の進捗。
+ingameinfoxml.tag.tfcrainfall.desc=現在地の降水量。
+ingameinfoxml.tag.tfctemperature.desc=現在地の気温。
+ingameinfoxml.tag.tfcaveragetemperature.desc=現在地の年間平均気温。
+ingameinfoxml.tag.tfctemperatureheatsources.desc=外部の熱源を含めた現在地の温度。
+ingameinfoxml.tag.tfcseason.desc=季節。
+ingameinfoxml.tag.tfcdate.desc=日付。
+ingameinfoxml.tag.tfcday.desc=日。
+ingameinfoxml.tag.tfcmonth.desc=月。
+ingameinfoxml.tag.tfcyear.desc=年。
+ingameinfoxml.tag.fmtskill.desc=%sの情報。
+ingameinfoxml.tag.fmtskillrank.desc=%sの現在のランク。
+ingameinfoxml.tag.fmtskillprogress.desc=%sの現在の進捗。
 
 # gui - tag list - integration - thaumcraft
-# EN: Player's permanent warp.
-ingameinfoxml.tag.tcwarpperm.desc=[提出済み]プレイヤーの永続的な歪み。
-# EN: Player's normal (sticky) warp.
-ingameinfoxml.tag.tcwarpsticky.desc=[提出済み]プレイヤーの通常(固着)の歪み。
-# EN: Player's temporary warp.
-ingameinfoxml.tag.tcwarptemp.desc=[提出済み]プレイヤーの一時的な歪み。
-# EN: Player's total warp.
-ingameinfoxml.tag.tcwarptotal.desc=[提出済み]プレイヤーの歪みの合計。
+ingameinfoxml.tag.tcwarpperm.desc=プレイヤーの永続的な歪み。
+ingameinfoxml.tag.tcwarpsticky.desc=プレイヤーの通常(固着)の歪み。
+ingameinfoxml.tag.tcwarptemp.desc=プレイヤーの一時的な歪み。
+ingameinfoxml.tag.tcwarptotal.desc=プレイヤーの歪みの合計。
 
 # gui - tag list - integration - gregtech
-# EN: §etrue§r if using equispaced ore generation, §efalse§r for the old axis symmetric one.
-ingameinfoxml.tag.gtnewore.desc=[提出済み]等間隔の鉱脈生成なら§etrue§r、旧来の軸対称生成なら§efalse§r。
+ingameinfoxml.tag.gtnewore.desc=等間隔の鉱脈生成なら§etrue§r、旧来の軸対称生成なら§efalse§r。
 
 
 # keys
-# EN: InGame Info XML
-ingameinfoxml.key.category=[提出済み]InGame Info XML
-# EN: Toggle Overlay
-ingameinfoxml.key.toggle=[提出済み]オーバーレイの切り替え
+ingameinfoxml.key.category=InGame Info XML
+ingameinfoxml.key.toggle=オーバーレイの切り替え
 
 # commands
-# EN: /igi <reload|load|save|enable|disable|taglist|config> [filename]
-commands.ingameinfoxml.usage=[提出済み]/igi <reload|load|save|enable|disable|taglist|config> [ファイル名]
-# EN: Reloading...
-commands.ingameinfoxml.reload=[提出済み]再読み込み中...
-# EN: Loading %s...
-commands.ingameinfoxml.load=[提出済み]%s を読み込み中...
-# EN: Saving %s...
-commands.ingameinfoxml.save=[提出済み]%s を保存中...
-# EN: Done!
-commands.ingameinfoxml.success=[提出済み]完了しました!
-# EN: Something went wrong!
-commands.ingameinfoxml.failure=[提出済み]問題が発生しました!
-# EN: InGame Info XML overlay is now enabled.
-commands.ingameinfoxml.enable=[提出済み]InGame Info XMLのオーバーレイを有効にしました。
-# EN: InGame Info XML overlay is now disabled.
-commands.ingameinfoxml.disable=[提出済み]InGame Info XMLのオーバーレイを無効にしました。
+commands.ingameinfoxml.usage=/igi <reload|load|save|enable|disable|taglist|config> [ファイル名]
+commands.ingameinfoxml.reload=再読み込み中...
+commands.ingameinfoxml.load=%s を読み込み中...
+commands.ingameinfoxml.save=%s を保存中...
+commands.ingameinfoxml.success=完了しました!
+commands.ingameinfoxml.failure=問題が発生しました!
+commands.ingameinfoxml.enable=InGame Info XMLのオーバーレイを有効にしました。
+commands.ingameinfoxml.disable=InGame Info XMLのオーバーレイを無効にしました。
