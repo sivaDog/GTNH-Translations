@@ -221,6 +221,3 @@ cython_debug/
 ### Editor
 # VS Code workspace settings are per-developer here
 .vscode/
-
-# One-off analysis dumps; regenerate rather than track
-*.csv
