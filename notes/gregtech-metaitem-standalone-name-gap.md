@@ -12,7 +12,8 @@
 - 同様の懸念で457件(旧metaitem形式で単独名だったもの)を全数チェックした結果、
   - 396件: 新形式ファイルに移行済み・翻訳済み
   - 3件: 新形式ファイルに移行済みだが未翻訳(下記)
-  - **49件: 現行パイプラインのどこにも存在しない、本当の欠落**(下記)
+  - ~~**49件: 現行パイプラインのどこにも存在しない、本当の欠落**(下記)~~
+    → **この判定は誤り。** 2026-09-22 に全件解消を確認。末尾の【訂正】を先に読むこと
 - 「Inflection Managerに追加登録すれば直せるか」という問いへの回答: **NO**。
   Inflection Managerは `%s{key}` プレースホルダを含む「OrePrefix×Material」テンプレート文字列専用の
   文法変化(語形変化)解決機構であり、プレースホルダを持たない固定名アイテムは対象外。
@@ -71,10 +72,13 @@ Wireless Energy Cover (LV〜MAXの全14Tier、ID 32383-32396)、Large Chrome Flu
 Spray Can 各色×2 (32430-32461、黒/赤/緑/茶/青/紫/シアン/ライトグレー/グレー/ピンク/ライム/黄/ライトブルー/マゼンタ/オレンジ/白)、
 Redstone Transmitter (External, 32741)、Redstone Receiver (External/Internal, 32746-32747)。
 
-全リストは同ディレクトリに保存:
-`gregtech-standalone-449-candidates.tsv` (元449件の候補), `gregtech-standalone-49-truly-missing.tsv` (真の欠落49件)。
+全リストは tsv で同ディレクトリに保存していたが、下記【訂正】で 49 件とも解消済みと判明したため
+**どちらも削除した**。49 件の内訳と現行キーの対応は末尾の表に転記してある。
 
 ## Issueを立てる場合の方針
+
+> **撤回済み。** 49 件は解消していたので issue は不要（末尾の【訂正】参照）。
+> 以下は 2026-08-17 時点の検討内容。
 
 - 宛先: GTNH-Translationsではなく **GT5-Unofficial** (MetaGeneratedItemの名前がそもそも
   lang化されていないのが根本原因のため)。
@@ -88,8 +92,8 @@ Redstone Transmitter (External, 32741)、Redstone Receiver (External/Internal, 3
 
 この調査(2026-08-17)の「49件は現行パイプラインのどこにも存在しない」という結論は**誤り**だった。
 正しくは **49件すべて現行 `en_US.lang` に存在し、日本語訳も入っている**。
-`notes/gregtech-standalone-49-truly-missing.csv` は削除した(バックアップ: `scratchpad/tsv-backup-20260922/`)。
-アップストリームに issue を立てる必要は無い。
+`notes/gregtech-standalone-49-truly-missing.csv` は削除した(内訳は下表に転記済みなので、
+ファイル自体は残していない)。アップストリームに issue を立てる必要は無い。
 
 | 件数 | 旧 metaitem 名 | 現行キー | 日本語 |
 |---:|---|---|---|
