@@ -11934,8 +11934,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIrw.name=風質種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIrw.desc=§7《§r風質種§7／Windy》§rはオークの葉の上で交配する必要があります。天上種と超自然種を交配してみましょう。
 
 # Quest: Aer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.name=Aer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.desc=For Aer bees to appear, you must put an Air Crystal Cluster beneath the bee housing. They will produce Aer infused dust for you. Being nearby will grant a Swiftness buff. Breed them from two Windy.
+# EN name: Aer
+# EN desc: For Aer bees to appear, you must put an Air Crystal Cluster beneath the bee housing. They will produce Aer infused dust for you. Being nearby will grant a Swiftness buff. Breed them from two Windy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.name=[提出済み]風源種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.desc=§7《§r風源種§7／Aer》§rを出すには、巣の下に風の結晶株が必要です。§7《§r風の染み込んだ粉§7／Aer Infused Dust》§rを生産します。近くにいると移動速度上昇の効果を得られます。風質種同士を交配してみましょう。
 
 # Quest: Solum
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsQ.name=地源種
