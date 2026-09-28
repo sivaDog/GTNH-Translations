@@ -40,6 +40,13 @@ MSG
   export INSTANCE_MC
 }
 
+# MSYS mangles POSIX paths passed to a Windows python, and the '[' in the
+# bracket folder names defeats its auto-conversion, so convert explicitly.
+# Call python with MSYS2_ARG_CONV_EXCL='*' and wrap every path in winpath.
+winpath() {
+  if command -v cygpath >/dev/null 2>&1; then cygpath -w "$1"; else printf '%s' "$1"; fi
+}
+
 # Print a path with the repo root, the instance root and the home directory
 # folded away. A path under none of them is reduced to its last two components
 # rather than printed whole.

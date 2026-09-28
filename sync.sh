@@ -4,7 +4,7 @@
 # Usage:
 #   ./sync.sh              # quests + thaums + igi + lt
 #   ./sync.sh quests       # BetterQuesting only
-#   ./sync.sh thaums       # dreamcraft Thaumonomicon only
+#   ./sync.sh thaums       # dreamcraft only (Thaumonomicon + other GT: New Horizons strings)
 #   ./sync.sh igi          # InGame Info XML only
 #   ./sync.sh lt           # LittleTiles only
 #   INSTANCE_MC=/path/to/.minecraft ./sync.sh

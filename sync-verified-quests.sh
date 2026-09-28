@@ -6,6 +6,10 @@
 # The list is quest IDs, not chapters. Single pickups go in the Pickups section.
 # Quests missing from that list are NOT copied to the instance even if edited in ja_JP.lang.
 #
+# forceload/betterquesting is the 2.9 layout: the official 2.8.4 zip ships its
+# quest text in load/betterquesting instead. Writing forceload is deliberate -
+# it outranks that load copy, so the 2.9 translation overlays the 2.8.4 quests.
+#
 # Usage:
 #   ./sync-verified-quests.sh
 #   INSTANCE_MC=/path/to/.minecraft ./sync-verified-quests.sh
