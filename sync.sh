@@ -2,10 +2,11 @@
 # Sync verified ja_JP overlays into the GTNH 2.8.4 Prism instance.
 #
 # Usage:
-#   ./sync.sh              # quests + thaums + igi
+#   ./sync.sh              # quests + thaums + igi + lt
 #   ./sync.sh quests       # BetterQuesting only
 #   ./sync.sh thaums       # dreamcraft Thaumonomicon only
 #   ./sync.sh igi          # InGame Info XML only
+#   ./sync.sh lt           # LittleTiles only
 #   INSTANCE_MC=/path/to/.minecraft ./sync.sh
 #
 # The instance path comes from INSTANCE_MC, or from INSTANCE_MC in .env
@@ -16,11 +17,11 @@ REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
 TARGET="${1:-all}"
 
 usage() {
-  echo "Usage: $0 [all|quests|thaums|igi]" >&2
+  echo "Usage: $0 [all|quests|thaums|igi|lt]" >&2
 }
 
 case "$TARGET" in
-  all|quests|thaums|igi) ;;
+  all|quests|thaums|igi|lt) ;;
   -h|--help)
     usage
     exit 0
@@ -37,15 +38,18 @@ cd "$REPO_ROOT"
 run_quests=0
 run_thaums=0
 run_igi=0
+run_lt=0
 case "$TARGET" in
   all)
     run_quests=1
     run_thaums=1
     run_igi=1
+    run_lt=1
     ;;
   quests) run_quests=1 ;;
   thaums) run_thaums=1 ;;
   igi) run_igi=1 ;;
+  lt) run_lt=1 ;;
 esac
 
 if [[ "$run_quests" -eq 1 ]]; then
@@ -59,4 +63,8 @@ fi
 if [[ "$run_igi" -eq 1 ]]; then
   echo "======== igi ========"
   "$REPO_ROOT/sync-verified-igi.sh"
+fi
+if [[ "$run_lt" -eq 1 ]]; then
+  echo "======== lt ========"
+  "$REPO_ROOT/sync-verified-lt.sh"
 fi
