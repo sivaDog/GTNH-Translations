@@ -12426,8 +12426,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.name=「50 Vis 貯蔵可能」な杖
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.desc=金の石突を使えば、鉄のデメリットを回避できます。金留めのグレートウッドの杖にアップグレードするのが最善策です！%n%nグレートウッドの杖を§7《§r魔力の込められた布の石突§7／Enchanted Cloth Cap》§rで作ることも可能です。5%%のVis軽減が可能になります！%n%nこれを使えばグレートウッドの杖を今までになく強力なものにできます！%n%n[note]いずれかの石突を2つ用意すればこのクエストはクリアできます。[/note]
 
 # Quest: Fuuuuuu...(sion)!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.name=Fuuuuuu...(sion)!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.desc=Your arcane table does a great job with infusing primal vis into items while crafting. However, you feel that there must be more. What if you could infuse items with all kinds of magic aspects? The possibilities are endless...
+# EN name: Fuuuuuu...(sion)!
+# EN desc: Your arcane table does a great job with infusing primal vis into items while crafting. However, you feel that there must be more. What if you could infuse items with all kinds of magic aspects? The possibilities are endless...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.name=[提出済み]フューーージョン……注入！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.desc=§7《§r神秘の作業台§7／Arcane Workbench》§rは、クラフトしながら根源のVisをアイテムへ注入するのに優れています。しかし、まだ先があるはずです。あらゆる魔法の相をアイテムへ注入できたら、どうでしょう？可能性は無限です……
 
 # Quest: Yet Another Brick in the Wall...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w.name=壁にもうひとつレンガ…
@@ -12470,12 +12472,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A.name=This is the End...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A.desc=...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you've already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither tearing its way into our universe right next to someone. Be careful, my friend...
 
 # Quest: Turning Liquids Into Essentia
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_Q.name=Turning Liquids Into Essentia
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_Q.desc=What a simple idea. So many people waste tons of buckets just to get aqua from water, or sano from milk. Why didn't they just dissolve the liquid itself? Idiots...
+# EN name: Turning Liquids Into Essentia
+# EN desc: What a simple idea. So many people waste tons of buckets just to get aqua from water, or sano from milk. Why didn't they just dissolve the liquid itself? Idiots...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_Q.name=[提出済み]液体をエッセンシアに
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_Q.desc=なんて単純な発想でしょう。水からAquaを、牛乳からSanoを得るためだけに、バケツを山ほど無駄にしている人がたくさんいます。液体そのものを溶かせばよかったのに。バカですね……
 
 # Quest: Essentia Filtering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_g.name=Essentia Filtering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_g.desc=This nifty little device will filter essentia out of an Alchemical Crucible or Alchemical Boiler. Once it has received a single unit of any type, it will only accept this type until it is completely empty. You can place more than one on top of an alchemical furnace, and you should. Try to have one per essentia type in the item you're melting on a furnace.%n%nYou should lock the type with a Label, or every time it fills again, it's likely to be a different type, and gum up your pipes.
+# EN name: Essentia Filtering
+# EN desc: This nifty little device will filter essentia out of an Alchemical Crucible or Alchemical Boiler. Once it has received a single unit of any type, it will only accept this type until it is completely empty. You can place more than one on top of an alchemical furnace, and you should. Try to have one per essentia type in the item you're melting on a furnace.%n%nYou should lock the type with a Label, or every time it fills again, it's likely to be a different type, and gum up your pipes.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_g.name=[提出済み]エッセンシアのろ過
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_g.desc=この小さな装置、§7《§r神秘の蘭引§7／Arcane Alembic》§rは、るつぼや錬金ボイラーからエッセンシアを取り出します。1単位でも何らかの種類を受け取ると、完全に空になるまでその種類だけを受け付けます。錬金かまどの上には複数置けますし、置いた方がよいです。かまどで溶かしているアイテムに含まれるエッセンシアの種類ごとに、1台ずつ用意してみてください。%n%n§7《§r瓶ラベル§7／Label》§rで種類を固定してください。そうしないと、満たされるたびに別の種類になりやすく、導管が詰まってしまいます。
 
 # Quest: An Alternative to Torches
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_w.name=松明の代替品
@@ -12510,8 +12516,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACYg.name=鉛、方鉛鉱、銀、そし�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACYg.desc=今まで §7《§r鉛§7／Lead》§r は、ネザーに点在する §7《§r小さな鉱石§7／Small Ore》§r を採掘することでしか入手できませんでした。%nこれはお世辞にも効率的な入手方法だとは言えず、収率も悪く、ピッグマンにタコ殴りにされる危険性すら秘めています。%n%nいまこそ、この神秘的な §7《§r黄昏の森§7／Twilight Forest》§r を少し探索して、Y5-40に生成される §7《§r氷晶石§7／Cryolite》§r 鉱脈を発見する時です！%n%nこの鉱脈からは、純粋な鉛の鉱石と、同じく鉛に還元できる §7《§r方鉛鉱§7／Galena》§r、 今までオーバーワールドで小さな鉱石を採掘することでしか入手ができなかった §7《§r銀§7／Silver》§r、 そして序盤の §7《§rアルミニウム§7／Aluminium》§r 精錬で必須となる氷晶石が採掘できます。%n%n正しく捨てるとこなしな鉱脈だと言えますね！%n%n[note]氷晶石鉱脈は黄昏の森の、Y5-40の間に、40の確率で生成されます。[/note]
 
 # Quest: Enchanted Earth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6g.name=Enchanted Earth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6g.desc=Enchanted Earth makes saplings and seeds planted on it grow faster. When stacked on top of each other it has a chance to add ticks to the block above accumulating all the way to the top. This will randomly speed up growth a bit.
+# EN name: Enchanted Earth
+# EN desc: Enchanted Earth makes saplings and seeds planted on it grow faster. When stacked on top of each other it has a chance to add ticks to the block above accumulating all the way to the top. This will randomly speed up growth a bit.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6g.name=[提出済み]魔力の込もった土壌
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6g.desc=§7《§r魔力の込もった土壌§7／Enchanted Earth》§rは、その上に植えた苗木や種の成長を早めます。互いの上に積み重ねると、上のブロックへtickを加算する可能性があり、その効果は一番上まで累積します。これで成長が少しランダムに速くなります。
 
 # Quest: Iron Capped Greatwood Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADHg.name=鉄留めのグレートウッドの杖
@@ -12598,8 +12606,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.name=§5§nニッケルの入手方�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.desc=§7《§r電気高炉§7／Electric Blast Furnace》§r をアルミ精錬のために唸らせる...%n電気高炉の設置には §7《§rニッケル§7／Nickel》§r が必須で、これは §7《§r黄昏の森§7／Twilight Forest》§r に生成されるニッケル鉱脈から採取できます。%n%nニッケル鉱脈からは、純粋なニッケル鉱石の他に、同じくニッケルに還元できる §7《§r珪ニッケル鉱§7／Garnierite》§r と §7《§rペントランド鉱§7／Pentlandite》§r、 そしてMV電圧時代に進む過程で重要な役割を果たす、 §7《§r輝コバルト鉱§7／Cobaltite》§r が採掘できます。%n%nMV電圧時代では、 §7《§r電動モーター§7／Electric Motor》§r のコイル部分に使用する、 §7《§rキュプロニッケル§7／Cupronickel》§r を製錬するために、大量のニッケルが要求されるため、なるべく多めに集めておくことをお勧めします。%n%n%n輝コバルト鉱§8(Cobaltite)§rと §7《§rコバルト§7／Cobalt》§r は別の物質です。紛らわしいので間違えないよう、注意してください。%nLV電圧時代時点では、輝コバルト鉱から直接コバルトを抽出することはできません。代わりに、ネザーに生成される Tinkers' Construct 製のコバルト鉱石を採掘することができます。%n%nあるいは、輝コバルト鉱に §7《§r鉱石洗浄槽§7／Ore Washer》§r や §7《§r熱遠心分離機§7／Thermal Centrifuge》§r による処理を加え、鉱石副産物からコバルトを取り出す方法もあります。どちらの方法を取るにせよ、労力が掛かるのは間違いありません。%n%nMV電圧時代に到達すれば、 §7《§r電解槽§7／Electrolyzer》§r で輝コバルト鉱を電気分解することで、直接コバルトを入手することができます。%n%nあるいは、電気高炉の設置が完了すれば、輝コバルト鉱に"焙焼"処理を施し、コバルトのインゴットを製錬することもできます。詳細については §7《§r輝コバルト鉱からコバルトとヒ素を§7／Cobalt and Arsenic from Cobaltite》§r クエストを参照してください。%n%n[note]ニッケル鉱脈は黄昏の森の、Y10-40の間に、40の確率で生成されます。[/note]
 
 # Quest: So Thirsty 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.name=So Thirsty 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.desc=Just listening to this tank gulp water makes me thirsty. If placed next to a water source block, it is a decent water source. It also supports several upgrades to speed and capacity. Try out this glyph near your cows, and get a tank full of milk for all your cheese and butter needs.
+# EN name: So Thirsty 
+# EN desc: Just listening to this tank gulp water makes me thirsty. If placed next to a water source block, it is a decent water source. It also supports several upgrades to speed and capacity. Try out this glyph near your cows, and get a tank full of milk for all your cheese and butter needs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.name=[提出済み]とても喉が渇く
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.desc=この§7《§r渇きのタンク§7／Thirsty Tank》§rが水をがぶ飲みする音を聞くだけで、喉が渇いてきます。水源ブロックの隣に置くと、なかなかよい水源になります。速度と容量を上げるアップグレードもいくつか対応しています。牛の近くで§7《§r牛のグリフ§7／Glyph of the Bovine》§rを試せば、チーズやバターに必要なミルクでタンクがいっぱいになります。
 
 # Quest: Ardite and Cobalt Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ.name=アーダイトとコバルトを採掘する手っ取り早い方法
@@ -12634,8 +12644,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w.name=Infinite Bats! Wait, What??
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w.desc=Tired of the constant chirping from the thousands of bats drawn to your world-bending activities? Use this handy device to attract them to a central location where they can be...disposed. The Corporeal Attractor can be configured to attract or repel mobs, and the redstone strength applied divided by two determines the range.%n%nYou can use Soul Molds to filter the mobs the Attractor draws in or pushes away. This gives you some idea for automating...
 
 # Quest: Greedy Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.name=Greedy Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.desc=The Greedy Chest from Automagy looks to have some interesting uses. It also gates a pretty important device for a magician...
+# EN name: Greedy Chest
+# EN desc: The Greedy Chest from Automagy looks to have some interesting uses. It also gates a pretty important device for a magician...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.name=[提出済み]貪欲なチェスト
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.desc=Automagyの§7《§r貪欲なチェスト§7／Greedy Chest》§rは、面白そうな使い道がありそうです。これを通らないと、魔導士にとってかなり重要な装置も解放されません……
 
 # Quest: Knightmetal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.name=魔法の金属 - ナイトメタル
@@ -12666,8 +12678,10 @@ betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.name=Growing Auram
 betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=One Essentia you might have a hard time gathering is Auram. Maybe you've gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.%n%nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.%n%nYou should make sure the ground near the flower is level and clear, so you'll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.%n%n[note]Gaia Wart is also a growable source of Auram Essentia. It has a quest in the Green Revolution quest tab.[/note]
 
 # Quest: Thauminite Helmet
-betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.name=魔導鋼のヘルメット
-betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.desc=If you improve your Thaumium to Thauminite, you can make this very stylish helmet! Also comes with a very useful 5%% vis discount while equipped.%n%nMaybe this new material is useful for wands too?
+# EN name: Thauminite Helmet
+# EN desc: If you improve your Thaumium to Thauminite, you can make this very stylish helmet! Also comes with a very useful 5%% vis discount while equipped.%n%nMaybe this new material is useful for wands too?
+betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.name=[提出済み]魔導鋼のヘルメット
+betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.desc=魔導金属を魔導鋼に仕上げれば、このしゃれた§7《§r魔導鋼のヘルメット§7／Thauminite Helmet》§rが作れます！装備中は、Visの消費が5%%軽減される便利な効果もあります。%n%nこの新しい素材は、杖にも使えるかもしれませんね？
 
 # Quest: The Burden of Knowledge
 betterquesting.quest.EL2z-VAzS9eVmQFpNnwimg.name=The Burden of Knowledge
@@ -12678,8 +12692,10 @@ betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.name=Comparing at a Distance
 betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.desc=Comparators are wonderfully useful devices, but their need to be directly next to whatever they are comparing is quite limiting. If you could do so remotely that would free you from one major constraint.%n%nRemote Comparators allow you to do just that. Sneak-right-click with a crystalline eye to bind the block you want to watch, and place the eye in a remote comparator to start monitoring the block remotely.%n%nGiven the extra distance, though the range of the remote comparator is quite limited, you should expect the §otiniest§r amount of signal lag compared to a direct comparator. You're doubtful that is ever going to be a limiting factor, though.
 
 # Quest: Taint Warnings
-betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.name=Taint Warnings
-betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=Now that you have started using Vis in the form of Essentia, a warning about Taint.%n%nVis in the state of Essentia is unstable if not stored properly. Left alone too long, or emptied out of the Crucible, Essentia will break down. But not into Vis. Rather, it will turn into Flux.%n%nFlux manifests as a liquid or a gas, but is, itself, only a nuisance. Thaumaturges exposed to the stuff can end up getting Flux Flue, a condition which makes it harder to channel Vis, but it is only temporary.%n%nLarger concentrations of Flux will solidify into Thaumic Slimes, bizarre creatures that try to merge with each other to grow larger. They can be dangerous, but are no less susceptible to crossbow bolts than most things.%n%nHowever, if too much flux is allowed to linger for too long, it will corrupt the land and solidify into tendrils. This is a manifestation of the blight called Taint. Fibrous Tendrils (as well as condensed blocks thereof) spread the Tainted Lands, feeding on the magic it twists. Nodes are especially vulnerable, becoming Tainted themselves if exposed to this twisted magic.%n%nDestroying the tendrils stops the spread, but unless §oall§r are destroyed this is only temporary. A more effective solution is to destroy the Tainted Land itself, as outside this specific biome tendrils quickly starve and die off.%n%nIf you are §oexceedingly§r careless with your Crucible you can, in fact, create Tainted Lands. So you would be wise to try wasting as little Essentia as possible, and clean up any you do waste.
+# EN name: Taint Warnings
+# EN desc: Now that you have started using Vis in the form of Essentia, a warning about Taint.%n%nVis in the state of Essentia is unstable if not stored properly. Left alone too long, or emptied out of the Crucible, Essentia will break down. But not into Vis. Rather, it will turn into Flux.%n%nFlux manifests as a liquid or a gas, but is, itself, only a nuisance. Thaumaturges exposed to the stuff can end up getting Flux Flue, a condition which makes it harder to channel Vis, but it is only temporary.%n%nLarger concentrations of Flux will solidify into Thaumic Slimes, bizarre creatures that try to merge with each other to grow larger. They can be dangerous, but are no less susceptible to crossbow bolts than most things.%n%nHowever, if too much flux is allowed to linger for too long, it will corrupt the land and solidify into tendrils. This is a manifestation of the blight called Taint. Fibrous Tendrils (as well as condensed blocks thereof) spread the Tainted Lands, feeding on the magic it twists. Nodes are especially vulnerable, becoming Tainted themselves if exposed to this twisted magic.%n%nDestroying the tendrils stops the spread, but unless §oall§r are destroyed this is only temporary. A more effective solution is to destroy the Tainted Land itself, as outside this specific biome tendrils quickly starve and die off.%n%nIf you are §oexceedingly§r careless with your Crucible you can, in fact, create Tainted Lands. So you would be wise to try wasting as little Essentia as possible, and clean up any you do waste.
+betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.name=[提出済み]汚染の警告
+betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=エッセンシアという形でVisを使い始めたので、§7《§r汚染§7／Taint》§rについて警告しておきます。%n%n正しく保管しないと、エッセンシアの状態のVisは不安定です。長く放置したり、るつぼから捨てたりすると、エッセンシアは分解します。ただしVisには戻りません。代わりに§7《§rフラックス§7／Flux》§rになります。%n%nフラックスは液体や気体として現れますが、それ自体はただの厄介者です。これに晒された魔導士は§7《§rフラックス症§7／Flux Flue》§rになることがあり、Visを通しにくくなりますが、一時的なものです。%n%nフラックスが濃くなると固まって§7《§r魔導スライム§7／Thaumic Slime》§rになります。互いに合体して大きくなろうとする奇妙な生き物です。危険ではありますが、たいていの相手と同じくクロスボウの矢には弱いです。%n%nしかし、フラックスを長く放置しすぎると土地を腐敗させ、触手となって固まります。これが汚染と呼ばれる災厄の現れです。§7《§r繊維状の汚染§7／Fibrous Tendril》§r(およびそれを凝り固めたブロック)は、歪めた魔法を糧にして§7《§r汚染された土地§7／Tainted Lands》§rを広げます。オーラ節は特に弱く、この歪んだ魔法に晒されると自身も汚染されます。%n%n触手を壊せば拡散は止まりますが、§oすべて§rを壊さない限り一時しのぎです。より効果的なのは汚染された土地そのものを壊すことです。このバイオームの外では、触手はすぐに枯れて死にます。%n%nるつぼの扱いが§o極端に§r雑だと、実際に汚染された土地を作り出せてしまいます。だから、無駄にするエッセンシアはできるだけ少なくし、無駄にしたものは片付けた方が賢明です。
 
 # Quest: Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=Growing Glowstone the Magical Way
@@ -12718,8 +12734,10 @@ betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.name=烏合の輩を締め出す
 betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.desc=不速の客を入れないために、すべてを要塞のように築かなければならないことに、そろそろうんざりしてきたでしょう。確かに、あらゆる暗がりに終わりなくうろつく不安なアンデッドの群れがはびこる世界で生きる以上、それが当然のことではあります。しかし、扉の形をした便利な入口以外に、安全な出入り口を求めるのは無理な話でしょうか？%n%nもうそんなことはありません。上に何も載せていない限り、§7《§r保護の敷石§7／Paving Stone of Warding》§rは自身の上に2ブロック高の不可視の力場を展開し、プレイヤー以外のMob、少なくともありふれた烏合の輩の通行を阻みます。さらに、クモは力場を登れないため、締め出すための張り出しも不要です。%n%nただし、力場はあなたが放った矢と§oあなたに§r向けて放たれた矢を区別できないため、通常の物体は引き続き通過します。力場が視界を遮る程度は、§o不可視§rという言葉が示すとおりです。%n%nもちろん、その点は気にしていないでしょう。敵が届かない間にクロスボウで射抜けるのは、総合的に見て§oあなた§rにとって大いに有利なことです。
 
 # Quest: Pushing Back the Taint
-betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.name=Pushing Back the Taint
-betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.desc=So how do you actually destroy tainted land?%n%nThese Ethereal Blooms will remove Tainted Lands within a small area around themselves, which in turn kills off any Fibrous Tendrils. They cannot cleanse Tainted Nodes, nor will they necessarily return tainted biomes back to what they were before, but they will provide a barrier.%n%nThe Shimmerleaf they are made from have a recipe in an LV Assembling Machine if you're having a hard time finding them around Silverwood trees. There is also a CropsNH version of them.
+# EN name: Pushing Back the Taint
+# EN desc: So how do you actually destroy tainted land?%n%nThese Ethereal Blooms will remove Tainted Lands within a small area around themselves, which in turn kills off any Fibrous Tendrils. They cannot cleanse Tainted Nodes, nor will they necessarily return tainted biomes back to what they were before, but they will provide a barrier.%n%nThe Shimmerleaf they are made from have a recipe in an LV Assembling Machine if you're having a hard time finding them around Silverwood trees. There is also a CropsNH version of them.
+betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.name=[提出済み]汚染を押し戻す
+betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.desc=では、汚染された土地は実際にはどう壊せばよいのでしょう？%n%n天上の華は、周囲の狭い範囲から汚染された土地を取り除き、それによって繊維状の汚染も枯らします。汚染されたオーラ節は浄化できず、汚染されたバイオームが必ず元に戻るわけでもありませんが、防壁にはなります。%n%n材料のシマーリーフは、シルバーウッドのまわりで見つけにくければ、LVの組立機で作れます。CropsNH版もあります。
 
 # Quest: Adding More Functions
 betterquesting.quest.ad_fPxg-ThqyyuppTrG1gQ.name=Adding More Functions
@@ -12738,8 +12756,10 @@ betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.name=Growing your own Knowledge!
 betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.desc=Ever thought to yourself "man, why does everything have to use primal aspects so much?" Well now you won't have to worry about that anymore!%n%nMeet the Rosa Mysteria. When the sprout is planted on a Crystal Block, it will use that block's essence to grow into an Aspect Shard of the same type! These shards can then be thrown into your Cauldron or Alchemical Furnace, or used as Knowledge Fragments to gain Research Points. Even Mixed Crystals can be used as a catalyst!%n%n[warn]Warning: Planting Rosa Mysteria on Tainted Crystal Blocks will lead to unf§ko§rrs§ke§re§kn   §rco§kn§rs§ke§rq§kue§rnc§ke§r§ks.§r[/warn]
 
 # Quest: Solid, Directional Redstone
-betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=Solid, Directional Redstone
-betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.desc=Redstone Dust is a wonderful substance, but it has several limitations that only true Minecrafters can handle.%n%nLuckily, with a bit of magic the dust crystallizes and becomes much easier to handle.%n%nRedcrystal can be placed directly against a wall or ceiling, and also allows you to use a wand to toggle whether a given side sends/receives any redstone signals. This allows for nice and compact builds in places regular redstone couldn't even exist in the first place.%n%nMaybe it is possible to improve these redcrystals further to allow them to manipulate or process the signal they're receiving in some way...
+# EN name: Solid, Directional Redstone
+# EN desc: Redstone Dust is a wonderful substance, but it has several limitations that only true Minecrafters can handle.%n%nLuckily, with a bit of magic the dust crystallizes and becomes much easier to handle.%n%nRedcrystal can be placed directly against a wall or ceiling, and also allows you to use a wand to toggle whether a given side sends/receives any redstone signals. This allows for nice and compact builds in places regular redstone couldn't even exist in the first place.%n%nMaybe it is possible to improve these redcrystals further to allow them to manipulate or process the signal they're receiving in some way...
+betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=[提出済み]固体の指向性レッドストーン
+betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.desc=レッドストーンの粉はすばらしい物質ですが、真のマインクラフターだけが扱える制約がいくつかあります。%n%n幸い、少し魔法を加えると粉が結晶化し、ずっと扱いやすくなります。%n%n§7《§rレッドクリスタル§7／Redcrystal》§rは壁や天井に直接設置でき、杖で指定した面が信号を送受信するかどうかを切り替えられます。これなら、普通のレッドストーンではそもそも置けない場所にも、きれいでコンパクトな回路を組めます。%n%nこのレッドクリスタルをさらに改良して、受け取った信号を何らかの形で操作したり処理したりできるかもしれません……
 
 # Quest: Alleviating Warp
 betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.name=Alleviating Warp
