@@ -8,8 +8,7 @@ item.LTSaw.name=[提出済み]精密ノコギリ
 item.LTContainer.name=[提出済み]タイル収納容器
 item.LTWrench.name=[提出済み]精密レンチ
 item.LTChisel.name=精密彫刻用ノミ
-# EN: Little Screwdriver
-item.LTScrewdriver.name=[下書き]精密ドライバー
+item.LTScrewdriver.name=[提出済み]精密ドライバー
 item.LTRubberMallet.name=[提出済み]精密ゴムハンマー
 item.collision_tool.name=[提出済み]すり抜けの杖
 item.collision_tool.tooltip=[提出済み]右クリックでタイルの当たり判定を切り替える
@@ -58,8 +57,7 @@ key.littletiles.mode_overwrite_info=[提出済み]重なった部分を必要に
 key.littletiles.mode_stencil=[提出済み]型抜きモード
 key.littletiles.mode_stencil_info=[提出済み]何も配置しない。重なった範囲のタイルを取り除く。
 itemGroup.littletiles=[提出済み]Little Tiles
-# EN: §cMissing block! Is this a tile using a modded block from a mod you removed?
-block.LTBlocks.missingblock.name=[下書き]§cブロックが見つかりません！ 削除したMODのブロックを使ったタイルではありませんか？
+block.LTBlocks.missingblock.name=[提出済み]§cブロックが見つかりません！ 削除したMODのブロックを使ったタイルではありませんか？
 littletiles.command.dumpmesh.error=[提出済み]カーソルの下にメッシュがありません。
 littletiles.command.dumpmesh.success=[提出済み]メッシュを %s に出力しました
 message.littletiles.tile_collision.disabled=[提出済み]タイルの当たり判定を無効にしました
