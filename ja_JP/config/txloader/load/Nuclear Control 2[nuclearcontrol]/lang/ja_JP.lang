@@ -2,45 +2,45 @@
 nc.itemgroup.tab=Nuclear Control 2
 
 #Internal Items
-item.ItemToolThermometer.name=Thermometer
-item.ItemPanelMemoryCard.name=Information Panel Memory Card
-item.ItemToolDigitalThermometer.name=Digital Thermometer
-item.ItemRemoteSensorKit.name=Remote Sensor Kit
-item.ItemEnergySensorKit.name=Energy Sensor Kit
-item.ItemCounterSensorKit.name=Counter Sensor Kit
-item.ItemLiquidSensorKit.name=Liquid Sensor Kit
-item.ItemSensorLocationCard.name=Reactor Sensor Location Card
-item.ItemEnergySensorLocationCard.name=Energy Sensor Location Card
-item.itemCounterSensorLocationCard.name=Counter Sensor Location Card
-item.ItemLiquidSensorLocationCard.name=Liquid Sensor Location Card
-item.ItemEnergyArrayLocationCard.name=Energy Array Location Card
+item.ItemToolThermometer.name=[提出済み]温度計
+item.ItemPanelMemoryCard.name=[提出済み]情報表示パネル用メモリーカード
+item.ItemToolDigitalThermometer.name=[提出済み]デジタル温度計
+item.ItemRemoteSensorKit.name=[提出済み]遠隔センサーキット
+item.ItemEnergySensorKit.name=[提出済み]エネルギーセンサーキット
+item.ItemCounterSensorKit.name=[提出済み]電力計センサーキット
+item.ItemLiquidSensorKit.name=[提出済み]液体センサーキット
+item.ItemSensorLocationCard.name=[提出済み]原子炉センサーカード
+item.ItemEnergySensorLocationCard.name=[提出済み]エネルギーセンサーカード
+item.itemCounterSensorLocationCard.name=[提出済み]電力計センサーカード
+item.ItemLiquidSensorLocationCard.name=[提出済み]液体センサーカード
+item.ItemEnergyArrayLocationCard.name=[提出済み]エネルギーアレイカード
 item.itemRangeUpgrade.name=情報表示パネル用範囲拡張アップグレード
 item.ItemColorUpgrade.name=情報表示パネル用色彩拡張アップグレード
 item.ItemWebUpgrade.name=情報表示パネル用Web通信アップグレード
-item.ItemTimeCard.name=Time Card
-item.ItemTextCard.name=Text Card
-item.ItemGeneratorSensorKit.name=Generator Sensor Kit
-item.ItemGeneratorSensorLocationCard.name=Generator Sensor Location Card
-item.ItemLiquidArrayLocationCard.name=Liquid Array Location Card
-item.Item55ReactorCard.name=5x5 Reactor Sensor Location Card
-item.remoteMonitor.name=Portable Information Panel
+item.ItemTimeCard.name=[提出済み]時刻カード
+item.ItemTextCard.name=[提出済み]テキストカード
+item.ItemGeneratorSensorKit.name=[提出済み]発電機センサーキット
+item.ItemGeneratorSensorLocationCard.name=[提出済み]発電機センサーカード
+item.ItemLiquidArrayLocationCard.name=[提出済み]液体アレイカード
+item.Item55ReactorCard.name=[提出済み]5x5原子炉センサーカード
+item.remoteMonitor.name=[提出済み]携帯型情報表示パネル
 
 #Integration Items
-item.RFreactorKit.name=Remote RF Reactor Kit
-item.RFreactorCard.name=RF Reactor Sensor Location Card
-item.AppengCard.name=Applied Energistics Card
-item.AppengKit.name=Applied Energistics Monitor Kit
-item.RFenergyCard.name=RF Energy Sensor Location Card
-item.ItemVanillaMachineCard.name=Vanilla Machine Card
-item.ItemInventoryScannerCard.name=Inventory Tracking Card
-item.ItemVanilliaKit.name=Vanilla Kit
-item.MekRFenergyCard.name=Mekanism Energy Card
+item.RFreactorKit.name=[提出済み]遠隔RF原子炉キット
+item.RFreactorCard.name=[提出済み]RF原子炉センサーカード
+item.AppengCard.name=[提出済み]Applied Energisticsカード
+item.AppengKit.name=[提出済み]Applied Energisticsモニターキット
+item.RFenergyCard.name=[提出済み]RFエネルギーセンサーカード
+item.ItemVanillaMachineCard.name=[提出済み]バニラ機械カード
+item.ItemInventoryScannerCard.name=[提出済み]インベントリ追跡カード
+item.ItemVanilliaKit.name=[提出済み]バニラ機械キット
+item.MekRFenergyCard.name=[提出済み]Mekanismエネルギーカード
 
 #Internal Blocks
-tile.blockThermalMonitor.name=Thermal Monitor
-tile.blockIndustrialAlarm.name=Industrial Alarm
-tile.blockHowlerAlarm.name=Howler Alarm
-tile.blockRemoteThermo.name=Remote Thermal Monitor
+tile.blockThermalMonitor.name=[提出済み]温度モニター
+tile.blockIndustrialAlarm.name=[提出済み]工業用アラーム
+tile.blockHowlerAlarm.name=[提出済み]ハウラーアラーム
+tile.blockRemoteThermo.name=[提出済み]遠隔温度モニター
 tile.blockInfoPanel.name=工業用情報表示パネル
 tile.blockInfoPanelExtender.name=情報表示パネル拡張器
 tile.blockAdvancedInfoPanel.name=発展型情報表示パネル
@@ -61,23 +61,23 @@ tile.nclight0.name=白色のランプ
 tile.nclight1.name=白色のランプ
 tile.nclight2.name=橙色のランプ
 tile.nclight3.name=橙色のランプ
-tile.blockEnergyCounter.name=Energy Counter
-tile.blockAverageCounter.name=Average Counter
-tile.blockRangeTrigger.name=Range Trigger
+tile.blockEnergyCounter.name=[提出済み]積算電力計
+tile.blockAverageCounter.name=[提出済み]平均電力計
+tile.blockRangeTrigger.name=[提出済み]警報設定器
 
-gui.tile.blockThermalMonitor.name.title=Thermal Monitor
-gui.tile.blockIndustrialAlarm.name.title=Industrial Alarm
-gui.tile.blockHowlerAlarm.name.title=Howler Alarm
-gui.tile.blockRemoteThermo.name.title=Remote Thermal Monitor
+gui.tile.blockThermalMonitor.name.title=[提出済み]温度モニター
+gui.tile.blockIndustrialAlarm.name.title=[提出済み]工業用アラーム
+gui.tile.blockHowlerAlarm.name.title=[提出済み]ハウラーアラーム
+gui.tile.blockRemoteThermo.name.title=[提出済み]遠隔温度モニター
 gui.tile.blockInfoPanel.name.title=工業用情報表示パネル
-gui.tile.blockEnergyCounter.name.title=Energy Counter
-gui.tile.blockAverageCounter.name.title=Average Counter
-gui.tile.blockRangeTrigger.name.title=Range Trigger
+gui.tile.blockEnergyCounter.name.title=[提出済み]積算電力計
+gui.tile.blockAverageCounter.name.title=[提出済み]平均電力計
+gui.tile.blockRangeTrigger.name.title=[提出済み]警報設定器
 gui.tile.blockAdvancedInfoPanel.name.title=発展型情報表示パネル
 
 #Integration Blocks
-tile.blockBRPart.name=Reactor Monitor
-tile.NetworkLink.name=ME Network Monitor
+tile.blockBRPart.name=[提出済み]原子炉モニター
+tile.NetworkLink.name=[提出済み]MEネットワークモニター
 
 #Original Screen Messages
 msg.nc.HowlerAlarmSoundRange=Sound range: %s
