@@ -1,3 +1,9 @@
+# [下書き] sivaDog 手元下書き。確定したら [自訳]、ParaTranz 投稿後は [提出済み] に置き換える
+# ParaTranz へ貼るときは行頭の [下書き] を外す。'# EN:' は原文比較用で、確定時に削除する
+# 用語は既訳に合わせる: claim=領有、AFK=退席、home/warp=ホーム/ワープ、rank=ランク、vanish=透明化、
+#   team の Owner/Moderator/Member/Ally/Enemy=オーナー/モデレーター/メンバー/味方/敵（FTB Teams 公式訳と既訳「味方間でのPvP」に合わせる）。コマンドの使い方（*.usage）は英語のまま（本人方針。既訳の <プレイヤー> 形式は他の方のもの）
+# gui.active / gui.inactive / owner は他MODと同じキー（Forestry の表現因子／潜在因子、Blood Arsenal）なので訳さず保留
+#   無印の日本語は他の翻訳者の既訳なので触らない
 # Misc
 gamerules=ゲームルール
 serverutilities.lang.timer.shutdown=サーバーは%sでシャットダウンします
@@ -7,93 +13,103 @@ serverutilities.lang.upload_crash=クラッシュレポートをアップロー�
 serverutilities.lang.uploaded_crash=クラッシュレポートをアップロードしました！ %s
 serverutilities.lang.nickname_changed=ニックネームを「%s」に変更しました
 serverutilities.lang.nickname_reset=ニックネームをリセット
-serverutilities.lang.unmuted= %s has been unmuted
-serverutilities.lang.muted= %s has been muted
-serverutilities.lang.fly_on=Fly turned on for %s
-serverutilities.lang.fly_off=Fly turned off for %s
-serverutilities.lang.god_on=God mode turned on for %s
-serverutilities.lang.god_off=God mode turned off for %s
-serverutilities.lang.heal=%s has been healed
-serverutilities.lang.permissions_dumped=%s permissions successfully dumped to file at: %s.
-serverutilities.disabled.config=Disabled in config
-serverutilities.disabled.server=Disabled by server
-serverutilities.navigator.button=Show Server Utilities Claims Overlay
-serverutilities.unsaved_changes.title=Unsaved Changes
-serverutilities.unsaved_changes=You have unsaved changes. Do you want to save them?
-serverutilities.command_overview=Command Overview
+serverutilities.lang.unmuted=[提出済み] %sのミュートを解除しました
+serverutilities.lang.muted=[提出済み] %sをミュートしました
+serverutilities.lang.fly_on=[提出済み]%sの飛行を有効にしました
+serverutilities.lang.fly_off=[提出済み]%sの飛行を無効にしました
+serverutilities.lang.god_on=[提出済み]%sのゴッドモードを有効にしました
+serverutilities.lang.god_off=[提出済み]%sのゴッドモードを無効にしました
+serverutilities.lang.heal=[提出済み]%sを回復しました
+serverutilities.lang.permissions_dumped=[提出済み]%s件のパーミッションをファイルに書き出しました: %s
+serverutilities.disabled.config=[提出済み]設定で無効化されています
+serverutilities.disabled.server=[提出済み]サーバーで無効化されています
+serverutilities.navigator.button=[提出済み]Server Utilities の領有オーバーレイを表示
+serverutilities.unsaved_changes.title=[提出済み]未保存の変更
+serverutilities.unsaved_changes=[提出済み]保存していない変更があります。保存しますか？
+serverutilities.command_overview=[提出済み]コマンド一覧
 
 serverutilities.stat.time_afk=放置した時間
-serverutilities.stat.time_afk_percent=Percentage of time spent AFK
-serverutilities.stat.time_active=Time actively playing (not AFK)
+serverutilities.stat.time_afk_percent=[提出済み]退席していた時間の割合
+serverutilities.stat.time_active=[提出済み]実際に遊んでいた時間（退席を除く）
 serverutilities.stat.dph=一時間あたりの死亡数
 serverutilities.stat.last_seen=最終ログイン時間
-serverutilities.stat.killed_by=Deaths by %s
-serverutilities.stat.entities_killed=%ss killed
+serverutilities.stat.killed_by=[提出済み]%sによる死亡数
+serverutilities.stat.entities_killed=[提出済み]%sの討伐数
 
-wip=Work In Progress!
-deprecated=This method is deprecated, please use %s
-example=Example:
-click_here=[Click Here]
-feature_disabled=This feature is disabled!
-feature_disabled_server=This feature is disabled on server!
-error=Error: %s
+# EN: Work In Progress!
+wip=[下書き]作業中です！
+# EN: This method is deprecated, please use %s
+deprecated=[下書き]このメソッドは非推奨です。%sを使ってください
+example=[提出済み]例:
+click_here=[提出済み][ここをクリック]
+# EN: This feature is disabled!
+feature_disabled=[下書き]この機能は無効化されています！
+feature_disabled_server=[提出済み]この機能はサーバーで無効化されています！
+error=[提出済み]エラー: %s
 owner=Owner: %s
-delete_item=Do you want to delete '%s'?
-server_forced=Server overrides to '%s'
-commands=Commands
-my_permissions=My Permissions
-all_permissions=All Permissions
-key.categories.serverutilities=Server Utilities
-stand_still=Please, stand still for %d seconds.
-stand_still_failed=You moved! Teleport cancelled.
-teleporting=Teleporting...
-cooldown=Cooldown
-cant_use_now=Can't use that right now!
-cant_use_now_cooldown=Can't use that right now! Cooldown: %s
-action_bar=Action Bar
-title=Title
-nothing_changed=Nothing changed!
-player_must_be_online=Player must be online!
+delete_item=[提出済み]「%s」を削除しますか？
+# EN: Server overrides to '%s'
+server_forced=[下書き]サーバーが「%s」に固定しています
+commands=[提出済み]コマンド
+# EN: My Permissions
+my_permissions=[下書き]自分のパーミッション
+# EN: All Permissions
+all_permissions=[下書き]すべてのパーミッション
+key.categories.serverutilities=[提出済み]Server Utilities
+stand_still=[提出済み]%d秒間その場で動かないでください。
+# EN: You moved! Teleport cancelled.
+stand_still_failed=[下書き]動いたため、テレポートを中止しました。
+teleporting=[提出済み]テレポート中...
+# EN: Cooldown
+cooldown=[下書き]クールダウン
+# EN: Can't use that right now!
+cant_use_now=[下書き]今は使えません！
+cant_use_now_cooldown=[提出済み]今は使えません！ クールダウン: %s
+action_bar=[提出済み]アクションバー
+title=[提出済み]タイトル
+nothing_changed=[提出済み]何も変更されませんでした！
+player_must_be_online=[提出済み]プレイヤーがオンラインである必要があります！
 
-serverutilities.task.cleanup_entity=Removing %s in %d seconds
-serverutilities.task.cleanup_hostiles=Hostile mobs
-serverutilities.task.cleanup_passives=Passive mobs
-serverutilities.task.cleanup_items=Dropped items
-serverutilities.task.cleanup_experience=XP orbs
-serverutilities.task.cleanup_removed=Removed %s entities from world
+serverutilities.task.cleanup_entity=[提出済み]%2$d秒後に%1$sを削除します
+serverutilities.task.cleanup_hostiles=[提出済み]敵対モブ
+serverutilities.task.cleanup_passives=[提出済み]友好モブ
+serverutilities.task.cleanup_items=[提出済み]落ちているアイテム
+serverutilities.task.cleanup_experience=[提出済み]経験値オーブ
+serverutilities.task.cleanup_removed=[提出済み]ワールドから%s体のエンティティを削除しました
 
-serverutilities.lang.reload_server_button=Reload Server
-serverutilities.lang.reload_server=Server reloaded in %s
-serverutilities.lang.reload_client=You can press %s to reload client
-serverutilities.lang.reload_failed=These IDs failed to reload:
+serverutilities.lang.reload_server_button=[提出済み]サーバーを再読み込み
+serverutilities.lang.reload_server=[提出済み]%sでサーバーを再読み込みしました
+serverutilities.lang.reload_client=[提出済み]%sを押すとクライアントを再読み込みできます
+serverutilities.lang.reload_failed=[提出済み]再読み込みに失敗したID:
 
-serverutilities.lang.config_command.invalid_key=Can't find config value '%s'!
-serverutilities.lang.config_command.set='%s' set to %s
+serverutilities.lang.config_command.invalid_key=[提出済み]設定項目「%s」が見つかりません！
+serverutilities.lang.config_command.set=[提出済み]「%s」を%sに設定しました
 
-serverutilities.lang.add_fake_player.invalid_uuid=Invalid UUID!
-serverutilities.lang.add_fake_player.player_exists=Player already exists!
-serverutilities.lang.add_fake_player.added=Fake player %s added!
+serverutilities.lang.add_fake_player.invalid_uuid=[提出済み]UUIDが不正です！
+serverutilities.lang.add_fake_player.player_exists=[提出済み]プレイヤーはすでに存在します！
+serverutilities.lang.add_fake_player.added=[提出済み]フェイクプレイヤー%sを追加しました！
 
-serverutilities.select_fluid.gui=Select Fluid
-serverutilities.select_fluid.none=None
-serverutilities.select_item.list_mode=List Mode: %s
-serverutilities.select_item.list_mode.all=All Items
-serverutilities.select_item.list_mode.inv=Inventory
-serverutilities.select_item.count=Set Size
-serverutilities.select_item.meta=Set Metadata
-serverutilities.select_item.nbt=Edit NBT
-serverutilities.select_item.caps=Edit Capabilities
-serverutilities.select_item.display_name=Set Display Name
-serverutilities.select_team.gui=Select Team
+serverutilities.select_fluid.gui=[提出済み]液体を選択
+serverutilities.select_fluid.none=[提出済み]なし
+serverutilities.select_item.list_mode=[提出済み]表示モード: %s
+serverutilities.select_item.list_mode.all=[提出済み]すべてのアイテム
+serverutilities.select_item.list_mode.inv=[提出済み]インベントリ
+serverutilities.select_item.count=[提出済み]個数を設定
+serverutilities.select_item.meta=[提出済み]メタデータを設定
+serverutilities.select_item.nbt=[提出済み]NBTを編集
+serverutilities.select_item.caps=[提出済み]Capabilityを編集
+serverutilities.select_item.display_name=[提出済み]表示名を設定
+# EN: Select Team
+serverutilities.select_team.gui=[下書き]チームを選択
 
 serverutilities.world.dimension.overworld=オーバーワールド
 serverutilities.world.dimension.end=エンド
 serverutilities.world.dimension.nether=ネザー
 
 # Config
-serverutilities=Server Utilities
-serverutilities.config.enabled=Enabled
-serverutilities.config.enabled_singleplayer=Enabled in Singleplayer
+serverutilities=[提出済み]Server Utilities
+serverutilities.config.enabled=[提出済み]有効
+serverutilities.config.enabled_singleplayer=[提出済み]シングルプレイで有効化
 
 serverutilities.auto_shutdown=自動シャットダウン
 serverutilities.auto_shutdown.enabled_singleplayer=シングルプレイで有効化
@@ -105,38 +121,38 @@ serverutilities.afk.enabled_singleplayer=シングルプレイで有効化
 serverutilities.afk.notification_timer=通知タイマー
 serverutilities.afk.log_afk=退席ログ
 
-serverutilities.backups.enable_backups=Enable Backups
-serverutilities.backups.backup_timer=Backup Timer
-serverutilities.backups.backups_to_keep=Backups To Keep
-serverutilities.backups.compression_level=Compression Level
-serverutilities.backups.backup_folder_path=Backup Folder Path
-serverutilities.backups.additional_backup_files=Additional Backup Files
-serverutilities.backups.use_separate_thread=Use Separate Thread
-serverutilities.backups.display_file_size=Display File Size
-serverutilities.backups.need_online_players=Need Online Players
-serverutilities.backups.silent_backup=Silent Backup
-serverutilities.backups.max_folder_size=Max Folder Size
-serverutilities.backups.delete_custom_name_backups=Delete Custom Named Backups
-serverutilities.backups.only_backup_claimed_chunks=Only Backup Claimed Chunks
-serverutilities.backups.backup_entire_regions_with_claims=Include Entire Regions With Claims
+serverutilities.backups.enable_backups=[提出済み]バックアップを有効化
+serverutilities.backups.backup_timer=[提出済み]バックアップの間隔
+serverutilities.backups.backups_to_keep=[提出済み]残すバックアップの数
+serverutilities.backups.compression_level=[提出済み]圧縮レベル
+serverutilities.backups.backup_folder_path=[提出済み]バックアップフォルダーのパス
+serverutilities.backups.additional_backup_files=[提出済み]追加でバックアップするファイル
+serverutilities.backups.use_separate_thread=[提出済み]別スレッドで実行
+serverutilities.backups.display_file_size=[提出済み]ファイルサイズを表示
+serverutilities.backups.need_online_players=[提出済み]オンラインのプレイヤーが必要
+serverutilities.backups.silent_backup=[提出済み]通知なしでバックアップ
+serverutilities.backups.max_folder_size=[提出済み]フォルダーの最大サイズ
+serverutilities.backups.delete_custom_name_backups=[提出済み]名前を付けたバックアップも削除
+serverutilities.backups.only_backup_claimed_chunks=[提出済み]領有チャンクだけをバックアップ
+serverutilities.backups.backup_entire_regions_with_claims=[提出済み]領有チャンクを含むリージョン全体をバックアップ
 
 serverutilities.chat=チャット
-serverutilities.chat.add_nickname_tilde=Add Nickname Tilde
-serverutilities.chat.replace_tab_names=Replace Tab Names
-serverutilities.chat.format=%s
+serverutilities.chat.add_nickname_tilde=[提出済み]ニックネームに~を付ける
+serverutilities.chat.replace_tab_names=[提出済み]Tabリストの名前を置き換える
+serverutilities.chat.format=[提出済み]%s
 
 serverutilities.commands=コマンド
 
-serverutilities.debugging=Debugging
-serverutilities.debugging.special_commands=Special Commands
-serverutilities.debugging.print_more_info=Print More Info
-serverutilities.debugging.print_more_errors=Print More Errors
-serverutilities.debugging.log_network=Log Network IO
-serverutilities.debugging.log_teleport=Log Teleporting
-serverutilities.debugging.log_config_editing=Log Config Editing
-serverutilities.debugging.dev_sidebar_buttons=Dev-only Sidebar Buttons
-serverutilities.debugging.gui_widget_bounds=GUI Widget Bounds
-serverutilities.debugging.log_events=Log Events
+serverutilities.debugging=[提出済み]デバッグ
+serverutilities.debugging.special_commands=[提出済み]特殊コマンド
+serverutilities.debugging.print_more_info=[提出済み]詳しい情報を出力
+serverutilities.debugging.print_more_errors=[提出済み]詳しいエラーを出力
+serverutilities.debugging.log_network=[提出済み]ネットワーク入出力のログ
+serverutilities.debugging.log_teleport=[提出済み]テレポートのログ
+serverutilities.debugging.log_config_editing=[提出済み]設定編集のログ
+serverutilities.debugging.dev_sidebar_buttons=[提出済み]開発者用サイドバーボタン
+serverutilities.debugging.gui_widget_bounds=[提出済み]GUIウィジェットの境界を表示
+serverutilities.debugging.log_events=[提出済み]イベントのログ
 serverutilities.debugging.log_chunkloading=チャンクロードのログ
 
 serverutilities.login=ログイン
@@ -145,14 +161,14 @@ serverutilities.login.enable_starting_items=開始時アイテムの有効化
 serverutilities.login.motd=ログインMOTD
 serverutilities.login.starting_items=開始時アイテム
 
-serverutilities.mixins=Mixins
-serverutilities.mixins.endermen=Enable Endermen Mixin
-serverutilities.mixins.bypassplayerlimit=Enable Bypass Player Limit Mixin
-serverutilities.mixins.farmlandtramplingprotection=Enable Farmland Trampling Protection Mixin
+serverutilities.mixins=[提出済み]Mixin
+serverutilities.mixins.endermen=[提出済み]エンダーマンのMixinを有効化
+serverutilities.mixins.bypassplayerlimit=[提出済み]プレイヤー上限を無視するMixinを有効化
+serverutilities.mixins.farmlandtramplingprotection=[提出済み]耕地の踏み荒らし防止Mixinを有効化
 
-serverutilities.motd=Server MOTD
-serverutilities.motd.line1=First MOTD Line
-serverutilities.motd.line2=Second MOTD Line
+serverutilities.motd=[提出済み]サーバーのMOTD
+serverutilities.motd.line1=[提出済み]MOTDの1行目
+serverutilities.motd.line2=[提出済み]MOTDの2行目
 
 serverutilities.world=ワールド
 serverutilities.world.blocked_claiming_dimensions=領有禁止ディメンション
@@ -169,20 +185,20 @@ serverutilities.world.forced_spawn_dimension_time=強制スポーンディメン
 serverutilities.world.forced_spawn_dimension_weather=強制スポーンディメンションの気候
 serverutilities.world.disable_player_suffocation_damage=プレイヤーの窒息によるダメージの無効化
 serverutilities.world.show_playtime=左上にプレイタイムを表示
-serverutilities.world.players_sleeping=§f%s§6 is now sleeping. %s/%s (%s%%)
-serverutilities.world.vampires_sleeping=§f%s§4 is resting in a coffin. %s/%s (%s%%)
-serverutilities.world.enable_explosions=Enable Explosion in Claimed Chunks
-serverutilities.world.enable_endermen=Enable Endermen in Claimed Chunks
-serverutilities.world.enable_pvp=Enable PvP
-serverutilities.world.disabled_right_click_items=Disabled Right Click Items
-serverutilities.world.enable_player_sleeping_percentage=Enable Player Sleeping Percentage
-serverutilities.world.player_sleeping_percentage=Player Sleeping Percentage Default Value
-serverutilities.world.vampire_sleep_percent=Vampire Sleep Percentage
-serverutilities.world.blockmobspawninginclaims=Block Mob Spawning in Claims
-serverutilities.world.mobtypestoblock=Mob Types to Block
+serverutilities.world.players_sleeping=[提出済み]§f%s§6が眠りにつきました。%s/%s (%s%%)
+serverutilities.world.vampires_sleeping=[提出済み]§f%s§4が棺の中で休んでいます。%s/%s (%s%%)
+serverutilities.world.enable_explosions=[提出済み]領有チャンクで爆発を有効化
+serverutilities.world.enable_endermen=[提出済み]領有チャンクでエンダーマンを有効化
+serverutilities.world.enable_pvp=[提出済み]PvPを有効化
+serverutilities.world.disabled_right_click_items=[提出済み]右クリックを禁止するアイテム
+serverutilities.world.enable_player_sleeping_percentage=[提出済み]就寝プレイヤーの割合を有効化
+serverutilities.world.player_sleeping_percentage=[提出済み]就寝プレイヤーの割合の初期値
+serverutilities.world.vampire_sleep_percent=[提出済み]就寝する吸血鬼の割合
+serverutilities.world.blockmobspawninginclaims=[提出済み]領有チャンクでモブのスポーンを防ぐ
+serverutilities.world.mobtypestoblock=[提出済み]スポーンを防ぐモブの種類
 
-serverutilities.world.skip_night=§6Wakey, wakey, rise and shine... Good Morning everyone!
-serverutilities.world.skip_day=§4The sun has set, and the shadows grow long... The night is ours!
+serverutilities.world.skip_night=[提出済み]§6起きて起きて、朝ですよ…みなさん、おはようございます！
+serverutilities.world.skip_day=[提出済み]§4日は沈み、影が長く伸びる…夜は我らのものだ！
 
 serverutilities.world.logging=ログ
 serverutilities.world.logging.include_creative_players=クリエイティブプレイヤーを含める
@@ -190,93 +206,98 @@ serverutilities.world.logging.include_fake_players=フェイクプレイヤー�
 serverutilities.world.logging.block_placed=ブロックの設置
 serverutilities.world.logging.block_broken=ブロックの破壊
 serverutilities.world.logging.item_clicked_in_air=アイテムでのクリック
-serverutilities.world.logging.entity_attacked=Entity Attacked
-serverutilities.world.logging.exclude_mob_entity=Exclude Hostile Entity
-serverutilities.world.logging.chat_enable=Enable Chat Log
+serverutilities.world.logging.entity_attacked=[提出済み]エンティティへの攻撃
+serverutilities.world.logging.exclude_mob_entity=[提出済み]敵対エンティティを除外
+serverutilities.world.logging.chat_enable=[提出済み]チャットのログを有効化
 
 serverutilities.ranks=ランク
 serverutilities.ranks.override_chat=チャットをオーバーライド
-serverutilities.ranks.command_permissions=Command Permissions
+serverutilities.ranks.command_permissions=[提出済み]コマンドのパーミッション
 
 serverutilities.ranks.tags.default_player_rank=デフォルトのプレイヤーランク
 serverutilities.ranks.tags.default_op_rank=デフォルトのOPランク
 
-serverutilities.general.merge_offline_mode_players=Merge Offline Mode Players
-serverutilities.general.enable_pause_when_empty_property=Enable pause_when_empty Property
-serverutilities.general.enable_max_tick_time_property=Enable max_tick_time Property
-serverutilities.general.enable_toggle_cheats_button=Enable Toggle Cheats Button
-serverutilities.general.toggle_cheats=Toggle Cheats
-serverutilities.general.enable_cheats=Enable Cheats
-serverutilities.general.disable_cheats=Disable Cheats
+serverutilities.general.merge_offline_mode_players=[提出済み]オフラインモードのプレイヤーを統合
+serverutilities.general.enable_pause_when_empty_property=[提出済み]pause_when_emptyプロパティを有効化
+serverutilities.general.enable_max_tick_time_property=[提出済み]max_tick_timeプロパティを有効化
+serverutilities.general.enable_toggle_cheats_button=[提出済み]チート切り替えボタンを有効化
+serverutilities.general.toggle_cheats=[提出済み]チートの切り替え
+serverutilities.general.enable_cheats=[提出済み]チートを有効化
+serverutilities.general.disable_cheats=[提出済み]チートを無効化
 
-serverutilities.teams=Teams
-serverutilities.teams.autocreate_sp=Autocreate on Singleplayer
-serverutilities.teams.autocreate_mp=Autocreate on Multiplayer
-serverutilities.teams.hide_team_notification=Hide Team Notification
-serverutilities.teams.grief_protection=Grief Protection
-serverutilities.teams.interaction_protection=Interaction Protection
-serverutilities.teams.force_team_prefix=Force Team Prefix
-serverutilities.teams.disable_teams=Disable Teams
+serverutilities.teams=[提出済み]チーム
+serverutilities.teams.autocreate_sp=[提出済み]シングルプレイで自動作成
+serverutilities.teams.autocreate_mp=[提出済み]マルチプレイで自動作成
+serverutilities.teams.hide_team_notification=[提出済み]チームの通知を隠す
+serverutilities.teams.grief_protection=[提出済み]荒らし対策
+serverutilities.teams.interaction_protection=[提出済み]操作の保護
+serverutilities.teams.force_team_prefix=[提出済み]チームのプレフィックスを強制
+serverutilities.teams.disable_teams=[提出済み]チームを無効化
 
-serverutilities.tasks=Tasks
-serverutilities.tasks.cleanup=Cleanup
-serverutilities.tasks.cleanup.interval=Interval
-serverutilities.tasks.cleanup.hostiles=Include Hostiles
-serverutilities.tasks.cleanup.passives=Include Passives
-serverutilities.tasks.cleanup.items=Include Items
-serverutilities.tasks.cleanup.experience=Include Experience Orbs
-serverutilities.tasks.cleanup.silent=Silent Cleanup
+serverutilities.tasks=[提出済み]タスク
+serverutilities.tasks.cleanup=[提出済み]クリーンアップ
+serverutilities.tasks.cleanup.interval=[提出済み]間隔
+serverutilities.tasks.cleanup.hostiles=[提出済み]敵対モブを含める
+serverutilities.tasks.cleanup.passives=[提出済み]友好モブを含める
+serverutilities.tasks.cleanup.items=[提出済み]アイテムを含める
+serverutilities.tasks.cleanup.experience=[提出済み]経験値オーブを含める
+serverutilities.tasks.cleanup.silent=[提出済み]通知なしでクリーンアップ
 
-serverutilities.pregen=Pregen
-serverutilities.pregen.chunkspertick=Chunks Per Tick
-serverutilities.pregen.timelimitms=Time Limit In ms
+serverutilities.pregen=[提出済み]事前生成
+serverutilities.pregen.chunkspertick=[提出済み]1ティックあたりのチャンク数
+serverutilities.pregen.timelimitms=[提出済み]制限時間 (ms)
 
 serverutilities.server_info=サーバー情報
 serverutilities.server_info.difficulty=難易度
 serverutilities.server_info.admin_quick_access=管理者クイックアクセス
 
 # Client Config
-serverutilities_client=Client Config
-serverutilities_client.render_badges=Show Badges
-serverutilities_client.journeymap_overlay=Enable Journeymap Integration
-serverutilities_client.scan_items_whitelist=/scan_items Whitelist
-serverutilities_client.scan_items_blacklist=/scan_items Blacklist
-serverutilities_client.show_shutdown_timer=Show Shutdown Timer
-serverutilities_client.shutdown_timer_start=Shutdown Timer Start
-serverutilities_client.button_daytime=Button Daytime
-serverutilities_client.button_nighttime=Button Nighttime
-serverutilities_client.item_ore_names=Display Item OreDictionary Names
-serverutilities_client.item_ore_names.item_tooltip=Ore Dictionary Names:
-serverutilities_client.item_nbt=Display Item NBT
-serverutilities_client.sidebar_buttons=Sidebar Location
-serverutilities_client.sidebar_buttons_above_potion=Draw Buttons Above Potion Label
-serverutilities_client.sidebar_placement=Sidebar Placement
-serverutilities_client.notification_location=Notification Location
-serverutilities_client.show_dotted_lines=Show Dotted Line On Loaded Chunks
+serverutilities_client=[提出済み]クライアント設定
+# EN: Show Badges
+serverutilities_client.render_badges=[下書き]バッジを表示
+# EN: Enable Journeymap Integration
+serverutilities_client.journeymap_overlay=[下書き]JourneyMap連携を有効化
+# EN: /scan_items Whitelist
+serverutilities_client.scan_items_whitelist=[下書き]/scan_items のホワイトリスト
+# EN: /scan_items Blacklist
+serverutilities_client.scan_items_blacklist=[下書き]/scan_items のブラックリスト
+serverutilities_client.show_shutdown_timer=[提出済み]シャットダウンタイマーを表示
+serverutilities_client.shutdown_timer_start=[提出済み]シャットダウンタイマーの表示開始
+serverutilities_client.button_daytime=[提出済み]昼ボタンの時刻
+serverutilities_client.button_nighttime=[提出済み]夜ボタンの時刻
+serverutilities_client.item_ore_names=[提出済み]アイテムの鉱石辞書名を表示
+serverutilities_client.item_ore_names.item_tooltip=[提出済み]鉱石辞書名:
+serverutilities_client.item_nbt=[提出済み]アイテムのNBTを表示
+serverutilities_client.sidebar_buttons=[提出済み]サイドバーの表示場所
+serverutilities_client.sidebar_buttons_above_potion=[提出済み]ボタンをポーション表示の上に描く
+serverutilities_client.sidebar_placement=[提出済み]サイドバーボタンの並べ方
+# EN: Notification Location
+serverutilities_client.notification_location=[下書き]通知の表示位置
+serverutilities_client.show_dotted_lines=[提出済み]ロード中のチャンクに点線を表示
 
 # Notification Config
-serverutilities.notifications.config=Notification Config
-serverutilities.notifications.last_received=Last received notification:
-serverutilities.notifications.chunk_modified=Chunk Modified
-serverutilities.notifications.chunk_modified.desc=Notifies when claiming/loading a chunk
-serverutilities.notifications.chunk_changed=Chunk Changed
-serverutilities.notifications.chunk_changed.desc=Notifies when a entering a claimed chunk
-serverutilities.notifications.cant_modify_chunk=Can't Modify Chunk
-serverutilities.notifications.cant_modify_chunk.desc=Notifies when unable to modify a chunk
-serverutilities.notifications.teleport=Teleport
-serverutilities.notifications.teleport.desc=Notifies when teleporting to homes/warps
-serverutilities.notifications.teleport_warmup=Teleport Warmup
-serverutilities.notifications.teleport_warmup.desc=Counts down until teleport is complete
-serverutilities.notifications.backup=Backup
-serverutilities.notifications.backup.desc=Notifies when a backup is started/stopped
-serverutilities.notifications.config_changed=Config Changed
-serverutilities.notifications.config_changed.desc=Notifies when configs are changed via commands
-serverutilities.notifications.restart_timer=Restart Timer
-serverutilities.notifications.restart_timer.desc=Notifies when server is about to restart
-serverutilities.notifications.cleanup=Cleanup
-serverutilities.notifications.cleanup.desc=Notifies when entity cleanup is about to start or finish
-serverutilities.notifications.player_afk=Player AFK
-serverutilities.notifications.player_afk.desc=Notifies when a player goes AFK
+serverutilities.notifications.config=[提出済み]通知の設定
+serverutilities.notifications.last_received=[提出済み]最後に受け取った通知:
+serverutilities.notifications.chunk_modified=[提出済み]チャンクの変更
+serverutilities.notifications.chunk_modified.desc=[提出済み]チャンクを領有・ロードしたときに通知します
+serverutilities.notifications.chunk_changed=[提出済み]チャンクの移動
+serverutilities.notifications.chunk_changed.desc=[提出済み]領有チャンクに入ったときに通知します
+serverutilities.notifications.cant_modify_chunk=[提出済み]チャンクを変更できない
+serverutilities.notifications.cant_modify_chunk.desc=[提出済み]チャンクを変更できなかったときに通知します
+serverutilities.notifications.teleport=[提出済み]テレポート
+serverutilities.notifications.teleport.desc=[提出済み]ホームやワープにテレポートしたときに通知します
+serverutilities.notifications.teleport_warmup=[提出済み]テレポートの待機
+serverutilities.notifications.teleport_warmup.desc=[提出済み]テレポートが終わるまでカウントダウンします
+serverutilities.notifications.backup=[提出済み]バックアップ
+serverutilities.notifications.backup.desc=[提出済み]バックアップの開始・終了を通知します
+serverutilities.notifications.config_changed=[提出済み]設定の変更
+serverutilities.notifications.config_changed.desc=[提出済み]コマンドで設定が変更されたときに通知します
+serverutilities.notifications.restart_timer=[提出済み]再起動タイマー
+serverutilities.notifications.restart_timer.desc=[提出済み]サーバーの再起動が近づいたときに通知します
+serverutilities.notifications.cleanup=[提出済み]クリーンアップ
+serverutilities.notifications.cleanup.desc=[提出済み]エンティティのクリーンアップの開始・終了を通知します
+serverutilities.notifications.player_afk=[提出済み]プレイヤーの退席
+serverutilities.notifications.player_afk.desc=[提出済み]プレイヤーが退席したときに通知します
 
 
 
@@ -297,13 +318,13 @@ permission.serverutilities.warps.cooldown=/warp クールダウンタイマー
 permission.serverutilities.tpa.cooldown=/tpa クールダウンタイマー
 permission.serverutilities.spawn.cooldown=/spawn クールダウンタイマー
 permission.serverutilities.back.cooldown=/back クールダウンタイマー
-permission.serverutilities.rtp.cooldown=/rtp Cooldown Timer
+permission.serverutilities.rtp.cooldown=[提出済み]/rtp クールダウンタイマー
 permission.serverutilities.homes.warmup=/home ウォームアップタイマー
 permission.serverutilities.warps.warmup=/warp ウォームアップタイマー
 permission.serverutilities.tpa.warmup=/tpa ウォームアップタイマー
 permission.serverutilities.spawn.warmup=/spawn ウォームアップタイマー
 permission.serverutilities.back.warmup=/back ウォームアップタイマー
-permission.serverutilities.rtp.warmup=/rtp Warmup Timer
+permission.serverutilities.rtp.warmup=[提出済み]/rtp ウォームアップタイマー
 permission.serverutilities.afk.timer=AFK タイマー
 permission.serverutilities.afk.timer.is_afk=%sは現在離席中です
 permission.serverutilities.afk.timer.isnt_afk=%sが戻ってきました
@@ -321,70 +342,72 @@ permission.serverutilities.chat.prefix.right.text=チャットのプレフィッ
 permission.serverutilities.chat.suffix.left.text=チャットのサフィックスのテキスト [左]
 permission.serverutilities.chat.suffix.base.text=チャットのサフィックスのテキスト [ベース]
 permission.serverutilities.chat.suffix.right.text=チャットのサフィックスのテキスト [右]
-permission.serverutilities.claims.decay=Claim decay timer. Claims will be permanently removed after team has been inactive for the given time.
-permission.serverutilities.chunkloader.decay=Chunkload decay timer. Loaded chunks will be unloaded after team has been inactive for the given time and are restored once activity resumes.
+permission.serverutilities.claims.decay=[提出済み]領有の消滅タイマー。チームが指定した時間活動しないと、領有は完全に削除されます。
+permission.serverutilities.chunkloader.decay=[提出済み]チャンクロードの消滅タイマー。チームが指定した時間活動しないとロード中のチャンクはアンロードされ、活動を再開すると元に戻ります。
 
-permission.default_op_rank=Default rank for players with OP or singleplayer with cheat enabled.
-permission.default_player_rank=Default rank for players
-permission.parent=Rank whose permissions will be inherited
-permission.power=Deprecated, see priority.
-permission.priority=Determines which ranks permissions will be prioritized if a player has multiple ranks. Higher = prioritized first.
+permission.default_op_rank=[提出済み]OP、またはチートを有効にしたシングルプレイのプレイヤーの初期ランク。
+permission.default_player_rank=[提出済み]プレイヤーの初期ランク
+permission.parent=[提出済み]パーミッションを継承するランク
+permission.power=[提出済み]非推奨です。priority を参照してください。
+permission.priority=[提出済み]プレイヤーが複数のランクを持つとき、どのランクのパーミッションを優先するかを決めます。値が大きいほど優先されます。
 
 # Player Settings
-player_config=My Server Settings
-player_config.serverutilities.hide_team_notification=Hide Team Notification on Login
+player_config=[提出済み]自分のサーバー設定
+player_config.serverutilities.hide_team_notification=[提出済み]ログイン時のチームの通知を隠す
 player_config.serverutilities.chat_links=チャットリンク
 player_config.serverutilities.disable_global_badge=グローバルバッジを無効化
 player_config.serverutilities.render_badge=バッジをレンダリング
 player_config.serverutilities.enable_pvp=PVPを有効化
 player_config.serverutilities.nickname=ニックネーム
 player_config.serverutilities.afk=退席の通知場所
-player_config.serverutilities.show_team_prefix=Show Team Prefix In Chat
-player_config.serverutilities.show_team_prefix.info=§rAdd [%s] as a prefix to your chat messages
+player_config.serverutilities.show_team_prefix=[提出済み]チャットにチームのプレフィックスを表示
+player_config.serverutilities.show_team_prefix.info=[提出済み]§rチャットの発言の先頭に[%s]を付けます
 
-player_config.vanish=Vanish Settings
-player_config.vanish.interaction=Interaction
-player_config.vanish.chat=Chat
-player_config.vanish.damageother=Damage Others
-player_config.vanish.collision=Collision
-player_config.vanish.sendconnectionmsg=Send connection message
-player_config.vanish.containerreadonly=Read-only Containers
-player_config.vanish.itemdropping=Item Dropping
-player_config.vanish.interaction.tooltip=Toggles block placing/breaking & Entity interactions while vanished
-player_config.vanish.chat.tooltip=Toggles chatting while vanished
-player_config.vanish.collision.tooltip=Toggles collisions with entities while vanished
-player_config.vanish.damageother.tooltip=Toggles damaging other entities while vanished
-player_config.vanish.sendconnectionmsg.tooltip=Toggles sending a fake connection message when vanishing/unvanishing
-player_config.vanish.containerreadonly.tooltip=Makes containers read-only while vanished & doesn't show other players that the container is opened
-player_config.vanish.itemdropping.tooltip=Toggles dropping items while vanished
+player_config.vanish=[提出済み]透明化の設定
+player_config.vanish.interaction=[提出済み]操作
+player_config.vanish.chat=[提出済み]チャット
+player_config.vanish.damageother=[提出済み]他者へのダメージ
+player_config.vanish.collision=[提出済み]衝突
+player_config.vanish.sendconnectionmsg=[提出済み]接続メッセージを送る
+player_config.vanish.containerreadonly=[提出済み]コンテナを読み取り専用にする
+player_config.vanish.itemdropping=[提出済み]アイテムを落とす
+player_config.vanish.interaction.tooltip=[提出済み]透明化中のブロックの設置・破壊とエンティティの操作を切り替えます
+player_config.vanish.chat.tooltip=[提出済み]透明化中のチャットを切り替えます
+player_config.vanish.collision.tooltip=[提出済み]透明化中のエンティティとの衝突を切り替えます
+player_config.vanish.damageother.tooltip=[提出済み]透明化中に他のエンティティへダメージを与えるかを切り替えます
+player_config.vanish.sendconnectionmsg.tooltip=[提出済み]透明化・解除のときに偽の接続メッセージを送るかを切り替えます
+player_config.vanish.containerreadonly.tooltip=[提出済み]透明化中はコンテナを読み取り専用にし、開いていることを他のプレイヤーに見せません
+player_config.vanish.itemdropping.tooltip=[提出済み]透明化中にアイテムを落とせるかを切り替えます
 
 # Team Settings
-team_config.serverutilities.display=Display
-team_config.serverutilities.display.color=Color
-team_config.serverutilities.display.fake_player_status=Fake Player Level
-team_config.serverutilities.display.fake_player_status.tooltip=Determines the level of membership a fake player will operate under (Miners, pumps, harvesters etc.)
-team_config.serverutilities.display.title=Title
-team_config.serverutilities.display.title.tooltip=Displays when you enter a claimed chunk
-team_config.serverutilities.display.desc=Description
-team_config.serverutilities.display.desc.tooltip=Displays under Title
-team_config.serverutilities.free_to_join=Free to Join
-team_config.serverutilities.free_to_join.tooltip=Anyone can join without invitation
+team_config.serverutilities.display=[提出済み]表示
+team_config.serverutilities.display.color=[提出済み]色
+team_config.serverutilities.display.fake_player_status=[提出済み]フェイクプレイヤーのレベル
+team_config.serverutilities.display.fake_player_status.tooltip=[提出済み]フェイクプレイヤー（採掘機、ポンプ、収穫機など）をどのメンバー区分として扱うかを決めます
+team_config.serverutilities.display.title=[提出済み]タイトル
+team_config.serverutilities.display.title.tooltip=[提出済み]領有チャンクに入ったときに表示されます
+team_config.serverutilities.display.desc=[提出済み]説明
+team_config.serverutilities.display.desc.tooltip=[提出済み]タイトルの下に表示されます
+team_config.serverutilities.free_to_join=[提出済み]自由に参加できる
+team_config.serverutilities.free_to_join.tooltip=[提出済み]招待なしで誰でも参加できます
 team_config.serverutilities.blocks_edit=ブロック編集に必要なレベル
 team_config.serverutilities.blocks_interact=ブロックの使用に必要なレベル
 team_config.serverutilities.attack_entities=エンティティへの攻撃に必要なレベル
 team_config.serverutilities.use_items=アイテムの使用に必要なレベル
 team_config.serverutilities.explosions=領有チャンクで爆発を有効化
-team_config.serverutilities.endermen=Enable Endermen Interacting With Blocks in Claimed Chunks
+team_config.serverutilities.endermen=[提出済み]領有チャンクでエンダーマンのブロック操作を有効化
 team_config.serverutilities.fake_players=フェイクプレイヤーのブロック操作を許可
-team_config.serverutilities.mob_spawning=Disable Mob Spawns Within Claimed Chunks
-team_config.serverutilities.blocked_creatures=Creature Types To Block Within Claimed Chunks
+team_config.serverutilities.mob_spawning=[提出済み]領有チャンクでモブのスポーンを無効化
+team_config.serverutilities.blocked_creatures=[提出済み]領有チャンクでスポーンを防ぐ生物の種類
 
 # Sidebar Buttons
-sidebar_button=Sidebar Buttons
+sidebar_button=[提出済み]サイドバーボタン
 sidebar_button.serverutilities.my_team=自分のチーム
-sidebar_button.serverutilities.my_team.tooltip=Opens a GUI where you can manage your team
+# EN: Opens a GUI where you can manage your team
+sidebar_button.serverutilities.my_team.tooltip=[下書き]チームを管理するGUIを開きます
 sidebar_button.serverutilities.settings=クライアント設定
-sidebar_button.serverutilities.settings.tooltip=Edit client-side-only settings
+# EN: Edit client-side-only settings
+sidebar_button.serverutilities.settings.tooltip=[下書き]クライアント側だけの設定を編集します
 sidebar_button.serverutilities.notifications=通知
 sidebar_button.serverutilities.admin_panel=管理者パネル
 sidebar_button.serverutilities.chats=チャット
@@ -407,29 +430,34 @@ sidebar_button.serverutilities.claimed_chunks=領有チャンク
 sidebar_button.serverutilities.trash_can=ゴミ箱
 sidebar_button.serverutilities.trash_can.tooltip=ゴミ箱を開きます。開いている間はアイテムはそこに残りますが、GUIを閉じるとアイテムを消滅します
 sidebar_button.serverutilities.mail=メール
-serverutilities.sidebar_button.reset=Reset Sidebar
-serverutilities.sidebar_button.reset.tooltip=Reset Sidebar Position
+serverutilities.sidebar_button.reset=[提出済み]サイドバーをリセット
+serverutilities.sidebar_button.reset.tooltip=[提出済み]サイドバーの位置をリセットします
 
-serverutilities.admin_panel.file_browser=File Browser
-serverutilities.admin_panel.crash_reports=View Crash Reports
-serverutilities.admin_panel.config=Edit Config
-serverutilities.admin_panel.claimed_chunks=View All Claimed Chunks
-serverutilities.admin_panel.loaded_chunks=View All Loaded Chunks
-serverutilities.admin_panel.whitelist=Edit Whitelist
-serverutilities.admin_panel.ops=Edit OPs
-serverutilities.admin_panel.edit_world=Edit World
-serverutilities.admin_panel.ranks.player_ranks=Player Ranks
-serverutilities.admin_panel.ranks.select_rank=Select Rank
-serverutilities.admin_panel.edit_rank=Edit Ranks
-serverutilities.admin_panel.edit_team=Edit Team
-serverutilities.admin_panel.claims.click_to_unclaim=Click to unclaim
-serverutilities.admin_panel.claims.shift_click_to_teleport=Shift-click to teleport here
-serverutilities.admin_panel.claims.ctrl_click_to_toggle_load=Ctrl-click to toggle chunkloading
-serverutilities.admin_panel.claims.unclaim_q=Unclaim this chunk?
-serverutilities.admin_panel.ranks.add_perm=Add Permission
-serverutilities.admin_panel.ranks.add_command=Add Command Permission
-serverutilities.admin_panel.ranks.cant_remove=Default rank can't be removed!
-serverutilities.admin_panel.ranks.delete_confirm=This will permanently delete rank: %s. Are you sure?
+# EN: File Browser
+serverutilities.admin_panel.file_browser=[下書き]ファイルブラウザー
+serverutilities.admin_panel.crash_reports=[提出済み]クラッシュレポートを見る
+# EN: Edit Config
+serverutilities.admin_panel.config=[下書き]設定を編集
+# EN: View All Claimed Chunks
+serverutilities.admin_panel.claimed_chunks=[下書き]すべての領有チャンクを見る
+# EN: View All Loaded Chunks
+serverutilities.admin_panel.loaded_chunks=[下書き]すべてのロード中のチャンクを見る
+serverutilities.admin_panel.whitelist=[提出済み]ホワイトリストを編集
+# EN: Edit OPs
+serverutilities.admin_panel.ops=[下書き]OPを編集
+serverutilities.admin_panel.edit_world=[提出済み]ワールドを編集
+serverutilities.admin_panel.ranks.player_ranks=[提出済み]プレイヤーのランク
+serverutilities.admin_panel.ranks.select_rank=[提出済み]ランクを選択
+serverutilities.admin_panel.edit_rank=[提出済み]ランクを編集
+serverutilities.admin_panel.edit_team=[提出済み]チームを編集
+serverutilities.admin_panel.claims.click_to_unclaim=[提出済み]クリックで領有を破棄
+serverutilities.admin_panel.claims.shift_click_to_teleport=[提出済み]Shift+クリックでここにテレポート
+serverutilities.admin_panel.claims.ctrl_click_to_toggle_load=[提出済み]Ctrl+クリックでチャンクロードを切り替え
+serverutilities.admin_panel.claims.unclaim_q=[提出済み]このチャンクの領有を破棄しますか？
+serverutilities.admin_panel.ranks.add_perm=[提出済み]パーミッションを追加
+serverutilities.admin_panel.ranks.add_command=[提出済み]コマンドのパーミッションを追加
+serverutilities.admin_panel.ranks.cant_remove=[提出済み]デフォルトのランクは削除できません！
+serverutilities.admin_panel.ranks.delete_confirm=[提出済み]ランク「%s」を完全に削除します。よろしいですか？
 
 # Keys
 key.serverutilities.nbt=NBTの編集
@@ -472,15 +500,15 @@ commands.kickme.usage=/kickme
 commands.ranks.none=None
 commands.ranks.usage=/ranks
 commands.ranks.not_found=ランク「%s」は見つかりませんでした。
-commands.ranks.create.usage=/ranks create <id> [parent]
-commands.ranks.create.id_invalid=Invalid rank ID: '%s'. It must be alphanumeric & lowercase!
-commands.ranks.create.id_exists=Rank '%s' already exists!
-commands.ranks.create.added=Rank %s added!
-commands.ranks.info.usage=/ranks info <rank|player>
+commands.ranks.create.usage=[提出済み]/ranks create <id> [parent]
+commands.ranks.create.id_invalid=[提出済み]ランクID「%s」は不正です。小文字の英数字にしてください！
+commands.ranks.create.id_exists=[提出済み]ランク「%s」はすでに存在します！
+commands.ranks.create.added=[提出済み]ランク「%s」を追加しました！
+commands.ranks.info.usage=[提出済み]/ranks info <rank|player>
 commands.ranks.add.usage=/ranks add <id> [parent]
-commands.ranks.add.text=Added rank %s as parent for %s
-commands.ranks.remove.usage=/ranks remove <rank|player> [rank]
-commands.ranks.remove.text=Removed rank %s as parent from %s
+commands.ranks.add.text=[提出済み]ランク「%s」を%sの親に追加しました
+commands.ranks.remove.usage=[提出済み]/ranks remove <rank|player> [rank]
+commands.ranks.remove.text=[提出済み]ランク「%s」を%sの親から外しました
 commands.ranks.get_permission.usage=/ranks get_permission <プレイヤー> <パーミッション>
 commands.ranks.get_permission.text=%2$sの%1$sは%3$sです
 commands.ranks.set_permission.usage=/ranks set_permission <ランク> <パーミッション> <true|false|value|none>
@@ -491,11 +519,11 @@ commands.upload_crash_report.usage=/upload_crash_report <ファイル>
 commands.heal.usage=/heal [プレイヤー]
 commands.killall.usage=/killall [タイプ] [ディメンション]
 commands.nbtedit.usage=/nbtedit
-commands.nbtedit.block.usage=/nbtedit block <x> <y> <z>
+commands.nbtedit.block.usage=[提出済み]/nbtedit block <x> <y> <z>
 commands.nbtedit.entity.usage=/nbtedit entity <id>
 commands.nbtedit.player.usage=/nbtedit player <プレイヤー>
 commands.nbtedit.item.usage=/nbtedit item
-commands.nbtedit.tile_not_found= %s is not a valid block.
+commands.nbtedit.tile_not_found=[提出済み] %sは有効なブロックではありません。
 commands.tpa.usage=/tpa <プレイヤー>
 commands.tpaccept.usage=/tpaccept <プレイヤー>
 commands.tpdeny.usage=/tpdeny <プレイヤー>
@@ -513,72 +541,72 @@ commands.rec.not_recording=%sはレコーディングを終了しました！
 commands.ping.integrated_server=統合サーバー
 commands.ping.unknown=不明
 commands.ping.ping=Ping %s
-commands.backup.usage=/backup
-commands.backup.start.usage=/backup start <file name>
-commands.backup.stop.usage=/backup stop
-commands.backup.getsize.usage=/backup getsize
-commands.reload.usage=/reload [*|domain:*|domain:id]
-commands.my_settings.usage=/my_settings <config id> [value]
-commands.team.usage=/team
-commands.team.settings.usage=/team settings <config id> [value]
-commands.team.create.usage=/team create <id> [color]
-commands.team.leave.usage=/team leave
-commands.team.transfer_ownership.usage=/team transfer_ownership <player>
-commands.team.kick.usage=/team kick <player>
-commands.team.join.usage=/team join <team>
-commands.team.status.usage=/team status <player> [set_status]
-commands.team.status.set=Status for %s set to %s
-commands.team.status.cant_set=Status can't be set!
-commands.team.status_for.usage=/team status_for <team> <player> [set_status]
-commands.team.status.invalid=Couldn't find status %s! Available statuses: %s
-commands.team.status.success=Status for %s in team %s set to %s
-commands.team.status.failed=Failed to set status %s for %s in team %s
-commands.team.msg.usage=/team msg <message...>
-commands.team.delete.usage=/team delete <team>
-commands.team.request_invite.usage=/team request_invite <team>
-commands.team.create_server_team.usage=/team create_server_team <id>
-commands.team.info.usage=/team info <team>
-commands.team.info.id=ID: %s
-commands.team.info.uid=UID: %s
-commands.team.info.owner=Owner: %s
-commands.team.info.members=Members: %s
-commands.team.get.usage=/team get <player>
-commands.team.list.usage=/team list
-commands.team.list.teams=List of all teams (%d):
-commands.add_fake_player.usage=/add_fake_player <uuid> <name>
-commands.god.usage=/god <player>
-commands.rtp.usage=/rtp
-commands.dump_chunkloaders.usage=/dump_chunkloaders
-commands.dump_chunkloaders.unknown_dimension=Couldn't find dimension %d!
-commands.dump_permissions.usage=/dump_permissions
-commands.vanish.usage=/vanish
-commands.vanish.toggle.usage=/vanish toggle <on|off>
-commands.vanish.fakequit.usage=/vanish fakequit - Send a fake disconnect message
-commands.vanish.fakejoin.usage=/vanish fakejoin - Send a fake connection message
-commands.vanish.interact.usage=/vanish interact
-commands.vanish.chat.usage=/vanish chat
-commands.vanish.chat.desc=Toggles chatting while vanished
-commands.vanish.collision.usage=/vanish collision
-commands.vanish.damage_other.usage=/vanish damage_other
-commands.vanish.send_connection_msg.usage=/vanish send_connection_msg
-commands.vanish.container_read_only.usage=/vanish container_read_only
-commands.vanish.item_dropping.usage=/vanish item_dropping
-commands.vanish.check.usage=/vanish check
-commands.vanish.check.true=You are currently vanished!
-commands.vanish.check.false=You are §sNOT§r vanished!
-commands.vanish.off=You are no longer hidden!
-commands.vanish.on=Poof! You are now hidden!
-commands.vanish.interact=Interacting while vanished
-commands.vanish.chat=Chatting while vanished
-commands.vanish.collision=Collision while vanished
-commands.vanish.damage_other=Damaging others while vanished
-commands.vanish.send_connection_msg=Send connection message on vanish
-commands.vanish.container_read_only=Container read-only
-commands.vanish.item_dropping=Item dropping while vanished
-commands.pregen.start.usage_server=/pregen start <x> <z> <radius>
-commands.pregen.start.usage_client=/pregen start <x> <z> <radius> or /pregen start <radius>
-commands.pregen.stop.usage=/pregen stop
-commands.pregen.progress.usage=/pregen progress
+commands.backup.usage=[提出済み]/backup
+commands.backup.start.usage=[提出済み]/backup start <file name>
+commands.backup.stop.usage=[提出済み]/backup stop
+commands.backup.getsize.usage=[提出済み]/backup getsize
+commands.reload.usage=[提出済み]/reload [*|domain:*|domain:id]
+commands.my_settings.usage=[提出済み]/my_settings <config id> [value]
+commands.team.usage=[提出済み]/team
+commands.team.settings.usage=[提出済み]/team settings <config id> [value]
+commands.team.create.usage=[提出済み]/team create <id> [color]
+commands.team.leave.usage=[提出済み]/team leave
+commands.team.transfer_ownership.usage=[提出済み]/team transfer_ownership <player>
+commands.team.kick.usage=[提出済み]/team kick <player>
+commands.team.join.usage=[提出済み]/team join <team>
+commands.team.status.usage=[提出済み]/team status <player> [set_status]
+commands.team.status.set=[提出済み]%sの状態を%sに設定しました
+commands.team.status.cant_set=[提出済み]状態を設定できません！
+commands.team.status_for.usage=[提出済み]/team status_for <team> <player> [set_status]
+commands.team.status.invalid=[提出済み]状態「%s」が見つかりません！ 使える状態: %s
+commands.team.status.success=[提出済み]チーム%2$sでの%1$sの状態を%3$sに設定しました
+commands.team.status.failed=[提出済み]チーム%3$sでの%2$sの状態を%1$sに設定できませんでした
+commands.team.msg.usage=[提出済み]/team msg <message...>
+commands.team.delete.usage=[提出済み]/team delete <team>
+commands.team.request_invite.usage=[提出済み]/team request_invite <team>
+commands.team.create_server_team.usage=[提出済み]/team create_server_team <id>
+commands.team.info.usage=[提出済み]/team info <team>
+commands.team.info.id=[提出済み]ID: %s
+commands.team.info.uid=[提出済み]UID: %s
+commands.team.info.owner=[提出済み]オーナー: %s
+commands.team.info.members=[提出済み]メンバー: %s
+commands.team.get.usage=[提出済み]/team get <player>
+commands.team.list.usage=[提出済み]/team list
+commands.team.list.teams=[提出済み]すべてのチーム (%d):
+commands.add_fake_player.usage=[提出済み]/add_fake_player <uuid> <name>
+commands.god.usage=[提出済み]/god <player>
+commands.rtp.usage=[提出済み]/rtp
+commands.dump_chunkloaders.usage=[提出済み]/dump_chunkloaders
+commands.dump_chunkloaders.unknown_dimension=[提出済み]ディメンション%dが見つかりません！
+commands.dump_permissions.usage=[提出済み]/dump_permissions
+commands.vanish.usage=[提出済み]/vanish
+commands.vanish.toggle.usage=[提出済み]/vanish toggle <on|off>
+commands.vanish.fakequit.usage=[提出済み]/vanish fakequit - Send a fake disconnect message
+commands.vanish.fakejoin.usage=[提出済み]/vanish fakejoin - Send a fake connection message
+commands.vanish.interact.usage=[提出済み]/vanish interact
+commands.vanish.chat.usage=[提出済み]/vanish chat
+commands.vanish.chat.desc=[提出済み]透明化中のチャットを切り替えます
+commands.vanish.collision.usage=[提出済み]/vanish collision
+commands.vanish.damage_other.usage=[提出済み]/vanish damage_other
+commands.vanish.send_connection_msg.usage=[提出済み]/vanish send_connection_msg
+commands.vanish.container_read_only.usage=[提出済み]/vanish container_read_only
+commands.vanish.item_dropping.usage=[提出済み]/vanish item_dropping
+commands.vanish.check.usage=[提出済み]/vanish check
+commands.vanish.check.true=[提出済み]現在透明化しています！
+commands.vanish.check.false=[提出済み]透明化§sしていません§r！
+commands.vanish.off=[提出済み]透明化を解除しました！
+commands.vanish.on=[提出済み]ポン！ 透明化しました！
+commands.vanish.interact=[提出済み]透明化中の操作
+commands.vanish.chat=[提出済み]透明化中のチャット
+commands.vanish.collision=[提出済み]透明化中の衝突
+commands.vanish.damage_other=[提出済み]透明化中の他者へのダメージ
+commands.vanish.send_connection_msg=[提出済み]透明化時に接続メッセージを送る
+commands.vanish.container_read_only=[提出済み]コンテナを読み取り専用にする
+commands.vanish.item_dropping=[提出済み]透明化中にアイテムを落とす
+commands.pregen.start.usage_server=[提出済み]/pregen start <x> <z> <radius>
+commands.pregen.start.usage_client=[提出済み]/pregen start <x> <z> <radius> or /pregen start <radius>
+commands.pregen.stop.usage=[提出済み]/pregen stop
+commands.pregen.progress.usage=[提出済み]/pregen progress
 
 # Chunks
 serverutilities.lang.chunks.cant_modify_chunk=このチャンクは変更できません！
@@ -611,10 +639,10 @@ serverutilities.lang.warps.not_set=「%s」は不明なワープ先です！
 serverutilities.lang.warps.cooldown=%sでワープ可能になります！
 serverutilities.lang.warps.tp=「%s」にテレポートしました！
 serverutilities.lang.warps.no_dp=戻ることができるのは一度だけです！
-serverutilities.lang.warps.no_pos_found=No position to go back to!
-serverutilities.lang.warps.cross_dim=You can't teleport to another dimension!
-serverutilities.lang.warps.warmup=Please, stand still for %d seconds [%d].
-serverutilities.lang.warps.cancelled=You moved! Teleport cancelled.
+serverutilities.lang.warps.no_pos_found=[提出済み]戻る場所がありません！
+serverutilities.lang.warps.cross_dim=[提出済み]別のディメンションにはテレポートできません！
+serverutilities.lang.warps.warmup=[提出済み]%d秒間その場で動かないでください [%d]。
+serverutilities.lang.warps.cancelled=[提出済み]動いたため、テレポートを中止しました。
 
 # Homes
 serverutilities.lang.homes.set=ホーム「%s」を設定しました！
@@ -637,188 +665,218 @@ serverutilities.lang.tpa.request_accepted=TPAリクエストが承認されま�
 serverutilities.lang.rtp.fail=テレポート可能な場所が見つかりませんでした！
 
 # Client Commands
-commands.client_config.usage=/client_config
+commands.client_config.usage=[提出済み]/client_config
 commands.shrug.usage=/shrug [テキスト...]
 commands.scan_items.usage=/scan_items
 commands.print_item.usage=/print_item
 
 # Forge
-commands.tree_base.invalid_cmd=Invalid subcommand '%s'!
-commands.tree_base.invalid_cmd.list_subcommands=Invalid subcommand '%s'! Available subcommands: %s
-commands.tree_base.available_subcommands=Available SubCommands: %s
+commands.tree_base.invalid_cmd=[提出済み]サブコマンド「%s」は不正です！
+commands.tree_base.invalid_cmd.list_subcommands=[提出済み]サブコマンド「%s」は不正です！ 使えるサブコマンド: %s
+commands.tree_base.available_subcommands=[提出済み]使えるサブコマンド: %s
 
 # Backup
-cmd.timer_backup=Next backup: %s
+# EN: Next backup: %s
+cmd.timer_backup=[下書き]次のバックアップ: %s
 cmd.backup_start=サーバーのバックアップを開始しました！
 cmd.backup_stop=サーバーのバックアップを中止しました！
-cmd.backup_end_1=Server backup done in %s!
-cmd.backup_end_2=Server backup done in %s! (%s)
-cmd.backup_fail=Failed to save world! (%s)
-cmd.backup_manual_launch=%s launched a manual backup!
-cmd.backup_manual_launch_oc=%s launched a claimed only manual backup!
+cmd.backup_end_1=[提出済み]サーバーのバックアップが%sで完了しました！
+cmd.backup_end_2=[提出済み]サーバーのバックアップが%sで完了しました！ (%s)
+cmd.backup_fail=[提出済み]ワールドを保存できませんでした！ (%s)
+cmd.backup_manual_launch=[提出済み]%sが手動でバックアップを開始しました！
+# EN: %s launched a claimed only manual backup!
+cmd.backup_manual_launch_oc=[下書き]%sが領有チャンクだけの手動バックアップを開始しました！
 cmd.backup_already_running=サーバーのバックアップ中です！
 cmd.backup_not_running=サーバーのバックアップは動作していません！
-cmd.backup_size=Current world size: %s, total backups folder size: %s
+cmd.backup_size=[提出済み]現在のワールドのサイズ: %s、バックアップフォルダーの合計サイズ: %s
 serverutilities.gui.backup.title=バックアップの復元 (%s)
 serverutilities.gui.backup.button=バックアップ
 serverutilities.gui.backup.restore=復元
 serverutilities.gui.backup.restore_global=復元 (グローバルデータを含む)
-serverutilities.gui.backup.error=An error occured while restoring backup!
-serverutilities.gui.backup.delete_confirm=Are you sure you want to §c§ldelete§r this backup?
-serverutilities.gui.backup.restore_confirm=Are you sure you want to §a§lrestore§r this backup?
-serverutilities.gui.backup.restore_global_confirm=Are you sure you want to §a§lrestore (global)§r this backup?
-serverutilities.gui.backup.restore_confirm_desc=This will also restore global world related data. The previous data will be moved into ".minecraft/backups_before_restore"
-serverutilities.gui.backup.restore_global_confirm_desc=This will also restore global world related data, and will overwrite global settings with those included in the backup. The previous data will be moved into ".minecraft/backups_before_restore"
+serverutilities.gui.backup.error=[提出済み]バックアップの復元中にエラーが発生しました！
+serverutilities.gui.backup.delete_confirm=[提出済み]このバックアップを§c§l削除§rしますか？
+serverutilities.gui.backup.restore_confirm=[提出済み]このバックアップを§a§l復元§rしますか？
+serverutilities.gui.backup.restore_global_confirm=[提出済み]このバックアップを§a§l復元 (グローバル)§rしますか？
+serverutilities.gui.backup.restore_confirm_desc=[提出済み]ワールドに関わるグローバルなデータも復元されます。それまでのデータは ".minecraft/backups_before_restore" に移動します
+serverutilities.gui.backup.restore_global_confirm_desc=[提出済み]ワールドに関わるグローバルなデータも復元され、グローバル設定もバックアップの内容で上書きされます。それまでのデータは ".minecraft/backups_before_restore" に移動します
 
 # Pause When Empty
-cmd.pause_when_empty_updated=Server property 'pause-when-empty-seconds' set to %d
-cmd.pause_when_empty_mask=Ignoring 'pause-when-empty-seconds' for the next %d seconds. Set to 0 to cancel masking.
-commands.pause_when_empty.set.usage=/pause_when_empty set <seconds> (0 to disable)
-commands.pause_when_empty.mask.usage=/pause_when_empty mask <seconds> (temporary: don't pause for the next x seconds from now)
+cmd.pause_when_empty_updated=[提出済み]サーバープロパティ「pause-when-empty-seconds」を%dに設定しました
+cmd.pause_when_empty_mask=[提出済み]これから%d秒間は「pause-when-empty-seconds」を無視します。0にすると取り消します。
+commands.pause_when_empty.set.usage=[提出済み]/pause_when_empty set <seconds> (0 to disable)
+commands.pause_when_empty.mask.usage=[提出済み]/pause_when_empty mask <seconds> (temporary: don't pause for the next x seconds from now)
 
 # Gui
 ## Buttons
-gui.accept=Accept
-gui.add=Add
-gui.added=Added
-gui.remove=Remove
-gui.removed=Removed
-gui.close=Close
-gui.open=Open
-gui.saved=Saved
-gui.loaded=Loaded
-gui.info=Info
-gui.collapse_all=Collapse All
-gui.expand_all=Expand All
-gui.download=Download
-gui.downloaded=Downloaded
-gui.update=Update
-gui.updated=Updated
+gui.accept=[提出済み]承認
+gui.add=[提出済み]追加
+# EN: Added
+gui.added=[下書き]追加しました
+gui.remove=[提出済み]削除
+# EN: Removed
+gui.removed=[下書き]削除しました
+gui.close=[提出済み]閉じる
+# EN: Open
+gui.open=[下書き]開く
+gui.saved=[提出済み]保存しました
+gui.loaded=[提出済み]読み込みました
+gui.info=[提出済み]情報
+gui.collapse_all=[提出済み]すべて折りたたむ
+gui.expand_all=[提出済み]すべて展開
+# EN: Download
+gui.download=[下書き]ダウンロード
+# EN: Downloaded
+gui.downloaded=[下書き]ダウンロードしました
+gui.update=[提出済み]更新
+# EN: Updated
+gui.updated=[下書き]更新しました
 gui.active=Active
 gui.inactive=Inactive
-gui.settings=Settings
-gui.rename=Rename
-gui.search_box=Search...
-gui.move=Move
-gui.copy=Copy
-gui.paste=Paste
-gui.cut=Cut
+gui.settings=[提出済み]設定
+gui.rename=[提出済み]名前を変更
+gui.search_box=[提出済み]検索...
+# EN: Move
+gui.move=[下書き]移動
+gui.copy=[提出済み]コピー
+# EN: Paste
+gui.paste=[下書き]貼り付け
+# EN: Cut
+gui.cut=[下書き]切り取り
 
 ## Labels
-gui.other=Other
-gui.server_forced=Server Forced: %s
-gui.online=Online
-gui.offline=Offline
-gui.whitelist=Whitelist
-gui.blacklist=Blacklist
-gui.color=Color
-gui.downloading=Downloading...
-gui.infinite=Infinite
+gui.other=[提出済み]その他
+# EN: Server Forced: %s
+gui.server_forced=[下書き]サーバーが固定: %s
+gui.online=[提出済み]オンライン
+# EN: Offline
+gui.offline=[下書き]オフライン
+# EN: Whitelist
+gui.whitelist=[下書き]ホワイトリスト
+# EN: Blacklist
+gui.blacklist=[下書き]ブラックリスト
+gui.color=[提出済み]色
+# EN: Downloading...
+gui.downloading=[下書き]ダウンロード中...
+# EN: Infinite
+gui.infinite=[下書き]無限
 
 ## Sides
-facing.north=North
-facing.south=South
-facing.west=West
+facing.north=[提出済み]北
+facing.south=[提出済み]南
+facing.west=[提出済み]西
 facing.east=東
 
-relative_facing.bottom=Bottom
-relative_facing.top=Top
-relative_facing.back=Back
-relative_facing.front=Front
-relative_facing.left=Left
-relative_facing.right=Right
+relative_facing.bottom=[提出済み]下
+relative_facing.top=[提出済み]上
+relative_facing.back=[提出済み]後ろ
+# EN: Front
+relative_facing.front=[下書き]前
+relative_facing.left=[提出済み]左
+relative_facing.right=[提出済み]右
 
 # Teams
-serverutilities.lang.team.no_team=No Team
-serverutilities.lang.team.created=Team '%s' created
-serverutilities.lang.team.id_already_exists=ID already registered!
-serverutilities.lang.team.id_invalid=ID can only contain lowercase a-z, _ and |!
-serverutilities.lang.team.deleted=Team '%s' deleted
-serverutilities.lang.team.member_left=%s left your team!
-serverutilities.lang.team.member_joined=%s joined your team!
-serverutilities.lang.team.transferred_ownership=New owner now is %s
-serverutilities.lang.team.invited=Invited %s to '%s'
-serverutilities.lang.team.invited_you=You have been invited to '%s' by %s. Click here to join!
-serverutilities.lang.team.cancel_invite=Cancel invite
-serverutilities.lang.team.error.not_found=Team '%s' not found!
-serverutilities.lang.team.error.no_team=You must be in a Team to do that!
-serverutilities.lang.team.error.must_leave=You must leave your Team to do that!
-serverutilities.lang.team.error.not_owner=You are not the owner of this Team!
-serverutilities.lang.team.error.not_member=%s is not a member of this Team!
-serverutilities.lang.team.error.already_member=%s is already a member of this Team!
-serverutilities.lang.team.error.must_transfer_ownership=You must transfer ownership!
-serverutilities.lang.team.error.already_invited=%s already is invited!
-serverutilities.lang.team.error.failed_to_join=Can't join this team!
-serverutilities.lang.team.permission.set=Permission '%s' for %s set to %s
-serverutilities.lang.team.permission.owner=Can't change owner's permissions!
-serverutilities.lang.team.notification=You haven't joined or created a team yet! %s to open TeamsGUI or %s to hide this message.
-serverutilities.lang.team.notification.hide=Hide this Message
-serverutilities.lang.team.chat_message=[Team %s] %s
+serverutilities.lang.team.no_team=[提出済み]チームなし
+serverutilities.lang.team.created=[提出済み]チーム「%s」を作成しました
+serverutilities.lang.team.id_already_exists=[提出済み]そのIDはすでに登録されています！
+serverutilities.lang.team.id_invalid=[提出済み]IDに使えるのは小文字のa-z、_、|だけです！
+serverutilities.lang.team.deleted=[提出済み]チーム「%s」を削除しました
+# EN: %s left your team!
+serverutilities.lang.team.member_left=[下書き]%sがチームを抜けました！
+# EN: %s joined your team!
+serverutilities.lang.team.member_joined=[下書き]%sがチームに参加しました！
+# EN: New owner now is %s
+serverutilities.lang.team.transferred_ownership=[下書き]新しいオーナーは%sです
+serverutilities.lang.team.invited=[提出済み]%sを「%s」に招待しました
+serverutilities.lang.team.invited_you=[提出済み]%2$sから「%1$s」に招待されました。クリックして参加！
+serverutilities.lang.team.cancel_invite=[提出済み]招待を取り消す
+serverutilities.lang.team.error.not_found=[提出済み]チーム「%s」が見つかりません！
+serverutilities.lang.team.error.no_team=[提出済み]それにはチームに入っている必要があります！
+serverutilities.lang.team.error.must_leave=[提出済み]それにはチームを抜ける必要があります！
+serverutilities.lang.team.error.not_owner=[提出済み]あなたはこのチームのオーナーではありません！
+serverutilities.lang.team.error.not_member=[提出済み]%sはこのチームのメンバーではありません！
+serverutilities.lang.team.error.already_member=[提出済み]%sはすでにこのチームのメンバーです！
+serverutilities.lang.team.error.must_transfer_ownership=[提出済み]オーナーを譲る必要があります！
+# EN: %s already is invited!
+serverutilities.lang.team.error.already_invited=[下書き]%sはすでに招待されています！
+# EN: Can't join this team!
+serverutilities.lang.team.error.failed_to_join=[下書き]このチームには参加できません！
+serverutilities.lang.team.permission.set=[提出済み]%2$sのパーミッション「%1$s」を%3$sに設定しました
+serverutilities.lang.team.permission.owner=[提出済み]オーナーのパーミッションは変更できません！
+serverutilities.lang.team.notification=[提出済み]まだチームに参加も作成もしていません！ %sでチームのGUIを開くか、%sでこのメッセージを隠せます。
+serverutilities.lang.team.notification.hide=[提出済み]このメッセージを隠す
+# EN: [Team %s] %s
+serverutilities.lang.team.chat_message=[下書き][チーム %s] %s
 
-team_action.serverutilities.select_team=Select Team to Join
-team_action.serverutilities.create_team=Create a New Team
-team_action.serverutilities.members=Members
-team_action.serverutilities.allies=Allies
-team_action.serverutilities.moderators=Moderators
-team_action.serverutilities.enemies=Enemies
-team_action.serverutilities.change_team=Join another Team
-team_action.serverutilities.leave=Leave Team
-team_action.serverutilities.leave.confirmation=Warning! You may lose quest progress and other things if you do!
-team_action.serverutilities.transfer_ownership=Transfer Ownership
+team_action.serverutilities.select_team=[提出済み]参加するチームを選択
+team_action.serverutilities.create_team=[提出済み]新しいチームを作成
+team_action.serverutilities.members=[提出済み]メンバー
+team_action.serverutilities.allies=[提出済み]味方
+team_action.serverutilities.moderators=[提出済み]モデレーター
+team_action.serverutilities.enemies=[提出済み]敵
+# EN: Join another Team
+team_action.serverutilities.change_team=[下書き]別のチームに参加
+team_action.serverutilities.leave=[提出済み]チームを抜ける
+team_action.serverutilities.leave.confirmation=[提出済み]警告！ クエストの進行度などを失う可能性があります！
+team_action.serverutilities.transfer_ownership=[提出済み]オーナーを譲る
 
-serverutilities.lang.team.gui.join_team=Click to join '%s'
-serverutilities.lang.team.gui.request_invite=Click to request invite to '%s'
-serverutilities.lang.team.gui.members.invite=Click to invite to your team
-serverutilities.lang.team.gui.members.requesting_invite=This player is requesting invite
-serverutilities.lang.team.gui.members.deny_request=Right-click to deny request
-serverutilities.lang.team.gui.members.cancel_invite=Right-click to cancel invite
-serverutilities.lang.team.gui.members.kick=Right-click to kick member
+serverutilities.lang.team.gui.join_team=[提出済み]クリックで「%s」に参加
+serverutilities.lang.team.gui.request_invite=[提出済み]クリックで「%s」への招待を申請
+serverutilities.lang.team.gui.members.invite=[提出済み]クリックでチームに招待
+serverutilities.lang.team.gui.members.requesting_invite=[提出済み]このプレイヤーは招待を申請しています
+serverutilities.lang.team.gui.members.deny_request=[提出済み]右クリックで申請を断る
+serverutilities.lang.team.gui.members.cancel_invite=[提出済み]右クリックで招待を取り消す
+serverutilities.lang.team.gui.members.kick=[提出済み]右クリックでメンバーを追放
 
-serverutilities.lang.team_status.enemy=Enemy
-serverutilities.lang.team_status.none=None
-serverutilities.lang.team_status.requesting_invite=Requesting Invite
-serverutilities.lang.team_status.invited=Invited
-serverutilities.lang.team_status.ally=Ally
-serverutilities.lang.team_status.member=Member
-serverutilities.lang.team_status.mod=Moderator
-serverutilities.lang.team_status.owner=Owner
+serverutilities.lang.team_status.enemy=[提出済み]敵
+serverutilities.lang.team_status.none=[提出済み]なし
+serverutilities.lang.team_status.requesting_invite=[提出済み]招待を申請中
+serverutilities.lang.team_status.invited=[提出済み]招待済み
+serverutilities.lang.team_status.ally=[提出済み]味方
+serverutilities.lang.team_status.member=[提出済み]メンバー
+serverutilities.lang.team_status.mod=[提出済み]モデレーター
+serverutilities.lang.team_status.owner=[提出済み]オーナー
 
 # Privacy Level
-privacy=Privacy
-privacy.public=Public
-privacy.private=Private
-privacy.team=Team
+# EN: Privacy
+privacy=[下書き]プライバシー
+privacy.public=[提出済み]公開
+privacy.private=[提出済み]非公開
+privacy.team=[提出済み]チーム
 
 # Redstone Mode
-redstone_mode=Redstone Mode
-redstone_mode.disabled=Disabled
-redstone_mode.active_high=Active High
-redstone_mode.active_low=Active Low
-redstone_mode.pulse=Pulse
+redstone_mode=[提出済み]レッドストーンモード
+redstone_mode.disabled=[提出済み]無効
+redstone_mode.active_high=[提出済み]信号ありで動作
+redstone_mode.active_low=[提出済み]信号なしで動作
+redstone_mode.pulse=[提出済み]パルス
 
 # IO Mode
-io_mode=IO Mode
-io_mode.io=IO
-io_mode.in=Input Only
-io_mode.out=Output Only
-io_mode.none=Disabled
+io_mode=[提出済み]入出力モード
+io_mode.io=[提出済み]入出力
+io_mode.in=[提出済み]入力のみ
+io_mode.out=[提出済み]出力のみ
+io_mode.none=[提出済み]無効
 
 # Click Actions
-click_action.cmd=Command
-click_action.show_cmd=Show Command
-click_action.url=Open URL
-click_action.file=Open File
-click_action.gui=Open Gui
+# EN: Command
+click_action.cmd=[下書き]コマンド
+# EN: Show Command
+click_action.show_cmd=[下書き]コマンドを表示
+click_action.url=[提出済み]URLを開く
+click_action.file=[提出済み]ファイルを開く
+# EN: Open Gui
+click_action.gui=[下書き]GUIを開く
 
 # Aurora
-aurora=Server Utilities Aurora
-aurora.port=Port
+aurora=[提出済み]Server Utilities Aurora
+# EN: Port
+aurora.port=[下書き]ポート
 
 # JourneyMap
-serverutilities.jm.own_team=Your Team
-serverutilities.jm.claim=Double click an empty chunk to claim.
-serverutilities.jm.load_hint=Double click a claimed chunk to load/unload
-serverutilities.jm.unclaim_hint=Press %s to unclaim
+serverutilities.jm.own_team=[提出済み]自分のチーム
+serverutilities.jm.claim=[提出済み]空いているチャンクをダブルクリックで領有します。
+serverutilities.jm.load_hint=[提出済み]領有チャンクをダブルクリックでロード/アンロード
+serverutilities.jm.unclaim_hint=[提出済み]%sを押すと領有を破棄
 
 # Invsee GUI
 serverutilities.invsee.title=%sの%s
