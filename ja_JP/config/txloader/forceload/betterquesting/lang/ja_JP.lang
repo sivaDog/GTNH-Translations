@@ -11602,12 +11602,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4Q.name=青色種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4Q.desc=青色種は、青色の染料を生産してくれる便利な蜂です。森林種と熱心種を交配してみましょう。 
 
 # Quest: Batty
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4g.name=Batty
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4g.desc=Batty bees will spawn firebats. So prepare for battle. Their specialty is Gunpowder. Breed them from Skulking and Windy.
+# EN name: Batty
+# EN desc: Batty bees will spawn firebats. So prepare for battle. Their specialty is Gunpowder. Breed them from Skulking and Windy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4g.name=[提出済み]蝙蝠種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4g.desc=§7《§r蝙蝠種§7／Batty》§rはファイヤーバットをスポーンさせます。戦闘の準備をしてください。得意とするのは火薬です。隠密種と風質種を交配してみましょう。
 
 # Quest: Ghastly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.name=Ghastly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.desc=Ghastly bees will spawn Ghasts, so beeee careful. Their specialty is Ghast Tears. They only have 1 fertility so you want to make sure you breed the drones with your master template princess. Breed them from Batty and Ethereal.
+# EN name: Ghastly
+# EN desc: Ghastly bees will spawn Ghasts, so beeee careful. Their specialty is Ghast Tears. They only have 1 fertility so you want to make sure you breed the drones with your master template princess. Breed them from Batty and Ethereal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.name=[提出済み]奇怪種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.desc=§7《§r奇怪種§7／Ghastly》§rはガストをスポーンさせるので、十分気を付けてください。得意とするのはガストの涙です。繁殖力は1倍なので、雄蜂はマスターテンプレートの王女蜂と交配してください。蝙蝠種と天上種を交配してみましょう。
 
 # Quest: Smouldering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.name=Smouldering
@@ -12072,8 +12076,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.name=宇宙の種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=宇宙種は勤勉種と英雄種を交配することで入手できますが、氷点下の環境である必要があります。%n%nこれはあなたにとっては小さな一歩ですが、蜂にとっては大きな飛躍です。%n%n[note]そして、これは宇宙関連の種の始まりでもあります。NEIを確認して、必要な種を見つけ出してください。[/note]%n%n※また、衛星の種などは語源となったものから名前を取っていることが多いです。%n例: フォボス → 敗神 (§o敗§r走を表すギリシャ神話の§o神§r、ポボスから)
 
 # Quest: Energium
-betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=エネルジウム
-betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
+# EN name: Energium
+# EN desc: Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
+betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=[提出済み]エネルジウム種
+betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=ルビーの粉とレッドストーンの粉を混ぜてエネルジウムの粉を作るのに飽きましたか？§7《§rエネルジウム種§7／Energium》§rなら、それを直接手に入れられます。便利でしょう？交配するには、ネザーのBoneyardの中で、巣の下にIC2過熱冷却材を置く必要があります。%n%n親種とは違い、この蜂は拠点を焼きません。ただし、養蜂用防護服を着ていないと、あなたに火をつけます！
 
 # Quest: Attuned
 betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.name=Attuned
