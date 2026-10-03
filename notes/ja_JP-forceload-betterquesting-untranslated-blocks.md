@@ -1,7 +1,7 @@
 # ja_JP forceload/betterquesting 未翻訳ブロック一覧
 
 対象ファイル: `ja_JP/config/txloader/forceload/betterquesting/lang/ja_JP.lang`
-生成日: 2026-09-28
+生成日: 2026-10-02
 
 ## 検出方法
 
@@ -39,55 +39,39 @@ Mod名・本文中でも英語のまま使われる固有名詞など、翻訳�
 - L6505 Botany
 - L6641 Carpenter's Blocks
 - L10276 Applied Energistics
-- L12191 Hardcore End(er) Expansion
-- L14886 Better Questing?
-- L15453 Trigger: Loot Game
+- L12197 Hardcore End(er) Expansion
+- L14892 Better Questing?
+- L15459 Trigger: Loot Game
 
 ## バージョン差異による除外(3件)
 
 2.8.4のクエストDBにのみ存在し、v2.9(master)では削除されているクエスト。
 この資料には載せず、翻訳作業の対象にもしない。
 
-- L15644 [下書き]遺伝学者の道具
-- L15647 [下書き]分析機
-- L15650 [下書き]接続機
+- L15650 [下書き]遺伝学者の道具
+- L15653 [下書き]分析機
+- L15656 [下書き]接続機
 
 ## サマリー
 
 - ファイル内の全クエスト/クエストライン数: 3863(誤検出・バージョン差異除外後 3845)
-- 未翻訳率: 2120/3845 (55%)
+- 未翻訳率: 2117/3845 (55%)
   - うち `[下書き]` 表記(未訳扱い): 63件
   - うち ⚠バージョン差異で翻訳作業を保留: 137件
 - 連続ブロック数: 246
 
 ## 進捗(前回資料生成からの差分)
 
-基準: 前回資料生成時点(2026-09-22) との比較。
+基準: 前回資料生成時点(2026-09-28) との比較。
 
-- この基準以降に翻訳が完了したクエスト: 12件
-- この基準以降に新規追加された未翻訳クエスト(フォーク元の更新等): 4件
+- この基準以降に翻訳が完了したクエスト: 3件
+- この基準以降に新規追加された未翻訳クエスト(フォーク元の更新等): 0件
 
 翻訳完了したクエスト一覧:
 
-- L11936 Aer
-- L12428 Fuuuuuu...(sion)!
-- L12474 Turning Liquids Into Essentia
-- L12480 Essentia Filtering
-- L12518 Enchanted Earth
-- L12608 So Thirsty
-- L12646 Greedy Chest
-- L12680 Thauminite Helmet
-- L12694 Taint Warnings
-- L12736 Pushing Back the Taint
-- L12758 Solid, Directional Redstone
-- L15302 Multiblock Revolution
-
-新規追加された未翻訳クエスト一覧:
-
-- L4570 Eternal Coil Upgrade
-- L6441 Texturing made easy
-- L6733 Cooper's Mallet
-- L15505 Trigger: Quantum Armor Skip
+- L11604 Batty
+- L11610 Ghastly
+- L12078 Energium
 
 ## 章ごとの未翻訳ブロック
 
@@ -344,7 +328,7 @@ Mod名・本文中でも英語のまま使われる固有名詞など、翻訳�
 - [ ] L11381-L11397 (3) A Bag for Butterflies, yawn / Only the Best: Tree Breeding / Only the Worst: Trees Suck!
 - [ ] L11403-L11429 (6) IAADDS / Pollen Collection Kit / Living It Larvae⚠ / Fluorescent Dye / Enzyme on The Mind⚠ / Growth Medium
 
-### 交配の方蜂(ほうほう)  _(L11432)_ — 未翻訳率: 58/189 (31%)
+### 交配の方蜂(ほうほう)  _(L11432)_ — 未翻訳率: 55/189 (29%)
 
 - [ ] L11436-L11438 (1) MakeMake
 - [ ] L11456-L11458 (1) Iridium
@@ -353,118 +337,118 @@ Mod名・本文中でも英語のまま使われる固有名詞など、翻訳�
 - [ ] L11496-L11498 (1) Gassy Bees
 - [ ] L11528-L11534 (2) End Dust / Indium
 - [ ] L11540-L11542 (1) Dragon Blood
-- [ ] L11604-L11618 (4) Batty / Ghastly / Smouldering / Refined
-- [ ] L11660-L11662 (1) Sandwich
-- [ ] L11720-L11722 (1) Oil
-- [ ] L11832-L11834 (1) Zinc
-- [ ] L11856-L11858 (1) Titanium
-- [ ] L11868-L11870 (1) Uranium
-- [ ] L11958-L11964 (2) Spirit / Soul
-- [ ] L11978-L11984 (2) Rejuvenating / Empowering
-- [ ] L11994-L11996 (1) Thaumium Dust
-- [ ] L12006-L12008 (1) Thaumic Shards
-- [ ] L12022-L12040 (5) Abandoned / Draconic / Wither / Withering / Spiteful
-- [ ] L12058-L12068 (3) D-O-B / Ender Shard / Nether Shard
-- [ ] L12074-L12172 (25) Energium / Attuned⚠ / Uranus⚠ / Moon / Salt⚠ / Barnarda⚠ … 他19件
-- [ ] L12182-L12188 (2) Oberon / Infinity Catalyst
+- [ ] L11616-L11622 (2) Smouldering / Refined
+- [ ] L11664-L11666 (1) Sandwich
+- [ ] L11724-L11726 (1) Oil
+- [ ] L11836-L11838 (1) Zinc
+- [ ] L11860-L11862 (1) Titanium
+- [ ] L11872-L11874 (1) Uranium
+- [ ] L11962-L11968 (2) Spirit / Soul
+- [ ] L11982-L11988 (2) Rejuvenating / Empowering
+- [ ] L11998-L12000 (1) Thaumium Dust
+- [ ] L12010-L12012 (1) Thaumic Shards
+- [ ] L12026-L12044 (5) Abandoned / Draconic / Wither / Withering / Spiteful
+- [ ] L12062-L12072 (3) D-O-B / Ender Shard / Nether Shard
+- [ ] L12084-L12178 (24) Attuned⚠ / Uranus⚠ / Moon / Salt⚠ / Barnarda⚠ / Glowstone … 他18件
+- [ ] L12188-L12194 (2) Oberon / Infinity Catalyst
 
-### Hardcore End(er) Expansion  _(L12191)_ — 未翻訳率: 40/40 (100%)
+### Hardcore End(er) Expansion  _(L12197)_ — 未翻訳率: 40/40 (100%)
 
-- [ ] L12195-L12353 (40) Spatial Distortions / Dimensional Chest / Is This the End? No, it's the END Dimension⚠ / Ender Towers / Welcome to the End! / Dragon Essence Altar⚠ … 他34件
+- [ ] L12201-L12359 (40) Spatial Distortions / Dimensional Chest / Is This the End? No, it's the END Dimension⚠ / Ender Towers / Welcome to the End! / Dragon Essence Altar⚠ … 他34件
 
-### 初歩的な魔導学  _(L12356)_ — 未翻訳率: 41/102 (40%)
+### 初歩的な魔導学  _(L12362)_ — 未翻訳率: 41/102 (40%)
 
-- [ ] L12360-L12370 (3) The Choice: Ordo / The Choice: Aqua / The Choice: Aer
-- [ ] L12376-L12378 (1) Witchy (Wo)man
-- [ ] L12400-L12402 (1) Tome of Knowledge
-- [ ] L12454-L12472 (5) The Choice: Ignis / The Choice... / The Choice: Terra / The Choice: Perditio / This is the End...
-- [ ] L12498-L12512 (4) Infinite... Lava? / Infinite Water! / Improved Armor: Samurai Style / A New Way to "Farm" Resources
-- [ ] L12528-L12534 (2) Gold-Banded Greatwood Scepter / Primal Charm
-- [ ] L12552-L12558 (2) Division Sigil / Cursed Earth
-- [ ] L12564-L12566 (1) Blub Blub Blub.....
-- [ ] L12600-L12602 (1) The Night's Not Dark Anymore
-- [ ] L12622-L12624 (1) 3 Plus 4, Carry the 2...
-- [ ] L12634-L12636 (1) Boots Are Made For Walking
-- [ ] L12642-L12644 (1) Infinite Bats! Wait, What??
-- [ ] L12660-L12662 (1) Everything Fuzzy? Try Some Lenses
-- [ ] L12668-L12678 (3) Gimme gimme gimme / It's Called the Thaumatorium, OK? / Growing Auram
-- [ ] L12686-L12692 (2) The Burden of Knowledge / Comparing at a Distance
-- [ ] L12700-L12710 (3) Growing Glowstone the Magical Way / Timewood Tree⚠ / Shadow Metal
-- [ ] L12724-L12730 (2) Need More Sugar? / Thaumic Dendrology⚠
-- [ ] L12742-L12744 (1) Adding More Functions
-- [ ] L12754-L12756 (1) Growing your own Knowledge!
-- [ ] L12764-L12782 (5) Alleviating Warp / Counting Items / Magical Plants⚠ / Tube Madness / Infinite Durability
+- [ ] L12366-L12376 (3) The Choice: Ordo / The Choice: Aqua / The Choice: Aer
+- [ ] L12382-L12384 (1) Witchy (Wo)man
+- [ ] L12406-L12408 (1) Tome of Knowledge
+- [ ] L12460-L12478 (5) The Choice: Ignis / The Choice... / The Choice: Terra / The Choice: Perditio / This is the End...
+- [ ] L12504-L12518 (4) Infinite... Lava? / Infinite Water! / Improved Armor: Samurai Style / A New Way to "Farm" Resources
+- [ ] L12534-L12540 (2) Gold-Banded Greatwood Scepter / Primal Charm
+- [ ] L12558-L12564 (2) Division Sigil / Cursed Earth
+- [ ] L12570-L12572 (1) Blub Blub Blub.....
+- [ ] L12606-L12608 (1) The Night's Not Dark Anymore
+- [ ] L12628-L12630 (1) 3 Plus 4, Carry the 2...
+- [ ] L12640-L12642 (1) Boots Are Made For Walking
+- [ ] L12648-L12650 (1) Infinite Bats! Wait, What??
+- [ ] L12666-L12668 (1) Everything Fuzzy? Try Some Lenses
+- [ ] L12674-L12684 (3) Gimme gimme gimme / It's Called the Thaumatorium, OK? / Growing Auram
+- [ ] L12692-L12698 (2) The Burden of Knowledge / Comparing at a Distance
+- [ ] L12706-L12716 (3) Growing Glowstone the Magical Way / Timewood Tree⚠ / Shadow Metal
+- [ ] L12730-L12736 (2) Need More Sugar? / Thaumic Dendrology⚠
+- [ ] L12748-L12750 (1) Adding More Functions
+- [ ] L12760-L12762 (1) Growing your own Knowledge!
+- [ ] L12770-L12788 (5) Alleviating Warp / Counting Items / Magical Plants⚠ / Tube Madness / Infinite Durability
 
-### 発展的な魔導学  _(L12785)_ — 未翻訳率: 76/78 (97%)
+### 発展的な魔導学  _(L12791)_ — 未翻訳率: 76/78 (97%)
 
-- [ ] L12789-L13015 (57) Smoke Your Normal Warp Away / Adept Thaumaturgy / An Awesome Magic Conductor / A Silverwood Wand at Last / Creating a Better Wand / More Energetic Screws to Finish the New Wand … 他51件
-- [ ] L13021-L13095 (19) Healing Your Nodes / Disenchanted / Fool's Gold / Gen XXXXXXXXXX... / Purge...Some of Your Warp? / Essentia Transmission … 他13件
+- [ ] L12795-L13021 (57) Smoke Your Normal Warp Away / Adept Thaumaturgy / An Awesome Magic Conductor / A Silverwood Wand at Last / Creating a Better Wand / More Energetic Screws to Finish the New Wand … 他51件
+- [ ] L13027-L13101 (19) Healing Your Nodes / Disenchanted / Fool's Gold / Gen XXXXXXXXXX... / Purge...Some of Your Warp? / Essentia Transmission … 他13件
 
-### カーミー、ハーミー、...波ァ！  _(L13098)_ — 未翻訳率: 36/37 (97%)
+### カーミー、ハーミー、...波ァ！  _(L13104)_ — 未翻訳率: 36/37 (97%)
 
-- [ ] L13102-L13244 (36) Lord of the Rings? / The Power of Gods / Shards of Opposite Worlds / Unleashed the Power - Cowl / Unbreakable Cowl / Unleashed the Power - Leggings … 他30件
+- [ ] L13108-L13250 (36) Lord of the Rings? / The Power of Gods / Shards of Opposite Worlds / Unleashed the Power - Cowl / Unbreakable Cowl / Unleashed the Power - Leggings … 他30件
 
-### 杖の杖星とEMT  _(L13247)_ — 未翻訳率: 38/40 (95%)
+### 杖の杖星とEMT  _(L13253)_ — 未翻訳率: 38/40 (95%)
 
-- [ ] L13251-L13289 (10) An Appropriate Weapon / Dropped in Asgard, Fallen to Earth / Repaired it! / Super-Mjolnir / Sparking Nitor...? / Rechargeable Scribing Tools … 他4件
-- [ ] L13295-L13405 (28) I Don't Want to Set the World on Fire / Diggy Diggy Hole / Bzzap! / Trade Offer / Snowball Fight! / Magical Base Defense … 他22件
+- [ ] L13257-L13295 (10) An Appropriate Weapon / Dropped in Asgard, Fallen to Earth / Repaired it! / Super-Mjolnir / Sparking Nitor...? / Rechargeable Scribing Tools … 他4件
+- [ ] L13301-L13411 (28) I Don't Want to Set the World on Fire / Diggy Diggy Hole / Bzzap! / Trade Offer / Snowball Fight! / Magical Base Defense … 他22件
 
-### 花の力  _(L13408)_ — 未翻訳率: 26/43 (60%)
+### 花の力  _(L13414)_ — 未翻訳率: 26/43 (60%)
 
-- [ ] L13412-L13414 (1) Fountain Of Conjuration
-- [ ] L13448-L13474 (7) A Glimpse Into A Watery Future / Botanic Infusion / Terrasteel / Alfheim / Round One... FIGHT! / A Deal With Alfar Industries … 他1件
-- [ ] L13508-L13578 (18) Anti-Magnetism / Violence Is Blue / Roses Are Blood-Red / Magic Blue Dust / Better Generating Flowers / Shut Down Your Canning Machine … 他12件
+- [ ] L13418-L13420 (1) Fountain Of Conjuration
+- [ ] L13454-L13480 (7) A Glimpse Into A Watery Future / Botanic Infusion / Terrasteel / Alfheim / Round One... FIGHT! / A Deal With Alfar Industries … 他1件
+- [ ] L13514-L13584 (18) Anti-Magnetism / Violence Is Blue / Roses Are Blood-Red / Magic Blue Dust / Better Generating Flowers / Shut Down Your Canning Machine … 他12件
 
-### "端"に目を向ける  _(L13581)_ — 未翻訳率: 91/93 (98%)
+### "端"に目を向ける  _(L13587)_ — 未翻訳率: 91/93 (98%)
 
-- [ ] L13585-L13679 (24) Fire Burn and... / Offerings / ...Cauldron Bubble / Don't Touch the Needle! / Probably Usable For Soup / Don't Shake it Too Much … 他18件
-- [ ] L13685-L13951 (67) Purified Milk / Brew of Love / Sleep Well! / The Spirit World - Nightmare / Early Bird Gets the...Nightmare? / Wake Up Early … 他61件
+- [ ] L13591-L13685 (24) Fire Burn and... / Offerings / ...Cauldron Bubble / Don't Touch the Needle! / Probably Usable For Soup / Don't Shake it Too Much … 他18件
+- [ ] L13691-L13957 (67) Purified Milk / Brew of Love / Sleep Well! / The Spirit World - Nightmare / Early Bird Gets the...Nightmare? / Wake Up Early … 他61件
 
-### 高い対価を払って  _(L13954)_ — 未翻訳率: 73/74 (99%)
+### 高い対価を払って  _(L13960)_ — 未翻訳率: 73/74 (99%)
 
-- [ ] L13958-L14248 (73) Incense Crucible / Tier 2 Sigils / Paying the Highest Price / Portable Battery... / Poke / Tier 3 Sigils … 他67件
+- [ ] L13964-L14254 (73) Incense Crucible / Tier 2 Sigils / Paying the Highest Price / Portable Battery... / Poke / Tier 3 Sigils … 他67件
 
-### 全部ブッ殺せ  _(L14251)_ — 未翻訳率: 153/344 (44%)
+### 全部ブッ殺せ  _(L14257)_ — 未翻訳率: 153/344 (44%)
 
-- [ ] L14255-L14289 (9) Time To Kill (Crimson Knight)⚠ / Kill Baba Yaga / Kill Horned Huntsman / Kill Ender Dragon / Kill Shade of Leonard / Kill Lord of Tormentum … 他3件
-- [ ] L14299-L14309 (3) Slay the Eyes! / Ender Guardians / Slay the Dragon. (Again)
-- [ ] L14451-L14465 (4) Time to Kill (Fire Golem) / Time to kill (Haunted Miners) / Time to Kill (Louse) / Time to Kill (Scorching Lens)
-- [ ] L14590-L14612 (6) Something From Nothing Pt 2 / Industrial Water Purification / Waterproof Tech / Integrated Ore Factory - All in One! / Proto-Volt Stabilizer⚠ / Streamlined Casters⚠
-- [ ] L14650-L14656 (2) Dark Steel Tools / And It Will Never Break
-- [ ] L14666-L14668 (1) Monitoring Your Reactor
-- [ ] L14686-L14696 (3) Magical Waystones / Industrial 3D Copying Machine / Draconic Evolution
-- [ ] L14742-L14748 (2) Advanced Nano Chestplate / Gravi Suit
-- [ ] L14754-L14760 (2) Dark Steel Tool and Weapon Basic Upgrades / Dark Steel Tool and Weapon Advanced Upgrades
-- [ ] L14790-L14792 (1) Power of the Sun ULV
-- [ ] L14810-L14812 (1) Moron's Guide to Better Trees
-- [ ] L14866-L14872 (2) Making Power With Your Plasma / Turbine Time
-- [ ] L14906-L14912 (2) Need a Place For All Those Ores? / Angel Wings - Combine!
-- [ ] L14918-L14936 (5) Pimp Your Wand Focus / Mallard Rust Smelly / Shake That Booty... / Launch Controller / Arc Lamp
-- [ ] L14986-L14988 (1) Planetary Tears
-- [ ] L14994-L14996 (1) Don't Put a Finger in That Socket
-- [ ] L15014-L15024 (3) Too Much Mercury? / I'll Send Wireless Signals Where I Want, Thank You / Wireless 3.0
-- [ ] L15042-L15072 (8) Unlimited LP / Infinity Chest / UV Solar / Does Anyone Even Still Use These? / Transform and...Stay Put Actually / What Even is This? … 他2件
-- [ ] L15078-L15080 (1) 「 」
-- [ ] L15086-L15128 (11) Nano Forge Tier 2 / Nano Forge Tier 3 / Chemical Pseudo-Altercations / Precise Assembler / Industrial Coke Oven / Bet On The Distillus … 他5件
-- [ ] L15134-L15192 (15) Power in the Ether / PCB Factory / Bio Chamber / Liquid Cooling Tower / PCB Factory Tier 2 / Liquid Cooling Tower Tier 2⚠ … 他9件
-- [ ] L15198-L15212 (4) Heliocast Reinforcement⚠ / Balance is Everything / Asgardandelion / Celestial Gateways
-- [ ] L15218-L15220 (1) Large Molecular Assembler
-- [ ] L15226-L15232 (2) Sentient Overclocker⚠ / Large Hadron Collider
-- [ ] L15246-L15268 (6) The Quest for Holy Water / High Energy Laser Purification / Neutronium Compressor / Matter Manipulator MKI / Universal Collapser⚠ / Matter Manipulator MKIII
-- [ ] L15278-L15292 (4) Absolute Purity / Crafting Input Proxy / The Everlasting Guilty Pool / pH Neutralization
-- [ ] L15298-L15300 (1) Hypercooler⚠
-- [ ] L15306-L15308 (1) Nano Forge Tier 4
-- [ ] L15314-L15320 (2) Never Hungry Again / Quantum Uplink
-- [ ] L15326-L15328 (1) Clarifier
-- [ ] L15334-L15336 (1) Purifying Water With Plasma
-- [ ] L15342-L15344 (1) Flocculation
-- [ ] L15350-L15364 (4) Crafting, but with Beams!⚠ / Thaumometric Essentia Cell / Creative Mana Tablet / Exo-Foundry⚠
-- [ ] L15369-L15395 (7) Trigger: Nano Boots of the Traveller Skip / Trigger: Runeforged Thaumaturge's Ring / Trigger: Nightvision Goggle Skip / Trigger: Hafnium Skip / Trigger: Rocket Shuttle Skip / Trigger: Naquadria Skip … 他1件
-- [ ] L15429-L15431 (1) Bees Template
-- [ ] L15457-L15459 (1) Trigger: Flippers
-- [ ] L15501-L15567 (17) Tool: Never complete / Trigger: Quantum Armor Skip / Trigger: NaK Skip / Trigger: Dense Hydrazine Skip / Trigger: Zirconium Skip / Trigger: Netherite Skip … 他11件
-- [ ] L15573-L15607 (9) Trigger: Rocket Tier 2 Skip / Trigger: SMD Inductor Skip / Trigger: Division Sigil / Trigger: Polyphenylene Sulfide Skip / Trigger: Rocket Tier 7 Skip / Trigger: Profane Wand … 他3件
-- [ ] L15613-L15639 (7) Trigger: Prismarine Line Skip / Trigger: CN3H7O3 (Purple) Rocket Fuel Skip / Ice Cream Trophy⚠ / Trigger: Oblivion Frame / Trigger: Rocket Tier 6 Skip / Trigger: Stonelily Tutorial Skip⚠ … 他1件
+- [ ] L14261-L14295 (9) Time To Kill (Crimson Knight)⚠ / Kill Baba Yaga / Kill Horned Huntsman / Kill Ender Dragon / Kill Shade of Leonard / Kill Lord of Tormentum … 他3件
+- [ ] L14305-L14315 (3) Slay the Eyes! / Ender Guardians / Slay the Dragon. (Again)
+- [ ] L14457-L14471 (4) Time to Kill (Fire Golem) / Time to kill (Haunted Miners) / Time to Kill (Louse) / Time to Kill (Scorching Lens)
+- [ ] L14596-L14618 (6) Something From Nothing Pt 2 / Industrial Water Purification / Waterproof Tech / Integrated Ore Factory - All in One! / Proto-Volt Stabilizer⚠ / Streamlined Casters⚠
+- [ ] L14656-L14662 (2) Dark Steel Tools / And It Will Never Break
+- [ ] L14672-L14674 (1) Monitoring Your Reactor
+- [ ] L14692-L14702 (3) Magical Waystones / Industrial 3D Copying Machine / Draconic Evolution
+- [ ] L14748-L14754 (2) Advanced Nano Chestplate / Gravi Suit
+- [ ] L14760-L14766 (2) Dark Steel Tool and Weapon Basic Upgrades / Dark Steel Tool and Weapon Advanced Upgrades
+- [ ] L14796-L14798 (1) Power of the Sun ULV
+- [ ] L14816-L14818 (1) Moron's Guide to Better Trees
+- [ ] L14872-L14878 (2) Making Power With Your Plasma / Turbine Time
+- [ ] L14912-L14918 (2) Need a Place For All Those Ores? / Angel Wings - Combine!
+- [ ] L14924-L14942 (5) Pimp Your Wand Focus / Mallard Rust Smelly / Shake That Booty... / Launch Controller / Arc Lamp
+- [ ] L14992-L14994 (1) Planetary Tears
+- [ ] L15000-L15002 (1) Don't Put a Finger in That Socket
+- [ ] L15020-L15030 (3) Too Much Mercury? / I'll Send Wireless Signals Where I Want, Thank You / Wireless 3.0
+- [ ] L15048-L15078 (8) Unlimited LP / Infinity Chest / UV Solar / Does Anyone Even Still Use These? / Transform and...Stay Put Actually / What Even is This? … 他2件
+- [ ] L15084-L15086 (1) 「 」
+- [ ] L15092-L15134 (11) Nano Forge Tier 2 / Nano Forge Tier 3 / Chemical Pseudo-Altercations / Precise Assembler / Industrial Coke Oven / Bet On The Distillus … 他5件
+- [ ] L15140-L15198 (15) Power in the Ether / PCB Factory / Bio Chamber / Liquid Cooling Tower / PCB Factory Tier 2 / Liquid Cooling Tower Tier 2⚠ … 他9件
+- [ ] L15204-L15218 (4) Heliocast Reinforcement⚠ / Balance is Everything / Asgardandelion / Celestial Gateways
+- [ ] L15224-L15226 (1) Large Molecular Assembler
+- [ ] L15232-L15238 (2) Sentient Overclocker⚠ / Large Hadron Collider
+- [ ] L15252-L15274 (6) The Quest for Holy Water / High Energy Laser Purification / Neutronium Compressor / Matter Manipulator MKI / Universal Collapser⚠ / Matter Manipulator MKIII
+- [ ] L15284-L15298 (4) Absolute Purity / Crafting Input Proxy / The Everlasting Guilty Pool / pH Neutralization
+- [ ] L15304-L15306 (1) Hypercooler⚠
+- [ ] L15312-L15314 (1) Nano Forge Tier 4
+- [ ] L15320-L15326 (2) Never Hungry Again / Quantum Uplink
+- [ ] L15332-L15334 (1) Clarifier
+- [ ] L15340-L15342 (1) Purifying Water With Plasma
+- [ ] L15348-L15350 (1) Flocculation
+- [ ] L15356-L15370 (4) Crafting, but with Beams!⚠ / Thaumometric Essentia Cell / Creative Mana Tablet / Exo-Foundry⚠
+- [ ] L15375-L15401 (7) Trigger: Nano Boots of the Traveller Skip / Trigger: Runeforged Thaumaturge's Ring / Trigger: Nightvision Goggle Skip / Trigger: Hafnium Skip / Trigger: Rocket Shuttle Skip / Trigger: Naquadria Skip … 他1件
+- [ ] L15435-L15437 (1) Bees Template
+- [ ] L15463-L15465 (1) Trigger: Flippers
+- [ ] L15507-L15573 (17) Tool: Never complete / Trigger: Quantum Armor Skip / Trigger: NaK Skip / Trigger: Dense Hydrazine Skip / Trigger: Zirconium Skip / Trigger: Netherite Skip … 他11件
+- [ ] L15579-L15613 (9) Trigger: Rocket Tier 2 Skip / Trigger: SMD Inductor Skip / Trigger: Division Sigil / Trigger: Polyphenylene Sulfide Skip / Trigger: Rocket Tier 7 Skip / Trigger: Profane Wand … 他3件
+- [ ] L15619-L15645 (7) Trigger: Prismarine Line Skip / Trigger: CN3H7O3 (Purple) Rocket Fuel Skip / Ice Cream Trophy⚠ / Trigger: Oblivion Frame / Trigger: Rocket Tier 6 Skip / Trigger: Stonelily Tutorial Skip⚠ … 他1件
 
 ## 要注意: バージョン差異で翻訳作業を保留(137件)
 
@@ -563,49 +547,49 @@ Mod名・本文中でも英語のまま使われる固有名詞など、翻訳�
 - L11339 Droning On — ID使い回し(2.8.4「Inoculator」→2.9「Droning On」ゲーム内未確認)
 - L11415 Living It Larvae — v2.9新規(2.8.4に無くゲーム内未確認)
 - L11423 Enzyme on The Mind — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12078 Attuned — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12082 Uranus — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12090 Salt — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12094 Barnarda — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12102 Infinity — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12106 Infernal — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12110 Trinium — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12126 Oriharukon — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12134 Enceladus — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12138 Saturn — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12142 Barnarda F — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12150 Pluto — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12154 Neptune — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12162 Mars — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12170 Jupiter — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12203 Is This the End? No, it's the END Dimension — ID使い回し(2.8.4「Is This the End? No it's the END Dimension」→2.9「Is This the End? No, it's the END Dimension」ゲーム内未確認)
-- L12215 Dragon Essence Altar — ID使い回し(2.8.4「Essence Altar Dragon Infused」→2.9「Dragon Essence Altar」ゲーム内未確認)
-- L12235 Visit the (Enchanted) Laboratory Island — ID使い回し(2.8.4「Visit the Laboratory Island」→2.9「Visit the (Enchanted) Laboratory Island」ゲーム内未確認)
-- L12239 Energy Clusters and the Energy Wand — ID使い回し(2.8.4「Energy Wand」→2.9「Energy Clusters and the Energy Wand」ゲーム内未確認)
-- L12243 Visit the (Enchanted) Homeland Island — ID使い回し(2.8.4「Visit the Enchanted Island」→2.9「Visit the (Enchanted) Homeland Island」ゲーム内未確認)
-- L12704 Timewood Tree — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12728 Thaumic Dendrology — v2.9新規(2.8.4に無くゲーム内未確認)
-- L12772 Magical Plants — v2.9新規(2.8.4に無くゲーム内未確認)
-- L13061 Primordial Armor — v2.9新規(2.8.4に無くゲーム内未確認)
-- L13069 Infused Seeds — v2.9新規(2.8.4に無くゲーム内未確認)
-- L13230 Runeforged Thaumaturge's Ring — v2.9新規(2.8.4に無くゲーム内未確認)
-- L13234 Master Earth Rings — v2.9新規(2.8.4に無くゲーム内未確認)
-- L13238 Ring of the Sky — v2.9新規(2.8.4に無くゲーム内未確認)
-- L14238 Ritual of Gaia's Transformation — v2.9新規(2.8.4に無くゲーム内未確認)
-- L14255 Time To Kill (Crimson Knight) — ID使い回し(2.8.4「Secrets」→2.9「Time To Kill (Crimson Knight)」ゲーム内未確認)
-- L14606 Proto-Volt Stabilizer — v2.9新規(2.8.4に無くゲーム内未確認)
-- L14610 Streamlined Casters — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15110 Faster Basic Crops — ID使い回し(2.8.4「§6§lFaster Crops」→2.9「§6§lFaster Basic Crops」ゲーム内未確認)
-- L15118 High Temperature Gas-cooled Reactor — ID使い回し(2.8.4「§6§lHigh Temperature Super Breeder」→2.9「§6§lHigh Temperature Gas-cooled Reactor」ゲーム内未確認)
-- L15154 Liquid Cooling Tower Tier 2 — ID使い回し(2.8.4「Thermosink Radiator」→2.9「§c§l§nLiquid Cooling Tower Tier 2」ゲーム内未確認)
-- L15186 Superdense Casting Basins — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15198 Heliocast Reinforcement — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15226 Sentient Overclocker — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15262 Universal Collapser — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15298 Hypercooler — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15350 Crafting, but with Beams! — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15362 Exo-Foundry — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15561 Trigger: Air-Filter — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15621 Ice Cream Trophy — v2.9新規(2.8.4に無くゲーム内未確認)
-- L15633 Trigger: Stonelily Tutorial Skip — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12084 Attuned — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12088 Uranus — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12096 Salt — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12100 Barnarda — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12108 Infinity — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12112 Infernal — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12116 Trinium — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12132 Oriharukon — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12140 Enceladus — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12144 Saturn — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12148 Barnarda F — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12156 Pluto — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12160 Neptune — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12168 Mars — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12176 Jupiter — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12209 Is This the End? No, it's the END Dimension — ID使い回し(2.8.4「Is This the End? No it's the END Dimension」→2.9「Is This the End? No, it's the END Dimension」ゲーム内未確認)
+- L12221 Dragon Essence Altar — ID使い回し(2.8.4「Essence Altar Dragon Infused」→2.9「Dragon Essence Altar」ゲーム内未確認)
+- L12241 Visit the (Enchanted) Laboratory Island — ID使い回し(2.8.4「Visit the Laboratory Island」→2.9「Visit the (Enchanted) Laboratory Island」ゲーム内未確認)
+- L12245 Energy Clusters and the Energy Wand — ID使い回し(2.8.4「Energy Wand」→2.9「Energy Clusters and the Energy Wand」ゲーム内未確認)
+- L12249 Visit the (Enchanted) Homeland Island — ID使い回し(2.8.4「Visit the Enchanted Island」→2.9「Visit the (Enchanted) Homeland Island」ゲーム内未確認)
+- L12710 Timewood Tree — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12734 Thaumic Dendrology — v2.9新規(2.8.4に無くゲーム内未確認)
+- L12778 Magical Plants — v2.9新規(2.8.4に無くゲーム内未確認)
+- L13067 Primordial Armor — v2.9新規(2.8.4に無くゲーム内未確認)
+- L13075 Infused Seeds — v2.9新規(2.8.4に無くゲーム内未確認)
+- L13236 Runeforged Thaumaturge's Ring — v2.9新規(2.8.4に無くゲーム内未確認)
+- L13240 Master Earth Rings — v2.9新規(2.8.4に無くゲーム内未確認)
+- L13244 Ring of the Sky — v2.9新規(2.8.4に無くゲーム内未確認)
+- L14244 Ritual of Gaia's Transformation — v2.9新規(2.8.4に無くゲーム内未確認)
+- L14261 Time To Kill (Crimson Knight) — ID使い回し(2.8.4「Secrets」→2.9「Time To Kill (Crimson Knight)」ゲーム内未確認)
+- L14612 Proto-Volt Stabilizer — v2.9新規(2.8.4に無くゲーム内未確認)
+- L14616 Streamlined Casters — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15116 Faster Basic Crops — ID使い回し(2.8.4「§6§lFaster Crops」→2.9「§6§lFaster Basic Crops」ゲーム内未確認)
+- L15124 High Temperature Gas-cooled Reactor — ID使い回し(2.8.4「§6§lHigh Temperature Super Breeder」→2.9「§6§lHigh Temperature Gas-cooled Reactor」ゲーム内未確認)
+- L15160 Liquid Cooling Tower Tier 2 — ID使い回し(2.8.4「Thermosink Radiator」→2.9「§c§l§nLiquid Cooling Tower Tier 2」ゲーム内未確認)
+- L15192 Superdense Casting Basins — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15204 Heliocast Reinforcement — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15232 Sentient Overclocker — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15268 Universal Collapser — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15304 Hypercooler — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15356 Crafting, but with Beams! — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15368 Exo-Foundry — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15567 Trigger: Air-Filter — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15627 Ice Cream Trophy — v2.9新規(2.8.4に無くゲーム内未確認)
+- L15639 Trigger: Stonelily Tutorial Skip — v2.9新規(2.8.4に無くゲーム内未確認)
 

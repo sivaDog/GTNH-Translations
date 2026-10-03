@@ -36,34 +36,25 @@ serverutilities.stat.last_seen=最終ログイン時間
 serverutilities.stat.killed_by=[提出済み]%sによる死亡数
 serverutilities.stat.entities_killed=[提出済み]%sの討伐数
 
-# EN: Work In Progress!
-wip=[下書き]作業中です！
-# EN: This method is deprecated, please use %s
-deprecated=[下書き]このメソッドは非推奨です。%sを使ってください
+wip=[提出済み]作業中です！
+deprecated=[提出済み]このメソッドは非推奨です。%sを使ってください
 example=[提出済み]例:
 click_here=[提出済み][ここをクリック]
-# EN: This feature is disabled!
-feature_disabled=[下書き]この機能は無効化されています！
+feature_disabled=[提出済み]この機能は無効化されています！
 feature_disabled_server=[提出済み]この機能はサーバーで無効化されています！
 error=[提出済み]エラー: %s
 owner=Owner: %s
 delete_item=[提出済み]「%s」を削除しますか？
-# EN: Server overrides to '%s'
-server_forced=[下書き]サーバーが「%s」に固定しています
+server_forced=[提出済み]サーバーが「%s」に固定しています
 commands=[提出済み]コマンド
-# EN: My Permissions
-my_permissions=[下書き]自分のパーミッション
-# EN: All Permissions
-all_permissions=[下書き]すべてのパーミッション
+my_permissions=[提出済み]自分のパーミッション
+all_permissions=[提出済み]すべてのパーミッション
 key.categories.serverutilities=[提出済み]Server Utilities
 stand_still=[提出済み]%d秒間その場で動かないでください。
-# EN: You moved! Teleport cancelled.
-stand_still_failed=[下書き]動いたため、テレポートを中止しました。
+stand_still_failed=[提出済み]動いたため、テレポートを中止しました。
 teleporting=[提出済み]テレポート中...
-# EN: Cooldown
-cooldown=[下書き]クールダウン
-# EN: Can't use that right now!
-cant_use_now=[下書き]今は使えません！
+cooldown=[提出済み]クールダウン
+cant_use_now=[提出済み]今は使えません！
 cant_use_now_cooldown=[提出済み]今は使えません！ クールダウン: %s
 action_bar=[提出済み]アクションバー
 title=[提出済み]タイトル
@@ -99,8 +90,7 @@ serverutilities.select_item.meta=[提出済み]メタデータを設定
 serverutilities.select_item.nbt=[提出済み]NBTを編集
 serverutilities.select_item.caps=[提出済み]Capabilityを編集
 serverutilities.select_item.display_name=[提出済み]表示名を設定
-# EN: Select Team
-serverutilities.select_team.gui=[下書き]チームを選択
+serverutilities.select_team.gui=[提出済み]チームを選択
 
 serverutilities.world.dimension.overworld=オーバーワールド
 serverutilities.world.dimension.end=エンド
@@ -253,14 +243,10 @@ serverutilities.server_info.admin_quick_access=管理者クイックアクセス
 
 # Client Config
 serverutilities_client=[提出済み]クライアント設定
-# EN: Show Badges
-serverutilities_client.render_badges=[下書き]バッジを表示
-# EN: Enable Journeymap Integration
-serverutilities_client.journeymap_overlay=[下書き]JourneyMap連携を有効化
-# EN: /scan_items Whitelist
-serverutilities_client.scan_items_whitelist=[下書き]/scan_items のホワイトリスト
-# EN: /scan_items Blacklist
-serverutilities_client.scan_items_blacklist=[下書き]/scan_items のブラックリスト
+serverutilities_client.render_badges=[提出済み]バッジを表示
+serverutilities_client.journeymap_overlay=[提出済み]JourneyMap連携を有効化
+serverutilities_client.scan_items_whitelist=[提出済み]/scan_items のホワイトリスト
+serverutilities_client.scan_items_blacklist=[提出済み]/scan_items のブラックリスト
 serverutilities_client.show_shutdown_timer=[提出済み]シャットダウンタイマーを表示
 serverutilities_client.shutdown_timer_start=[提出済み]シャットダウンタイマーの表示開始
 serverutilities_client.button_daytime=[提出済み]昼ボタンの時刻
@@ -271,8 +257,7 @@ serverutilities_client.item_nbt=[提出済み]アイテムのNBTを表示
 serverutilities_client.sidebar_buttons=[提出済み]サイドバーの表示場所
 serverutilities_client.sidebar_buttons_above_potion=[提出済み]ボタンをポーション表示の上に描く
 serverutilities_client.sidebar_placement=[提出済み]サイドバーボタンの並べ方
-# EN: Notification Location
-serverutilities_client.notification_location=[下書き]通知の表示位置
+serverutilities_client.notification_location=[提出済み]通知の表示位置
 serverutilities_client.show_dotted_lines=[提出済み]ロード中のチャンクに点線を表示
 
 # Notification Config
@@ -403,11 +388,9 @@ team_config.serverutilities.blocked_creatures=[提出済み]領有チャンク�
 # Sidebar Buttons
 sidebar_button=[提出済み]サイドバーボタン
 sidebar_button.serverutilities.my_team=自分のチーム
-# EN: Opens a GUI where you can manage your team
-sidebar_button.serverutilities.my_team.tooltip=[下書き]チームを管理するGUIを開きます
+sidebar_button.serverutilities.my_team.tooltip=[提出済み]チームを管理するGUIを開きます
 sidebar_button.serverutilities.settings=クライアント設定
-# EN: Edit client-side-only settings
-sidebar_button.serverutilities.settings.tooltip=[下書き]クライアント側だけの設定を編集します
+sidebar_button.serverutilities.settings.tooltip=[提出済み]クライアント側だけの設定を編集します
 sidebar_button.serverutilities.notifications=通知
 sidebar_button.serverutilities.admin_panel=管理者パネル
 sidebar_button.serverutilities.chats=チャット
@@ -433,18 +416,13 @@ sidebar_button.serverutilities.mail=メール
 serverutilities.sidebar_button.reset=[提出済み]サイドバーをリセット
 serverutilities.sidebar_button.reset.tooltip=[提出済み]サイドバーの位置をリセットします
 
-# EN: File Browser
-serverutilities.admin_panel.file_browser=[下書き]ファイルブラウザー
+serverutilities.admin_panel.file_browser=[提出済み]ファイルブラウザー
 serverutilities.admin_panel.crash_reports=[提出済み]クラッシュレポートを見る
-# EN: Edit Config
-serverutilities.admin_panel.config=[下書き]設定を編集
-# EN: View All Claimed Chunks
-serverutilities.admin_panel.claimed_chunks=[下書き]すべての領有チャンクを見る
-# EN: View All Loaded Chunks
-serverutilities.admin_panel.loaded_chunks=[下書き]すべてのロード中のチャンクを見る
+serverutilities.admin_panel.config=[提出済み]設定を編集
+serverutilities.admin_panel.claimed_chunks=[提出済み]すべての領有チャンクを見る
+serverutilities.admin_panel.loaded_chunks=[提出済み]すべてのロード中のチャンクを見る
 serverutilities.admin_panel.whitelist=[提出済み]ホワイトリストを編集
-# EN: Edit OPs
-serverutilities.admin_panel.ops=[下書き]OPを編集
+serverutilities.admin_panel.ops=[提出済み]OPを編集
 serverutilities.admin_panel.edit_world=[提出済み]ワールドを編集
 serverutilities.admin_panel.ranks.player_ranks=[提出済み]プレイヤーのランク
 serverutilities.admin_panel.ranks.select_rank=[提出済み]ランクを選択
@@ -676,16 +654,14 @@ commands.tree_base.invalid_cmd.list_subcommands=[提出済み]サブコマンド
 commands.tree_base.available_subcommands=[提出済み]使えるサブコマンド: %s
 
 # Backup
-# EN: Next backup: %s
-cmd.timer_backup=[下書き]次のバックアップ: %s
+cmd.timer_backup=[提出済み]次のバックアップ: %s
 cmd.backup_start=サーバーのバックアップを開始しました！
 cmd.backup_stop=サーバーのバックアップを中止しました！
 cmd.backup_end_1=[提出済み]サーバーのバックアップが%sで完了しました！
 cmd.backup_end_2=[提出済み]サーバーのバックアップが%sで完了しました！ (%s)
 cmd.backup_fail=[提出済み]ワールドを保存できませんでした！ (%s)
 cmd.backup_manual_launch=[提出済み]%sが手動でバックアップを開始しました！
-# EN: %s launched a claimed only manual backup!
-cmd.backup_manual_launch_oc=[下書き]%sが領有チャンクだけの手動バックアップを開始しました！
+cmd.backup_manual_launch_oc=[提出済み]%sが領有チャンクだけの手動バックアップを開始しました！
 cmd.backup_already_running=サーバーのバックアップ中です！
 cmd.backup_not_running=サーバーのバックアップは動作していません！
 cmd.backup_size=[提出済み]現在のワールドのサイズ: %s、バックアップフォルダーの合計サイズ: %s
@@ -710,55 +686,40 @@ commands.pause_when_empty.mask.usage=[提出済み]/pause_when_empty mask <secon
 ## Buttons
 gui.accept=[提出済み]承認
 gui.add=[提出済み]追加
-# EN: Added
-gui.added=[下書き]追加しました
+gui.added=[提出済み]追加しました
 gui.remove=[提出済み]削除
-# EN: Removed
-gui.removed=[下書き]削除しました
+gui.removed=[提出済み]削除しました
 gui.close=[提出済み]閉じる
-# EN: Open
-gui.open=[下書き]開く
+gui.open=[提出済み]開く
 gui.saved=[提出済み]保存しました
 gui.loaded=[提出済み]読み込みました
 gui.info=[提出済み]情報
 gui.collapse_all=[提出済み]すべて折りたたむ
 gui.expand_all=[提出済み]すべて展開
-# EN: Download
-gui.download=[下書き]ダウンロード
-# EN: Downloaded
-gui.downloaded=[下書き]ダウンロードしました
+gui.download=[提出済み]ダウンロード
+gui.downloaded=[提出済み]ダウンロードしました
 gui.update=[提出済み]更新
-# EN: Updated
-gui.updated=[下書き]更新しました
+gui.updated=[提出済み]更新しました
 gui.active=Active
 gui.inactive=Inactive
 gui.settings=[提出済み]設定
 gui.rename=[提出済み]名前を変更
 gui.search_box=[提出済み]検索...
-# EN: Move
-gui.move=[下書き]移動
+gui.move=[提出済み]移動
 gui.copy=[提出済み]コピー
-# EN: Paste
-gui.paste=[下書き]貼り付け
-# EN: Cut
-gui.cut=[下書き]切り取り
+gui.paste=[提出済み]貼り付け
+gui.cut=[提出済み]切り取り
 
 ## Labels
 gui.other=[提出済み]その他
-# EN: Server Forced: %s
-gui.server_forced=[下書き]サーバーが固定: %s
+gui.server_forced=[提出済み]サーバーが固定: %s
 gui.online=[提出済み]オンライン
-# EN: Offline
-gui.offline=[下書き]オフライン
-# EN: Whitelist
-gui.whitelist=[下書き]ホワイトリスト
-# EN: Blacklist
-gui.blacklist=[下書き]ブラックリスト
+gui.offline=[提出済み]オフライン
+gui.whitelist=[提出済み]ホワイトリスト
+gui.blacklist=[提出済み]ブラックリスト
 gui.color=[提出済み]色
-# EN: Downloading...
-gui.downloading=[下書き]ダウンロード中...
-# EN: Infinite
-gui.infinite=[下書き]無限
+gui.downloading=[提出済み]ダウンロード中...
+gui.infinite=[提出済み]無限
 
 ## Sides
 facing.north=[提出済み]北
@@ -769,8 +730,7 @@ facing.east=東
 relative_facing.bottom=[提出済み]下
 relative_facing.top=[提出済み]上
 relative_facing.back=[提出済み]後ろ
-# EN: Front
-relative_facing.front=[下書き]前
+relative_facing.front=[提出済み]前
 relative_facing.left=[提出済み]左
 relative_facing.right=[提出済み]右
 
@@ -780,12 +740,9 @@ serverutilities.lang.team.created=[提出済み]チーム「%s」を作成しま
 serverutilities.lang.team.id_already_exists=[提出済み]そのIDはすでに登録されています！
 serverutilities.lang.team.id_invalid=[提出済み]IDに使えるのは小文字のa-z、_、|だけです！
 serverutilities.lang.team.deleted=[提出済み]チーム「%s」を削除しました
-# EN: %s left your team!
-serverutilities.lang.team.member_left=[下書き]%sがチームを抜けました！
-# EN: %s joined your team!
-serverutilities.lang.team.member_joined=[下書き]%sがチームに参加しました！
-# EN: New owner now is %s
-serverutilities.lang.team.transferred_ownership=[下書き]新しいオーナーは%sです
+serverutilities.lang.team.member_left=[提出済み]%sがチームを抜けました！
+serverutilities.lang.team.member_joined=[提出済み]%sがチームに参加しました！
+serverutilities.lang.team.transferred_ownership=[提出済み]新しいオーナーは%sです
 serverutilities.lang.team.invited=[提出済み]%sを「%s」に招待しました
 serverutilities.lang.team.invited_you=[提出済み]%2$sから「%1$s」に招待されました。クリックして参加！
 serverutilities.lang.team.cancel_invite=[提出済み]招待を取り消す
@@ -796,16 +753,13 @@ serverutilities.lang.team.error.not_owner=[提出済み]あなたはこのチー
 serverutilities.lang.team.error.not_member=[提出済み]%sはこのチームのメンバーではありません！
 serverutilities.lang.team.error.already_member=[提出済み]%sはすでにこのチームのメンバーです！
 serverutilities.lang.team.error.must_transfer_ownership=[提出済み]オーナーを譲る必要があります！
-# EN: %s already is invited!
-serverutilities.lang.team.error.already_invited=[下書き]%sはすでに招待されています！
-# EN: Can't join this team!
-serverutilities.lang.team.error.failed_to_join=[下書き]このチームには参加できません！
+serverutilities.lang.team.error.already_invited=[提出済み]%sはすでに招待されています！
+serverutilities.lang.team.error.failed_to_join=[提出済み]このチームには参加できません！
 serverutilities.lang.team.permission.set=[提出済み]%2$sのパーミッション「%1$s」を%3$sに設定しました
 serverutilities.lang.team.permission.owner=[提出済み]オーナーのパーミッションは変更できません！
 serverutilities.lang.team.notification=[提出済み]まだチームに参加も作成もしていません！ %sでチームのGUIを開くか、%sでこのメッセージを隠せます。
 serverutilities.lang.team.notification.hide=[提出済み]このメッセージを隠す
-# EN: [Team %s] %s
-serverutilities.lang.team.chat_message=[下書き][チーム %s] %s
+serverutilities.lang.team.chat_message=[提出済み][チーム %s] %s
 
 team_action.serverutilities.select_team=[提出済み]参加するチームを選択
 team_action.serverutilities.create_team=[提出済み]新しいチームを作成
@@ -813,8 +767,7 @@ team_action.serverutilities.members=[提出済み]メンバー
 team_action.serverutilities.allies=[提出済み]味方
 team_action.serverutilities.moderators=[提出済み]モデレーター
 team_action.serverutilities.enemies=[提出済み]敵
-# EN: Join another Team
-team_action.serverutilities.change_team=[下書き]別のチームに参加
+team_action.serverutilities.change_team=[提出済み]別のチームに参加
 team_action.serverutilities.leave=[提出済み]チームを抜ける
 team_action.serverutilities.leave.confirmation=[提出済み]警告！ クエストの進行度などを失う可能性があります！
 team_action.serverutilities.transfer_ownership=[提出済み]オーナーを譲る
@@ -837,8 +790,7 @@ serverutilities.lang.team_status.mod=[提出済み]モデレーター
 serverutilities.lang.team_status.owner=[提出済み]オーナー
 
 # Privacy Level
-# EN: Privacy
-privacy=[下書き]プライバシー
+privacy=[提出済み]プライバシー
 privacy.public=[提出済み]公開
 privacy.private=[提出済み]非公開
 privacy.team=[提出済み]チーム
@@ -858,19 +810,15 @@ io_mode.out=[提出済み]出力のみ
 io_mode.none=[提出済み]無効
 
 # Click Actions
-# EN: Command
-click_action.cmd=[下書き]コマンド
-# EN: Show Command
-click_action.show_cmd=[下書き]コマンドを表示
+click_action.cmd=[提出済み]コマンド
+click_action.show_cmd=[提出済み]コマンドを表示
 click_action.url=[提出済み]URLを開く
 click_action.file=[提出済み]ファイルを開く
-# EN: Open Gui
-click_action.gui=[下書き]GUIを開く
+click_action.gui=[提出済み]GUIを開く
 
 # Aurora
 aurora=[提出済み]Server Utilities Aurora
-# EN: Port
-aurora.port=[下書き]ポート
+aurora.port=[提出済み]ポート
 
 # JourneyMap
 serverutilities.jm.own_team=[提出済み]自分のチーム
