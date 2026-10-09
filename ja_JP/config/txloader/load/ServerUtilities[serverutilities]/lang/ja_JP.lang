@@ -1,9 +1,3 @@
-# [下書き] sivaDog 手元下書き。確定したら [自訳]、ParaTranz 投稿後は [提出済み] に置き換える
-# ParaTranz へ貼るときは行頭の [下書き] を外す。'# EN:' は原文比較用で、確定時に削除する
-# 用語は既訳に合わせる: claim=領有、AFK=退席、home/warp=ホーム/ワープ、rank=ランク、vanish=透明化、
-#   team の Owner/Moderator/Member/Ally/Enemy=オーナー/モデレーター/メンバー/味方/敵（FTB Teams 公式訳と既訳「味方間でのPvP」に合わせる）。コマンドの使い方（*.usage）は英語のまま（本人方針。既訳の <プレイヤー> 形式は他の方のもの）
-# gui.active / gui.inactive / owner は他MODと同じキー（Forestry の表現因子／潜在因子、Blood Arsenal）なので訳さず保留
-#   無印の日本語は他の翻訳者の既訳なので触らない
 # Misc
 gamerules=ゲームルール
 serverutilities.lang.timer.shutdown=サーバーは%sでシャットダウンします
@@ -82,15 +76,6 @@ serverutilities.select_item.nbt=NBTを編集
 serverutilities.select_item.caps=Capabilityを編集
 serverutilities.select_item.display_name=表示名を設定
 serverutilities.select_team.gui=チームを選択
-wip=作業中です！
-deprecated=このメソッドは非推奨です。%sを使ってください
-feature_disabled=この機能は無効化されています！
-server_forced=サーバーが「%s」に固定しています
-my_permissions=自分のパーミッション
-all_permissions=すべてのパーミッション
-stand_still_failed=動いたため、テレポートを中止しました。
-cooldown=クールダウン
-cant_use_now=今は使えません！
 
 serverutilities.world.dimension.overworld=オーバーワールド
 serverutilities.world.dimension.end=エンド
@@ -279,11 +264,6 @@ serverutilities.notifications.cleanup=クリーンアップ
 serverutilities.notifications.cleanup.desc=エンティティのクリーンアップの開始・終了を通知します
 serverutilities.notifications.player_afk=プレイヤーの退席
 serverutilities.notifications.player_afk.desc=プレイヤーが退席したときに通知します
-serverutilities_client.render_badges=バッジを表示
-serverutilities_client.journeymap_overlay=Journeymap Integrationの有効化
-serverutilities_client.scan_items_whitelist=/scan_items Whitelist
-serverutilities_client.scan_items_blacklist=/scan_items Blacklist
-serverutilities_client.notification_location=通知の表示位置
 
 
 
@@ -432,11 +412,6 @@ serverutilities.admin_panel.ranks.add_perm=パーミッションを追加
 serverutilities.admin_panel.ranks.add_command=コマンドのパーミッションを追加
 serverutilities.admin_panel.ranks.cant_remove=デフォルトのランクは削除できません！
 serverutilities.admin_panel.ranks.delete_confirm=ランク「%s」を完全に削除します。よろしいですか？
-serverutilities.admin_panel.file_browser=ファイルブラウザ
-serverutilities.admin_panel.config=設定を編集
-serverutilities.admin_panel.loaded_chunks=全てのロード済みチャンクを表示
-serverutilities.admin_panel.whitelist=ホワイトリストを編集
-serverutilities.admin_panel.ops=OPを編集
 
 # Keys
 key.serverutilities.nbt=NBTの編集
@@ -665,7 +640,6 @@ cmd.backup_manual_launch_oc=%sが領有チャンクだけの手動バックア�
 cmd.backup_already_running=サーバーのバックアップ中です！
 cmd.backup_not_running=サーバーのバックアップは動作していません！
 cmd.backup_size=現在のワールドのサイズ: %s、バックアップフォルダーの合計サイズ: %s
-cmd.timer_backup=次のバックアップ: %s
 serverutilities.gui.backup.title=バックアップの復元 (%s)
 serverutilities.gui.backup.button=バックアップ
 serverutilities.gui.backup.restore=復元
@@ -798,34 +772,6 @@ serverutilities.jm.own_team=自分のチーム
 serverutilities.jm.claim=空いているチャンクをダブルクリックで領有します。
 serverutilities.jm.load_hint=領有チャンクをダブルクリックでロード/アンロード
 serverutilities.jm.unclaim_hint=%sを押すと領有を破棄
-gui.added=追加しました
-gui.removed=削除しました
-gui.open=開く
-gui.download=ダウンロード
-gui.downloaded=ダウンロードしました
-gui.updated=更新しました
-gui.move=移動
-gui.paste=貼り付け
-gui.cut=切り取り
-gui.server_forced=サーバーが固定: %s
-gui.offline=オフライン
-gui.whitelist=ホワイトリスト
-gui.blacklist=ブラックリスト
-gui.downloading=ダウンロード中...
-gui.infinite=無限
-relative_facing.front=前
-serverutilities.lang.team.member_left=%sがチームを抜けました！
-serverutilities.lang.team.member_joined=%sがチームに参加しました！
-serverutilities.lang.team.transferred_ownership=新しいオーナーは%sです
-serverutilities.lang.team.error.already_invited=%sはすでに招待されています！
-serverutilities.lang.team.error.failed_to_join=このチームには参加できません！
-serverutilities.lang.team.chat_message=[チーム %s] %s
-team_action.serverutilities.change_team=別のチームに参加
-privacy=プライバシー
-click_action.cmd=コマンド
-click_action.show_cmd=コマンドを表示
-click_action.gui=GUIを開く
-aurora.port=ポート
 
 # Invsee GUI
 serverutilities.invsee.title=%sの%s
