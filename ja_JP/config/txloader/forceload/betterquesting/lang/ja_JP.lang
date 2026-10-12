@@ -8438,8 +8438,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9A.name=高アンペア変圧器 (LV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9A.desc=4Aを超える変圧器が必要なら、高アンペア変圧器を使いましょう。MV 4Aを入力してLV 16Aを出力できます。 LV機械を大量に動かすのに便利です。モード切替はこれまで通り、ソフトマレットで行えます。
 
 # Quest: Low Voltage Power Transformer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q.name=超強力変圧器 (LV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q.desc=If you need even more amps then craft a power transformer. This one is 16A -> 64A. The soft mallet is still how you change modes.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q.name=[提出済み]超強力変圧器 (LV)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q.desc=さらに多くのアンペアが必要なら、超強力変圧器を作りましょう。これは16Aを64Aに変換します。モード切替はこれまで通り、ソフトマレットで行えます。
 
 # Quest: MV Battery Buffers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg.name=蓄電器 (MV)
@@ -8454,8 +8454,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.name=蓄電器 (HV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.desc=You'll probably want HV battery buffers as well.%n%n[note]You only need to make one of these.[/note]
 
 # Quest: HV Battery Hulls
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw.name=HVの蓄電池筐体
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw.desc=Better machines need better batteries. Let's make some HV battery hulls for new batteries.%n%nIt's up to you what kind of battery to make, but realistically you'll probably make Sodium or Lithium.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw.name=[提出済み]HVの蓄電池筐体
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw.desc=高性能な機械には、より高性能な蓄電池が必要です。新しい蓄電池用のHVの蓄電池筐体を製作しましょう。%n%n製作する蓄電池の種類は自由に選べますが、現実的にはナトリウムかリチウムが主流となるでしょう。
 
 # Quest: HV Battery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA.name=HV Battery
@@ -8502,8 +8502,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJg.name=L.E.S.U. Upgrade - LuV Tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJg.desc=To reach the highest Voltage Tier the LESU can offer, you need to add an additional amount of LESU Casings. 8193 Casings in total (all upgrades below and these additional) enable the LuV Input Voltage.%n%n[note]I mean you could do that, but maybe just check the box once your autocrafting is done.[/note]
 
 # Quest: Transformers, Roll Out!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg.name=Transformers, Roll Out!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg.desc=When you get to HV you'll want to start thinking about centralizing power generation and delivering power over longer distances. An HV to EV transformer will let you send power across your base without too much penalty.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg.name=[提出済み]トランスフォーマー、出撃！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg.desc=HVに到達したら、発電を一箇所に集約し、より長い距離へ送電することを考え始めるとよいでしょう。HVからEVへ昇圧する変圧器を使えば、大きな損失なしに拠点の端まで電力を送れます。
 
 # Quest: Not Enough Amps?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgw.name=Not Enough Amps?
