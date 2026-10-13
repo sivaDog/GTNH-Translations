@@ -22,33 +22,43 @@ class ParaTranzUploadError(Exception):
         super().__init__(f"ParaTranz {stage} failed for {file_name}: HTTP {error.response.status_code}")
 
 
-def retry_after_429() -> Callable[[WrappedFn], WrappedFn]:
+def retry_after_error() -> Callable[[WrappedFn], WrappedFn]:
     wait_seconds = 60
     # ParaTranz counts requests per token and all languages sync with the same one, so a run that
     # creates hundreds of files at once queues across several rate limit windows before it lands.
     max_attempts = 6
 
-    def is_retryable_error(exception: BaseException) -> bool:
-        if isinstance(exception, HTTPStatusError) and exception.response.status_code == 429:
-            return True
+    def is_error(exception: BaseException) -> bool:
+        if isinstance(exception, HTTPStatusError):
+            return exception.response.status_code in (429, 500, 504)
+
         # ParaTranz occasionally times out or drops the connection without
-        # responding (httpx.ReadTimeout, httpx.RemoteProtocolError, etc.);
-        # these are transient and worth retrying the same as a 429.
+        # responding (httpx.ReadTimeout, httpx.RemoteProtocolError, etc.).
         return isinstance(exception, TransportError)
 
     def before_sleep(retry_state: RetryCallState) -> None:
         exception = retry_state.outcome.exception() if retry_state.outcome else None
+
+        if isinstance(exception, HTTPStatusError):
+            message = f"{exception.response.text}, {exception}"
+        elif exception is not None:
+            message = f"{type(exception).__name__}: {exception}"
+        else:
+            message = "unknown error"
+
         logger.warning(
-            f"request failed with {type(exception).__name__ if exception else 'unknown error'}, "
+            f"{message}, "
             f"waiting {wait_seconds} seconds before retrying "
             f"({retry_state.attempt_number + 1} of {max_attempts})"
         )
 
     return retry(
-        retry=retry_if_exception(is_retryable_error),
+        retry=retry_if_exception(is_error),
         wait=wait_fixed(wait_seconds),
         stop=stop_after_attempt(max_attempts),
         before_sleep=before_sleep,
+        # Raise the last HTTP error instead of RetryError, so upload_file can wrap it in ParaTranzUploadError.
+        reraise=True,
     )
 
 
@@ -81,7 +91,7 @@ class ClientWrapper:
         os.makedirs(self.cache_dir, exist_ok=True)
 
     @cached(cache=LRUCache(maxsize=1))  # type: ignore[misc]
-    @retry_after_429()
+    @retry_after_error()
     async def get_all_files(self) -> List[File]:
         cache_json_path = os.path.join(self.cache_dir, "all_files_cache.json")
         all_files_cache = AllFilesCache.read(cache_json_path)
@@ -102,13 +112,13 @@ class ClientWrapper:
         self._log_res("get_files", res)
         return [File.model_validate(f) for f in res.json()]
 
-    @retry_after_429()
+    @retry_after_error()
     async def get_file(self, file_id: int) -> File:
         res = await self.client.get(url=f"projects/{self.project_id}/files/{file_id}")
         self._log_res(f"get_file[file_id={file_id}]", res)
         return File.model_validate(res.json())
 
-    @retry_after_429()
+    @retry_after_error()
     async def _get_strings_by_page(
         self,
         sem: asyncio.Semaphore,
@@ -133,7 +143,7 @@ class ClientWrapper:
 
     async def get_strings(self, file_id: int) -> List[StringItem]:
         # concurrency number
-        sem = asyncio.Semaphore(10)
+        sem = asyncio.Semaphore(8)
 
         strings: List[StringItem] = list()
 
@@ -158,7 +168,7 @@ class ClientWrapper:
 
         return strings
 
-    @retry_after_429()
+    @retry_after_error()
     async def get_file_strings(self, file_id: int) -> List[StringItem]:
         # The paginated string list omits hidden entries; reconciliation must preserve them too.
         res = await self.client.get(url=f"projects/{self.project_id}/files/{file_id}/translation")
@@ -199,7 +209,7 @@ class ClientWrapper:
                 return f.id
         return None
 
-    @retry_after_429()
+    @retry_after_error()
     async def _create_file(self, paratranz_file: ParatranzFile) -> int:
         path = os.path.dirname(paratranz_file.file_name)
         res = await self.client.post(
@@ -210,7 +220,7 @@ class ClientWrapper:
         self._log_res(f"create_file[file={paratranz_file.file_name}, path={path}]", res)
         return File.model_validate(res.json()["file"]).id
 
-    @retry_after_429()
+    @retry_after_error()
     async def _update_file(self, file_id: int, paratranz_file: ParatranzFile) -> None:
         old_strings = await self.get_strings(file_id)
         old_strings_map: dict[str, StringItem] = {s.key: s for s in old_strings}
@@ -229,7 +239,7 @@ class ClientWrapper:
         )
         self._log_res(f"update_file[file_id={file_id}]", res)
 
-    @retry_after_429()
+    @retry_after_error()
     async def _save_file_extra(self, file_id: int, paratranz_file: ParatranzFile) -> None:
         res = await self.client.put(
             url=f"projects/{self.project_id}/files/{file_id}",
@@ -243,12 +253,12 @@ class ClientWrapper:
                 await self._upload_string(string)
 
         # concurrency number
-        sem = asyncio.Semaphore(10)
+        sem = asyncio.Semaphore(8)
         tasks = [upload(sem, string) for string in strings]
         await asyncio.gather(*tasks)
         logger.info("[upload_strings]finished_all: strings_count={}", len(strings))
 
-    @retry_after_429()
+    @retry_after_error()
     async def _upload_string(self, string: StringItem) -> None:
         res = await self.client.put(
             url=f"projects/{self.project_id}/strings/{string.id}",
@@ -256,7 +266,7 @@ class ClientWrapper:
         )
         self._log_res(f"upload_strings[string_id={string.id}]", res)
 
-    @retry_after_429()
+    @retry_after_error()
     async def rename_file(self, file_id: int, target: ParatranzFile) -> None:
         res = await self.client.put(
             url=f"projects/{self.project_id}/files/{file_id}",
@@ -264,7 +274,7 @@ class ClientWrapper:
         )
         self._log_res(f"rename_file[file_id={file_id}]", res)
 
-    @retry_after_429()
+    @retry_after_error()
     async def delete_file(self, file_id: int) -> None:
         res = await self.client.delete(url=f"projects/{self.project_id}/files/{file_id}")
         self._log_res(f"delete_file[file_id={file_id}]", res)
