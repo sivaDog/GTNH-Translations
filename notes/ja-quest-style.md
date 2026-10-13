@@ -174,6 +174,10 @@ InGame Info XML は `ja_JP/config/txloader/load/InGame Info XML[ingameinfo]/lang
 
 `restore_drafts_after_merge.sh` は merge 直前の `HEAD^1`（作業ブランチ側）から **`[下書き]`** を読み、upstream ベースの `ja_JP.lang` へ **置換または新規挿入** します。`[自訳]` / `[提出済み]` はスクリプト対象外なので、消えたら作業ブランチ側から手で戻す。`sync-verified-quests.sh` は同期前に `tools/check_quest_lang_coverage.py` で ID リストと lang の欠落を検査します。
 
+**引数なしで使うこと。** 既定の `HEAD^1` は作業ブランチの直前状態なので、整理済みのエントリが戻ることはありません。古いスナップショット（`_progress-snapshot_*.lang` など）をパスで渡すと、`overlay_draft_quests.py` が**新規挿入**まで行うため、意図的に削除したクエストが `[下書き]` として復活します。
+
+**`[廃案]` は復元対象外です。** `DRAFT_MARKERS` は `[下書き]` / `[自訳]` / `[提出済み]` の 3 つだけで、scope から外したクエスト（`notes/quest-retired-2.8.4.lang`）はこのスクリプトでは触りません。インスタンス側の `[廃案]` は `merge_quest_lang_overlay.py` が素通しするので、同期しても残ります。
+
 消失の検証（`.desc=` / quest ID 件数比較）:
 
 ```bash
