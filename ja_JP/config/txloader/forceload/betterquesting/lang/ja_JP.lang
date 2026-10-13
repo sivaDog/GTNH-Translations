@@ -6880,7 +6880,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwQ.desc=電子管は、農場を特別�
 # Quest: Iron, Golden, Diamantine Tubes
 # EN name: Iron, Golden, Diamantine Tubes
 # EN desc: Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.%n%nUse a soldering iron to attach an electron tube to a circuit board.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwg.name=[下書き]鉄・金・ダイヤモンドの電子管
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwg.name=鉄、金、ダイヤモンドの電子管
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEwg.desc=電子管は、農場を特別な種類の作物に設定するために使用され、エンジン、収穫場、および一部の製作レシピで使用できます。%n%nはんだごてを使用して、電子管を回路基板に取り付けます。
 
 # Quest: Rubberised, Obsidian, Lapis Tubes
@@ -15617,11 +15617,5 @@ betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.desc=No Description
 
 # Restored draft quests (were missing from repo lang)
 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOA.name=[下書き]遺伝学者の道具
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOA.desc=遺伝物質を操作し始める前に、さまざまな道具と資材が必要になります。
 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHog.name=[下書き]分析機
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHog.desc=§7《§r分析機§7／Analyzer》§rはForestryの分析機と同じように、蜂・樹木・蝶・花のゲノムを明らかにする機械です。DNA配列上の遺伝子を明らかにするためにも使えます。Forestryの分析機とは異なり、分析機は電力(RFまたはEU)と§7《§rDNA染色剤§7／DNA Dye》§rを使って染色体を染色し、直接ゲノムを判定します。1個体の分析に15秒かかります。%n%nこれらのクエストの情報はBinnieのwiki [url]https://binnie.mods.wiki/wiki/Tutorial/Genetics[/url] から引用しました。
 
-betterquesting.quest.A462Q2yHRleMxFZCeNzhuA.name=[下書き]接続機
-betterquesting.quest.A462Q2yHRleMxFZCeNzhuA.desc=§7《§r接続機§7／Splicer》§rは機能面では§7《§r接種機§7／Inoculator》§rに非常によく似ていますが、液体を必要としない利点があります。%n%n接続機は§7《§rDNAシーケンサー§7／Sequencer》§rからゲノムテンプレートを受け取り、DNAを「接続」して蜂の遺伝子を変更できます。%n%n接種機と比べた主な欠点は、ブロックのコスト増と、それに見合う大幅な電力消費です。
