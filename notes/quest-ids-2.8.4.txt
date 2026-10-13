@@ -7,6 +7,13 @@
 # plus Novice Thaumaturgy / 初歩的な魔導学 (末尾セクション),
 # plus Pickups / 章外の個別クエスト (末尾セクション).
 # sync-verified-quests.sh only overlays IDs listed here. Chapter membership does not matter.
+# Retired from scope (present in 2.8.4, keys removed upstream in 2.9/master):
+#   AAAAAAAAAAAAAAAAAAAIOA ToolsfortheGeneticist / AAAAAAAAAAAAAAAAAAAHog Analyzer
+#   A462Q2yHRleMxFZCeNzhuA Splicer
+#   Their drafts stay in the instance marked [廃案] and are preserved by
+#   merge_quest_lang_overlay.py. Recovery source: notes/quest-retired-2.8.4.lang.
+#   Do not re-add here: ja_JP.lang no longer carries these keys and the
+#   coverage check would fail.
 AAAAAAAAAAAAAAAAAAAB9A
 AAAAAAAAAAAAAAAAAAAK0A
 AAAAAAAAAAAAAAAAAAAF7A
@@ -42,7 +49,6 @@ AAAAAAAAAAAAAAAAAAAD5A
 AAAAAAAAAAAAAAAAAAAIOg
 AAAAAAAAAAAAAAAAAAAIIg
 AAAAAAAAAAAAAAAAAAAB-A
-AAAAAAAAAAAAAAAAAAAIOA
 AAAAAAAAAAAAAAAAAAAFVw
 AAAAAAAAAAAAAAAAAAAEVw
 AAAAAAAAAAAAAAAAAAAIPA
@@ -57,7 +63,6 @@ AAAAAAAAAAAAAAAAAAAINA
 AAAAAAAAAAAAAAAAAAAI7g
 AAAAAAAAAAAAAAAAAAAINg
 AAAAAAAAAAAAAAAAAAAB-g
-AAAAAAAAAAAAAAAAAAAHog
 AAAAAAAAAAAAAAAAAAAIMA
 AAAAAAAAAAAAAAAAAAAB_A
 AAAAAAAAAAAAAAAAAAACAg
@@ -72,7 +77,6 @@ AAAAAAAAAAAAAAAAAAACBg
 AAAAAAAAAAAAAAAAAAAB_g
 AAAAAAAAAAAAAAAAAAAB_w
 AAAAAAAAAAAAAAAAAAAINw
-A462Q2yHRleMxFZCeNzhuA
 AAAAAAAAAAAAAAAAAAACBQ
 AAAAAAAAAAAAAAAAAAACAA
 AAAAAAAAAAAAAAAAAAAB_Q
