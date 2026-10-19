@@ -8420,16 +8420,20 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADJg.name=ラポトロンクリスタル
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADJg.desc=まずHVの §7《§rミキサー§7／Mixer》§r でラピスラズリの粉と §7《§rエネルジウムの粉§7／Energium Dust》§r を混合し、 §7《§rラポトロンの粉§7／Lapotron Dust》§r をクラフトします。%n%nこれを §7《§rオートクレーブ§7／Autoclave》§r を使って結晶化させ、 §7《§r未完成のラポトロンクリスタル§7／Raw Lapotron Crystal》§r へ処理します。%n%n最後にEVの §7《§r組立機§7／Assembler》§r でHVの電子回路とクラフトすることで、 §7《§rラポトロンクリスタル§7／Lapotron Crystal》§r が完成します。%n%nラポトロンクリスタルは1,000万EUの蓄電容量を持つEV電圧の蓄電池として機能します。
 
 # Quest: EV Battery Buffer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g.name=蓄電器 (EV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g.desc=It's EV, OK?%n%n[note]Make one of these.[/note]
+# EN name: EV Battery Buffer
+# EN desc: It's EV, OK?%n%n[note]Make one of these.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g.name=[提出済み]蓄電器 (EV)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g.desc=EVまで来たんだから、作れるよね？%n%n[note]いずれか1台作ってください。[/note]
 
 # Quest: EV Sunnarium Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A.name=EVのサナリウム電池
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A.desc=Small Sunnarium batteries are EV tier. Some might think they're cheaper than Lapotrons, but it depends on Sunnarium. And they hold less energy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A.name=[提出済み]EVのサナリウム電池
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A.desc=§7《§r小型サナリウム蓄電池§7／Small Sunnarium Battery》§r はEV電圧の蓄電池です。ラポトロンクリスタルより安いと考える人もいますが、それはサナリウムの入手量次第です。蓄電容量もより少なくなります。
 
 # Quest: EV GT++ Batteries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q.name=EV GT++ Batteries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q.desc=Want cheaper EV batteries? Mash your old ones together, and somehow it works!
+# EN name: EV GT++ Batteries
+# EN desc: Want cheaper EV batteries? Mash your old ones together, and somehow it works!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q.name=[提出済み]EVのGT++蓄電池
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q.desc=より安いEVの蓄電池が欲しいですか？古い蓄電池を寄せ集めれば、なぜかそれで動きます！
 
 # Quest: Low Voltage Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8g.name=変圧器 (LV)
@@ -8448,24 +8452,30 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q.name=超強力変圧器 (LV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q.desc=さらに多くのアンペアが必要なら、超強力変圧器を作りましょう。これは16Aを64Aに変換します。モード切替はこれまで通り、ソフトマレットで行えます。
 
 # Quest: MV Battery Buffers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg.name=蓄電器 (MV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg.desc=You'll probably want MV battery buffers as well.%n%n[note]You only need to make one of these battery buffers.[/note]
+# EN name: MV Battery Buffers
+# EN desc: You'll probably want MV battery buffers as well.%n%n[note]You only need to make one of these battery buffers.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg.name=[提出済み]蓄電器 (MV)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg.desc=MVの蓄電器も用意しておくとよいでしょう。%n%n[note]リストに載っている蓄電器は、いずれか1台作れば十分です。[/note]
 
 # Quest: MV Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOw.name=蓄電池 (MV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOw.desc=高性能な機械には、より高性能な蓄電池が必要です。蓄電池を作るときはリチウムが最良の素材です。%n%n[note]リストに載っている種類の蓄電池を、いずれか1種類4個作れば十分です。[/note]
 
 # Quest: HV Battery Buffers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.name=蓄電器 (HV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.desc=You'll probably want HV battery buffers as well.%n%n[note]You only need to make one of these.[/note]
+# EN name: HV Battery Buffers
+# EN desc: You'll probably want HV battery buffers as well.%n%n[note]You only need to make one of these.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.name=[提出済み]蓄電器 (HV)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.desc=HVの蓄電器も用意しておくとよいでしょう。%n%n[note]リストに載っている蓄電器は、いずれか1台作れば十分です。[/note]
 
 # Quest: HV Battery Hulls
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw.name=HVの蓄電池筐体
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw.desc=高性能な機械には、より高性能な蓄電池が必要です。新しい蓄電池用のHVの蓄電池筐体を製作しましょう。%n%n製作する蓄電池の種類は自由に選べますが、現実的にはナトリウムかリチウムが主流となるでしょう。
 
 # Quest: HV Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA.name=HV Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries, at least for LV-HV.%n%n[note]You only need four batteries of one listed type.[/note]
+# EN name: HV Battery
+# EN desc: Better machines need some better batteries. Lithium is the best material to use when making batteries, at least for LV-HV.%n%n[note]You only need four batteries of one listed type.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA.name=[提出済み]蓄電池 (HV)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA.desc=高性能な機械には、より高性能な蓄電池が必要です。蓄電池を作るときは、少なくともLVからHVまではリチウムが最良の素材です。%n%n[note]リストに載っている種類の蓄電池を、いずれか1種類4個作れば十分です。[/note]
 
 # Quest: EU packets flowing everywhere...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig.name=EU packets flowing everywhere...
@@ -11716,8 +11726,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdg.name=樹脂種 - 粘性樹脂
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdg.desc=いちいちツリータップを使うのは面倒ですか？ぜひこれをお試しください！樹脂種は粘玉種と泥炭種を交配することで入手できますが、巣の下にゴムの木の原木を設置しておく必要があります。
 
 # Quest: Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.name=石油種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.desc=Finally, Black Gold. The Oil bee, with proper... encouragement... can take care of all your power and chemical needs for quite some time. An alternate bee, Oily, requires less processing to get oil but has a longer breeding chain. It is below the Magical bees. Breed them from Coal and Sticky Resin.
+# EN name: Oil
+# EN desc: Finally, Black Gold. The Oil bee, with proper... encouragement... can take care of all your power and chemical needs for quite some time. An alternate bee, Oily, requires less processing to get oil but has a longer breeding chain. It is below the Magical bees. Breed them from Coal and Sticky Resin.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.name=[提出済み]石油種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.desc=ついに、黒い黄金の登場です。石油種は、適切な……励まし……さえあれば、当分の間、電力と化学製品の需要をすべて賄ってくれるでしょう。別の蜂である油質種は、石油を得るまでの加工工程が少なくて済みますが、その分、交配経路が長くなります。魔法の蜂の下にあります。石炭種と樹脂種を交配してみましょう。
 
 # Quest: Coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.name=石炭種
