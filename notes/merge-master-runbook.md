@@ -42,6 +42,8 @@
 - 作業ブランチでの `git reset --hard` / `git checkout -- .` / `git restore .` / `git clean`
   （ワイルドカードで作業ツリー全体を戻すコマンドは全部禁止。戻すのは**名前を挙げたファイルだけ**）
 - `git rebase`、`git commit --amend`、`--no-verify`
+- 複数行のコミットメッセージ（本文や `Co-Authored-By` 行を付けない。**メッセージは1行**）。
+  コンフリクトを解決した後の `git commit --no-edit` は `# Conflicts:` 行が残って複数行になるので使わない（8章の `-m` を使う）
 - `git stash drop` / `git stash clear` を、復元内容を確認する前に実行すること
 - `master` にコミットすること、`master` 上のファイルを編集すること
 - `notes/` や `tools/` の未追跡ファイルを消すこと（本人の作業データ）
@@ -86,13 +88,21 @@ git merge-base --is-ancestor master origin/master && echo FF-OK || echo FF-NG
 
 - `FF-NG` → 本家の履歴が書き換えられた（2026-07 に一度あった）。**10章: 停止して報告**
 
+補助スクリプトは作業ブランチにしかコミットされていないので、**master に切り替える前に一時フォルダへ取り出す**
+（取り出さずに master で `python tools/merge_master_helper.py` を実行すると「No such file」で止まる）。
+
 ```bash
+H="$(python -c 'import tempfile;print(tempfile.gettempdir())')/merge_master_helper.py"
+git show work/sivaDog-translations:tools/merge_master_helper.py > "$H"
 git checkout master
-python tools/merge_master_helper.py fix-tree   # 大文字小文字アーティファクトの掃除（5章参照）
+python "$H" fix-tree                           # 大文字小文字アーティファクトの掃除（5章参照）
 git merge --ff-only origin/master
-python tools/merge_master_helper.py fix-tree
+python "$H" fix-tree
 git status --short | grep -v '^??'             # 空であること
+python "$H" dupes HEAD origin/master           # 0 であること
 ```
+
+（作業ブランチに戻った後は `tools/merge_master_helper.py` を直接使ってよい。`$H` のままでも同じ。）
 
 - `git checkout master` が「Your local changes ... would be overwritten」で失敗したら 9章の該当行へ
 - `fix-tree` が "other changes left untouched" を出した場合、master に本物の変更があるのは異常
@@ -119,9 +129,9 @@ Windows ではこの2つが同じ1ファイルになるため、ブランチ切�
 
 ```bash
 git checkout work/sivaDog-translations
-python tools/merge_master_helper.py fix-tree
+python "$H" fix-tree
 git status --short | grep -v '^??'             # 空であること（3章で退避済みのため）
-git merge master --no-edit
+git merge master --no-edit                     # コンフリクト無しならここで1行メッセージのマージコミットができる
 ```
 
 - コンフリクトが無ければ「Merge made by the 'ort' strategy.」→ 8章へ
@@ -221,7 +231,7 @@ HEAD の大文字小文字重複、未解決ファイル。`verify: OK` でな�
 本家自体が LF のファイルや、本家の zh_CN にある重複キーなどは、マージのせいではないので NG にならない。
 
 ```bash
-ls .git/MERGE_HEAD && git commit --no-edit   # マージコミット（メッセージは既定のまま）
+ls .git/MERGE_HEAD && git commit -m "Merge branch 'master' into work/sivaDog-translations"
 git log --oneline -3
 ```
 
@@ -314,6 +324,8 @@ git stash drop stash@{0}
 | `git rm --cached` などが権限分類器にブロックされる | 一括の破壊的操作とみなされた | 1ファイルずつ明示して実行。それでもダメなら 10章（回避策を探さない） |
 | `.lang` を Python で書き直したら CRLF が LF になった | `open()` の改行変換 | 読み書きとも `newline=""` を指定する（補助スクリプトは対応済み）。`verify` で検出できる |
 | `lang` が「no unmerged .lang files」 | すでに解決済み、または `.lang` 以外だけがコンフリクト | `git diff --name-only --diff-filter=U` を確認 |
+| master で `python tools/merge_master_helper.py` が「No such file」 | スクリプトは作業ブランチにしか無い | 4章のとおり一時フォルダに取り出した `$H` を使う |
+| マージコミットのメッセージに `# Conflicts:` 行が入った | コンフリクト解決後に `--no-edit` でコミットした | まだプッシュ前なら人間に報告（amend は禁止事項なので自分ではしない） |
 
 ## 13. 終わったマージを後から点検する（人間・別エージェント向け）
 
