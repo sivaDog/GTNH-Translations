@@ -11656,8 +11656,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI8A.name=農的種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI8A.desc=ほとんどの農家と同じく、この蜂も実際に働くより、近所や天気の愚痴に時間を使っているようです。草原のようなバイオームが必要です。頑健種と田舎種を交配してみましょう。
 
 # Quest: Sandwich
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI8Q.name=昼食種 - サンドイッチ
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI8Q.desc=sudo make me a sandwich. Or a bee that makes sandwich parts anyways. Breed them from Batty and Agrarian.
+# EN name: Sandwich
+# EN desc: sudo make me a sandwich. Or a bee that makes sandwich parts anyways. Breed them from Batty and Agrarian.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI8Q.name=[提出済み]昼食種 - サンドイッチ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI8Q.desc=§a$ sudo make me a sandwich§r%nまあ、サンドイッチの材料を作る蜂でもいいけどね。蝙蝠種と農耕種を交配させよう。
 
 # Quest: Fertilizer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI8g.name=肥料種
