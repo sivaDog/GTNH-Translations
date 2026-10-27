@@ -110,4 +110,18 @@ Redstone Transmitter (External, 32741)、Redstone Receiver (External/Internal, 3
 `gt.item.large_fluid_cell.chrome` のように英名そのものが変わった例もある。
 
 **同種の照合をするときは、Tier 語・数字・色名を伏字にしてから比較すること。**
-(`ja-key-change-audit-2026-09-22.md` の `GONE_family_removed` 再検証でも同じ罠を踏んでいる)
+（2026-09-22 のキー変更監査でも同じ罠を踏んだ。その監査ノートは完了につき削除済み）
+
+### キー変更の類型（新キーの見つけ方、2026-09-22 の監査より）
+
+1. **ファイル移動（キーは同じ）** … `GregTech_ja_JP.lang` → `GregTech[miscutils]` / `[goodgenerator]` / `[tectech]` など。
+   ParaTranz では別ファイル = 別文字列なので訳が引き継がれない
+2. **キー変更（英文は同じ）** … `Interaction_DESCRIPTION_Index_*` → `GT5U.nei.*`、`*.tier.NN.tooltip` → `*.desc` など
+3. **Tier 別 → テンプレート統合** … `xxx.tier.NN.name`（10個前後）→ `xxx.name` = `X (%s)` / `%1$s X`。
+   多くは新キーで訳済み。転送するときは訳文の Tier 部分を `%s` に置き換える
+4. **アイコングリフ付き名 → `%s`** … 旧英文・旧訳の先頭に不可視の PUA 文字があり、新キーではそこが `%s`
+   （例: `MU-metaitem.01.32041.name` Puペレット → `MU-metaitem.01.rtg_pellet_pu238.name` = `%sPuペレット`）
+5. **ツールチップの Markdown 化** … `*.desc*` → `tooltip/*.md`（扱いは `paratranz-api-string-update.md` の「その他の注意」）
+
+同日に EN 側から消えた分を判定するときは、英語原文を削除コミット直前の `daily-history/**.lang` **全ファイル**から集める
+（EN は先に新ファイルへ移っているので、legacy の `daily-history/GregTech.lang` だけ見ると全件「英文が変わった」と誤判定する）。
