@@ -1,7 +1,7 @@
-Base {red:Heat} is determined by the {white:Heating Coils}
-Heat increases by {red:+{var:heat_per_tier}K} for every {white:Voltage} tier past {var:voltageTier_MV}
-{gray:{hr}}
-Every {red:{var:eu_reduction_heat}K} above the recipe requirement reduces {aqua:EU Usage} by {aqua:{var:eu_reduction}%}
-Every {red:{var:heat_per_poc}K} above the recipe requirement grants {light_purple:1 Perfect Overclock}
-Perfect Overclocks increase speed by 4x instead of 2x (100% energy efficient)
-{yellow:Certain fluids also reduce the base recipe duration}
+基本の {color_heat:Heat}は{color_name:発熱コイル}によって決定する
+{VNF:base_tier_for_heat_increase}より上位の{color_name:電圧}ごとに熱容量が{color_heat:+{var:heat_per_tier}{K}}上昇
+{hr}
+レシピの要求熱容量を{color_heat:{var:eu_reduction_heat}{K}}上回るごとに{EU}消費が{color_eu_usage:{var:eu_reduction}%}削減される
+レシピの要求熱容量を{color_heat:{var:heat_per_poc}{K}}上回るごとに{color_mechanic:パーフェクトオーバークロック}を獲得する
+パーフェクトOC1回ごとにEBFのレシピ実行速度が{color_speed:2倍}ではなく{color_speed:4倍}になる(効率100%のOC)
+{color_note:特定の流体を入力することでレシピ実行時間を削減することも可能です}
