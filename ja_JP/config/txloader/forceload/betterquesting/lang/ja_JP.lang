@@ -11988,8 +11988,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvQ.name=異国種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvQ.desc=この蜂は親と同様、毒に注意する必要があります。しかし、絹質の織布を生産する有用な蜂でもあります。厳粛種と熱帯種を交配してみましょう。
 
 # Quest: Thaumium Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvg.name=魔鉄種 - 魔導金属
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvg.desc=Thaumium is pretty easy to make, but with this bee you can automate and get enormous quantities. It requires a block of Thaumium. Breed them from Edenic and Ignis.
+# EN name: Thaumium Dust
+# EN desc: Thaumium is pretty easy to make, but with this bee you can automate and get enormous quantities. It requires a block of Thaumium. Breed them from Edenic and Ignis.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvg.name=[提出済み]魔鉄種 - 魔導金属
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvg.desc=魔導金属は簡単に作れますが、§7《§r魔鉄種§7／Thaumium Dust》§rなら自動化して大量に入手できます。巣の下に魔導金属ブロックが必要です。楽園種と火源種を交配してみましょう。
 
 # Quest: Skulking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvw.name=隠密種
