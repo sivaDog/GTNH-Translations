@@ -108,9 +108,9 @@ InGame Info XML は `ja_JP/config/txloader/load/InGame Info XML[ingameinfo]/lang
 - 例: `ingameinfoxml.tag.biome.desc=[下書き]バイオーム名。`
 - 下書き中は各行の直前に `# EN: <原文>` を置く。確定して `[自訳]` にするときに削除する
 - `§0`〜`§f` / `§etrue§r` / `%s` / `<space>` は原文のまま残す。`true` / `false` はタグの出力値なので訳さない
-- 反映は `./sync.sh igi`（instance の forceload と load を両方上書き）→ **ゲーム完全再起動**
+- 反映は `./sync.sh igi`（instance の load を上書き）→ **ゲーム完全再起動**
 - HUD 本体は `ja_JP/config/InGameInfoXML/InGameInfo_ja_JP.xml` で、この lang とは別物（sync 対象外）
-- **en_US.lang に無い実キーが 8 つある**。**正本の lang には入れない**（ParaTranz に原文が無く、キーを混ぜると 1:1 が崩れる）。`tools/build_ingameinfo_2_8_4_overlay.py` が sync 時に足す。jar の実装が引くキーに en_US が追従していないため、GUIにキー文字列が素通しで出る。ParaTranz の原文に無いので投稿できず、upstream 報告の対象
+- **en_US.lang に無い実キーが 8 つある**。**正本の lang には入れない**（ParaTranz に原文が無く、キーを混ぜると 1:1 が崩れる）。`tools/build_ingameinfo_overlay.py` が sync 時に足す。jar の実装が引くキーに en_US が追従していないため、GUIにキー文字列が素通しで出る。ParaTranz の原文に無いので投稿できず、upstream 報告の対象
   - 設定GUI: `setLanguageKey("ingameinfoxml.config." + プロパティ名)` なのでプロパティ名がそのままキー。`scale` → **`scale(new)`** に改名（旧 `scale` キーはもう効かない）、**`ShowHUD`** は GTNH 追加オプション
   - タグ一覧: `Tag.getLocalizedDescription()` が `"ingameinfoxml.tag." + タグ名 + ".desc"` を引く。**`bmlpNum`** / **`bmmaxlpNum`** / **`potionnegative`** / **`worldtimetotal`** の4件が未登録
   - 内訳: **改名2件**（`scale(new)` は `scale` の値を引き写すだけなので ParaTranz の更新に自動追従）と、**上流に対応キーが無い6件**（訳文はツールの表が持つ）
@@ -121,16 +121,9 @@ InGame Info XML は `ja_JP/config/txloader/load/InGame Info XML[ingameinfo]/lang
 ## 作業フロー（再掲）
 
 1. 訳は **ParaTranz** が本番。手元ブランチは下書き・用語揃え用
-2. 確認: `./sync-verified-quests.sh` → **ゲーム完全再起動**（ワールド再入場だけでは lang は載らない）
-   - sync 対象は `notes/quest-ids-2.8.4.txt` にあるクエストのみ。章を増やすときはその ID リストへ追加する
-   - 章ごとではなく個別クエストだけ載せる場合も、同じリストへ ID を足せばよい（末尾 `Pickups` セクション）。章に所属している必要はない。2.8.4 に存在する ID であることだけ確認する。現在: `AAAAAAAAAAAAAAAAAAAHeQ`（Gut-Enough / 活版印刷）、`AAAAAAAAAAAAAAAAAAAHeg`（Do You Feel Unlucky / 幸運本）
+2. 確認: `./sync.sh quests` → **ゲーム完全再起動**（ワールド再入場だけでは lang は載らない）
+   - クエストの lang をファイルごとインスタンスへコピーする（2.9 はリポジトリと同じ配置なので章や ID で絞らない）
    - `Coins, Coins, Coins` 章は 2.9+ で Vending Machine 化され upstream 対象外のため、翻訳作業対象に含めない
-   - `初歩的な魔導学`（Novice Thaumaturgy / questline `AAAAAAAAAAAAAAAAAAAAFg`）は `notes/quest-ids-2.8.4.txt` 末尾に **103 ID** 追加済み（2.8.4 章 99 + master 整合の 4）。未訳一覧は `notes/novice-thaumaturgy-gap.txt`（英語のまま残っているものは約 57 件）
-   - `交配の方蜂`（Be(e) Breeding / questline `AAAAAAAAAAAAAAAAAAAAEw`）は `notes/quest-ids-2.8.4.txt` に **170 ID** 済み。切り出しは `notes/quest-ids-bee-breeding.txt`、未訳一覧は `notes/bee-breeding-gap.txt`
-   - `EUの蓄電と変圧`（Storing and Transforming EU / questline `AAAAAAAAAAAAAAAAAAAAIQ`）は **69 ID** 済み（master のみの TurboCharger は除外）。切り出しは `notes/quest-ids-storing-and-transf.txt`
-   - `基本的な自動化`（Basic Automation / questline `AAAAAAAAAAAAAAAAAAAADg`）は **35 ID** 済み。2.8.4 と master は同一。切り出しは `notes/quest-ids-basic-automation.txt`
-   - `旅に出かけよう...`（Getting Around... / questline `bAal8kZ3R8eRTwaHgbYkKA`）は **71 ID** 済み（master のみの ChaosLocator は除外）。切り出しは `notes/quest-ids-getting-around.txt`
-   - `花の力`（Flower Power / questline `AAAAAAAAAAAAAAAAAAAAIA`）は **44 ID** 済み（2.8.4 Quests/FlowerPower と同一）。切り出しは `notes/quest-ids-flower-power.txt`
 3. `/bq_admin default load` はクエスト JSON 用。lang のリロードコマンドではない
 
 ## レビュー観点チェックリスト
@@ -159,7 +152,7 @@ InGame Info XML は `ja_JP/config/txloader/load/InGame Info XML[ingameinfo]/lang
 - 訳を確定して `[自訳]` にするときに、対応する英語原文コメントを削除する
 - ParaTranz へ投稿したら、手元の `[自訳]` を `[提出済み]` にする
 
-1. 手元の `ja_JP.lang` を編集 → `./sync-verified-quests.sh` → ゲーム再起動で確認  
+1. 手元の `ja_JP.lang` を編集 → `./sync.sh quests` → ゲーム再起動で確認  
 2. **見た目・文言が確定してから** git commit / push（下書き段階ではコミットしない）  
 3. 公式反映は ParaTranz へ確定文を投稿（手元マークは外した文面）
 
@@ -169,14 +162,12 @@ InGame Info XML は `ja_JP/config/txloader/load/InGame Info XML[ingameinfo]/lang
 
 ```bash
 ./tools/restore_drafts_after_merge.sh
-./sync-verified-quests.sh
+./sync.sh quests
 ```
 
-`restore_drafts_after_merge.sh` は merge 直前の `HEAD^1`（作業ブランチ側）から **`[下書き]`** を読み、upstream ベースの `ja_JP.lang` へ **置換または新規挿入** します。`[自訳]` / `[提出済み]` はスクリプト対象外なので、消えたら作業ブランチ側から手で戻す。`sync-verified-quests.sh` は同期前に `tools/check_quest_lang_coverage.py` で ID リストと lang の欠落を検査します。
+`restore_drafts_after_merge.sh` は merge 直前の `HEAD^1`（作業ブランチ側）から **`[下書き]`** を読み、upstream ベースの `ja_JP.lang` へ **置換または新規挿入** します。`[自訳]` / `[提出済み]` はスクリプト対象外なので、消えたら作業ブランチ側から手で戻す。
 
 **引数なしで使うこと。** 既定の `HEAD^1` は作業ブランチの直前状態なので、整理済みのエントリが戻ることはありません。古いスナップショット（`_progress-snapshot_*.lang` など）をパスで渡すと、`overlay_draft_quests.py` が**新規挿入**まで行うため、意図的に削除したクエストが `[下書き]` として復活します。
-
-**`[廃案]` は復元対象外です。** `DRAFT_MARKERS` は `[下書き]` / `[自訳]` / `[提出済み]` の 3 つだけで、scope から外したクエスト（`notes/quest-retired-2.8.4.lang`）はこのスクリプトでは触りません。インスタンス側の `[廃案]` は `merge_quest_lang_overlay.py` が素通しするので、同期しても残ります。
 
 消失の検証（`.desc=` / quest ID 件数比較）:
 
@@ -185,8 +176,7 @@ python tools/compare_quest_lang_snapshots.py \
   "backup-20260718=/path/to/_backup_ja_JP_.../load_betterquesting_ja_JP.lang" \
   "pre-merge=/tmp/pre-merge.lang" \
   "current=ja_JP/config/txloader/forceload/betterquesting/lang/ja_JP.lang" \
-  --baseline pre-merge \
-  --id-list notes/quest-ids-2.8.4.txt
+  --baseline pre-merge
 ```
 
 `pre-merge.lang` は `git show HEAD^1:ja_JP/config/txloader/forceload/betterquesting/lang/ja_JP.lang` などで取得します。

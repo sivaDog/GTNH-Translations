@@ -123,7 +123,7 @@ DeepL 利用時はこれらが落ちやすいので、原文と必ず突合す�
 ## 作業フロー
 
 1. 訳は **ParaTranz** が本番。手元ブランチは下書き・用語揃え用
-2. 手元の dreamcraft `ja_JP.lang` を編集 → `./sync-verified-thaums.sh`（クエストとまとめてなら `./sync.sh`）→ **完全再起動**してソーモノミコンで確認
+2. 手元の dreamcraft `ja_JP.lang` を編集 → `./sync.sh thaums`（クエストなどとまとめてなら `./sync.sh`）→ **完全再起動**してソーモノミコンで確認
 3. `[下書き]` の間は、訳文の直前に比較用の英語原文をコメントで残す
    - `# EN name: ...`
    - `# EN text: ...`
@@ -133,7 +133,7 @@ DeepL 利用時はこれらが落ちやすいので、原文と必ず突合す�
 5. **見た目・文言が確定してから** git commit / push（下書き段階ではコミットしない）
 6. ParaTranz へ確定文を投稿したら、手元の `[自訳]` を `[提出済み]` にする
 
-`./sync-verified-thaums.sh` は dreamcraft の `ja_JP.lang` を 2.8.4 インスタンスへ上書きする。ゲームが見るのは `forceload`（TX-Loader 1.8.5）。`./sync.sh` でクエストと一括、`./sync.sh thaums` でこれだけ。
+`./sync.sh thaums` は dreamcraft の `ja_JP.lang` を 2.9 インスタンスの `load/GT_ New Horizons[dreamcraft]` へ上書きする。`./sync.sh` ならクエストなどと一括。
 
 ## レビュー観点チェックリスト
 

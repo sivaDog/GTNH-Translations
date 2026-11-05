@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Shared helpers for the sync-verified-*.sh scripts.
+# Shared helpers for sync.sh.
 #
 # Source it after REPO_ROOT is set:
 #   . "$REPO_ROOT/tools/sync-common.sh"

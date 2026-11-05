@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Add the keys InGameInfoXML 2.8.30 actually looks up but en_US.lang never declares.
+"""Add the keys InGameInfoXML actually looks up but en_US.lang never declares.
 
 `ja_JP/config/txloader/load/InGame Info XML[ingameinfo]/lang/ja_JP.lang` is the
 ParaTranz mirror and must stay 1:1 with en_US (274 keys). The GTNH fork of
@@ -18,12 +18,13 @@ Two kinds of entry:
 * EXTRA - GTNH added the feature outright, so no upstream key carries the text
   and it has to be written out here.
 
-Verified against InGameInfoXML-2.8.30.jar with javap on 2026-09-21:
+Verified against InGameInfoXML-2.8.30.jar with javap on 2026-09-21; the same
+keys are still missing from InGameInfoXML-2.9.8.jar (GTNH 2.9.0) on 2026-11-05:
 `setLanguageKey("ingameinfoxml.config." + <property name>)` and
 `Tag.getLocalizedDescription()` = `"ingameinfoxml.tag." + <tag name> + ".desc"`.
 
 Usage:
-  python tools/build_ingameinfo_2_8_4_overlay.py --source-lang <lang> --output <lang>
+  python tools/build_ingameinfo_overlay.py --source-lang <lang> --output <lang>
 """
 
 from __future__ import annotations
@@ -69,9 +70,9 @@ EXTRA: dict[str, tuple[str, str]] = {
     ),
 }
 
-HEADER = "# ---- ここから下は sync 時に tools/build_ingameinfo_2_8_4_overlay.py が生成 ----"
+HEADER = "# ---- ここから下は sync 時に tools/build_ingameinfo_overlay.py が生成 ----"
 NOTE = [
-    "# 2.8.30 jar が実際に引くのに en_US.lang が宣言していないキー。ParaTranz に原文が無いので",
+    "# jar が実際に引くのに en_US.lang が宣言していないキー。ParaTranz に原文が無いので",
     "# 正本の lang には入れず、インスタンスへ配るときだけ足している。直接編集しても次の sync で消える。",
 ]
 
@@ -123,7 +124,7 @@ def main() -> int:
         out.append("# %s" % why)
         out.append("%s=%s" % (key, value))
 
-    io.open(args.output, "w", encoding="utf-8", newline=newline).write(newline.join(out))
+    io.open(args.output, "w", encoding="utf-8", newline="").write(newline.join(out))
     # The output is a temp file; printing its path would leak the home directory.
     print("overlay: %d keys (%d aliases + %d extra)"
           % (len(ALIASES) + len(EXTRA), len(ALIASES), len(EXTRA)))

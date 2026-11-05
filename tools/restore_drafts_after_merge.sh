@@ -24,4 +24,4 @@ if [[ -z "$SOURCE" ]]; then
 fi
 
 python "$REPO_ROOT/tools/overlay_draft_quests.py" "$SOURCE" "$TARGET"
-echo "Done. Run ./sync-verified-quests.sh and restart Minecraft to verify."
+echo "Done. Run ./sync.sh quests and restart Minecraft to verify."

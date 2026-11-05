@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Sync verified ja_JP overlays into the GTNH 2.8.4 Prism instance.
+# Sync ja_JP translations from this repo into the GTNH 2.9 Prism instance.
 #
 # Usage:
 #   ./sync.sh              # quests + thaums + igi + lt + nc + su
@@ -11,76 +11,107 @@
 #   ./sync.sh su           # ServerUtilities only
 #   INSTANCE_MC=/path/to/.minecraft ./sync.sh
 #
+# 2.9 installs the translation pack in this repo's layout, so every file goes to
+# the same path under the instance: ja_JP/<rel> -> <instance>/<rel>. The file
+# must already exist there; a missing one means INSTANCE_MC is not a 2.9
+# instance with the translation pack installed.
+#
+# InGame Info XML is built on the way out: the jar looks up keys en_US never
+# declares, and tools/build_ingameinfo_overlay.py appends them.
+#
 # The instance path comes from INSTANCE_MC, or from INSTANCE_MC in .env
 # (gitignored). Nothing machine-specific is stored in this repo.
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
-TARGET="${1:-all}"
+. "$REPO_ROOT/tools/sync-common.sh"
+
+TARGETS=(quests thaums igi lt nc su)
+declare -A REL_LANG=(
+  [quests]="config/txloader/forceload/betterquesting/lang/ja_JP.lang"
+  [thaums]="config/txloader/load/GT_ New Horizons[dreamcraft]/lang/ja_JP.lang"
+  [igi]="config/txloader/load/InGame Info XML[ingameinfo]/lang/ja_JP.lang"
+  [lt]="config/txloader/load/LittleTiles[littletiles]/lang/ja_JP.lang"
+  [nc]="config/txloader/load/Nuclear Control 2[nuclearcontrol]/lang/ja_JP.lang"
+  [su]="config/txloader/load/ServerUtilities[serverutilities]/lang/ja_JP.lang"
+)
 
 usage() {
-  echo "Usage: $0 [all|quests|thaums|igi|lt|nc|su]" >&2
+  (IFS='|'; echo "Usage: $0 [all|${TARGETS[*]}]" >&2)
 }
 
+TARGET="${1:-all}"
 case "$TARGET" in
-  all|quests|thaums|igi|lt|nc|su) ;;
+  all) selected=("${TARGETS[@]}") ;;
   -h|--help)
     usage
     exit 0
     ;;
   *)
-    echo "Unknown target: $TARGET" >&2
-    usage
-    exit 1
+    if [[ -z "${REL_LANG[$TARGET]:-}" ]]; then
+      echo "Unknown target: $TARGET" >&2
+      usage
+      exit 1
+    fi
+    selected=("$TARGET")
     ;;
 esac
+
+resolve_instance_mc
+if [[ ! -d "$INSTANCE_MC/config/txloader" ]]; then
+  echo "Missing instance txloader config: $(short_path "$INSTANCE_MC")" >&2
+  echo "Set INSTANCE_MC in .env or pass it inline." >&2
+  exit 1
+fi
+
+missing=0
+for target in "${selected[@]}"; do
+  rel="${REL_LANG[$target]}"
+  if [[ ! -f "$REPO_ROOT/ja_JP/$rel" ]]; then
+    echo "Missing repo lang: $(short_path "$REPO_ROOT/ja_JP/$rel")" >&2
+    missing=1
+  fi
+  if [[ ! -f "$INSTANCE_MC/$rel" ]]; then
+    echo "Missing instance lang: $(short_path "$INSTANCE_MC/$rel")" >&2
+    missing=1
+  fi
+done
+if [[ "$missing" -eq 1 ]]; then
+  echo "Nothing written. Is INSTANCE_MC a 2.9 instance with the translation pack installed?" >&2
+  exit 1
+fi
+
+BUILT="$(mktemp "${TMPDIR:-/tmp}/gtnh-ja-sync.XXXXXX.lang")"
+cleanup() {
+  rm -f "$BUILT"
+}
+trap cleanup EXIT
 
 cd "$REPO_ROOT"
+echo "Repo:     $(short_path "$REPO_ROOT")"
+echo "Branch:   $(git branch --show-current 2>/dev/null || echo '(detached)')"
+echo "Instance: $(short_path "$INSTANCE_MC")"
 
-run_quests=0
-run_thaums=0
-run_igi=0
-run_lt=0
-run_nc=0
-run_su=0
-case "$TARGET" in
-  all)
-    run_quests=1
-    run_thaums=1
-    run_igi=1
-    run_lt=1
-    run_nc=1
-    run_su=1
-    ;;
-  quests) run_quests=1 ;;
-  thaums) run_thaums=1 ;;
-  igi) run_igi=1 ;;
-  lt) run_lt=1 ;;
-  nc) run_nc=1 ;;
-  su) run_su=1 ;;
-esac
+for target in "${selected[@]}"; do
+  rel="${REL_LANG[$target]}"
+  source_lang="$REPO_ROOT/ja_JP/$rel"
+  dst="$INSTANCE_MC/$rel"
 
-if [[ "$run_quests" -eq 1 ]]; then
-  echo "======== quests ========"
-  "$REPO_ROOT/sync-verified-quests.sh"
-fi
-if [[ "$run_thaums" -eq 1 ]]; then
-  echo "======== thaums ========"
-  "$REPO_ROOT/sync-verified-thaums.sh"
-fi
-if [[ "$run_igi" -eq 1 ]]; then
-  echo "======== igi ========"
-  "$REPO_ROOT/sync-verified-igi.sh"
-fi
-if [[ "$run_lt" -eq 1 ]]; then
-  echo "======== lt ========"
-  "$REPO_ROOT/sync-verified-lt.sh"
-fi
-if [[ "$run_nc" -eq 1 ]]; then
-  echo "======== nc ========"
-  "$REPO_ROOT/sync-verified-nc.sh"
-fi
-if [[ "$run_su" -eq 1 ]]; then
-  echo "======== su ========"
-  "$REPO_ROOT/sync-verified-su.sh"
-fi
+  echo "======== $target ========"
+  for mark in 下書き 自訳 提出済み; do
+    n="$(grep -c "^[^#].*=\[$mark\]" "$source_lang" || true)"
+    [[ "$n" -gt 0 ]] && echo "Marks:    [$mark] $n 件"
+  done
+
+  if [[ "$target" == igi ]]; then
+    MSYS2_ARG_CONV_EXCL='*' python "$(winpath "$REPO_ROOT/tools/build_ingameinfo_overlay.py")" \
+      --source-lang "$(winpath "$source_lang")" \
+      --output "$(winpath "$BUILT")"
+    cp "$BUILT" "$dst"
+  else
+    cp "$source_lang" "$dst"
+  fi
+  echo "Wrote $(short_path "$dst")"
+done
+
+echo "Done. Restart Minecraft (or switch language EN->JA) to apply."
