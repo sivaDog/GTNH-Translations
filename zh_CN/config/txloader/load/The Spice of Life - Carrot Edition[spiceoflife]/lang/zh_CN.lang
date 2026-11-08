@@ -52,3 +52,11 @@ spiceoflife.gui.title.lunchbag=午餐袋
 item.spiceoflife.bookfoodjournal.name=膳食记录
 item.spiceoflife.lunchbox.name=午餐盒
 item.spiceoflife.lunchbag.name=午餐袋
+
+# Chats
+spiceoflife.chat.foodstats=§l§3%s§r的食物属性：
+spiceoflife.chat.foodstats.eaten=已食用的饥饿值：%s
+spiceoflife.chat.foodstats.bonus=生命上限奖励：%s
+spiceoflife.chat.foodstats.next=至下次生命上限奖励所需的饥饿值：%s
+spiceoflife.chat.foodstats.sync=已同步%s的食物记录
+spiceoflife.chat.reset=重置%s的所有“生活调味料”模组数据

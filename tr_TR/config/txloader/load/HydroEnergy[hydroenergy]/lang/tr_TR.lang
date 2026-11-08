@@ -1,5 +1,8 @@
 fluid.Pressurized Water=Basınçlı Su
 
+gt.blockmachines.he_pump.name=%s Hidro Pompası
+gt.blockmachines.he_turbine.name=%s Hidro Türbini
+
 tile.water0.name=Su
 tile.water1.name=Su
 tile.water2.name=Su

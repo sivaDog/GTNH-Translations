@@ -1,8 +1,8 @@
-Module that adds Space Pumping Operations to the Space Elevator
-{light_purple:{bold:Literally sucks}}
+Uzay Asansörü'ne Uzay Pompalama Operasyonları ekleyen modül
+{light_purple:{bold:Kelimenin tam anlamıyla emiyor}}
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
-Set Planet and Gas Type determine pumped fluid
-Can be void protected by locking output hatches
-Runs at {VNF:voltageTier} with up to {color_parallel:4} parallels per recipe
-Processes up to {color_amount:4} different recipes at once
+Ayarlanan Gezegen ve Gaz Tipi pompalanan sıvıyı belirler
+Çıktı kapaklarını kilitleyerek hiçlik koruması yapılabilir
+{VNF:voltageTier} seviyesinde, tarif başına en fazla {color_parallel:4} paralel ile çalışır
+Aynı anda en fazla {color_amount:4} farklı tarifi işler
 {lang:gt.blockmachines.multimachine.project.ig.motorT3}

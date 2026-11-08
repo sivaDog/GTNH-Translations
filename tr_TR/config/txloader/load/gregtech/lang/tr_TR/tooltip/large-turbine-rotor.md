@@ -1,0 +1,1 @@
+Türbin gerekir, kontrolcünün içine yerleştir

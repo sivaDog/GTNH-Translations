@@ -165,6 +165,7 @@ particle.name.fmt=%s (%s)
 particle.photon=Фотон
 particle.zboson=Z Бозон
 particle.wboson=W Бозон
+particle.glueball=Glueball
 particle.higgs=Бозон Хиггса
 particle.graviton=Гравитон
 particle.electron=Электрон
@@ -180,6 +181,7 @@ particle.omega=Ω Омега
 particle.eta=Эта-мезон
 particle.jpsi=J/ψ-мезон
 particle.upsilon=Ипсилон
+particle.pion=Пион
 particle.alpha=α Альфа
 
 beamcrafting.energy_A=Мин. энергия 1

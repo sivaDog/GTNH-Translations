@@ -23,7 +23,7 @@ item.structurelib.frontRotationTool.desc.2=从而使整个结构可以旋转.
 
 item.structurelib.constructableTrigger.name=多方块机器全息投影仪
 item.structurelib.constructableTrigger.desc.0=触发可构造界面
-item.structurelib.constructableTrigger.desc.1=显示多方块结构全息投影,
+item.structurelib.constructableTrigger.desc.1=显示多方块结构全息投影，
 item.structurelib.constructableTrigger.desc.2=请对多方块控制器使用.
 item.structurelib.constructableTrigger.desc.3=(潜行右键控制器方块可直接构造)
 item.structurelib.constructableTrigger.desc.4=堆叠数量影响等级/模式/类型
@@ -40,6 +40,8 @@ item.structurelib.constructableTrigger.gui.wipe=§4清空
 item.structurelib.constructableTrigger.gui.wipe.confirm=§4确认？
 item.structurelib.constructableTrigger.gui.channels.from=§rMod：§9§o%s
 item.structurelib.constructableTrigger.gui.info=许多多方块结构支持一定程度的变化。可以使用子信道来指定变体。\n子信道的键由小写字符组成，值取正整数。最常使用的一些子信道可通过输入提示自动补全。\n你还可以从NEI中拖拽并放置物品来设置对应的子信道值。这些物品均有“§o对应子信道值X（子信道：Y）§r”的tooltip。
+
+item.structurelib.debugConstructableTrigger.name=Debug多方块机器全息投影仪
 
 channels.structurelib.show_errors=设置的话，将突出显示多方块结构中一定是错误的部分
 

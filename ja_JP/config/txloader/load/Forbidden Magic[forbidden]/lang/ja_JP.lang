@@ -59,6 +59,7 @@ item.RingNutrition.name=暴食の指輪
 item.TaintFruit.name=汚染された果実
 item.TaintCoal.name=ヘキサコール
 item.Sword_Dragonslayer.name=ドラゴンスレイヤーの剣
+item.consumption_cincture.name=消費の腰帯
 #
 # Wand components
 item.Wand.tainted.rod=汚染された
@@ -388,6 +389,10 @@ forbidden.research_page.TAINTHISTLE.1=無限の神秘的な力を手にしてい
 forbidden.research_name.SUBCOLLAR=苦痛の首輪
 forbidden.research_text.SUBCOLLAR=痛みと魔法
 forbidden.research_page.SUBCOLLAR.1=時として、人はただ傷つきたがる。利益があるならなおさらだ。<BR><BR>苦痛の首輪はVis貯蔵の魔除けの機能をすべて備えているほか、ダメージを受けるたびにVisを生成するというボーナスもついている。ダメージを受ければ受けるほど、より多くのVisが生成される。
+#
+forbidden.research_name.CONSUMPTIONCINCTURE=消費の腰帯
+forbidden.research_text.CONSUMPTIONCINCTURE=ダイエットなんて弱者のやること
+forbidden.research_page.CONSUMPTIONCINCTURE.1=最近、ベルトがきつくなってきている気がする。もっと大きいものを試してみたが、どうやら問題があるようだ。洗濯するとどれも縮んでしまう。夜食を楽しんでいると、急にはっきりとした解決策が思い浮かんだ。食欲を抑えるのではなく、むしろ増進するようなベルトを作るのだ。<BR><BR>消費の腰帯は、装着していると食料や飲み物、ポーションを瞬時に消費することができるようになる。さらに、胃がもう一口も食べられないと訴えるような満腹においても、どういうわけか食べ物が入り込む余地を生み出す。<BR><BR>デザートを少し多めに食べても、誰にも害はない。
 #
 # Lexicon
 forbidden.lexicon.euclidaisy=ユークリデイジー

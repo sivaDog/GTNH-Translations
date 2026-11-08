@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: Improved Dispenser Functionality
+  title: Geliştirilmiş Fırlatıcı İşlevselliği
   parent: misc.md
   icon: minecraft:dispenser
 categories:
-    - Miscellaneous Changes
+    - Diğer Değişiklikler
 author: koolkrafter5
 date: 2026-06-10
 ---
 
-The following items can now be shot out of a <ItemLink id="minecraft:dispenser"/> <ItemImage id="minecraft:dispenser"/>:
+Aşağıdaki eşyalar artık bir <ItemLink id="minecraft:dispenser"/> <ItemImage id="minecraft:dispenser"/> içinden fırlatılabilir:
 
 - <ItemImage id="ThaumicHorizons:alchemite"/>
 - <ItemImage id="ThaumicHorizons:boatGreatwood"/>

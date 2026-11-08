@@ -1,11 +1,11 @@
-Consumes {aqua:{var:power} EU/t}
-Can be supplied with {blue:{var:gas_rate} {var:unit}/s} of {gold:Noble Gases} to boost output
+{aqua:{var:power} EU/t} tüketir
+Çıktıyı artırmak için {blue:{var:gas_rate} {var:unit}/s} {gold:Soy Gazlar} ile beslenebilir
 {gold:Neon} : {green:{var:neon_boost}x}
-{aqua:Krypton} : {green:{var:krypton_boost}x}
-{dark_aqua:Xenon} : {green:{var:xenon_boost}x}
+{aqua:Kripton} : {green:{var:krypton_boost}x}
+{dark_aqua:Ksenon} : {green:{var:xenon_boost}x}
 {blue:Oganesson} : {green:{var:oganesson_boost}x}
-Produces {gold:{var:ores_per_second} Ores} per Second, drawn from the Dimension's Ore pool
-{gold:Ores} from the Controller UI or an {green:Input Bus} are added to the {light_purple:Whitelist/Blacklist}
-Toggle {light_purple:Whitelist/Blacklist} via the Controller UI or a {white:Screwdriver}
-Copy/paste the Ore filter with a {white:Data Stick}
-{dark_red:Blacklisted or non Whitelisted Ore will be VOIDED}
+Saniyede, Boyut'un Cevher havuzundan çekilen {gold:{var:ores_per_second} Cevher} üretir
+Kontrolcü arayüzünden veya bir {green:Input Bus} üzerinden gelen {gold:Cevher}, {light_purple:Beyaz Liste/Kara Liste}'ye eklenir
+{light_purple:Beyaz Liste/Kara Liste} arasında Kontrolcü arayüzünden veya bir {white:Screwdriver} ile geçiş yap
+Cevher filtresini {white:Data Stick} ile kopyala/yapıştır
+{dark_red:Kara listeye alınmış veya beyaz listeye alınmamış Cevher YOK EDİLİR}

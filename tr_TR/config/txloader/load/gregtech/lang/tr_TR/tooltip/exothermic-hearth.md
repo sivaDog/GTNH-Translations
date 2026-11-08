@@ -1,12 +1,12 @@
-{color_efficiency:-{var:eu_discount_percent}%} {EU} Usage per {color_heat:{var:discount_heat}{K}} above the recipe requirement
-{dark_red:{italic:Never one...}}
+{color_efficiency:-{var:eu_discount_percent}%} {EU} kullanım indirimi, tarif gereksiniminin üzerindeki her {color_heat:{var:discount_heat}{K}} için
+{dark_red:{italic:Asla bir tane değil...}}
 {hr}
-Increases Heat by {color_heat:+{var:heat_per_tier}{K}} for every {color_name:Voltage} Tier past {VNF:start_tier}
-Every {color_heat:{var:perfect_oc_heat}{K}} over the recipe requirement grants {color_mechanic:1 Perfect Overclock}
+{VNF:start_tier} sonrasındaki her {color_name:Gerilim} Kademesi için ısıyı {color_heat:+{var:heat_per_tier}{K}} artırır
+Tarif gereksinimini {color_heat:{var:perfect_oc_heat}{K}} aşan her miktar {color_mechanic:1 Mükemmel Hız Aşırtma} kazandırır
 {hr}
-While active, the machine will heat up and multiply its parallels up to {gold:{var:max_multiplier}x}
-Takes {color_time:{var:heatup_minutes} minutes} of constant running to reach maximum multiplier
-While not running, the machine will rapidly cool down
-Optionally, supply {color_key:{var:pyrotheum}-{var:max_pyrotheum} {L}/s} of {color_key:{fluid:pyrotheum}} to speed up heating by {color_mechanic:{var:pyrotheum_speedup}x}
-{color_key:{fluid:pyrotheum}} consumption scales linearly with the parallel multiplier
+Etkin durumda makine ısınır ve paralellerini {gold:{var:max_multiplier}x} değerine kadar katlar
+Maksimum çarpana ulaşmak için {color_time:{var:heatup_minutes} dakika} kesintisiz çalışma gerekir
+Çalışmıyorken makine hızla soğur
+İsteğe bağlı olarak, ısınmayı {color_mechanic:{var:pyrotheum_speedup}x} hızlandırmak için {color_key:{var:pyrotheum}-{var:max_pyrotheum} {L}/s} {color_key:{fluid:pyrotheum}} sağlayın
+{color_key:{fluid:pyrotheum}} tüketimi paralel çarpanla doğrusal olarak ölçeklenir
 {hr}
