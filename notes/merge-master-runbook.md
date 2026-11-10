@@ -257,6 +257,7 @@ python tools/merge_master_helper.py lang --mode stash
   作業中の変更はマーカーを更新しただけ（`UPSTREAM_CHANGED`）なら最新側を採る。
 
 ```bash
+git add <解決したファイルを名前で>            # これを先にしないと verify が「still unmerged」で NG になる
 python tools/merge_master_helper.py verify
 git reset -q                                  # stash pop が付けたステージングを外し、元の「未ステージの作業中変更」に戻す
 git stash show --stat stash@{0}               # stash の中身
