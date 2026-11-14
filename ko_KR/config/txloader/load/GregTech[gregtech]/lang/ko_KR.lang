@@ -2877,6 +2877,7 @@ gt.recipe.flotationcell=부유 선별기
 gt.recipe.treefarm=나무 성장 시뮬레이터
 gt.recipe.algae_pond=조류 연못
 gt.recipe.multiblockrockbreaker=암석 분쇄기
+gt.recipe.voidminer=Void Miner
 gt.recipe.category.abs_non_alloy_recipes=ABS 비합금 제조법
 
 # NEI keys
@@ -4855,6 +4856,8 @@ GT5U.multiblock.scanner.is_meta_tile_entity=§cMetaTileEntity가 null입니다!
 GT5U.nei.heat_capacity=열: %s K
 GT5U.nei.heat_capacity.material=코일: %s
 GT5U.nei.tier=등급: %s
+GT5U.nei.voidminer.total_weight=Total Weight: %s
+GT5U.nei.voidminer.weight=Weight: %s
 GT5U.nei.start_eu=시작: %s EU (Mk-%s)
 GT5U.nei.stages=단계: %s
 GT5U.nei.fuel=연료 밀도: %s EU/%s
@@ -7817,7 +7820,7 @@ for.bees.species.urghast=유어 가스트
 for.bees.species.snowqueen=눈의 여왕
 for.bees.species.space=우주
 for.bees.species.meteoriciron=운석 철
-for.bees.species.desh=데쉬
+for.bees.species.desh=데시
 for.bees.species.ledox=레독스
 for.bees.species.callistoice=칼리스토 아이스
 for.bees.species.mytryl=심우주미스릴
@@ -9894,6 +9897,7 @@ gt.block.longdistancepipe.0.name=장거리 유체 파이프라인 파이프
 gt.block.longdistancepipe.1.name=장거리 아이템 파이프라인용 파이프
 
 # Concretes
+gt.blockconcretes.any=Any GregTech Concrete
 gt.blockconcretes.0.name=짙은 콘크리트
 gt.blockconcretes.1.name=짙은 콘크리트 조약돌
 gt.blockconcretes.2.name=이끼 낀 짙은 콘크리트 조약돌

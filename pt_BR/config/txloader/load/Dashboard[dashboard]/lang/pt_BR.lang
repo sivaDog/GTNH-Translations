@@ -32,7 +32,7 @@ dashboard.editor.customize_tooltip.bars=Bars: themes, fill direction and numbers
 dashboard.editor.customize_tooltip.sections=Also the crosshair, status effects, screen overlays, hotbar and held items
 dashboard.editor.button.elements=Elements
 dashboard.editor.elements_tooltip=A list of the elements, to find hidden, small or covered ones
-dashboard.editor.elements_search.hint=Search...
+dashboard.editor.elements_search.hint=Procurar...
 dashboard.editor.elements_tooltip.hover=§6Hover§7 over a row to light up its element
 dashboard.editor.elements_tooltip.grab=§6Left-click§7 a row to pick its element up, click again to drop it
 dashboard.editor.elements_tooltip.toggle=§6Right-click§7 a row to show or hide its element
@@ -138,6 +138,12 @@ dashboard.element.gravisuite.status.own_settings=GraviSuite config > hudPosition
 
 dashboard.preview.gravisuite.mode=Gravitation Engine: ON
 dashboard.preview.gravisuite.energy=Energy Level: 100%
+
+## Hunger Overhaul
+dashboard.element.hungeroverhaul.health_status=Health Status
+dashboard.element.hungeroverhaul.health_status.description=Shows Hurt, Injured or Dying while your health is low
+dashboard.element.hungeroverhaul.hunger_status=Hunger Status
+dashboard.element.hungeroverhaul.hunger_status.description=Shows Peckish, Hungry or Starving while your food is low
 
 ## Galacticraft
 dashboard.element.galacticraft.oxygen=Oxygen & Temperature
@@ -435,6 +441,7 @@ dashboard.status_effects.pulse.seconds=%ss left
 dashboard.theme.vanilla=Vanilla
 
 # Config
+dashboard.config.title=Dashboard Configuration
 dashboard.config.open_editor=Open HUD Editor
 dashboard.config.open_editor.tooltip=Opens the HUD editor, to move, resize and hide parts of the HUD\nOnly while in a world, since the editor shows the HUD
 

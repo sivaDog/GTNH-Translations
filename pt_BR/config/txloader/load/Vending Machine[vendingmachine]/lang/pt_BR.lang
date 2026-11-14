@@ -13,6 +13,9 @@ vendingmachine.vendinguplink.me.no_cached_stacks=No stacks pending ME network in
 vendingmachine.vendinguplink.me.contains_cached_stacks=%s%d%s stacks pending ME network insertion:
 vendingmachine.vendinguplink.me.and_more_stacks=%sAnd %d more...
 
+# NEI
+vendingmachine.nei.title=Vending Machine
+
 # Gui
 vendingmachine.gui.requirementHeader=Requirements:
 vendingmachine.gui.requirement.unknown=Unknown Requirement
@@ -21,7 +24,7 @@ vendingmachine.gui.requirement.betterquesting.missing=Missing Quest
 vendingmachine.gui.item_eject=Eject Items
 vendingmachine.gui.coin_eject=Ejetar Todos as Moedas da Carteira
 vendingmachine.gui.single_coin_type_eject_hint=Shift-Click to Extract Coins from Wallet
-vendingmachine.gui.search=Search
+vendingmachine.gui.search=Procurar
 vendingmachine.gui.required_inputs=Requires:
 vendingmachine.gui.nc_inputs=Requires (Not Consumed):
 vendingmachine.gui.alternative_oredict=Accepts Oredict:
