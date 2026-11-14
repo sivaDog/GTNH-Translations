@@ -6757,8 +6757,10 @@ betterquesting.quest.wRh-bN4UTemsx4Wskrrb6w.name=§2§lChiseling the Way Greg In
 betterquesting.quest.wRh-bN4UTemsx4Wskrrb6w.desc=Another way to automatically chisel blocks to your heart's content, this time sponsored by GregoriousT himself!
 
 # Quest: The Beginnings of a Humble Chest Monster
-betterquesting.quest.zOwLuytjTFS18_K1we6TOw.name=§9§lThe Beginnings of a Humble Chest Monster
-betterquesting.quest.zOwLuytjTFS18_K1we6TOw.desc=Did you really think a single chest would suffice for your storage needs? Come back when you've made at least a few.%n%n[note]You can place chests next to each other by chiseling every other chest into a trapped chest![/note]
+# EN name: §9§lThe Beginnings of a Humble Chest Monster
+# EN desc: Did you really think a single chest would suffice for your storage needs? Come back when you've made at least a few.%n%n[note]You can place chests next to each other by chiseling every other chest into a trapped chest![/note]
+betterquesting.quest.zOwLuytjTFS18_K1we6TOw.name=[提出済み]§9§nささやかなチェストモンスターの始まり
+betterquesting.quest.zOwLuytjTFS18_K1we6TOw.desc=チェスト1つで収納が足りると本気で思いましたか？少なくともいくつか作ってから、また来てください。%n%n[note]1つおきにチェストをノミでトラップチェストに変えれば、チェストを隣り合わせに置けます！[/note]
 
 
 ## Quest Line: Forestry and Multifarms
@@ -11613,8 +11615,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.name=Smouldering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.desc=Smouldering drones will spawn blazes, and make Blaze Rods as their specialty. Breed the drones with your template princesses so you can prevent the harmful effects from destroying your base. Also, their Hellish temperature and Normal humidity requirements are interesting - use an Acclimatiser from Genetics to make the bee tolerant or other methods to adjust the biome. Must be bred in the Nether. Breed them from Ghastly and Hateful.%n%nTo get their Blaze Rod drop, however, you'll need to place them in a biome that matches their default requirements. Sorry.
 
 # Quest: Refined
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5Q.name=精製種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5Q.desc=Ah, here it is. This bee has been known to power whole civilizations. Placed in a top tier bee housing like an Alveary or Industrial Apiary, with appropriate frames, it can produce oil faster than some wells. In addition, you will get small amounts of Diesel fuel as well! Breed them from Oily and Distilled.
+# EN name: Refined
+# EN desc: Ah, here it is. This bee has been known to power whole civilizations. Placed in a top tier bee housing like an Alveary or Industrial Apiary, with appropriate frames, it can produce oil faster than some wells. In addition, you will get small amounts of Diesel fuel as well! Breed them from Oily and Distilled.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5Q.name=[提出済み]精製種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5Q.desc=ああ、ついに来ました。この蜂は文明をまるごと支えてきたことで知られています。大型養蜂箱や§7《§r産業用養蜂箱§7／Industrial Apiary》§rのような最上位の養蜂設備に入れ、適切な巣枠を使えば、ある種の油井よりも速く石油を生産できます。さらに、ディーゼル燃料も少し手に入ります！油質種と蒸留種を交配してみましょう。
 
 # Quest: Distilled
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5g.name=蒸留種
@@ -12555,8 +12559,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUA.name=シルキージュエル
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUA.desc=§7《§rシルキージュエル§7／Silky Jewel》§r は Tinkers' Construct の改造用アイテムです。%n同Modのツールに付与することで §7《§rシルキー§7／Silky》§r の改造を施せます。%nこれはシルクタッチのエンチャントのように動作し、通常回収できないブロックを回収できるようになります。%n%nGT鉱石をブロックのまま回収できるようになります。%n%n草ブロックや §7《§r呪われた土壌§7／Cursed Earth》§r を回収するのにも便利です。%n%n§9詳細な情報や作成方法については、 §7《§9ソーモノミコン§7／Thaumonomicon》§9 の §7《§9新地平術§7／New Horizons》§9 タブを参照してください。%n%n§7《§9エンチャントテーブル§7／Enchantment Table》§9 の研究が前提です。
 
 # Quest: Blub Blub Blub.....
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUg.name=Blub Blub Blub.....
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUg.desc=The brewing stand is really important for brewing the various potions like night vision, healing, haste and jump. Toxic potions or splash potions can be created too. You'll also need it to make a brewery.%n%nWith your basic wand you can finally create one. The recipes can be found on the GTNH page in the Thaumonomicon.
+# EN name: Blub Blub Blub.....
+# EN desc: The brewing stand is really important for brewing the various potions like night vision, healing, haste and jump. Toxic potions or splash potions can be created too. You'll also need it to make a brewery.%n%nWith your basic wand you can finally create one. The recipes can be found on the GTNH page in the Thaumonomicon.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUg.name=[提出済み]ぶくぶくぶく.....
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUg.desc=醸造台は、暗視、治癒、採掘速度上昇、跳躍などのさまざまなポーションを醸造するのにとても重要です。毒のポーションやスプラッシュポーションも作れます。§7《§r醸造機§7／Brewery》§rを作るのにも必要です。%n%n初歩的な杖があれば、ようやく醸造台を作れます。レシピは§7《§rソーモノミコン§7／Thaumonomicon》§rの§7《§r新地平術§7／New Horizons》§rタブにあります。
 
 # Quest: Ironwood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg.name=魔法の金属 - 樹鉄
@@ -12659,8 +12665,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYw.name=Gimme gimme gimme
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYw.desc=The Avarice Pearl is the next object Automagy requires you to interact with in order to unlock the next section. Make an Avarice Pearl, throw some stuff on the ground, and throw Avarice Pearls at them by right-clicking quickly over and over to get a Shattered (ha ha) Pearl to unlock a few more research items.
 
 # Quest: It's Called the Thaumatorium, OK?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.name=It's Called the Thaumatorium, OK?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.desc=This device will allow automating the crucible. Check the research to the far right of the crucible for details.
+# EN name: It's Called the Thaumatorium, OK?
+# EN desc: This device will allow automating the crucible. Check the research to the far right of the crucible for details.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.name=[提出済み]ソーマトリウムって言うんです、いいですね？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.desc=この装置を使うと、るつぼを自動化できます。詳しくは、るつぼの研究のずっと右にある研究を確認してください。
 
 # Quest: Growing Auram
 betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.name=Growing Auram
@@ -12689,8 +12697,10 @@ betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=Growing Glowstone the Magical W
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.
 
 # Quest: Timewood Tree
-betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.name=Timewood Tree
-betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.desc=The Timewood Clock is a special block that can be obtained in The Twilight Forest. It can be used to accelerate vanilla crops in a 16 block radius, making farms significantly faster and more efficient.%n%nTo get one, you must explore inside the massive Twilight Forest trees and search the loot chests hidden within them. There is a small chance to find a Tree of Time sapling. The clock generates hidden inside the tree after it grows.%n[warn]%nAfter growing the tree, you will need a Silk Touch tool to obtain the Timewood Clock itself.[/warn]%n[note]%nIf you break it without Silk Touch, it will instead drop several vanilla gold clocks.[/note]
+# EN name: Timewood Tree
+# EN desc: The Timewood Clock is a special block that can be obtained in The Twilight Forest. It can be used to accelerate vanilla crops in a 16 block radius, making farms significantly faster and more efficient.%n%nTo get one, you must explore inside the massive Twilight Forest trees and search the loot chests hidden within them. There is a small chance to find a Tree of Time sapling. The clock generates hidden inside the tree after it grows.%n[warn]%nAfter growing the tree, you will need a Silk Touch tool to obtain the Timewood Clock itself.[/warn]%n[note]%nIf you break it without Silk Touch, it will instead drop several vanilla gold clocks.[/note]
+betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.name=[提出済み]時の木
+betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.desc=§7《§r時の木の時辰儀§7／Timewood Clock》§rは、§7《§r黄昏の森§7／Twilight Forest》§rで手に入る特別なブロックです。半径16ブロック以内のバニラの作物の成長を速められるので、農場をずっと速く、効率的にできます。%n%n手に入れるには、黄昏の森の巨大な木の中を探索し、そこに隠されたチェストを漁る必要があります。わずかな確率で§7《§r時の木の苗木§7／Tree of Time Sapling》§rが見つかります。時辰儀は、苗木が育ったあとの木の内部に隠れて生成されます。%n[warn]%n木を育てたあと、時の木の時辰儀そのものを手に入れるには、シルクタッチの道具が必要です。[/warn]%n[note]%nシルクタッチなしで壊すと、代わりにバニラの金の時計がいくつかドロップします。[/note]
 
 # Quest: Shadow Metal
 betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.name=Shadow Metal
@@ -12757,8 +12767,10 @@ betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.name=Magical Plants
 betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.desc=Now that you've made a crucible you can create a bunch of unique Thaumcraft plants. Some of these are incredibly useful so you'll want to take a close look.%n%nThe research for most of these can be found under Thaumic Bases, starting with "Thaumic Nature".%n%n[note]Aside from these, there are more plant types unlocked in the future as you continue to progress.[/note]
 
 # Quest: Tube Madness
-betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.name=Tube Madness
-betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.desc=So you want to move essentia from your Alchemical furnace to your warded Jars without getting it all gunked up with different essentia types?%n%nWell you came to the right place, with the use of buffered tubes and your handy wand you can move your essentia in tubes to fill all your jars without having to manually break and replace one jar at a time.%n%nTo create a simple setup place the buffered tubes in a main line from your Arcane Alembic with tubes coming out of the main buffered tube line. These standard tubes will then go directly into a warded jar. To get the essentia to flow correctly into the buffered tubes, shift-right-click the output side of the buffered tube with your wand until it is red. This will change the band to a red band which will limit the suction of the Essentia.%n%nThe Essentia will be forced from the buffered tube to a normal tube then into your Warded jars. Chain your buffered tubes as needed until all your Warded Jars will fit.%n§4%nNote: This system will get gunked up with essentia if any of your Warded Jars are full!%n%n§rIf you would like more information please check out the guide 'A Thaumaturge Guide to Laying Pipe' by xlstadal for more in-depth Thaumcraft 4 Tube knowledge.%n%n§9§n[url]https://docs.google.com/document/d/1fMvJ5HbeOdy4UgBMe47cggis02idxWoMDgK81SgowEo[/url]§r
+# EN name: Tube Madness
+# EN desc: So you want to move essentia from your Alchemical furnace to your warded Jars without getting it all gunked up with different essentia types?%n%nWell you came to the right place, with the use of buffered tubes and your handy wand you can move your essentia in tubes to fill all your jars without having to manually break and replace one jar at a time.%n%nTo create a simple setup place the buffered tubes in a main line from your Arcane Alembic with tubes coming out of the main buffered tube line. These standard tubes will then go directly into a warded jar. To get the essentia to flow correctly into the buffered tubes, shift-right-click the output side of the buffered tube with your wand until it is red. This will change the band to a red band which will limit the suction of the Essentia.%n%nThe Essentia will be forced from the buffered tube to a normal tube then into your Warded jars. Chain your buffered tubes as needed until all your Warded Jars will fit.%n§4%nNote: This system will get gunked up with essentia if any of your Warded Jars are full!%n%n§rIf you would like more information please check out the guide 'A Thaumaturge Guide to Laying Pipe' by xlstadal for more in-depth Thaumcraft 4 Tube knowledge.%n%n§9§n[url]https://docs.google.com/document/d/1fMvJ5HbeOdy4UgBMe47cggis02idxWoMDgK81SgowEo[/url]§r
+betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.name=[提出済み]管だらけの狂気
+betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.desc=§7《§r錬金かまど§7／Alchemical Furnace》§rから§7《§r保護瓶§7／Warded Jar》§rへエッセンシアを運びたいけれど、ほかの種類のエッセンシアが混ざって詰まるのは避けたい、と思っていませんか？%n%nそれならここで解決です。§7《§rエッセンシアバッファ§7／Essentia Buffer》§rと手持ちの杖を使えば、瓶を1つずつ手で壊して置き直さなくても、エッセンシアを管で運んですべての瓶を満たせます。%n%n簡単な構成を作るには、§7《§r神秘の蘭引§7／Arcane Alembic》§rからエッセンシアバッファを幹線として並べ、その幹線から§7《§rエッセンシア管§7／Essentia Tube》§rを枝分かれさせます。この普通の管は、そのまま保護瓶につなぎます。エッセンシアがエッセンシアバッファへ正しく流れるようにするには、エッセンシアバッファの出力側を杖でシフト右クリックし、赤くなるまで切り替えます。帯が赤に変わり、エッセンシアの吸引力が制限されます。%n%nエッセンシアはエッセンシアバッファから普通の管へ押し出され、保護瓶に入ります。すべての保護瓶がつながるまで、必要なだけエッセンシアバッファを連ねてください。%n§4%n注意: 保護瓶のどれか1つでも満杯になると、このシステムはエッセンシアで詰まります！%n%n§rさらに詳しく知りたい場合は、xlstadal氏のガイド「A Thaumaturge Guide to Laying Pipe」を見てください。Thaumcraft 4の管について、より踏み込んだ知識が得られます。%n%n§9§n[url]https://docs.google.com/document/d/1fMvJ5HbeOdy4UgBMe47cggis02idxWoMDgK81SgowEo[/url]§r
 
 # Quest: Infinite Durability
 betterquesting.quest.yT18iStZRzKem7FYnZoRzw.name=Infinite Durability
@@ -13566,8 +13578,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGw.name="端"に目を向ける
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGw.desc=ウェザーワックスおばあちゃんも気に入るだろう。%n%n§nカバーされているMod§r%n§9Witchery§r
 
 # Quest: Fire Burn and...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABTA.name=Fire Burn and...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABTA.desc=In order to get started with your basic witchery needs, you need a Witches Oven.%n%nThe Witches Oven is used to get the most basic ingredients for your recipes - Fumes.%n%nThe oven is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot. Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.%n%nUpgrading an Oven%n%nAn oven can be upgraded by placing either a Fume Funnel or a Filtered Fume Funnel to the left and right of it. Each Fume Funnel will increase the cooking speed by an additional 10 percent (over a furnace) and increase the chance of a by-product being produced by an additional 25 percent for a Fume Funnel or 30 percent for a Filtered Fume Funnel.%n%nA fully upgraded oven will therefore cook at 130 percent speed (compared to a furnace) and have a 90 percent chance of producing a by-product.
+# EN name: Fire Burn and...
+# EN desc: In order to get started with your basic witchery needs, you need a Witches Oven.%n%nThe Witches Oven is used to get the most basic ingredients for your recipes - Fumes.%n%nThe oven is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot. Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.%n%nUpgrading an Oven%n%nAn oven can be upgraded by placing either a Fume Funnel or a Filtered Fume Funnel to the left and right of it. Each Fume Funnel will increase the cooking speed by an additional 10 percent (over a furnace) and increase the chance of a by-product being produced by an additional 25 percent for a Fume Funnel or 30 percent for a Filtered Fume Funnel.%n%nA fully upgraded oven will therefore cook at 130 percent speed (compared to a furnace) and have a 90 percent chance of producing a by-product.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABTA.name=[提出済み]火よ燃えよ、そして...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABTA.desc=Witcheryの基本的な作業を始めるには、§7《§r魔女のオーブン§7／Witches Oven》§rが必要です。%n%n魔女のオーブンは、レシピに使う最も基本的な材料である臭気を得るのに使います。%n%nこのオーブンは、調理の過程で出る副産物を捕らえられます。オーブンを右クリックして画面を開くと、燃料スロットの右側にもう1つスロットがあります。ここには§7《§r陶器の瓶§7／Clay Jar》§rを入れてください。陶器の瓶が入った状態で何かを調理すると、一定の確率で副産物が瓶の1つに捕らえられます。これらの副産物は、ほかのレシピの重要な材料になります。陶器の瓶を入れずに調理すると、副産物は出ません。%n%nオーブンの強化%n%nオーブンの左右に§7《§r煙霧フィルタ§7／Fume Funnel》§rか§7《§rフィルタ付きの煙突§7／Filtered Fume Funnel》§rを設置すると、オーブンを強化できます。1つ設置するごとに、調理速度が(かまどと比べて)10%%ずつ上がり、副産物が出る確率も、煙霧フィルタなら25%%、フィルタ付きの煙突なら30%%ずつ上がります。%n%nしたがって、完全に強化したオーブンは(かまどと比べて)130%%の速度で調理し、副産物が出る確率は90%%になります。
 
 # Quest: Offerings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABTQ.name=Offerings
@@ -13894,8 +13908,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUw.name=Mutating Sprig
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUw.desc=The Mutating Sprig brings a degree of order to the chaotic nature of Mutandis, allowing more limited, but also more predictable effects. It is a key tool in the creation of plant-based devices such as the Leech Chest.%n%nThe Mutating Sprig is crafted in the Witch's Cauldron using an Ent Twig, Nether Wart and Mutandis Extremis.%n%nGrass - Mutates to Mycelium%nMycelium - Mutates to Grass%nDirt (under water) - Mutates to Clay%n%nWheat in a proper configuration should mutate to wormwood, but because of other mods it doesn't work. You can buy wormwood from the Coins tab instead.
 
 # Quest: Changing Biomes With Witchery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcQ.name=Changing Biomes With Witchery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcQ.desc=There are two ways to change biomes with Witchery, the easy way or the hard way, choose which one you want to do (or do them both). Remember that you need a Witchery Distillery first!
+# EN name: Changing Biomes With Witchery
+# EN desc: There are two ways to change biomes with Witchery, the easy way or the hard way, choose which one you want to do (or do them both). Remember that you need a Witchery Distillery first!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcQ.name=[提出済み]Witcheryでバイオームを変える
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcQ.desc=Witcheryでバイオームを変える方法は、簡単な方法と難しい方法の2つがあります。どちらにするか選んでください(両方やっても構いません)。まずWitcheryの§7《§r蒸留器§7／Distillery》§rが必要なことを忘れずに！
 
 # Quest: The Easy Way to Change Biomes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcg.name=The Easy Way to Change Biomes
