@@ -1414,15 +1414,11 @@ betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=§2§n整理整頓の極意
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=§7《§r押出機§7／Extruder》§r や §7《§r液体成型機§7／Fluid Solidifier》§r の周りが、  §7《§r押出型§7／Extruder Shape》§r や§7《§r型§7／Mold》§r 保管用のチェストでぐちゃぐちゃなのに、もう耐えられないって？%n%n今日はきっとラッキーデーです。%nこの §7《§rアイテムホルダー§7／Item Holder》§r があなたの整理整頓の一助となるからです！%n%n%nアイテムホルダーはGregTechタイルに拡張インベントリを追加できるカバーです。%n%n電動ポンプやコンベヤーモジュールのような他のカバーと同様に、殆どのGregTechタイルにShift+右クリックで貼り付けることができます。%nアイテムホルダーを貼り付けた面にShfift+右クリックするか、或いは取付先機械GUIから、アイテムホルダーのインベントリへアクセスできます。%n%nLV~HVの3段階のグレードが存在し、収納容量が異なります:%n%n§7《§r基本型アイテムホルダー§7／Basic Item Holder》§r: 9スロット%n§7《§r改良型アイテムホルダー§7／Good Item Holder》§r: 12スロット%n§7《§r発展型アイテムホルダー§7／Advanced Item Holder》§r: 15スロット%n%n%n最上位グレードのものでも物足りないとお思いの場合... 複数面に貼り付けて、収納数を更に拡張することもできます。
 
 # Quest: Reading the Grid
-# EN name: §2§lReading the Grid
-# EN desc: While the GT EU Meter can inspect one cable or machine at a time, troubleshooting a large power network that way quickly becomes rather tedious. If only there was a dedicated tool for that...%n%nThe Network Analyzer displays the entire connected EU network directly in the world, allowing you to follow power from generators to machines and identify dangerous sections before they become craters.%n%nRight-click a GT cable to bind the Analyzer to its network, then keep it in your hand to display the overlay. You can also use it on a multiblock controller to inspect the networks connected to all of its Energy and Dynamo Hatches.%n%nYou can shift-right-click to cycle through its five modes:%n- §9Topology§r displays the complete network and its worst case condition.%n- §cCritical§r displays only overloaded or otherwise dangerous sections.%n- §2Active§r displays cables that are currently carrying amperage.%n- §6Amperage§r compares the expected load with each cable’s capacity.%n- §5Voltage§r displays expected cable loss and warns about cables or machines receiving excessive voltage.%n%nOrange nodes are power sources, cyan nodes are consumers, and green nodes are forks in the network. Gray indicates an idle or unknown section, green is safe, yellow warns of significant voltage loss, and red indicates an overload, a cable that may burn, or a machine that may explode.%n%nLook directly at a node to see more detailed information about amperage, voltage loss, and any detected problems.%n%n[note]Amperage mode displays the potential load of the connected machines, while Active mode shows what is actually carrying power at that moment.[/note]%n%n[warn]Machines from other mods cannot always report their real amperage requirements. The Analyzer must estimate their consumption, so readings for IC2 machines, reactors, and other non-GT consumers may be inaccurate.[/warn]
-betterquesting.quest.dDgHg5ddQm2_3kX59SlROA.name=[提出済み]§2§n電力網を読み解く
+betterquesting.quest.dDgHg5ddQm2_3kX59SlROA.name=§2§n電力網を読み解く
 betterquesting.quest.dDgHg5ddQm2_3kX59SlROA.desc=§7《§rGT-EU計測器§7／GT EU Meter》§rでは一度に1本のケーブルや1台の機械しか調べられないので、大きな電力網の不具合をその方法で探すのは、すぐにかなり面倒になります。そのための専用の道具があればいいのですが...%n%n§7《§rネットワーク分析器§7／Network Analyzer》§rは、つながっているEUネットワーク全体をワールド内に直接表示します。発電機から機械までの電力の流れをたどり、危険な区間がクレーターになる前に見つけられます。%n%nGTのケーブルを右クリックすると分析器がそのネットワークに紐付き、手に持っているあいだオーバーレイが表示されます。マルチブロックのコントローラーに使うと、そのエネルギーハッチとダイナモハッチすべてにつながったネットワークを調べられます。%n%nシフト右クリックで5つのモードを切り替えられます:%n- §9Topology§r: ネットワーク全体と、その中で最も悪い状態を表示します。%n- §cCritical§r: 過負荷の区間や、そのほかの危険な区間だけを表示します。%n- §2Active§r: 今まさに電流が流れているケーブルを表示します。%n- §6Amperage§r: 想定される負荷と、各ケーブルの許容量を比べます。%n- §5Voltage§r: 想定されるケーブルの損失を表示し、過電圧を受けるケーブルや機械を警告します。%n%nオレンジのノードは電源、シアンのノードは消費側、緑のノードはネットワークの分岐点です。灰色は動いていないか不明な区間、緑は安全、黄色は大きな電圧損失の警告、赤は過負荷、焼き切れるおそれのあるケーブル、爆発するおそれのある機械を表します。%n%nノードを直接見ると、アンペア数、電圧損失、見つかった問題について詳しい情報が表示されます。%n%n[note]Amperageモードはつながっている機械の潜在的な負荷を表示し、Activeモードはその瞬間に実際に電力を運んでいるものを表示します。[/note]%n%n[warn]ほかのMODの機械は、実際に必要なアンペア数を常に報告できるとは限りません。分析器はその消費量を推定するしかないため、IC2の機械や原子炉、そのほかGT以外の消費側の表示は不正確なことがあります。[/warn]
 
 # Quest: Void Buses
-# EN name: §2§lVoid Buses
-# EN desc: Another good use for Trash Cans is combining them in the Assembler with either an Output Bus or an Output Hatch to create a Void Bus or Void Hatch. These handy buses allow you to instantly void any desired item or fluid output from a multiblock.%n%nYou may or may not find these useful now, depending on whether you are taking advantage of steam multiblocks, but you will definitely find them useful later when you start creating electric multiblocks.
-betterquesting.quest.kYGqUPpnQqq4aQJJTQakqw.name=[提出済み]§2§n消去バス
+betterquesting.quest.kYGqUPpnQqq4aQJJTQakqw.name=§2§n消去バス
 betterquesting.quest.kYGqUPpnQqq4aQJJTQakqw.desc=ゴミ箱のもう一つの便利な使い道は、組立機で出力バスか出力ハッチと組み合わせて、§7《§r消去バス§7／Void Bus》§rや§7《§r消去ハッチ§7／Void Hatch》§rを作ることです。これらの便利なバスを使うと、マルチブロックから出る好きなアイテムや流体を、すぐに消去できます。%n%n蒸気式マルチブロックを活用しているかどうかによって、今は役に立つかどうか分かりませんが、あとで電動式のマルチブロックを作り始めたら、間違いなく役に立つはずです。
 
 # Quest: Refined Firestone
@@ -1983,15 +1979,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.name=§6§nケイ素から常に塩�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=もし、ケイ素精製に必要な原料について不満をお持ちなら、良いお知らせがあります！使用した塩素とナトリウムはすべて、生成した塩を電気分解することで回収できます！%n%n[note]ナトリウムの代わりに亜鉛を使用することも可能です。最初の反応時間は長くなりますが、リサイクルコストは大幅に削減できます。[/note]
 
 # Quest: MV Wiremill
-# EN name: §6§lMV Wiremill
-# EN desc: The MV Wiremill is twice as fast as the LV one but uses 4x the power.
-betterquesting.quest.Bgu0MatiTJae3tNwj5FS1w.name=[提出済み]§6§nMVワイヤーミル
+betterquesting.quest.Bgu0MatiTJae3tNwj5FS1w.name=§6§nMVワイヤーミル
 betterquesting.quest.Bgu0MatiTJae3tNwj5FS1w.desc=MVワイヤーミルはLVワイヤーミルと比べて2倍の処理速度を誇りますが、その分、消費電力は4倍になります。
 
 # Quest: MV Cutting Machine
-# EN name: §6§lMV Cutting Machine
-# EN desc: As I'm sure you've figured out by now, some of the Cutting Machine recipes take quite a long time to complete. Fortunately, the MV Cutting Machine should help speed that process along nicely compared to the LV version.%n%n[note]This will also be required later in the questline for cutting up ULPICs![/note]
-betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.name=[提出済み]§6§nMV切断機
+betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.name=§6§nMV切断機
 betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.desc=もうお気づきだと思いますが、§7《§r切断機§7／Cutting Machine》§rのレシピの中には、完了までにかなり時間がかかるものがあります。幸い、MV切断機ならLV版と比べてその工程をしっかり速めてくれるはずです。%n%n[note]これはクエストラインの後半で、ULPICを切り出すのにも必要になります！[/note]
 
 # Quest: Dislocator Inhibitor
@@ -6765,9 +6757,7 @@ betterquesting.quest.wRh-bN4UTemsx4Wskrrb6w.name=§2§lChiseling the Way Greg In
 betterquesting.quest.wRh-bN4UTemsx4Wskrrb6w.desc=Another way to automatically chisel blocks to your heart's content, this time sponsored by GregoriousT himself!
 
 # Quest: The Beginnings of a Humble Chest Monster
-# EN name: §9§lThe Beginnings of a Humble Chest Monster
-# EN desc: Did you really think a single chest would suffice for your storage needs? Come back when you've made at least a few.%n%n[note]You can place chests next to each other by chiseling every other chest into a trapped chest![/note]
-betterquesting.quest.zOwLuytjTFS18_K1we6TOw.name=[提出済み]§9§nささやかなチェストモンスターの始まり
+betterquesting.quest.zOwLuytjTFS18_K1we6TOw.name=§9§nささやかなチェストモンスターの始まり
 betterquesting.quest.zOwLuytjTFS18_K1we6TOw.desc=チェスト1つで収納が足りると本気で思いましたか？少なくともいくつか作ってから、また来てください。%n%n[note]1つおきにチェストをノミでトラップチェストに変えれば、チェストを隣り合わせに置けます！[/note]
 
 
@@ -10218,9 +10208,7 @@ betterquesting.quest.Ix6qrScZQPGnl3jEm9P2Ag.name=There Is Extra Stuff...
 betterquesting.quest.Ix6qrScZQPGnl3jEm9P2Ag.desc=Sometimes, a recipe has some extra outputs but the crafting module only has 1 output slot.%n%nThat is where the Crafting Byproduct Extraction Upgrade comes in. You can assign a byproduct of the recipe and this upgrade will make the module extract the byproduct as well. Now they won't clog the output buffer.
 
 # Quest: Remote requests
-# EN name: Remote requests
-# EN desc: Remote requests aren't always convenient. As long as you are in range with a request pipe, the remote orderer can take the order and send it to a request pipe the orderer binds to.%n%nPretty handy if you have an ender chest and an ender pouch...%n%n[note]Author's note: Too bad ender chests and pouches are gated behind IV and Thaumcraft... And why people would use an LP system at that point is really beyond me...[/note]
-betterquesting.quest.MwRByyNxQt-LfGgUqm8QDQ.name=[提出済み]離れた場所からの要求
+betterquesting.quest.MwRByyNxQt-LfGgUqm8QDQ.name=離れた場所からの要求
 betterquesting.quest.MwRByyNxQt-LfGgUqm8QDQ.desc=§7《§r要求パイプ§7／Request Logistics Pipe》§rの前まで行って注文するのは、いつも都合がいいとは限りません。要求パイプの範囲内にいれば、§7《§rリモートオーダー§7／Remote Orderer》§rで注文を受け付け、リモートオーダーに紐付けた要求パイプへ送れます。%n%nエンダーチェストとエンダーポーチがあれば、かなり便利です...%n%n[note]作者のメモ: エンダーチェストとエンダーポーチがIVとThaumcraftの先にあるのは残念です...それに、その段階でなぜLPのシステムを使うのか、正直さっぱりわかりません...[/note]
 
 # Quest: Get Those Machines to Work
@@ -11286,9 +11274,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.name=数百万匹の蜂
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.desc=エンドゲームの高速生産が必要なら、§7《§r産業用養蜂箱§7／Industrial Apiary》§r一択です。産業用養蜂箱は壊れないアップグレードを受け付けます。生産アップグレードは最大8個まで重ねられます。環境模倣、花粉回収量増加など、多くの選択肢もあります。%n%n産業用養蜂箱は現在GregTechマシンです。UVまで、最大4Aまで受け付けますが、基本消費電力は37 EU/tだけです。世界加速器はもう使えず、マシンは1種類のみなのでGregTechのオーバークロックもありません。代わりに、§o加速アップグレード§rが新登場し、世界加速器と同様に動作しますがマシンに直接組み込まれます。使う価値は十分あり、速度と消費電力を大幅に上げます。最終Tierは生産性も上げます。%n%nあまり雄蜂のように喋りすぎないでおきましょう。作って自分で確かめてください。
 
 # Quest: Fastest Way to Get There
-# EN name: Fastest Way to Get There
-# EN desc: A GT++ Mutagenic frame will get your bees to their final destination faster than you can blink. Just remember to wear your rubber suit while making it!%n%n[note]These will break in the alveary before they take effect since their durability is under 6. So you can only get to 125x, but I think that's enough, don't you?[/note]
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.name=[提出済み]最速の到達方法
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.name=最速の到達方法
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.desc=GT++の§7《§r変異誘発の巣枠§7／Mutagenic Frame》§rを使えば、まばたきするより速く蜂を最終目的地へ連れて行けます。作るときはゴムのスーツを着るのを忘れないでください！%n%n[note]耐久値が6未満なので、大型養蜂箱では効果が出る前に壊れてしまいます。そのため125倍までしか上げられませんが、それで十分ですよね？[/note]
 
 # Quest: Upgrading the Alveary
@@ -11625,9 +11611,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.name=Smouldering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.desc=Smouldering drones will spawn blazes, and make Blaze Rods as their specialty. Breed the drones with your template princesses so you can prevent the harmful effects from destroying your base. Also, their Hellish temperature and Normal humidity requirements are interesting - use an Acclimatiser from Genetics to make the bee tolerant or other methods to adjust the biome. Must be bred in the Nether. Breed them from Ghastly and Hateful.%n%nTo get their Blaze Rod drop, however, you'll need to place them in a biome that matches their default requirements. Sorry.
 
 # Quest: Refined
-# EN name: Refined
-# EN desc: Ah, here it is. This bee has been known to power whole civilizations. Placed in a top tier bee housing like an Alveary or Industrial Apiary, with appropriate frames, it can produce oil faster than some wells. In addition, you will get small amounts of Diesel fuel as well! Breed them from Oily and Distilled.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5Q.name=[提出済み]精製種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5Q.name=精製種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5Q.desc=ああ、ついに来ました。この蜂は文明をまるごと支えてきたことで知られています。大型養蜂箱や§7《§r産業用養蜂箱§7／Industrial Apiary》§rのような最上位の養蜂設備に入れ、適切な巣枠を使えば、ある種の油井よりも速く石油を生産できます。さらに、ディーゼル燃料も少し手に入ります！油質種と蒸留種を交配してみましょう。
 
 # Quest: Distilled
@@ -12087,9 +12071,7 @@ betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=エネルジウム種
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=ルビーの粉とレッドストーンの粉を混ぜてエネルジウムの粉を作るのに飽きましたか？§7《§rエネルジウム種§7／Energium》§rなら、それを直接手に入れられます。便利でしょう？交配するには、ネザーのBoneyardの中で、巣の下にIC2過熱冷却材を置く必要があります。%n%n親種とは違い、この蜂は拠点を焼きません。ただし、養蜂用防護服を着ていないと、あなたに火をつけます！
 
 # Quest: Attuned
-# EN name: Attuned
-# EN desc: You're now getting into Magic Bees, and one of its mundane bee species is the Attuned species. These are scooped out of Deep Hives that you can find in the Overworld. These hives are a pain to find, so you should consider just buying hives with coins until you get a princess and a drone. However, if you are a real masochist or completionist try-hard, then here's some information about where they spawn:%n%n* From Y=1 to Y=25%n* In stone, surrounded on 5 sides. Not just vanilla stone.%n* In biomes tagged with one or more of:%n   * MOUNTAINS: Actual mountains may not count. It's the biome type that counts.%n      * Example: Canyon.%n   * HILLS: Again, actual hills don't count.%n      * Example: Snowy Coniferous Forest.%n   * MAGICAL: Unlike the others, they do have some ethereal aspect.%n      * Examples: Magical Forest is obvious, but also Cherry Blossom Grove counts.%n* Surrounded by a small redstone vein. This often fills any open space around them.%n%nThey also like to just kind of show up whatever-what-the-heck in other biomes. Our beekeeping intern found a Deep Hive in a Lush Desert:%n%nLush Desert [HOT, DRY, SAVANNA, LUSH, SANDY]%n%nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv inside of it. Any listed biome that has the tags of HILLS, MOUNTAINS, and/or MAGICAL can generate Deep Hives. You can feed these biomes into a Nature's Compass and see if there are any nearby.%n%nProspector's Scanners will pick up the little ore pockets for these (traces, small samples). If you had one of those end-game ones with a display, it would come up as a few red pixels. Larger ones are probably just regular ore veins. The ore finding wand doesn't do a good job from the surface. Chasing lava veins and tunnels helps. Ore veins filled with redstone will saturate either tool.%n%nOf course, just buying hives is the low-effort way.%n%n[note]Beekeeper's Notes:%n%nIf you get real bad luck and wind up with an ignoble princess, then just get a bunch of drones out of it and convert some other pristine princess afterwards. However, using base princesses will compel the bees to turn into the Common species. There are two choices:%n%n1. Use an Alveary with an Alveary Stabilizer to block mutations.%n2. Create a princess that doesn't line up with the Attuned species' breeding possibilities before starting.[/note]
-betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.name=[提出済み]同調種
+betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.name=同調種
 betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.desc=いよいよMagic Beesの蜂に入ります。その野生の蜂の一つが§7《§r同調種§7／Attuned》§rです。この蜂は、オーバーワールドで見つかる§7《§r深層の蜂巣§7／Deep Hive》§rから採取します。この蜂巣は探すのがとても大変なので、王女蜂と雄蜂が手に入るまでは、コインで蜂巣を買ってしまうことも考えてみてください。それでも探したいという筋金入りのマゾヒストや、コンプリートにこだわる頑張り屋さんのために、出現場所の情報を載せておきます:%n%n* Y=1からY=25まで%n* 石の中で、5面を囲まれていること。バニラの石に限りません。%n* 次のタグを1つ以上持つバイオーム:%n   * MOUNTAINS: 実際の山は含まれないことがあります。重要なのはバイオームの種類です。%n      * 例: Canyon。%n   * HILLS: こちらも、実際の丘は数に入りません。%n      * 例: Snowy Coniferous Forest。%n   * MAGICAL: ほかと違い、こちらは実際に幻想的な雰囲気があります。%n      * 例: Magical Forestは言うまでもなく、Cherry Blossom Groveも該当します。%n* 周りを小さなレッドストーンの鉱脈に囲まれていること。この鉱脈が周囲の空間を埋めていることがよくあります。%n%nほかのバイオームにも、なぜかひょっこり現れることがあります。うちの養蜂インターンは、Lush Desertで深層の蜂巣を見つけました:%n%nLush Desert [HOT, DRY, SAVANNA, LUSH, SANDY]%n%nバイオームデータはNEIから出力できます。"NEI設定"ボタン(レンチ)からツール、データの出力と進み、バイオームカテゴリの出力ボタンを押します。Modpackのルートフォルダに"dumps"ディレクトリが作られ、中にbiome.csvがあります。HILLS、MOUNTAINS、MAGICALのいずれかのタグを持つバイオームなら、どれでも深層の蜂巣が生成されます。それらのバイオームを大自然のコンパスに入れて、近くにあるか確認できます。%n%n地質解析スキャナーは、この蜂巣の周りにある小さな鉱石だまり(痕跡や小さなサンプル)を検出します。ディスプレイ付きのエンドゲーム向けのものなら、赤いピクセルが数個表示されるでしょう。それより大きいものは、おそらくただの普通の鉱脈です。ダウジングロッドは、地表からではあまり役に立ちません。溶岩の筋や洞窟をたどると見つけやすくなります。レッドストーンで埋まった鉱脈があると、どちらの道具も反応で埋め尽くされます。%n%nもちろん、蜂巣を買ってしまうのが一番楽な方法です。%n%n[note]養蜂家のメモ:%n%n運悪く遺伝子汚染個体の王女蜂を引いてしまったら、そこから雄蜂をたくさん取り、あとで別の純系個体の王女蜂を変換してください。ただし、基本種の王女蜂を使うと、蜂は平凡種に変わろうとします。選択肢は2つです:%n%n1. 大型養蜂箱用安定化装置を付けた大型養蜂箱を使い、突然変異を防ぐ。%n2. 始める前に、同調種との交配で突然変異が起きない種の王女蜂を用意しておく。[/note]
 
 # Quest: Uranus
@@ -12515,9 +12497,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg.name=Improved Armor: Samurai Style
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg.desc=Time to get some decent armor. With this, those infernal monsters won't be as much of a pain as they are now.
 
 # Quest: A New Way to "Farm" Resources
-# EN name: A New Way to "Farm" Resources
-# EN desc: While regular plants are mostly used to make food, these magical plants (courtesy of Thaumic Bases) will grow you some good ol' resources!%n%nSpecifically, you have the ability to create Redlon (for Redstone), Metalleat (for Iron). Lucrite (for Gold), and Lazullia (for Lapis Lazuli).%n%nThere's also the fabled "Rainbow Cacti", which should help those who like to build with various colors...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.name=[提出済み]資源を「栽培」する新しい方法
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.name=資源を「栽培」する新しい方法
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.desc=普通の植物はほとんどが食料を作るのに使われますが、これらの魔法の植物(Thaumic Basesの提供です)からは、昔ながらの資源が育ちます！%n%n具体的には、§7《§rレッドロン§7／Redlon》§r(レッドストーン用)、§7《§rメタリート§7／Metalleat》§r(鉄用)、§7《§rルクリット§7／Lucrite》§r(金用)、§7《§rラズリア§7／Lazullia》§r(ラピスラズリ用)を作れるようになります。%n%n伝説の「§7《§rニジイロサボテン§7／Rainbow Cacti》§r」もあり、いろいろな色で建築するのが好きな人の役に立つはずです...
 
 # Quest: Lead, Galena, Silver and Cryolite
@@ -12677,9 +12657,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.name=ソーマトリウムって言�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.desc=この装置を使うと、るつぼを自動化できます。詳しくは、るつぼの研究のずっと右にある研究を確認してください。
 
 # Quest: Growing Auram
-# EN name: Growing Auram
-# EN desc: One Essentia you might have a hard time gathering is Auram. Maybe you've gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.%n%nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.%n%nYou should make sure the ground near the flower is level and clear, so you'll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.%n%n[note]Gaia Wart is also a growable source of Auram Essentia. It has a quest in the Green Revolution quest tab.[/note]
-betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.name=[提出済み]Auramを育てる
+betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.name=Auramを育てる
 betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=集めるのに苦労しそうなエッセンシアの一つがAuramです。ネザーにまれに現れる、宙を漂う光の玉が落とす§7《§r天上のエッセンス§7／Ethereal Essence》§rや、§7《§rオーラ節§7／Node》§rから少し手に入れたことがあるかもしれません。しかし、それでは十分な供給源とは言えません。§7《§rアウレリア§7／Aurelia》§rという植物なら、この問題を解決できます。%n%n頭上に満月が見えていると、アウレリアの花は花びらを開きます。おそらく月の光を養分にするためでしょう。あなたにとって重要なのは、この花びらがときどき散ることです。散った花びらは地面から拾うことができ、Auramのエッセンシアを豊富に含んでいます。%n%n花の周りの地面は平らにして、何も置かないようにしておきましょう。そうすれば、あとで花びらを拾えます。花そのものは耕地ではなく草ブロックに植えるだけなので、近くに水源を用意する必要もありません。%n%n[note]§7《§rガイアウォート§7／Gaia Wart》§rも、育てて手に入るAuramのエッセンシアの供給源です。こちらは「緑の革命」のクエストタブにクエストがあります。[/note]
 
 # Quest: Thauminite Helmet
@@ -12699,9 +12677,7 @@ betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.name=汚染の警告
 betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=エッセンシアという形でVisを使い始めたので、§7《§r汚染§7／Taint》§rについて警告しておきます。%n%n正しく保管しないと、エッセンシアの状態のVisは不安定です。長く放置したり、るつぼから捨てたりすると、エッセンシアは分解します。ただしVisには戻りません。代わりに§7《§rフラックス§7／Flux》§rになります。%n%nフラックスは液体や気体として現れますが、それ自体はただの厄介者です。これに晒された魔導士は§7《§rフラックス症§7／Flux Flue》§rになることがあり、Visを通しにくくなりますが、一時的なものです。%n%nフラックスが濃くなると固まって§7《§r魔導スライム§7／Thaumic Slime》§rになります。互いに合体して大きくなろうとする奇妙な生き物です。危険ではありますが、たいていの相手と同じくクロスボウの矢には弱いです。%n%nしかし、フラックスを長く放置しすぎると土地を腐敗させ、触手となって固まります。これが汚染と呼ばれる災厄の現れです。§7《§r繊維状の汚染§7／Fibrous Tendril》§r(およびそれを凝り固めたブロック)は、歪めた魔法を糧にして§7《§r汚染された土地§7／Tainted Lands》§rを広げます。オーラ節は特に弱く、この歪んだ魔法に晒されると自身も汚染されます。%n%n触手を壊せば拡散は止まりますが、§oすべて§rを壊さない限り一時しのぎです。より効果的なのは汚染された土地そのものを壊すことです。このバイオームの外では、触手はすぐに枯れて死にます。%n%nるつぼの扱いが§o極端に§r雑だと、実際に汚染された土地を作り出せてしまいます。だから、無駄にするエッセンシアはできるだけ少なくし、無駄にしたものは片付けた方が賢明です。
 
 # Quest: Growing Glowstone the Magical Way
-# EN name: Growing Glowstone the Magical Way
-# EN desc: There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.
-betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=[提出済み]魔法の力でグロウストーンを育てる
+betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=魔法の力でグロウストーンを育てる
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=グロウストーンダストが手に入る植物はたくさんありますが、一番良いのは§7《§rグリーオニア§7／Glieonia》§rかもしれません。この魔法の植物は、完全に成長したら収穫するとグロウストーンダストが直接2個手に入ります。
 
 # Quest: Timewood Tree
@@ -12725,9 +12701,7 @@ betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.name=へんぺくりんな行商人
 betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.desc=旅の途中で、魔力に満ちた森の噂を聞いた。その森には、結晶片を含む魔法の品物を取引する、少し風変わりな小さな商人がいるのだという。世界中をめぐって宝石や金を集めているが、価値ある物を何一つ持たぬ旅人には冷たいらしい。%n%nその商人を見つけ出し、品物を手に入れることはできるだろうか。手がかりとなる場所があるとすれば…… §7《§r魔法の森§7／Magical Forest》§r である。%n%n[note]このクエストは、§7《§rペックの略奪者§7／Pech Forager》§r に限らず、どの種類のペックと遭遇しても達成されます。[/note]
 
 # Quest: Need More Sugar?
-# EN name: Need More Sugar?
-# EN desc: With Briar starting to consume you might also want to increase your sugar production.%n%nSweeds are planted on grass, not farmland, and will spread to propagate themselves. Once fully matured they can be harvested for sugar as well as sugar cane.
-betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.name=[提出済み]砂糖がもっと必要？
+betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.name=砂糖がもっと必要？
 betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.desc=§7《§rブライア§7／Briar》§rで砂糖を消費するようになるので、砂糖の生産量も増やしておくとよいでしょう。%n%n§7《§rスウィード§7／Sweed》§rは耕地ではなく草ブロックに植えます。ひとりでに広がって増えていきます。完全に成長したら収穫すると、砂糖とサトウキビが手に入ります。
 
 # Quest: Thaumic Dendrology
@@ -12755,9 +12729,7 @@ betterquesting.quest.cbv93MoJQESfsccTQMCwUA.name=エッセンシアの保管
 betterquesting.quest.cbv93MoJQESfsccTQMCwUA.desc=ついに、アイテムを溶かしてエッセンシアにし、安定させ、後で使うために保管する道具がそろいました。%n%n最後のステップは§7《§r保護瓶§7／Warded Jar》§rの作成でした。比較的単純な装置ですが、エッセンシアを準液体状態に保ち、フラックスへ変化するのを防ぎやすくします。安定させるために正確に8エッセンシアを入れなければならない薬瓶とは異なり、保護瓶は1〜64エッセンシアまで保管できます。%n%nこれらの保護瓶は安全に持ち上げて運べます。これよりはるかに多くのエッセンシアを蓄えられる容器の多くでは、そうはいかないでしょう。瓶ラベルを持って右クリックすれば、その瓶を特定の種類のエッセンシアだけを受け付けるよう絞り込めます。瓶が空のときは、事前設定した瓶ラベルを使ってください。%n%n素手でスニーク＋右クリックすると、瓶から瓶ラベルを外せます。ラベルがない場合は、中身のエッセンシアを消去します。瓶からエッセンシアを消去してもフラックスは発生しません。なぜかって？……魔法、でしょうね。とても便利なので、あまり深くは問い詰めない方がよいでしょう。
 
 # Quest: Growing your own Knowledge!
-# EN name: Growing your own Knowledge!
-# EN desc: Ever thought to yourself "man, why does everything have to use primal aspects so much?" Well now you won't have to worry about that anymore!%n%nMeet the Rosa Mysteria. When the sprout is planted on a Crystal Block, it will use that block's essence to grow into an Aspect Shard of the same type! These shards can then be thrown into your Cauldron or Alchemical Furnace, or used as Knowledge Fragments to gain Research Points. Even Mixed Crystals can be used as a catalyst!%n%n[warn]Warning: Planting Rosa Mysteria on Tainted Crystal Blocks will lead to unf§ko§rres§ke§re§kn §rco§kn§rs§ke§rq§kue§rnc§ke§r§ks.§r[/warn]
-betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.name=[提出済み]自分の知識を育てよう！
+betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.name=自分の知識を育てよう！
 betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.desc=「どうしてどれもこれも根源相をこんなに使うんだ？」と思ったことはありませんか？ でも、もうその心配はいりません！%n%n§7《§rローザ・ミステリア§7／Rosa Mysteria》§rを紹介しましょう。この新芽を§7《§r結晶ブロック§7／Crystal Block》§rの上に植えると、そのブロックのエッセンスを使って、同じ種類の相の結晶片に育ちます！ この結晶片は、るつぼや錬金かまどに投げ込んだり、§7《§r知識の断片§7／Knowledge Fragment》§rとして使って研究ポイントを得たりできます。混成結晶でさえ触媒として使えます！%n%n[warn]警告：ローザ・ミステリアを汚染結晶ブロックに植えると、予§k期§rせ§kぬ§r結§k果§rを§k招§rき§kま§rす§k。§r[/warn]
 
 # Quest: Solid, Directional Redstone
@@ -12765,9 +12737,7 @@ betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=固体の指向性レッドス�
 betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.desc=レッドストーンの粉はすばらしい物質ですが、真のマインクラフターだけが扱える制約がいくつかあります。%n%n幸い、少し魔法を加えると粉が結晶化し、ずっと扱いやすくなります。%n%n§7《§rレッドクリスタル§7／Redcrystal》§rは壁や天井に直接設置でき、杖で指定した面が信号を送受信するかどうかを切り替えられます。これなら、普通のレッドストーンではそもそも置けない場所にも、きれいでコンパクトな回路を組めます。%n%nこのレッドクリスタルをさらに改良して、受け取った信号を何らかの形で操作したり処理したりできるかもしれません……
 
 # Quest: Alleviating Warp
-# EN name: Alleviating Warp
-# EN desc: When you get poisoned or withered a bit of milk solves the problem. Why not create something akin to milk, but for Warp effects?%n%nBriar gives a bit of an answer to that. These two block tall plants, which require good light to grow, will produce Briar Seed Bags when harvested. Those can be combined with sugar and a suitable container in an Arcane Workbench to create Rosehip Syrup.%n%nRosehip Syrup stacks up to 16 and can be used the same as milk, also removing some (though not all) Warp effects as well as Flux Flue and Flux Phage.%n%nThe plant has a strange life cycle where the seed pods will first appear as yellow dots, turn pink as they start to mature, then §odisappear§r, only to return fully matured. Still, if it works, it works.
-betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.name=[提出済み]歪みを和らげる
+betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.name=歪みを和らげる
 betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.desc=毒や衰弱にかかったときは、牛乳を少し飲めば解決します。では、歪みの効果に効く、牛乳のようなものを作ってみてはどうでしょうか？%n%nその答えの一つが§7《§rブライア§7／Briar》§rです。高さ2ブロックのこの植物は、育つのに十分な明るさが必要で、収穫すると§7《§rブライアの種袋§7／Briar Seed Bag》§rが手に入ります。これを砂糖や適切な容器と一緒に§7《§r神秘の作業台§7／Arcane Workbench》§rで組み合わせると、§7《§rローズヒップシロップ§7／Rosehip Syrup》§rが作れます。%n%nローズヒップシロップは16個までスタックでき、牛乳と同じように使えるうえ、歪みの効果の一部(すべてではありません)や、§7《§rフラックス症§7／Flux Flu》§r、§7《§rフラックス疫§7／Flux Phage》§rも取り除けます。%n%nこの植物は奇妙な生活環をもっていて、種のさやはまず黄色い点として現れ、成熟し始めるとピンク色に変わり、それから§o消えて§rしまい、完全に成熟した姿で再び現れます。とはいえ、ちゃんと使えるならそれで良しとしましょう。
 
 # Quest: Counting Items
@@ -12775,9 +12745,7 @@ betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.name=Counting Items
 betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.desc=The Remote Comparator makes it significantly easier to get comparator signals out of whatever block you want, but looking at your storage chests you can't help but see no reason to bother. So what if they're nearly full? You want to know what they're nearly full §oof§r.%n%nTally Boxes can be pointed at a container - either directly or, using a Remote Comparator, remotely - and given a Runic Whitelist that specifies conditions where you want a Tally Box to send a redstone signal. Quantity, metadata and NBT matching are options, as is using a basic name filter.%n%nNote that the redstone side is always opposite the reading side, and Remote Comparators must be placed on top of Tally Boxes to work together, meaning redstone is always output on the down face in that case.%n%n[note]Runic Whitelists don't let you use NEI ghost items to set their filters, unfortunately.[/note]
 
 # Quest: Magical Plants
-# EN name: Magical Plants
-# EN desc: Now that you've made a crucible you can create a bunch of unique Thaumcraft plants. Some of these are incredibly useful so you'll want to take a close look.%n%nThe research for most of these can be found under Thaumic Bases, starting with "Thaumic Nature".%n%n[note]Aside from these, there are more plant types unlocked in the future as you continue to progress.[/note]
-betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.name=[提出済み]魔法の植物
+betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.name=魔法の植物
 betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.desc=§7《§rるつぼ§7／Crucible》§rを作ったので、Thaumcraft独自の植物をいろいろと作れるようになりました。中にはとても役に立つものもあるので、よく見ておきましょう。%n%nほとんどの植物の研究は§7《§r基礎魔導学§7／Thaumic Bases》§rタブにあり、§7《§r神秘の自然§7／Thaumic Nature》§rから始まります。%n%n[note]これ以外にも、先に進むにつれて解禁される植物があります。[/note]
 
 # Quest: Tube Madness
@@ -13590,9 +13558,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGw.name="端"に目を向ける
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGw.desc=ウェザーワックスおばあちゃんも気に入るだろう。%n%n§nカバーされているMod§r%n§9Witchery§r
 
 # Quest: Fire Burn and...
-# EN name: Fire Burn and...
-# EN desc: In order to get started with your basic witchery needs, you need a Witches Oven.%n%nThe Witches Oven is used to get the most basic ingredients for your recipes - Fumes.%n%nThe oven is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot. Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.%n%nUpgrading an Oven%n%nAn oven can be upgraded by placing either a Fume Funnel or a Filtered Fume Funnel to the left and right of it. Each Fume Funnel will increase the cooking speed by an additional 10 percent (over a furnace) and increase the chance of a by-product being produced by an additional 25 percent for a Fume Funnel or 30 percent for a Filtered Fume Funnel.%n%nA fully upgraded oven will therefore cook at 130 percent speed (compared to a furnace) and have a 90 percent chance of producing a by-product.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABTA.name=[提出済み]火よ燃えよ、そして...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABTA.name=火よ燃えよ、そして...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABTA.desc=Witcheryの基本的な作業を始めるには、§7《§r魔女のオーブン§7／Witches Oven》§rが必要です。%n%n魔女のオーブンは、レシピに使う最も基本的な材料である臭気を得るのに使います。%n%nこのオーブンは、調理の過程で出る副産物を捕らえられます。オーブンを右クリックして画面を開くと、燃料スロットの右側にもう1つスロットがあります。ここには§7《§r陶器の瓶§7／Clay Jar》§rを入れてください。陶器の瓶が入った状態で何かを調理すると、一定の確率で副産物が瓶の1つに捕らえられます。これらの副産物は、ほかのレシピの重要な材料になります。陶器の瓶を入れずに調理すると、副産物は出ません。%n%nオーブンの強化%n%nオーブンの左右に§7《§r煙霧フィルタ§7／Fume Funnel》§rか§7《§rフィルタ付きの煙突§7／Filtered Fume Funnel》§rを設置すると、オーブンを強化できます。1つ設置するごとに、調理速度が(かまどと比べて)10%%ずつ上がり、副産物が出る確率も、煙霧フィルタなら25%%、フィルタ付きの煙突なら30%%ずつ上がります。%n%nしたがって、完全に強化したオーブンは(かまどと比べて)130%%の速度で調理し、副産物が出る確率は90%%になります。
 
 # Quest: Offerings
@@ -13920,9 +13886,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUw.name=Mutating Sprig
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUw.desc=The Mutating Sprig brings a degree of order to the chaotic nature of Mutandis, allowing more limited, but also more predictable effects. It is a key tool in the creation of plant-based devices such as the Leech Chest.%n%nThe Mutating Sprig is crafted in the Witch's Cauldron using an Ent Twig, Nether Wart and Mutandis Extremis.%n%nGrass - Mutates to Mycelium%nMycelium - Mutates to Grass%nDirt (under water) - Mutates to Clay%n%nWheat in a proper configuration should mutate to wormwood, but because of other mods it doesn't work. You can buy wormwood from the Coins tab instead.
 
 # Quest: Changing Biomes With Witchery
-# EN name: Changing Biomes With Witchery
-# EN desc: There are two ways to change biomes with Witchery, the easy way or the hard way, choose which one you want to do (or do them both). Remember that you need a Witchery Distillery first!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcQ.name=[提出済み]Witcheryでバイオームを変える
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcQ.name=Witcheryでバイオームを変える
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcQ.desc=Witcheryでバイオームを変える方法は、簡単な方法と難しい方法の2つがあります。どちらにするか選んでください(両方やっても構いません)。まずWitcheryの§7《§r蒸留器§7／Distillery》§rが必要なことを忘れずに！
 
 # Quest: The Easy Way to Change Biomes

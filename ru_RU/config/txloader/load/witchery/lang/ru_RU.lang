@@ -1,0 +1,10 @@
+# --- Missing Keys ---
+
+fluid.witchery:fluidspirit=Fluid Spirit
+fluid.witchery:brew=Зелье
+fluid.witchery:brewliquid=Жидкость зелья
+fluid.witchery:brewgas=Газ зелья
+fluid.witchery:fluiddisease=Fluid Disease
+entity.witchery.attackbat.name=Атакующая летучая мышь
+entity.witchery.eye.name=Око
+entity.witchery.mirrorface.name=Зеркальное лицо
