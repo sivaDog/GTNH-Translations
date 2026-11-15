@@ -1989,8 +1989,10 @@ betterquesting.quest.Bgu0MatiTJae3tNwj5FS1w.name=[提出済み]§6§nMVワイヤ
 betterquesting.quest.Bgu0MatiTJae3tNwj5FS1w.desc=MVワイヤーミルはLVワイヤーミルと比べて2倍の処理速度を誇りますが、その分、消費電力は4倍になります。
 
 # Quest: MV Cutting Machine
-betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.name=§6§lMV Cutting Machine
-betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.desc=As I'm sure you've figured out by now, some of the Cutting Machine recipes take quite a long time to complete. Fortunately, the MV Cutting Machine should help speed that process along nicely compared to the LV version.%n%n[note]This will also be required later in the questline for cutting up ULPICs![/note]
+# EN name: §6§lMV Cutting Machine
+# EN desc: As I'm sure you've figured out by now, some of the Cutting Machine recipes take quite a long time to complete. Fortunately, the MV Cutting Machine should help speed that process along nicely compared to the LV version.%n%n[note]This will also be required later in the questline for cutting up ULPICs![/note]
+betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.name=[提出済み]§6§nMV切断機
+betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.desc=もうお気づきだと思いますが、§7《§r切断機§7／Cutting Machine》§rのレシピの中には、完了までにかなり時間がかかるものがあります。幸い、MV切断機ならLV版と比べてその工程をしっかり速めてくれるはずです。%n%n[note]これはクエストラインの後半で、ULPICを切り出すのにも必要になります！[/note]
 
 # Quest: Dislocator Inhibitor
 betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.name=§6§nディスロケーター抑制器
@@ -11286,8 +11288,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.desc=エンドゲームの高速生�
 # Quest: Fastest Way to Get There
 # EN name: Fastest Way to Get There
 # EN desc: A GT++ Mutagenic frame will get your bees to their final destination faster than you can blink. Just remember to wear your rubber suit while making it!%n%n[note]These will break in the alveary before they take effect since their durability is under 6. So you can only get to 125x, but I think that's enough, don't you?[/note]
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.name=[下書き]最速の到達方法
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.desc=§7《§r変異誘発の巣枠§7／Mutagenic Frame》§rは、まばたきするより速く蜂を最終目的地へ導きます。作るときはゴムスーツを着るのを忘れないで!%n%n[note]耐久が6未満のため、大型養蜂箱では効果が出る前に壊れます。125倍までしか上げられませんが、十分でしょう?[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.name=[提出済み]最速の到達方法
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.desc=GT++の§7《§r変異誘発の巣枠§7／Mutagenic Frame》§rを使えば、まばたきするより速く蜂を最終目的地へ連れて行けます。作るときはゴムのスーツを着るのを忘れないでください！%n%n[note]耐久値が6未満なので、大型養蜂箱では効果が出る前に壊れてしまいます。そのため125倍までしか上げられませんが、それで十分ですよね？[/note]
 
 # Quest: Upgrading the Alveary
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKw.name=大型養蜂箱のアップグレード
