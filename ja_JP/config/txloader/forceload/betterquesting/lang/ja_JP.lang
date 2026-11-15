@@ -12513,8 +12513,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg.name=Improved Armor: Samurai Style
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg.desc=Time to get some decent armor. With this, those infernal monsters won't be as much of a pain as they are now.
 
 # Quest: A New Way to "Farm" Resources
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.name=A New Way to "Farm" Resources
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.desc=While regular plants are mostly used to make food, these magical plants (courtesy of Thaumic Bases) will grow you some good ol' resources!%n%nSpecifically, you have the ability to create Redlon (for Redstone), Metalleat (for Iron). Lucrite (for Gold), and Lazullia (for Lapis Lazuli).%n%nThere's also the fabled "Rainbow Cacti", which should help those who like to build with various colors...
+# EN name: A New Way to "Farm" Resources
+# EN desc: While regular plants are mostly used to make food, these magical plants (courtesy of Thaumic Bases) will grow you some good ol' resources!%n%nSpecifically, you have the ability to create Redlon (for Redstone), Metalleat (for Iron). Lucrite (for Gold), and Lazullia (for Lapis Lazuli).%n%nThere's also the fabled "Rainbow Cacti", which should help those who like to build with various colors...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.name=[提出済み]資源を「栽培」する新しい方法
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.desc=普通の植物はほとんどが食料を作るのに使われますが、これらの魔法の植物(Thaumic Basesの提供です)からは、昔ながらの資源が育ちます！%n%n具体的には、§7《§rレッドロン§7／Redlon》§r(レッドストーン用)、§7《§rメタリート§7／Metalleat》§r(鉄用)、§7《§rルクリット§7／Lucrite》§r(金用)、§7《§rラズリア§7／Lazullia》§r(ラピスラズリ用)を作れるようになります。%n%n伝説の「§7《§rニジイロサボテン§7／Rainbow Cacti》§r」もあり、いろいろな色で建築するのが好きな人の役に立つはずです...
 
 # Quest: Lead, Galena, Silver and Cryolite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACYg.name=鉛、方鉛鉱、銀、そして氷晶石
@@ -12673,8 +12675,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.name=ソーマトリウムって言�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.desc=この装置を使うと、るつぼを自動化できます。詳しくは、るつぼの研究のずっと右にある研究を確認してください。
 
 # Quest: Growing Auram
-betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.name=Growing Auram
-betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=One Essentia you might have a hard time gathering is Auram. Maybe you've gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.%n%nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.%n%nYou should make sure the ground near the flower is level and clear, so you'll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.%n%n[note]Gaia Wart is also a growable source of Auram Essentia. It has a quest in the Green Revolution quest tab.[/note]
+# EN name: Growing Auram
+# EN desc: One Essentia you might have a hard time gathering is Auram. Maybe you've gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.%n%nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.%n%nYou should make sure the ground near the flower is level and clear, so you'll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.%n%n[note]Gaia Wart is also a growable source of Auram Essentia. It has a quest in the Green Revolution quest tab.[/note]
+betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.name=[提出済み]Auramを育てる
+betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=集めるのに苦労しそうなエッセンシアの一つがAuramです。ネザーにまれに現れる、宙を漂う光の玉が落とす§7《§r天上のエッセンス§7／Ethereal Essence》§rや、§7《§rオーラ節§7／Node》§rから少し手に入れたことがあるかもしれません。しかし、それでは十分な供給源とは言えません。§7《§rアウレリア§7／Aurelia》§rという植物なら、この問題を解決できます。%n%n頭上に満月が見えていると、アウレリアの花は花びらを開きます。おそらく月の光を養分にするためでしょう。あなたにとって重要なのは、この花びらがときどき散ることです。散った花びらは地面から拾うことができ、Auramのエッセンシアを豊富に含んでいます。%n%n花の周りの地面は平らにして、何も置かないようにしておきましょう。そうすれば、あとで花びらを拾えます。花そのものは耕地ではなく草ブロックに植えるだけなので、近くに水源を用意する必要もありません。%n%n[note]§7《§rガイアウォート§7／Gaia Wart》§rも、育てて手に入るAuramのエッセンシアの供給源です。こちらは「緑の革命」のクエストタブにクエストがあります。[/note]
 
 # Quest: Thauminite Helmet
 betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.name=魔導鋼のヘルメット
@@ -12693,8 +12697,10 @@ betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.name=汚染の警告
 betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=エッセンシアという形でVisを使い始めたので、§7《§r汚染§7／Taint》§rについて警告しておきます。%n%n正しく保管しないと、エッセンシアの状態のVisは不安定です。長く放置したり、るつぼから捨てたりすると、エッセンシアは分解します。ただしVisには戻りません。代わりに§7《§rフラックス§7／Flux》§rになります。%n%nフラックスは液体や気体として現れますが、それ自体はただの厄介者です。これに晒された魔導士は§7《§rフラックス症§7／Flux Flue》§rになることがあり、Visを通しにくくなりますが、一時的なものです。%n%nフラックスが濃くなると固まって§7《§r魔導スライム§7／Thaumic Slime》§rになります。互いに合体して大きくなろうとする奇妙な生き物です。危険ではありますが、たいていの相手と同じくクロスボウの矢には弱いです。%n%nしかし、フラックスを長く放置しすぎると土地を腐敗させ、触手となって固まります。これが汚染と呼ばれる災厄の現れです。§7《§r繊維状の汚染§7／Fibrous Tendril》§r(およびそれを凝り固めたブロック)は、歪めた魔法を糧にして§7《§r汚染された土地§7／Tainted Lands》§rを広げます。オーラ節は特に弱く、この歪んだ魔法に晒されると自身も汚染されます。%n%n触手を壊せば拡散は止まりますが、§oすべて§rを壊さない限り一時しのぎです。より効果的なのは汚染された土地そのものを壊すことです。このバイオームの外では、触手はすぐに枯れて死にます。%n%nるつぼの扱いが§o極端に§r雑だと、実際に汚染された土地を作り出せてしまいます。だから、無駄にするエッセンシアはできるだけ少なくし、無駄にしたものは片付けた方が賢明です。
 
 # Quest: Growing Glowstone the Magical Way
-betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=Growing Glowstone the Magical Way
-betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.
+# EN name: Growing Glowstone the Magical Way
+# EN desc: There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.
+betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=[提出済み]魔法の力でグロウストーンを育てる
+betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=グロウストーンダストが手に入る植物はたくさんありますが、一番良いのは§7《§rグリーオニア§7／Glieonia》§rかもしれません。この魔法の植物は、完全に成長したら収穫するとグロウストーンダストが直接2個手に入ります。
 
 # Quest: Timewood Tree
 betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.name=時の木
@@ -12717,8 +12723,10 @@ betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.name=へんぺくりんな行商人
 betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.desc=旅の途中で、魔力に満ちた森の噂を聞いた。その森には、結晶片を含む魔法の品物を取引する、少し風変わりな小さな商人がいるのだという。世界中をめぐって宝石や金を集めているが、価値ある物を何一つ持たぬ旅人には冷たいらしい。%n%nその商人を見つけ出し、品物を手に入れることはできるだろうか。手がかりとなる場所があるとすれば…… §7《§r魔法の森§7／Magical Forest》§r である。%n%n[note]このクエストは、§7《§rペックの略奪者§7／Pech Forager》§r に限らず、どの種類のペックと遭遇しても達成されます。[/note]
 
 # Quest: Need More Sugar?
-betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.name=Need More Sugar?
-betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.desc=With Briar starting to consume you might also want to increase your sugar production.%n%nSweeds are planted on grass, not farmland, and will spread to propagate themselves. Once fully matured they can be harvested for sugar as well as sugar cane.
+# EN name: Need More Sugar?
+# EN desc: With Briar starting to consume you might also want to increase your sugar production.%n%nSweeds are planted on grass, not farmland, and will spread to propagate themselves. Once fully matured they can be harvested for sugar as well as sugar cane.
+betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.name=[提出済み]砂糖がもっと必要？
+betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.desc=§7《§rブライア§7／Briar》§rで砂糖を消費するようになるので、砂糖の生産量も増やしておくとよいでしょう。%n%n§7《§rスウィード§7／Sweed》§rは耕地ではなく草ブロックに植えます。ひとりでに広がって増えていきます。完全に成長したら収穫すると、砂糖とサトウキビが手に入ります。
 
 # Quest: Thaumic Dendrology
 betterquesting.quest.VJvOr8S8R3SMamYdt0yyFw.name=Thaumic Dendrology
@@ -12745,24 +12753,30 @@ betterquesting.quest.cbv93MoJQESfsccTQMCwUA.name=エッセンシアの保管
 betterquesting.quest.cbv93MoJQESfsccTQMCwUA.desc=ついに、アイテムを溶かしてエッセンシアにし、安定させ、後で使うために保管する道具がそろいました。%n%n最後のステップは§7《§r保護瓶§7／Warded Jar》§rの作成でした。比較的単純な装置ですが、エッセンシアを準液体状態に保ち、フラックスへ変化するのを防ぎやすくします。安定させるために正確に8エッセンシアを入れなければならない薬瓶とは異なり、保護瓶は1〜64エッセンシアまで保管できます。%n%nこれらの保護瓶は安全に持ち上げて運べます。これよりはるかに多くのエッセンシアを蓄えられる容器の多くでは、そうはいかないでしょう。瓶ラベルを持って右クリックすれば、その瓶を特定の種類のエッセンシアだけを受け付けるよう絞り込めます。瓶が空のときは、事前設定した瓶ラベルを使ってください。%n%n素手でスニーク＋右クリックすると、瓶から瓶ラベルを外せます。ラベルがない場合は、中身のエッセンシアを消去します。瓶からエッセンシアを消去してもフラックスは発生しません。なぜかって？……魔法、でしょうね。とても便利なので、あまり深くは問い詰めない方がよいでしょう。
 
 # Quest: Growing your own Knowledge!
-betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.name=Growing your own Knowledge!
-betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.desc=Ever thought to yourself "man, why does everything have to use primal aspects so much?" Well now you won't have to worry about that anymore!%n%nMeet the Rosa Mysteria. When the sprout is planted on a Crystal Block, it will use that block's essence to grow into an Aspect Shard of the same type! These shards can then be thrown into your Cauldron or Alchemical Furnace, or used as Knowledge Fragments to gain Research Points. Even Mixed Crystals can be used as a catalyst!%n%n[warn]Warning: Planting Rosa Mysteria on Tainted Crystal Blocks will lead to unf§ko§rres§ke§re§kn §rco§kn§rs§ke§rq§kue§rnc§ke§r§ks.§r[/warn]
+# EN name: Growing your own Knowledge!
+# EN desc: Ever thought to yourself "man, why does everything have to use primal aspects so much?" Well now you won't have to worry about that anymore!%n%nMeet the Rosa Mysteria. When the sprout is planted on a Crystal Block, it will use that block's essence to grow into an Aspect Shard of the same type! These shards can then be thrown into your Cauldron or Alchemical Furnace, or used as Knowledge Fragments to gain Research Points. Even Mixed Crystals can be used as a catalyst!%n%n[warn]Warning: Planting Rosa Mysteria on Tainted Crystal Blocks will lead to unf§ko§rres§ke§re§kn §rco§kn§rs§ke§rq§kue§rnc§ke§r§ks.§r[/warn]
+betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.name=[提出済み]自分の知識を育てよう！
+betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.desc=「どうしてどれもこれも根源相をこんなに使うんだ？」と思ったことはありませんか？ でも、もうその心配はいりません！%n%n§7《§rローザ・ミステリア§7／Rosa Mysteria》§rを紹介しましょう。この新芽を§7《§r結晶ブロック§7／Crystal Block》§rの上に植えると、そのブロックのエッセンスを使って、同じ種類の相の結晶片に育ちます！ この結晶片は、るつぼや錬金かまどに投げ込んだり、§7《§r知識の断片§7／Knowledge Fragment》§rとして使って研究ポイントを得たりできます。混成結晶でさえ触媒として使えます！%n%n[warn]警告：ローザ・ミステリアを汚染結晶ブロックに植えると、予§k期§rせ§kぬ§r結§k果§rを§k招§rき§kま§rす§k。§r[/warn]
 
 # Quest: Solid, Directional Redstone
 betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=固体の指向性レッドストーン
 betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.desc=レッドストーンの粉はすばらしい物質ですが、真のマインクラフターだけが扱える制約がいくつかあります。%n%n幸い、少し魔法を加えると粉が結晶化し、ずっと扱いやすくなります。%n%n§7《§rレッドクリスタル§7／Redcrystal》§rは壁や天井に直接設置でき、杖で指定した面が信号を送受信するかどうかを切り替えられます。これなら、普通のレッドストーンではそもそも置けない場所にも、きれいでコンパクトな回路を組めます。%n%nこのレッドクリスタルをさらに改良して、受け取った信号を何らかの形で操作したり処理したりできるかもしれません……
 
 # Quest: Alleviating Warp
-betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.name=Alleviating Warp
-betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.desc=When you get poisoned or withered a bit of milk solves the problem. Why not create something akin to milk, but for Warp effects?%n%nBriar gives a bit of an answer to that. These two block tall plants, which require good light to grow, will produce Briar Seed Bags when harvested. Those can be combined with sugar and a suitable container in an Arcane Workbench to create Rosehip Syrup.%n%nRosehip Syrup stacks up to 16 and can be used the same as milk, also removing some (though not all) Warp effects as well as Flux Flue and Flux Phage.%n%nThe plant has a strange life cycle where the seed pods will first appear as yellow dots, turn pink as they start to mature, then §odisappear§r, only to return fully matured. Still, if it works, it works.
+# EN name: Alleviating Warp
+# EN desc: When you get poisoned or withered a bit of milk solves the problem. Why not create something akin to milk, but for Warp effects?%n%nBriar gives a bit of an answer to that. These two block tall plants, which require good light to grow, will produce Briar Seed Bags when harvested. Those can be combined with sugar and a suitable container in an Arcane Workbench to create Rosehip Syrup.%n%nRosehip Syrup stacks up to 16 and can be used the same as milk, also removing some (though not all) Warp effects as well as Flux Flue and Flux Phage.%n%nThe plant has a strange life cycle where the seed pods will first appear as yellow dots, turn pink as they start to mature, then §odisappear§r, only to return fully matured. Still, if it works, it works.
+betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.name=[提出済み]歪みを和らげる
+betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.desc=毒や衰弱にかかったときは、牛乳を少し飲めば解決します。では、歪みの効果に効く、牛乳のようなものを作ってみてはどうでしょうか？%n%nその答えの一つが§7《§rブライア§7／Briar》§rです。高さ2ブロックのこの植物は、育つのに十分な明るさが必要で、収穫すると§7《§rブライアの種袋§7／Briar Seed Bag》§rが手に入ります。これを砂糖や適切な容器と一緒に§7《§r神秘の作業台§7／Arcane Workbench》§rで組み合わせると、§7《§rローズヒップシロップ§7／Rosehip Syrup》§rが作れます。%n%nローズヒップシロップは16個までスタックでき、牛乳と同じように使えるうえ、歪みの効果の一部(すべてではありません)や、§7《§rフラックス症§7／Flux Flu》§r、§7《§rフラックス疫§7／Flux Phage》§rも取り除けます。%n%nこの植物は奇妙な生活環をもっていて、種のさやはまず黄色い点として現れ、成熟し始めるとピンク色に変わり、それから§o消えて§rしまい、完全に成熟した姿で再び現れます。とはいえ、ちゃんと使えるならそれで良しとしましょう。
 
 # Quest: Counting Items
 betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.name=Counting Items
 betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.desc=The Remote Comparator makes it significantly easier to get comparator signals out of whatever block you want, but looking at your storage chests you can't help but see no reason to bother. So what if they're nearly full? You want to know what they're nearly full §oof§r.%n%nTally Boxes can be pointed at a container - either directly or, using a Remote Comparator, remotely - and given a Runic Whitelist that specifies conditions where you want a Tally Box to send a redstone signal. Quantity, metadata and NBT matching are options, as is using a basic name filter.%n%nNote that the redstone side is always opposite the reading side, and Remote Comparators must be placed on top of Tally Boxes to work together, meaning redstone is always output on the down face in that case.%n%n[note]Runic Whitelists don't let you use NEI ghost items to set their filters, unfortunately.[/note]
 
 # Quest: Magical Plants
-betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.name=Magical Plants
-betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.desc=Now that you've made a crucible you can create a bunch of unique Thaumcraft plants. Some of these are incredibly useful so you'll want to take a close look.%n%nThe research for most of these can be found under Thaumic Bases, starting with "Thaumic Nature".%n%n[note]Aside from these, there are more plant types unlocked in the future as you continue to progress.[/note]
+# EN name: Magical Plants
+# EN desc: Now that you've made a crucible you can create a bunch of unique Thaumcraft plants. Some of these are incredibly useful so you'll want to take a close look.%n%nThe research for most of these can be found under Thaumic Bases, starting with "Thaumic Nature".%n%n[note]Aside from these, there are more plant types unlocked in the future as you continue to progress.[/note]
+betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.name=[提出済み]魔法の植物
+betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.desc=§7《§rるつぼ§7／Crucible》§rを作ったので、Thaumcraft独自の植物をいろいろと作れるようになりました。中にはとても役に立つものもあるので、よく見ておきましょう。%n%nほとんどの植物の研究は§7《§r基礎魔導学§7／Thaumic Bases》§rタブにあり、§7《§r神秘の自然§7／Thaumic Nature》§rから始まります。%n%n[note]これ以外にも、先に進むにつれて解禁される植物があります。[/note]
 
 # Quest: Tube Madness
 betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.name=管だらけの狂気
