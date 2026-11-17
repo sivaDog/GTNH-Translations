@@ -12027,8 +12027,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxw.name=獄魂種 - ウィザー
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxw.desc=The Wither bee will let you generate Wither skulls and small amounts of Nether star dust. It requires a block of Nether Star, and must be bred in the End. Breed them from Withering and Draconic.
 
 # Quest: Withering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIyA.name=Withering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIyA.desc=Inflicts Withering all those who come near. Must be bred in the Nether. Chances are going to be low, so now would be the time to look for frames that increase mutation rates. Breed them from Demonic and Spiteful.
+# EN name: Withering
+# EN desc: Inflicts Withering all those who come near. Must be bred in the Nether. Chances are going to be low, so now would be the time to look for frames that increase mutation rates. Breed them from Demonic and Spiteful.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIyA.name=[提出済み]衰弱種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIyA.desc=近づく者すべてを衰弱させます。ネザーで交配する必要があります。成功率は低いので、そろそろ突然変異率を上げる巣枠を探すときかもしれません。悪魔種と悪意種を交配してみましょう。
 
 # Quest: Spiteful
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIyQ.name=悪意種
