@@ -1,7 +1,7 @@
 # ja_JP forceload/betterquesting 未翻訳ブロック一覧
 
 対象ファイル: `ja_JP/config/txloader/forceload/betterquesting/lang/ja_JP.lang`
-生成日: 2026-11-06
+生成日: 2026-11-17
 
 ## 検出方法
 
@@ -34,10 +34,10 @@ Mod名・本文中でも英語のまま使われる固有名詞など、翻訳�
 - L5222 Weed-EX
 - L6503 Botany
 - L6639 Carpenter's Blocks
-- L10274 Applied Energistics
-- L12189 Hardcore End(er) Expansion
-- L14864 Better Questing?
-- L15431 Trigger: Loot Game
+- L10275 Applied Energistics
+- L12188 Hardcore End(er) Expansion
+- L14863 Better Questing?
+- L15430 Trigger: Loot Game
 
 ## バージョン差異による除外(0件)
 
@@ -48,58 +48,68 @@ Mod名・本文中でも英語のまま使われる固有名詞など、翻訳�
 ## サマリー
 
 - ファイル内の全クエスト/クエストライン数: 3860(誤検出・バージョン差異除外後 3845)
-- 未翻訳率: 2092/3845 (54%)
-  - うち `[下書き]` 表記(未訳扱い): 59件
+- 未翻訳率: 2033/3845 (53%)
+  - うち `[下書き]` 表記(未訳扱い): 58件
 - 連続ブロック数: 241
 
 ## 進捗(前回資料生成からの差分)
 
-基準: 前回資料生成時点(2026-11-06) との比較。
+基準: 前回資料生成時点(2026-11-16) との比較。
 
-- この基準以降に翻訳が完了したクエスト: 0件
+- この基準以降に翻訳が完了したクエスト: 14件
 - この基準以降に新規追加された未翻訳クエスト(フォーク元の更新等): 0件
+
+翻訳完了したクエスト一覧:
+
+- L2627 Sodium Sulfide
+- L2691 Platinum Processing, Step 4
+- L2695 Platinum Processing, Step 3
+- L2699 Platinum Salt Recycling
+- L2703 Platinum Processing, Step 2b
+- L2707 Platinum Processing, Step 1
+- L2711 Platinum Processing, Step 2a
+- L2715 Back to Step 1
+- L2731 Dichlorobenzene
+- L2735 Polyphenylene Sulfide
+- L2739 Higher Tier Cables
+- L2751 Tungstate Processing - Step 1
+- L2755 Tungstate Processing - Step 2
+- L12029 Withering
 
 ## 章ごとの未翻訳ブロック
 
-### ヒントとコツ  _(L137)_ — 未翻訳率: 1/6 (17%)
+### Tier 2 - MV時代  _(L1433)_ — 未翻訳率: 4/141 (3%)
 
-- [ ] L157-L159 (1) Build Your Own Keep Inventory
-
-### Tier 1 - LV時代  _(L852)_ — 未翻訳率: 3/143 (2%)
-
-- [ ] L1404-L1406 (1) Steam Regulator
-- [ ] L1416-L1422 (2) Reading the Grid / Void Buses
-
-### Tier 2 - MV時代  _(L1433)_ — 未翻訳率: 6/141 (4%)
-
-- [ ] L1981-L2003 (6) MV Wiremill / MV Cutting Machine / Dislocator Inhibitor / String Theory? / Still No Filing in MV / Conduit Probe
+- [ ] L1989-L2003 (4) Dislocator Inhibitor / String Theory? / Still No Filing in MV / Conduit Probe
 
 ### Tier 3 - HV時代  _(L2006)_ — 未翻訳率: 4/107 (4%)
 
 - [ ] L2018-L2020 (1) Personal Dimension
 - [ ] L2422-L2432 (3) Fluoro-who now? / Melting and Refreezing / Ender Fluid Conduits
 
-### Tier 4 - EV時代  _(L2443)_ — 未翻訳率: 48/85 (56%)
+### Tier 4 - EV時代  _(L2443)_ — 未翻訳率: 22/85 (26%)
 
-- [ ] L2563-L2577 (4) Nano Supercomputer / EV Chemical Bath / Nano Mainframe / Blue Steel
-- [ ] L2591-L2601 (3) Phenol / Bisphenol A / HSS-G
-- [ ] L2607-L2633 (7) EV Laser Engraver / EV Superconductors (2048 EU/t) / Pure Uranium Ores / Want to Join a Band? / Radon Decay / Sodium Sulfide … 他1件
+- [ ] L2599-L2601 (1) HSS-G
+- [ ] L2631-L2633 (1) One Dragon Egg is Not Enough Mr Bond
 - [ ] L2639-L2669 (8) Ender Egg / Draconium Egg / Dragon Egg Omelet / Glass Fiber / Fiber Reinforced Epoxid Sheet / Empty Fiber Reinforced Glass Board … 他2件
-- [ ] L2675-L2717 (11) Data Orbs / Create New Materials Out of Pure Energy / Critical Materials / What's in the Box? / Platinum Processing, Step 4 / Platinum Processing, Step 3 … 他5件
-- [ ] L2723-L2761 (10) Just Enough Tungstensteel For Your Rocket / Bigger Drums / Dichlorobenzene / Polyphenylene Sulfide / Higher Tier Cables / Advanced Ilmenite Processing … 他4件
-- [ ] L2767-L2785 (5) Niobium-Titanium / Four fluids in the one Hatch! / EV Field Generator / HV Field Generator / EXTREME MIXING
+- [ ] L2675-L2689 (4) Data Orbs / Create New Materials Out of Pure Energy / Critical Materials / What's in the Box?
+- [ ] L2723-L2729 (2) Just Enough Tungstensteel For Your Rocket / Bigger Drums
+- [ ] L2743-L2749 (2) Advanced Ilmenite Processing / Water, Fast
+- [ ] L2767-L2781 (4) Niobium-Titanium / Four fluids in the one Hatch! / EV Field Generator / HV Field Generator
 
-### Tier 5 - IV時代  _(L2788)_ — 未翻訳率: 127/131 (97%)
+### Tier 5 - IV時代  _(L2788)_ — 未翻訳率: 126/131 (96%)
 
-- [ ] L2792-L2818 (7) IV Field Generator / Tier 5 (IV) / On Your Way to Asteroids and Other Rocket Tier 3 DIMs / Callisto Trip / Europa Trip / IV Superconductors (8192 EU/t) … 他1件
+- [ ] L2792-L2810 (5) IV Field Generator / Tier 5 (IV) / On Your Way to Asteroids and Other Rocket Tier 3 DIMs / Callisto Trip / Europa Trip
+- [ ] L2816-L2818 (1) IV Mixer
 - [ ] L2824-L2934 (28) You're Gonna Hate This 5 and 6 in IV / Ceres Trip / Quantum Star / HSS-S / Argon / Your First Naquadah Ingot … 他22件
 - [ ] L2940-L2962 (6) Quantum Supercomputer / Quantum Mainframe / Cheaper LV Circuits / On Your Way to Tier 4 DIMs / Mercury Trip / Venus Trip
 - [ ] L2968-L3310 (86) IV Assembler / Palladium Processing / Platinum Group Processing - All the Other Metals / First Separation - Rhodium / Second Separation - Ruthenium / Re-Solving the Purity Issue … 他80件
 
-### Tier 6 - LuV時代  _(L3313)_ — 未翻訳率: 76/78 (97%)
+### Tier 6 - LuV時代  _(L3313)_ — 未翻訳率: 75/78 (96%)
 
 - [ ] L3317-L3351 (9) Netherite Scrap Seed / Dense Netherite Plate / Nefarious Production / Hot Netherite Scrap / Netherite Materials / Automated Mining … 他3件
-- [ ] L3357-L3623 (67) Now You're Really Gonna Hate This 5 and 6 in LuV / Tier 6 (LuV) / Fluid TP for Magic-Haters / Thought Emitters Were Bad Enough? / Accelerating Things II / Accelerating Things III … 他61件
+- [ ] L3357-L3415 (15) Now You're Really Gonna Hate This 5 and 6 in LuV / Tier 6 (LuV) / Fluid TP for Magic-Haters / Thought Emitters Were Bad Enough? / Accelerating Things II / Accelerating Things III … 他9件
+- [ ] L3421-L3623 (51) LuV Assembler / Assline Quest Updates / Panning For Gold is For Chumps / LuV Energy Hatch / Fetch Quests / Imprints, They're Important … 他45件
 
 ### Tier 7 - ZPM時代  _(L3626)_ — 未翻訳率: 50/66 (76%)
 
@@ -170,7 +180,7 @@ Mod名・本文中でも英語のまま使われる固有名詞など、翻訳�
 - [ ] L6390-L6392 (1) Apprentice Striders
 - [ ] L6402-L6404 (1) Archmage Striders
 
-### キッチリ基地を建築  _(L6423)_ — 未翻訳率: 32/83 (39%)
+### キッチリ基地を建築  _(L6423)_ — 未翻訳率: 31/83 (37%)
 
 - [ ] L6427-L6429 (1) Let it Glow!
 - [ ] L6435-L6441 (2) Barrel Upgrades / Texturing made easy
@@ -179,7 +189,7 @@ Mod名・本文中でも英語のまま使われる固有名詞など、翻訳�
 - [ ] L6647-L6673 (7) Excavation Upgrade / Crystal Shulker Box / Let's get Building! / Chests Had Quite the Glow-up! / Obsidian Barrel / Obsidian Shulker Box … 他1件
 - [ ] L6679-L6681 (1) Iron Shulker Box
 - [ ] L6687-L6725 (10) Gotta Go Fast! / Gold Shulker Box / Finally, Some Real Power! / Shulker Upgrades / Diamond Shulker Box / Advanced Concrete Backfiller … 他4件
-- [ ] L6731-L6761 (8) Cooper's Mallet / Advanced Filing Cabinet / Marking Your Base / Silver Shulker Box / Draconic Chest / Concrete Backfiller … 他2件
+- [ ] L6731-L6757 (7) Cooper's Mallet / Advanced Filing Cabinet / Marking Your Base / Silver Shulker Box / Draconic Chest / Concrete Backfiller … 他1件
 
 ### Forestryとマルチファーム  _(L6764)_ — 未翻訳率: 21/68 (31%)
 
@@ -242,192 +252,193 @@ Mod名・本文中でも英語のまま使われる固有名詞など、翻訳�
 
 ### 石油のための労働  _(L8619)_ — 未翻訳率: 31/46 (67%)
 
-- [ ] L8623-L8645 (6) Maxed Oil Cracker / Super Fuel At The Top / Breaking the Mold / Ultimate Distillation / Hyperheated Steam / Universal Fuel Power
-- [ ] L8663-L8669 (2) The Era of Multis / Generator Power
-- [ ] L8711-L8801 (23) Using All the Fractions / Oil Cracker / Boosting the Diesel / Special Rubber from Oil / Distilled Heavy Fuel / Acetone and Ethenone … 他17件
+- [ ] L8623-L8646 (6) Maxed Oil Cracker / Super Fuel At The Top / Breaking the Mold / Ultimate Distillation / Hyperheated Steam / Universal Fuel Power
+- [ ] L8664-L8670 (2) The Era of Multis / Generator Power
+- [ ] L8712-L8802 (23) Using All the Fractions / Oil Cracker / Boosting the Diesel / Special Rubber from Oil / Distilled Heavy Fuel / Acetone and Ethenone … 他17件
 
-### 大衆("マス")のためのバイオ  _(L8804)_ — 未翻訳率: 34/48 (71%)
+### 大衆("マス")のためのバイオ  _(L8805)_ — 未翻訳率: 34/48 (71%)
 
-- [ ] L8848-L8850 (1) Biological Diesel
-- [ ] L8856-L8906 (13) Pyrolyse Oven / Large Steel Boiler / Wood Tar / The Most Powerful Biodiesel / Trees Growing Faster / Sapling Power … 他7件
-- [ ] L8912-L8942 (8) Green Nitric Acid / Green Ethenone / Green Cetane-Boosted Diesel / Fermented Biomass / Free For All Fertilizer / Methane Stinks … 他2件
-- [ ] L8948-L8994 (12) Upgrading Your Benzene / CBD Into Steam / Mass Distilled Water / Nitric And Sulfuric Acid / Titanium Chemical Plant / Nitrobenzene … 他6件
+- [ ] L8849-L8851 (1) Biological Diesel
+- [ ] L8857-L8907 (13) Pyrolyse Oven / Large Steel Boiler / Wood Tar / The Most Powerful Biodiesel / Trees Growing Faster / Sapling Power … 他7件
+- [ ] L8913-L8943 (8) Green Nitric Acid / Green Ethenone / Green Cetane-Boosted Diesel / Fermented Biomass / Free For All Fertilizer / Methane Stinks … 他2件
+- [ ] L8949-L8995 (12) Upgrading Your Benzene / CBD Into Steam / Mass Distilled Water / Nitric And Sulfuric Acid / Titanium Chemical Plant / Nitrobenzene … 他6件
 
-### 原子核物理学は強力  _(L8997)_ — 未翻訳率: 34/57 (60%)
+### 原子核物理学は強力  _(L8998)_ — 未翻訳率: 34/57 (60%)
 
-- [ ] L9005-L9007 (1) Focus on Breeding
-- [ ] L9017-L9023 (2) Build the Assembly Line First / Improved Fission
-- [ ] L9029-L9035 (2) The Path of Fusion / Building the Reactor
-- [ ] L9053-L9079 (7) Focus On Power Generation / Liquid Fluorine Thorium Reactor / First Half of LFTR Breeding / Sparge Tower / Fusion Europium / How Much Power From One Reactor? … 他1件
-- [ ] L9121-L9191 (18) Nuclear Fuel Processing / Inputs and Outputs in the LFTR / First Steps in Reprocessing / Second Half of LFTR Breeding / Faster Lutetium Excitement / Exciting Liquid Nuking … 他12件
-- [ ] L9209-L9223 (4) Duranium and the Beam Crafter / Reactors are Expensive! / Establishment of Fusion / A Second Reactor?
+- [ ] L9006-L9008 (1) Focus on Breeding
+- [ ] L9018-L9024 (2) Build the Assembly Line First / Improved Fission
+- [ ] L9030-L9036 (2) The Path of Fusion / Building the Reactor
+- [ ] L9054-L9080 (7) Focus On Power Generation / Liquid Fluorine Thorium Reactor / First Half of LFTR Breeding / Sparge Tower / Fusion Europium / How Much Power From One Reactor? … 他1件
+- [ ] L9122-L9192 (18) Nuclear Fuel Processing / Inputs and Outputs in the LFTR / First Steps in Reprocessing / Second Half of LFTR Breeding / Faster Lutetium Excitement / Exciting Liquid Nuking … 他12件
+- [ ] L9210-L9224 (4) Duranium and the Beam Crafter / Reactors are Expensive! / Establishment of Fusion / A Second Reactor?
 
-### スペース・レース  _(L9226)_ — 未翻訳率: 118/141 (84%)
+### スペース・レース  _(L9227)_ — 未翻訳率: 118/141 (84%)
 
-- [ ] L9234-L9264 (8) Can I Build A Mothership For My Father? / The Legs On The Shuttle Rocket Go Step, Step, Step... / Shuttle Nose Cone / A Reward / H8N4C2O4 (Green) Rocket Fuel / Load and Unload the Rocket … 他2件
-- [ ] L9334-L9344 (3) Oxygen Compressor / Parachute / Advanced Wafers
-- [ ] L9350-L9376 (7) 1,1-Dimethylhydrazine / Formaldehyde / Space Station / Are You Prepared? / Moon Arrival / Ceres Dungeon … 他1件
-- [ ] L9382-L9644 (66) Tier 4 Heavy Duty Plates / Rocket Tier 4 / Find Some Meteoric Iron / Tier 2 Heavy Duty Plates / Tier 2 Control Computer / Rocket Tier 2 … 他60件
-- [ ] L9650-L9732 (21) Coal Tar Distilling / Dense Hydrazine / Monomethylhydrazine / CN3H7O3 (Purple) Rocket Fuel / 2-Ethylanthrahydroquinone / 2-Ethylanthraquinone … 他15件
-- [ ] L9738-L9788 (13) Proteus Dungeon / Tier 6 Control Computer / Enceladus Dungeon / Space Pumping / How Do I Charge This Stuff? / steve@mothership:~$ … 他7件
+- [ ] L9235-L9265 (8) Can I Build A Mothership For My Father? / The Legs On The Shuttle Rocket Go Step, Step, Step... / Shuttle Nose Cone / A Reward / H8N4C2O4 (Green) Rocket Fuel / Load and Unload the Rocket … 他2件
+- [ ] L9335-L9345 (3) Oxygen Compressor / Parachute / Advanced Wafers
+- [ ] L9351-L9377 (7) 1,1-Dimethylhydrazine / Formaldehyde / Space Station / Are You Prepared? / Moon Arrival / Ceres Dungeon … 他1件
+- [ ] L9383-L9645 (66) Tier 4 Heavy Duty Plates / Rocket Tier 4 / Find Some Meteoric Iron / Tier 2 Heavy Duty Plates / Tier 2 Control Computer / Rocket Tier 2 … 他60件
+- [ ] L9651-L9733 (21) Coal Tar Distilling / Dense Hydrazine / Monomethylhydrazine / CN3H7O3 (Purple) Rocket Fuel / 2-Ethylanthrahydroquinone / 2-Ethylanthraquinone … 他15件
+- [ ] L9739-L9789 (13) Proteus Dungeon / Tier 6 Control Computer / Enceladus Dungeon / Space Pumping / How Do I Charge This Stuff? / steve@mothership:~$ … 他7件
 
-### 基本的な自動化  _(L9791)_ — 未翻訳率: 15/35 (43%)
+### 基本的な自動化  _(L9792)_ — 未翻訳率: 15/35 (43%)
 
-- [ ] L9799-L9849 (13) Cart Modules: Coal Power / Automated (un-)Loading / Cart Modules: Farming / Cart Modules: Storage / A Simple Cart / Cart Modules: Wood Cutter … 他7件
-- [ ] L9919-L9921 (1) Dealing with H2S
-- [ ] L9927-L9929 (1) Reward for Desulfurizing Automation
+- [ ] L9800-L9850 (13) Cart Modules: Coal Power / Automated (un-)Loading / Cart Modules: Farming / Cart Modules: Storage / A Simple Cart / Cart Modules: Wood Cutter … 他7件
+- [ ] L9920-L9922 (1) Dealing with H2S
+- [ ] L9928-L9930 (1) Reward for Desulfurizing Automation
 
-### SFMとコンピューター  _(L9932)_ — 未翻訳率: 53/54 (98%)
+### SFMとコンピューター  _(L9933)_ — 未翻訳率: 53/54 (98%)
 
-- [ ] L9936-L10146 (53) It's everytime these Transistors / Welcome to OpenComputers! / Your First Microchip / Your First Computer / Arithmetic Logic Circuits / All Your Card Are Belong To Us … 他47件
+- [ ] L9937-L10147 (53) It's everytime these Transistors / Welcome to OpenComputers! / Your First Microchip / Your First Computer / Arithmetic Logic Circuits / All Your Card Are Belong To Us … 他47件
 
-### パイプでロジスティクス  _(L10149)_ — 未翻訳率: 8/31 (26%)
+### パイプでロジスティクス  _(L10150)_ — 未翻訳率: 7/31 (23%)
 
-- [ ] L10189-L10195 (2) Sorting Incoming / More ItemSinks in NEI
-- [ ] L10205-L10211 (2) There Is Extra Stuff... / Remote requests
-- [ ] L10225-L10227 (1) Time to See The Process
-- [ ] L10237-L10239 (1) It's DA BEST
-- [ ] L10257-L10259 (1) Modular Upgrades
-- [ ] L10265-L10267 (1) I NEED THAT!!!!!!
+- [ ] L10190-L10196 (2) Sorting Incoming / More ItemSinks in NEI
+- [ ] L10206-L10208 (1) There Is Extra Stuff...
+- [ ] L10226-L10228 (1) Time to See The Process
+- [ ] L10238-L10240 (1) It's DA BEST
+- [ ] L10258-L10260 (1) Modular Upgrades
+- [ ] L10266-L10268 (1) I NEED THAT!!!!!!
 
-### Applied Energistics  _(L10274)_ — 未翻訳率: 181/185 (98%)
+### Applied Energistics  _(L10275)_ — 未翻訳率: 181/185 (98%)
 
-- [ ] L10278-L10314 (9) 1024k Essentia Component / AE Tier 2 Fluid Storage / Quantum Entangled Singularities / Cribs / Need More Information? / 16384k Fluid Component … 他3件
-- [ ] L10320-L10322 (1) 16k Item Storage Cell
-- [ ] L10328-L10398 (18) Applied Crafting / Getting Your First Processors / Cables / Basic Terminals / Bundled AE Channels / Quantum Storage … 他12件
-- [ ] L10404-L10858 (114) Keeping Your Network Happy / Storing Your ME Data / Speeding Up Growth / Perfecting Crystal Growth / Purifying the Impure / Maximum Security … 他108件
-- [ ] L10864-L11018 (39) Co-Processing x256 / 4096k Essentia Storage Cell / Get Your Priorities Straight / 16384k Essentia Component / Hyper Acceleration! / Advanced Neutronium Tech … 他33件
+- [ ] L10279-L10315 (9) 1024k Essentia Component / AE Tier 2 Fluid Storage / Quantum Entangled Singularities / Cribs / Need More Information? / 16384k Fluid Component … 他3件
+- [ ] L10321-L10323 (1) 16k Item Storage Cell
+- [ ] L10329-L10399 (18) Applied Crafting / Getting Your First Processors / Cables / Basic Terminals / Bundled AE Channels / Quantum Storage … 他12件
+- [ ] L10405-L10859 (114) Keeping Your Network Happy / Storing Your ME Data / Speeding Up Growth / Perfecting Crystal Growth / Purifying the Impure / Maximum Security … 他108件
+- [ ] L10865-L11019 (39) Co-Processing x256 / 4096k Essentia Storage Cell / Get Your Priorities Straight / 16384k Essentia Component / Hyper Acceleration! / Advanced Neutronium Tech … 他33件
 
-### 養蜂要領を守って  _(L11021)_ — 未翻訳率: 43/83 (52%)
+### 養蜂要領を守って  _(L11022)_ — 未翻訳率: 41/83 (49%)
 
-- [ ] L11025-L11027 (1) The Truth About Serum
-- [ ] L11033-L11037 (1) Top-Tier Analyzer
-- [ ] L11063-L11187 (21) Mutatron / Genetic Sampler / Diamondware / Genetic Imprinter / Genetic Transposer / Advanced Mutatron … 他15件
-- [ ] L11245-L11249 (1) Breeding Bees Into Oblivion
-- [ ] L11275-L11279 (1) Fastest Way to Get There
-- [ ] L11297-L11325 (5) Genepool / Isolator / Sequencer / Polymeriser / Gene Database
-- [ ] L11331-L11341 (2) Registry / Droning On
-- [ ] L11355-L11359 (1) Keep Calm and Bee On
-- [ ] L11365-L11369 (1) Bee Slurry, the Breakfast of, Well, Weirdos
-- [ ] L11379-L11395 (3) A Bag for Butterflies, yawn / Only the Best: Tree Breeding / Only the Worst: Trees Suck!
-- [ ] L11401-L11427 (6) IAADDS / Pollen Collection Kit / Living It Larvae / Fluorescent Dye / Enzyme on The Mind / Growth Medium
+- [ ] L11026-L11028 (1) The Truth About Serum
+- [ ] L11034-L11038 (1) Top-Tier Analyzer
+- [ ] L11064-L11188 (21) Mutatron / Genetic Sampler / Diamondware / Genetic Imprinter / Genetic Transposer / Advanced Mutatron … 他15件
+- [ ] L11246-L11250 (1) Breeding Bees Into Oblivion
+- [ ] L11296-L11324 (5) Genepool / Isolator / Sequencer / Polymeriser / Gene Database
+- [ ] L11330-L11340 (2) Registry / Droning On
+- [ ] L11354-L11358 (1) Keep Calm and Bee On
+- [ ] L11364-L11368 (1) Bee Slurry, the Breakfast of, Well, Weirdos
+- [ ] L11378-L11394 (3) A Bag for Butterflies, yawn / Only the Best: Tree Breeding / Only the Worst: Trees Suck!
+- [ ] L11400-L11410 (2) IAADDS / Pollen Collection Kit
+- [ ] L11416-L11426 (3) Fluorescent Dye / Enzyme on The Mind / Growth Medium
 
-### 交配の方蜂(ほうほう)  _(L11430)_ — 未翻訳率: 52/189 (28%)
+### 交配の方蜂(ほうほう)  _(L11429)_ — 未翻訳率: 46/189 (24%)
 
-- [ ] L11434-L11436 (1) MakeMake
-- [ ] L11454-L11456 (1) Iridium
-- [ ] L11462-L11464 (1) Neutronium
-- [ ] L11474-L11476 (1) Naquadah
-- [ ] L11494-L11496 (1) Gassy Bees
-- [ ] L11526-L11532 (2) End Dust / Indium
-- [ ] L11538-L11540 (1) Dragon Blood
-- [ ] L11610-L11616 (2) Smouldering / Refined
-- [ ] L11830-L11832 (1) Zinc
-- [ ] L11854-L11856 (1) Titanium
-- [ ] L11866-L11868 (1) Uranium
-- [ ] L11954-L11960 (2) Spirit / Soul
-- [ ] L11974-L11980 (2) Rejuvenating / Empowering
-- [ ] L12004-L12006 (1) Thaumic Shards
-- [ ] L12020-L12038 (5) Abandoned / Draconic / Wither / Withering / Spiteful
-- [ ] L12056-L12066 (3) D-O-B / Ender Shard / Nether Shard
-- [ ] L12076-L12170 (24) Attuned / Uranus / Moon / Salt / Barnarda / Glowstone … 他18件
-- [ ] L12180-L12186 (2) Oberon / Infinity Catalyst
+- [ ] L11433-L11435 (1) MakeMake
+- [ ] L11453-L11455 (1) Iridium
+- [ ] L11461-L11463 (1) Neutronium
+- [ ] L11473-L11475 (1) Naquadah
+- [ ] L11493-L11495 (1) Gassy Bees
+- [ ] L11525-L11531 (2) End Dust / Indium
+- [ ] L11537-L11539 (1) Dragon Blood
+- [ ] L11609-L11611 (1) Smouldering
+- [ ] L11829-L11831 (1) Zinc
+- [ ] L11853-L11855 (1) Titanium
+- [ ] L11865-L11867 (1) Uranium
+- [ ] L11953-L11959 (2) Spirit / Soul
+- [ ] L11973-L11979 (2) Rejuvenating / Empowering
+- [ ] L12001-L12003 (1) Thaumic Shards
+- [ ] L12017-L12027 (3) Abandoned / Draconic / Wither
+- [ ] L12055-L12065 (3) D-O-B / Ender Shard / Nether Shard
+- [ ] L12079-L12101 (6) Uranus / Moon / Salt / Barnarda / Glowstone / Infinity
+- [ ] L12107-L12141 (9) Trinium / Sunnarium / Kevlar / Pyrotheum / Oriharukon / Cosmic Neutronium … 他3件
+- [ ] L12147-L12169 (6) Pluto / Neptune / Essentia / Mars / Lapotron / Jupiter
+- [ ] L12179-L12185 (2) Oberon / Infinity Catalyst
 
-### Hardcore End(er) Expansion  _(L12189)_ — 未翻訳率: 40/40 (100%)
+### Hardcore End(er) Expansion  _(L12188)_ — 未翻訳率: 40/40 (100%)
 
-- [ ] L12193-L12351 (40) Spatial Distortions / Dimensional Chest / Is This the End? No, it's the END Dimension / Ender Towers / Welcome to the End! / Dragon Essence Altar … 他34件
+- [ ] L12192-L12350 (40) Spatial Distortions / Dimensional Chest / Is This the End? No, it's the END Dimension / Ender Towers / Welcome to the End! / Dragon Essence Altar … 他34件
 
-### 初歩的な魔導学  _(L12354)_ — 未翻訳率: 41/102 (40%)
+### 初歩的な魔導学  _(L12353)_ — 未翻訳率: 29/102 (28%)
 
-- [ ] L12358-L12368 (3) The Choice: Ordo / The Choice: Aqua / The Choice: Aer
-- [ ] L12374-L12376 (1) Witchy (Wo)man
-- [ ] L12398-L12400 (1) Tome of Knowledge
-- [ ] L12450-L12468 (5) The Choice: Ignis / The Choice... / The Choice: Terra / The Choice: Perditio / This is the End...
-- [ ] L12490-L12504 (4) Infinite... Lava? / Infinite Water! / Improved Armor: Samurai Style / A New Way to "Farm" Resources
-- [ ] L12518-L12524 (2) Gold-Banded Greatwood Scepter / Primal Charm
-- [ ] L12542-L12548 (2) Division Sigil / Cursed Earth
-- [ ] L12554-L12556 (1) Blub Blub Blub.....
-- [ ] L12590-L12592 (1) The Night's Not Dark Anymore
-- [ ] L12610-L12612 (1) 3 Plus 4, Carry the 2...
-- [ ] L12622-L12624 (1) Boots Are Made For Walking
-- [ ] L12630-L12632 (1) Infinite Bats! Wait, What??
-- [ ] L12646-L12648 (1) Everything Fuzzy? Try Some Lenses
-- [ ] L12654-L12664 (3) Gimme gimme gimme / It's Called the Thaumatorium, OK? / Growing Auram
-- [ ] L12670-L12676 (2) The Burden of Knowledge / Comparing at a Distance
-- [ ] L12682-L12692 (3) Growing Glowstone the Magical Way / Timewood Tree / Shadow Metal
-- [ ] L12706-L12712 (2) Need More Sugar? / Thaumic Dendrology
-- [ ] L12722-L12724 (1) Adding More Functions
-- [ ] L12734-L12736 (1) Growing your own Knowledge!
-- [ ] L12742-L12760 (5) Alleviating Warp / Counting Items / Magical Plants / Tube Madness / Infinite Durability
+- [ ] L12357-L12367 (3) The Choice: Ordo / The Choice: Aqua / The Choice: Aer
+- [ ] L12373-L12375 (1) Witchy (Wo)man
+- [ ] L12397-L12399 (1) Tome of Knowledge
+- [ ] L12449-L12467 (5) The Choice: Ignis / The Choice... / The Choice: Terra / The Choice: Perditio / This is the End...
+- [ ] L12489-L12499 (3) Infinite... Lava? / Infinite Water! / Improved Armor: Samurai Style
+- [ ] L12517-L12523 (2) Gold-Banded Greatwood Scepter / Primal Charm
+- [ ] L12541-L12547 (2) Division Sigil / Cursed Earth
+- [ ] L12589-L12591 (1) The Night's Not Dark Anymore
+- [ ] L12609-L12611 (1) 3 Plus 4, Carry the 2...
+- [ ] L12621-L12623 (1) Boots Are Made For Walking
+- [ ] L12629-L12631 (1) Infinite Bats! Wait, What??
+- [ ] L12645-L12647 (1) Everything Fuzzy? Try Some Lenses
+- [ ] L12653-L12655 (1) Gimme gimme gimme
+- [ ] L12673-L12675 (1) Comparing at a Distance
+- [ ] L12689-L12691 (1) Shadow Metal
+- [ ] L12709-L12711 (1) Thaumic Dendrology
+- [ ] L12721-L12723 (1) Adding More Functions
+- [ ] L12745-L12747 (1) Counting Items
+- [ ] L12757-L12759 (1) Infinite Durability
 
-### 発展的な魔導学  _(L12763)_ — 未翻訳率: 76/78 (97%)
+### 発展的な魔導学  _(L12762)_ — 未翻訳率: 76/78 (97%)
 
-- [ ] L12767-L12993 (57) Smoke Your Normal Warp Away / Adept Thaumaturgy / An Awesome Magic Conductor / A Silverwood Wand at Last / Creating a Better Wand / More Energetic Screws to Finish the New Wand … 他51件
-- [ ] L12999-L13073 (19) Healing Your Nodes / Disenchanted / Fool's Gold / Gen XXXXXXXXXX... / Purge...Some of Your Warp? / Essentia Transmission … 他13件
+- [ ] L12766-L12992 (57) Smoke Your Normal Warp Away / Adept Thaumaturgy / An Awesome Magic Conductor / A Silverwood Wand at Last / Creating a Better Wand / More Energetic Screws to Finish the New Wand … 他51件
+- [ ] L12998-L13072 (19) Healing Your Nodes / Disenchanted / Fool's Gold / Gen XXXXXXXXXX... / Purge...Some of Your Warp? / Essentia Transmission … 他13件
 
-### カーミー、ハーミー、...波ァ！  _(L13076)_ — 未翻訳率: 36/37 (97%)
+### カーミー、ハーミー、...波ァ！  _(L13075)_ — 未翻訳率: 36/37 (97%)
 
-- [ ] L13080-L13222 (36) Lord of the Rings? / The Power of Gods / Shards of Opposite Worlds / Unleashed the Power - Cowl / Unbreakable Cowl / Unleashed the Power - Leggings … 他30件
+- [ ] L13079-L13221 (36) Lord of the Rings? / The Power of Gods / Shards of Opposite Worlds / Unleashed the Power - Cowl / Unbreakable Cowl / Unleashed the Power - Leggings … 他30件
 
-### 杖の杖星とEMT  _(L13225)_ — 未翻訳率: 38/40 (95%)
+### 杖の杖星とEMT  _(L13224)_ — 未翻訳率: 38/40 (95%)
 
-- [ ] L13229-L13267 (10) An Appropriate Weapon / Dropped in Asgard, Fallen to Earth / Repaired it! / Super-Mjolnir / Sparking Nitor...? / Rechargeable Scribing Tools … 他4件
-- [ ] L13273-L13383 (28) I Don't Want to Set the World on Fire / Diggy Diggy Hole / Bzzap! / Trade Offer / Snowball Fight! / Magical Base Defense … 他22件
+- [ ] L13228-L13266 (10) An Appropriate Weapon / Dropped in Asgard, Fallen to Earth / Repaired it! / Super-Mjolnir / Sparking Nitor...? / Rechargeable Scribing Tools … 他4件
+- [ ] L13272-L13382 (28) I Don't Want to Set the World on Fire / Diggy Diggy Hole / Bzzap! / Trade Offer / Snowball Fight! / Magical Base Defense … 他22件
 
-### 花の力  _(L13386)_ — 未翻訳率: 26/43 (60%)
+### 花の力  _(L13385)_ — 未翻訳率: 26/43 (60%)
 
-- [ ] L13390-L13392 (1) Fountain Of Conjuration
-- [ ] L13426-L13452 (7) A Glimpse Into A Watery Future / Botanic Infusion / Terrasteel / Alfheim / Round One... FIGHT! / A Deal With Alfar Industries … 他1件
-- [ ] L13486-L13556 (18) Anti-Magnetism / Violence Is Blue / Roses Are Blood-Red / Magic Blue Dust / Better Generating Flowers / Shut Down Your Canning Machine … 他12件
+- [ ] L13389-L13391 (1) Fountain Of Conjuration
+- [ ] L13425-L13451 (7) A Glimpse Into A Watery Future / Botanic Infusion / Terrasteel / Alfheim / Round One... FIGHT! / A Deal With Alfar Industries … 他1件
+- [ ] L13485-L13555 (18) Anti-Magnetism / Violence Is Blue / Roses Are Blood-Red / Magic Blue Dust / Better Generating Flowers / Shut Down Your Canning Machine … 他12件
 
-### "端"に目を向ける  _(L13559)_ — 未翻訳率: 91/93 (98%)
+### "端"に目を向ける  _(L13558)_ — 未翻訳率: 89/93 (96%)
 
-- [ ] L13563-L13657 (24) Fire Burn and... / Offerings / ...Cauldron Bubble / Don't Touch the Needle! / Probably Usable For Soup / Don't Shake it Too Much … 他18件
-- [ ] L13663-L13929 (67) Purified Milk / Brew of Love / Sleep Well! / The Spirit World - Nightmare / Early Bird Gets the...Nightmare? / Wake Up Early … 他61件
+- [ ] L13566-L13656 (23) Offerings / ...Cauldron Bubble / Don't Touch the Needle! / Probably Usable For Soup / Don't Shake it Too Much / Spirit Coin Transfer … 他17件
+- [ ] L13662-L13888 (57) Purified Milk / Brew of Love / Sleep Well! / The Spirit World - Nightmare / Early Bird Gets the...Nightmare? / Wake Up Early … 他51件
+- [ ] L13894-L13928 (9) The Easy Way to Change Biomes / The Hard Way to Change Biomes / More Hearts for Valentines / Are You Grassping What I'm Telling You? / PETA Approved* / Mad Science is the Best Science … 他3件
 
-### 高い対価を払って  _(L13932)_ — 未翻訳率: 73/74 (99%)
+### 高い対価を払って  _(L13931)_ — 未翻訳率: 73/74 (99%)
 
-- [ ] L13936-L14226 (73) Incense Crucible / Tier 2 Sigils / Paying the Highest Price / Portable Battery... / Poke / Tier 3 Sigils … 他67件
+- [ ] L13935-L14225 (73) Incense Crucible / Tier 2 Sigils / Paying the Highest Price / Portable Battery... / Poke / Tier 3 Sigils … 他67件
 
-### 全部ブッ殺せ  _(L14229)_ — 未翻訳率: 152/344 (44%)
+### 全部ブッ殺せ  _(L14228)_ — 未翻訳率: 151/344 (44%)
 
-- [ ] L14233-L14267 (9) Time To Kill (Crimson Knight) / Kill Baba Yaga / Kill Horned Huntsman / Kill Ender Dragon / Kill Shade of Leonard / Kill Lord of Tormentum … 他3件
-- [ ] L14277-L14287 (3) Slay the Eyes! / Ender Guardians / Slay the Dragon. (Again)
-- [ ] L14429-L14443 (4) Time to Kill (Fire Golem) / Time to kill (Haunted Miners) / Time to Kill (Louse) / Time to Kill (Scorching Lens)
-- [ ] L14568-L14590 (6) Something From Nothing Pt 2 / Industrial Water Purification / Waterproof Tech / Integrated Ore Factory - All in One! / Proto-Volt Stabilizer / Streamlined Casters
-- [ ] L14628-L14634 (2) Dark Steel Tools / And It Will Never Break
-- [ ] L14644-L14646 (1) Monitoring Your Reactor
-- [ ] L14664-L14674 (3) Magical Waystones / Industrial 3D Copying Machine / Draconic Evolution
-- [ ] L14720-L14726 (2) Advanced Nano Chestplate / Gravi Suit
-- [ ] L14732-L14738 (2) Dark Steel Tool and Weapon Basic Upgrades / Dark Steel Tool and Weapon Advanced Upgrades
-- [ ] L14768-L14770 (1) Power of the Sun ULV
-- [ ] L14788-L14790 (1) Moron's Guide to Better Trees
-- [ ] L14844-L14850 (2) Making Power With Your Plasma / Turbine Time
-- [ ] L14888-L14890 (1) Angel Wings - Combine!
-- [ ] L14896-L14914 (5) Pimp Your Wand Focus / Mallard Rust Smelly / Shake That Booty... / Launch Controller / Arc Lamp
-- [ ] L14964-L14966 (1) Planetary Tears
-- [ ] L14972-L14974 (1) Don't Put a Finger in That Socket
-- [ ] L14992-L15002 (3) Too Much Mercury? / I'll Send Wireless Signals Where I Want, Thank You / Wireless 3.0
-- [ ] L15020-L15050 (8) Unlimited LP / Infinity Chest / UV Solar / Does Anyone Even Still Use These? / Transform and...Stay Put Actually / What Even is This? … 他2件
-- [ ] L15056-L15058 (1) 「 」
-- [ ] L15064-L15106 (11) Nano Forge Tier 2 / Nano Forge Tier 3 / Chemical Pseudo-Altercations / Precise Assembler / Industrial Coke Oven / Bet On The Distillus … 他5件
-- [ ] L15112-L15170 (15) Power in the Ether / PCB Factory / Bio Chamber / Liquid Cooling Tower / PCB Factory Tier 2 / Liquid Cooling Tower Tier 2 … 他9件
-- [ ] L15176-L15190 (4) Heliocast Reinforcement / Balance is Everything / Asgardandelion / Celestial Gateways
-- [ ] L15196-L15198 (1) Large Molecular Assembler
-- [ ] L15204-L15210 (2) Sentient Overclocker / Large Hadron Collider
-- [ ] L15224-L15246 (6) The Quest for Holy Water / High Energy Laser Purification / Neutronium Compressor / Matter Manipulator MKI / Universal Collapser / Matter Manipulator MKIII
-- [ ] L15256-L15270 (4) Absolute Purity / Crafting Input Proxy / The Everlasting Guilty Pool / pH Neutralization
-- [ ] L15276-L15278 (1) Hypercooler
-- [ ] L15284-L15286 (1) Nano Forge Tier 4
-- [ ] L15292-L15298 (2) Never Hungry Again / Quantum Uplink
-- [ ] L15304-L15306 (1) Clarifier
-- [ ] L15312-L15314 (1) Purifying Water With Plasma
-- [ ] L15320-L15322 (1) Flocculation
-- [ ] L15328-L15342 (4) Crafting, but with Beams! / Thaumometric Essentia Cell / Creative Mana Tablet / Exo-Foundry
-- [ ] L15347-L15373 (7) Trigger: Nano Boots of the Traveller Skip / Trigger: Runeforged Thaumaturge's Ring / Trigger: Nightvision Goggle Skip / Trigger: Hafnium Skip / Trigger: Rocket Shuttle Skip / Trigger: Naquadria Skip … 他1件
-- [ ] L15407-L15409 (1) Bees Template
-- [ ] L15435-L15437 (1) Trigger: Flippers
-- [ ] L15479-L15545 (17) Tool: Never complete / Trigger: Quantum Armor Skip / Trigger: NaK Skip / Trigger: Dense Hydrazine Skip / Trigger: Zirconium Skip / Trigger: Netherite Skip … 他11件
-- [ ] L15551-L15585 (9) Trigger: Rocket Tier 2 Skip / Trigger: SMD Inductor Skip / Trigger: Division Sigil / Trigger: Polyphenylene Sulfide Skip / Trigger: Rocket Tier 7 Skip / Trigger: Profane Wand … 他3件
-- [ ] L15591-L15617 (7) Trigger: Prismarine Line Skip / Trigger: CN3H7O3 (Purple) Rocket Fuel Skip / Ice Cream Trophy / Trigger: Oblivion Frame / Trigger: Rocket Tier 6 Skip / Trigger: Stonelily Tutorial Skip … 他1件
+- [ ] L14232-L14266 (9) Time To Kill (Crimson Knight) / Kill Baba Yaga / Kill Horned Huntsman / Kill Ender Dragon / Kill Shade of Leonard / Kill Lord of Tormentum … 他3件
+- [ ] L14276-L14286 (3) Slay the Eyes! / Ender Guardians / Slay the Dragon. (Again)
+- [ ] L14428-L14442 (4) Time to Kill (Fire Golem) / Time to kill (Haunted Miners) / Time to Kill (Louse) / Time to Kill (Scorching Lens)
+- [ ] L14567-L14589 (6) Something From Nothing Pt 2 / Industrial Water Purification / Waterproof Tech / Integrated Ore Factory - All in One! / Proto-Volt Stabilizer / Streamlined Casters
+- [ ] L14627-L14633 (2) Dark Steel Tools / And It Will Never Break
+- [ ] L14643-L14645 (1) Monitoring Your Reactor
+- [ ] L14663-L14673 (3) Magical Waystones / Industrial 3D Copying Machine / Draconic Evolution
+- [ ] L14719-L14725 (2) Advanced Nano Chestplate / Gravi Suit
+- [ ] L14731-L14737 (2) Dark Steel Tool and Weapon Basic Upgrades / Dark Steel Tool and Weapon Advanced Upgrades
+- [ ] L14767-L14769 (1) Power of the Sun ULV
+- [ ] L14843-L14849 (2) Making Power With Your Plasma / Turbine Time
+- [ ] L14887-L14889 (1) Angel Wings - Combine!
+- [ ] L14895-L14913 (5) Pimp Your Wand Focus / Mallard Rust Smelly / Shake That Booty... / Launch Controller / Arc Lamp
+- [ ] L14963-L14965 (1) Planetary Tears
+- [ ] L14971-L14973 (1) Don't Put a Finger in That Socket
+- [ ] L14991-L15001 (3) Too Much Mercury? / I'll Send Wireless Signals Where I Want, Thank You / Wireless 3.0
+- [ ] L15019-L15049 (8) Unlimited LP / Infinity Chest / UV Solar / Does Anyone Even Still Use These? / Transform and...Stay Put Actually / What Even is This? … 他2件
+- [ ] L15055-L15057 (1) 「 」
+- [ ] L15063-L15105 (11) Nano Forge Tier 2 / Nano Forge Tier 3 / Chemical Pseudo-Altercations / Precise Assembler / Industrial Coke Oven / Bet On The Distillus … 他5件
+- [ ] L15111-L15169 (15) Power in the Ether / PCB Factory / Bio Chamber / Liquid Cooling Tower / PCB Factory Tier 2 / Liquid Cooling Tower Tier 2 … 他9件
+- [ ] L15175-L15189 (4) Heliocast Reinforcement / Balance is Everything / Asgardandelion / Celestial Gateways
+- [ ] L15195-L15197 (1) Large Molecular Assembler
+- [ ] L15203-L15209 (2) Sentient Overclocker / Large Hadron Collider
+- [ ] L15223-L15245 (6) The Quest for Holy Water / High Energy Laser Purification / Neutronium Compressor / Matter Manipulator MKI / Universal Collapser / Matter Manipulator MKIII
+- [ ] L15255-L15269 (4) Absolute Purity / Crafting Input Proxy / The Everlasting Guilty Pool / pH Neutralization
+- [ ] L15275-L15277 (1) Hypercooler
+- [ ] L15283-L15285 (1) Nano Forge Tier 4
+- [ ] L15291-L15297 (2) Never Hungry Again / Quantum Uplink
+- [ ] L15303-L15305 (1) Clarifier
+- [ ] L15311-L15313 (1) Purifying Water With Plasma
+- [ ] L15319-L15321 (1) Flocculation
+- [ ] L15327-L15341 (4) Crafting, but with Beams! / Thaumometric Essentia Cell / Creative Mana Tablet / Exo-Foundry
+- [ ] L15346-L15372 (7) Trigger: Nano Boots of the Traveller Skip / Trigger: Runeforged Thaumaturge's Ring / Trigger: Nightvision Goggle Skip / Trigger: Hafnium Skip / Trigger: Rocket Shuttle Skip / Trigger: Naquadria Skip … 他1件
+- [ ] L15406-L15408 (1) Bees Template
+- [ ] L15434-L15436 (1) Trigger: Flippers
+- [ ] L15478-L15544 (17) Tool: Never complete / Trigger: Quantum Armor Skip / Trigger: NaK Skip / Trigger: Dense Hydrazine Skip / Trigger: Zirconium Skip / Trigger: Netherite Skip … 他11件
+- [ ] L15550-L15584 (9) Trigger: Rocket Tier 2 Skip / Trigger: SMD Inductor Skip / Trigger: Division Sigil / Trigger: Polyphenylene Sulfide Skip / Trigger: Rocket Tier 7 Skip / Trigger: Profane Wand … 他3件
+- [ ] L15590-L15616 (7) Trigger: Prismarine Line Skip / Trigger: CN3H7O3 (Purple) Rocket Fuel Skip / Ice Cream Trophy / Trigger: Oblivion Frame / Trigger: Rocket Tier 6 Skip / Trigger: Stonelily Tutorial Skip … 他1件
 
