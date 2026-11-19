@@ -162,7 +162,7 @@ chat.appliedenergistics2.WirelessInOtherDim=%d §§e"%d§e"§r располож�
 chat.appliedenergistics2.WirelessHighlighterPrefix=Беспроводной
 chat.appliedenergistics2.WirelessHighlighterNetworkPrefix=Wireless of network §e"%s§e"§r -
 chat.appliedenergistics2.WirelessHighlighterColorPrefix=Wireless color §e"%s§e"§r of network §e"%s§e"§r -
-chat.appliedenergistics2.CableSwapped=Cable swapped: %s → %s
+chat.appliedenergistics2.CableSwapped=Заменён кабель: %s → %s
 chat.appliedenergistics2.ControllerAnimation=Controller animation: %s
 
 # Creative Tabs
@@ -327,6 +327,8 @@ gui.appliedenergistics2.StoredItems=Хранящиеся предметы
 gui.appliedenergistics2.StoredStacks=Хранится стаков
 gui.appliedenergistics2.Terminal=Терминал
 gui.appliedenergistics2.InterfaceTerminal=Терминал интерфейсов
+gui.appliedenergistics2.InterfaceUpgrades=Upgrades
+chat.appliedenergistics2.InterfaceUpgradeRemovalBlocked=Remove the patterns from the rows that would be disabled before removing this capacity card.
 gui.appliedenergistics2.InterfaceTerminalHint=Показать или спрятать в терминале интерфейсов.
 gui.appliedenergistics2.PatternOptimization=Разрешить оптимизацию шаблонов
 gui.appliedenergistics2.PatternOptimizationHint=Позволяет изменять шаблоны из этого интерфейса с помощью оптимизатора шаблонов.
@@ -692,6 +694,7 @@ gui.tooltips.appliedenergistics2.SearchStringTooltip=Щелкните ПКМ, ч
 gui.tooltips.appliedenergistics2.SaveSearchString=Сохранить строку поиска
 gui.tooltips.appliedenergistics2.SaveSearchStringYes=Да
 gui.tooltips.appliedenergistics2.SaveSearchStringNo=Нет
+gui.tooltips.appliedenergistics2.SaveSearchStringSelect=Yes, select all
 gui.tooltips.appliedenergistics2.DoublePattern=Удвоить шаблон
 gui.tooltips.appliedenergistics2.DoublePatternHint=Удвоит размеры стака входных и выходных предметов в шаблоне, если это возможно. С зажатым Shift результат будет x8, ПКМ же разделит вместо этого. Нажмите среднюю кнопку мыши, чтобы вписать множитель.
 gui.tooltips.appliedenergistics2.DoublePatterns=Двойной шаблон
