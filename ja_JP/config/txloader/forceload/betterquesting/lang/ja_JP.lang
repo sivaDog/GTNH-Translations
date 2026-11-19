@@ -11607,8 +11607,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.name=奇怪種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.desc=§7《§r奇怪種§7／Ghastly》§rはガストをスポーンさせるので、十分気を付けてください。得意とするのはガストの涙です。繁殖力は1倍なので、雄蜂はマスターテンプレートの王女蜂と交配してください。蝙蝠種と天上種を交配してみましょう。
 
 # Quest: Smouldering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.name=Smouldering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.desc=Smouldering drones will spawn blazes, and make Blaze Rods as their specialty. Breed the drones with your template princesses so you can prevent the harmful effects from destroying your base. Also, their Hellish temperature and Normal humidity requirements are interesting - use an Acclimatiser from Genetics to make the bee tolerant or other methods to adjust the biome. Must be bred in the Nether. Breed them from Ghastly and Hateful.%n%nTo get their Blaze Rod drop, however, you'll need to place them in a biome that matches their default requirements. Sorry.
+# EN name: Smouldering
+# EN desc: Smouldering drones will spawn blazes, and make Blaze Rods as their specialty. Breed the drones with your template princesses so you can prevent the harmful effects from destroying your base. Also, their Hellish temperature and Normal humidity requirements are interesting - use an Acclimatiser from Genetics to make the bee tolerant or other methods to adjust the biome. Must be bred in the Nether. Breed them from Ghastly and Hateful.%n%nTo get their Blaze Rod drop, however, you'll need to place them in a biome that matches their default requirements. Sorry.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.name=[提出済み]焦煙種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.desc=§7《§r焦煙種§7／Smouldering》§rの雄蜂はブレイズをスポーンさせ、得意とするのはブレイズロッドです。有害な効果で拠点が壊されないよう、雄蜂はテンプレートの王女蜂と交配してください。また、温度がネザー、湿度が普通という条件も興味深いところです。Geneticsの§7《§r順応機§7／Acclimatiser》§rで蜂に耐性を付けるか、ほかの方法でバイオームを調整しましょう。ネザーで交配する必要があります。奇怪種と憎悪種を交配してみましょう。%n%nただし、ブレイズロッドを落とさせるには、本来の条件に合ったバイオームに置く必要があります。ごめんなさい。
 
 # Quest: Refined
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5Q.name=精製種
@@ -11827,8 +11829,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkg.name=紅砒種 - ニッケル
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkg.desc=紅砒種は資源として有用な蜂です。鉄鉱種と銅鉱種を交配することで入手できますが、巣の下にニッケルブロックを設置しておく必要があります。%n%n※「紅砒」は、現実世界のニッケルの鉱石である§o紅砒§rニッケル鉱から来ています。%n%nニッケルの巣板は遠心分離不可能です。化学反応器で塩酸を使った処理が必要です。
 
 # Quest: Zinc
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.name=亜鉛種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.%n%nZinc Combs cannot be centrifuged. You now need to use a Chemical Reactor with some hydrochloric acid.%n%n[note]Breeder's Notes:%n%nYou probably only bred this as a stepping stone into the other metals. Nonetheless, that gallium is no joke! The queen will need to be jubilant for you to get those, so you need to match up its temperature and humidity band exactly. Your HUD will have a note when you are pointed at the apiary about if it's not jubilant. The default band is just NORMAL/NORMAL so any old plain/prairie kind of place will probably do.[/note]
+# EN name: Zinc
+# EN desc: Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.%n%nZinc Combs cannot be centrifuged. You now need to use a Chemical Reactor with some hydrochloric acid.%n%n[note]Breeder's Notes:%n%nYou probably only bred this as a stepping stone into the other metals. Nonetheless, that gallium is no joke! The queen will need to be jubilant for you to get those, so you need to match up its temperature and humidity band exactly. Your HUD will have a note when you are pointed at the apiary about if it's not jubilant. The default band is just NORMAL/NORMAL so any old plain/prairie kind of place will probably do.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.name=[提出済み]亜鉛種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.desc=亜鉛を混ぜて作る真鍮は、序盤の優れたアイテムパイプになります。また、この蜂は低確率で§7《§rガリウムの巣板§7／Gallium Comb》§rも生産します。ガリウムは回路やSMD部品を作る必要があるプレイヤーにとって、とても役に立ちます。この蜂には亜鉛ブロックが必要です。錫鉱種と鉄鉱種を交配してみましょう。%n%n§7《§r亜鉛の巣板§7／Zinc Comb》§rは遠心分離できません。代わりに、塩酸を入れた化学反応器を使う必要があります。%n%n[note]養蜂家のメモ:%n%nこの蜂は、ほかの金属へ進むための足がかりとして交配しただけかもしれません。とはいえ、このガリウムは侮れません！ ガリウムを手に入れるには女王蜂が適正な環境にいる必要があるので、温度と湿度の範囲を正確に合わせなければなりません。養蜂箱に照準を合わせたとき、適正な環境でなければHUDにその旨が表示されます。初期の範囲は温度・湿度ともに普通なので、ありふれた平原や草原のような場所なら、たいてい大丈夫でしょう。[/note]
 
 # Quest: Lead
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIlA.name=鉛鉱種
