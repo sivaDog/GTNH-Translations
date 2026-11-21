@@ -222,8 +222,7 @@ nei.options.save=保存
 nei.options.world=ワールド設定
 
 nei.options.keys=キーバインド
-# EN: Configure NEI key bindings in the Minecraft controls screen
-nei.options.keys.tip=[下書き]NEIのキーバインドはMinecraftの操作設定画面で変更します
+nei.options.keys.tip=Configure NEI key bindings in the Minecraft controls screen
 nei.options.keys.gui=NEIインベントリ
 nei.options.keys.world=NEIワールド
 nei.options.keys.recipe=NEIレシピ
@@ -293,8 +292,7 @@ nei.options.inventory.bookmarks.showRecipeMarkerMode=レシピマーカーを表
 nei.options.inventory.bookmarks.showRecipeMarkerMode.0=なし
 nei.options.inventory.bookmarks.showRecipeMarkerMode.1=テキスト
 nei.options.inventory.bookmarks.showRecipeMarkerMode.2=背景
-# EN: Max Vertical Tooltip Rows (0 - disable)
-nei.options.inventory.bookmarks.maxVerticalTooltipRows=[下書き]垂直表示時のツールチップの最大行数 (0で無効)
+nei.options.inventory.bookmarks.maxVerticalTooltipRows=[提出済み]垂直表示時のツールチップの最大行数 (0で無効)
 nei.options.inventory.bookmarks.showRecipeHandlerIcon=ハンドラのアイコンを表示
 nei.options.inventory.bookmarks.showRecipeHandlerIcon.true=あり
 nei.options.inventory.bookmarks.showRecipeHandlerIcon.false=なし
@@ -329,12 +327,9 @@ nei.options.inventory.favorites.showRecipeTooltipInGui=レシピGUI内でのレ�
 nei.options.inventory.favorites.showRecipeTooltipInGui.true=はい
 nei.options.inventory.favorites.showRecipeTooltipInGui.false=いいえ
 nei.options.inventory.favorites.depth=深度
-# EN: Generate Single-Recipe Favorites
-nei.options.inventory.favorites.generateSingleRecipeFavorites=[下書き]単一レシピのお気に入りを自動生成
-# EN: Yes
-nei.options.inventory.favorites.generateSingleRecipeFavorites.true=[下書き]はい
-# EN: No
-nei.options.inventory.favorites.generateSingleRecipeFavorites.false=[下書き]いいえ
+nei.options.inventory.favorites.generateSingleRecipeFavorites=[提出済み]単一レシピのお気に入りを自動生成
+nei.options.inventory.favorites.generateSingleRecipeFavorites.true=[提出済み]はい
+nei.options.inventory.favorites.generateSingleRecipeFavorites.false=[提出済み]いいえ
 nei.options.inventory.hotkeysHelpText=ホットキーのヘルプを表示
 nei.options.inventory.hotkeysHelpText.true=あり
 nei.options.inventory.hotkeysHelpText.false=なし
@@ -352,24 +347,17 @@ nei.options.inventory.guirecipe.itemPresenceOverlay.2=背景
 nei.options.inventory.guirecipe.slotHighlightPresent=現在のアイテムをハイライト
 nei.options.inventory.guirecipe.slotHighlightPresent.true=あり
 nei.options.inventory.guirecipe.slotHighlightPresent.false=なし
-# EN: Use Infinite Scroll
-nei.options.inventory.guirecipe.infiniteScroll=[下書き]無限スクロールを使用
-# EN: Yes
-nei.options.inventory.guirecipe.infiniteScroll.true=[下書き]はい
-# EN: No
-nei.options.inventory.guirecipe.infiniteScroll.false=[下書き]いいえ
+nei.options.inventory.guirecipe.infiniteScroll=[提出済み]無限スクロールを使用
+nei.options.inventory.guirecipe.infiniteScroll.true=[提出済み]はい
+nei.options.inventory.guirecipe.infiniteScroll.false=[提出済み]いいえ
 nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst=JEI形式のレシピ触媒
-# EN: None
-nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.0=[下書き]なし
-# EN: Grid
-nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.1=[下書き]グリッド
-# EN: Scroll
-nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.2=[下書き]スクロール
+nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.0=[提出済み]なし
+nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.1=[提出済み]グリッド
+nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.2=[提出済み]スクロール
 nei.options.inventory.guirecipe.cycledIngredientsTooltip=代替素材のツールチップ
 nei.options.inventory.guirecipe.cycledIngredientsTooltip.true=表示
 nei.options.inventory.guirecipe.cycledIngredientsTooltip.false=非表示
-# EN: Handler Info Widget
-nei.options.inventory.guirecipe.handlerInfo=[下書き]ハンドラ情報ウィジェット
+nei.options.inventory.guirecipe.handlerInfo=[提出済み]ハンドラ情報ウィジェット
 nei.options.inventory.guirecipe.handlerInfo.tip=レシピGUIを開いているときにShift + D
 nei.options.inventory.guirecipe.handlerInfo.true=有効
 nei.options.inventory.guirecipe.handlerInfo.false=無効
@@ -378,8 +366,7 @@ nei.options.inventory.guirecipe.scrollPages=ページのスクロール
 nei.options.inventory.guirecipe.scrollPages.true=有効
 nei.options.inventory.guirecipe.scrollPages.false=無効
 
-# EN: Max Height
-nei.options.inventory.guirecipe.maxHeight=[下書き]最大の高さ
+nei.options.inventory.guirecipe.maxHeight=[提出済み]最大の高さ
 nei.options.inventory.showItemQuantityWidget=アイテム個数指定のウィジェットを表示
 nei.options.inventory.showItemQuantityWidget.true=あり
 nei.options.inventory.showItemQuantityWidget.false=なし
@@ -438,12 +425,9 @@ nei.options.inventory.autocrafting.false=無効
 nei.options.inventory.guirecipe.shiftOverlayRecipe=レシピのオーバーレイ表示時、Shift押下でアイテム移動を有効化
 nei.options.inventory.guirecipe.shiftOverlayRecipe.true=あり
 nei.options.inventory.guirecipe.shiftOverlayRecipe.false=なし
-# EN: Stop cycling the recipe while hovering over an ingredient or a button
-nei.options.inventory.guirecipe.freezeCycleOnHover=[下書き]素材やボタンにカーソルを合わせている間はレシピの切り替えを止める
-# EN: Yes
-nei.options.inventory.guirecipe.freezeCycleOnHover.true=[下書き]はい
-# EN: No
-nei.options.inventory.guirecipe.freezeCycleOnHover.false=[下書き]いいえ
+nei.options.inventory.guirecipe.freezeCycleOnHover=[提出済み]素材やボタンにカーソルを合わせている間はレシピの切り替えを止める
+nei.options.inventory.guirecipe.freezeCycleOnHover.true=[提出済み]はい
+nei.options.inventory.guirecipe.freezeCycleOnHover.false=[提出済み]いいえ
 nei.options.inventory.widgetsenabled.true=NEIが有効
 nei.options.inventory.widgetsenabled.false=NEIが無効
 nei.options.inventory.cheatmode.0=レシピモード
@@ -500,14 +484,10 @@ nei.options.inventory.history.enabled.true=有効
 nei.options.inventory.history.enabled.false=無効
 nei.options.inventory.history.color=色
 nei.options.inventory.history.useRows=行数
-# EN: World Specific
-nei.options.inventory.history.worldSpecific=[下書き]ワールド毎の履歴
-# EN: Yes
-nei.options.inventory.history.worldSpecific.true=[下書き]はい
-# EN: No
-nei.options.inventory.history.worldSpecific.false=[下書き]いいえ
-# EN: History Persistence
-nei.options.inventory.history.save=[下書き]履歴の保存
+nei.options.inventory.history.worldSpecific=[提出済み]ワールド毎の履歴
+nei.options.inventory.history.worldSpecific.true=[提出済み]はい
+nei.options.inventory.history.worldSpecific.false=[提出済み]いいえ
+nei.options.inventory.history.save=[提出済み]履歴の保存
 nei.options.inventory.history.save.true=有効
 nei.options.inventory.history.save.false=無効
 nei.options.inventory.craftables=クラフト可能パネル
@@ -537,20 +517,13 @@ nei.options.inventory.itemzoom.neiOnly.tip=JEIの素材・ブックマークリ�
 nei.options.inventory.itemzoom.onlySolid=設置可能なアイテムのみ表示
 nei.options.inventory.itemzoom.onlySolid.true=有効
 nei.options.inventory.itemzoom.onlySolid.false=無効
-# EN: Preferred Side
-nei.options.inventory.itemzoom.preferredSide=[下書き]表示する側
-# EN: Auto
-nei.options.inventory.itemzoom.preferredSide.0=[下書き]自動
-# EN: Left
-nei.options.inventory.itemzoom.preferredSide.1=[下書き]左
-# EN: Right
-nei.options.inventory.itemzoom.preferredSide.2=[下書き]右
-# EN: Prefer whichever side currently has fewer items in its panel.
-nei.options.inventory.itemzoom.preferredSide.0.tip=[下書き]パネル内のアイテムが少ない側を優先する。
-# EN: Always prefer the left side, unless the cursor is there.
-nei.options.inventory.itemzoom.preferredSide.1.tip=[下書き]カーソルがある場合を除き、常に左側を優先する。
-# EN: Always prefer the right side, unless the cursor is there.
-nei.options.inventory.itemzoom.preferredSide.2.tip=[下書き]カーソルがある場合を除き、常に右側を優先する。
+nei.options.inventory.itemzoom.preferredSide=[提出済み]優先する表示位置
+nei.options.inventory.itemzoom.preferredSide.0=[提出済み]自動
+nei.options.inventory.itemzoom.preferredSide.1=[提出済み]左
+nei.options.inventory.itemzoom.preferredSide.2=[提出済み]右
+nei.options.inventory.itemzoom.preferredSide.0.tip=[提出済み]パネル内のアイテムが少ない側を優先する。
+nei.options.inventory.itemzoom.preferredSide.1.tip=[提出済み]カーソルがある場合を除き、常に左側を優先する。
+nei.options.inventory.itemzoom.preferredSide.2.tip=[提出済み]カーソルがある場合を除き、常に右側を優先する。
 nei.options.inventory.itemzoom.helpText=ヘルプのテキストを表示
 nei.options.inventory.itemzoom.helpText.true=有効
 nei.options.inventory.itemzoom.helpText.false=無効
@@ -638,10 +611,8 @@ nei.options.tools.dump.itempanel.mode.2=Json
 nei.options.tools.dump.itempanel.mode.3=PNG
 nei.options.tools.dump.itempanel.icon.dumped=アイテムパネルに表示中のアイコンが%sに出力されました
 nei.options.tools.dump.itempanel.icon.cancelled=出力がキャンセルされました
-# EN: §cWARNING§r: You are about to dump %s items at %sx%s resolution
-nei.options.tools.dump.itempanel.icon.warning.1=[下書き]§c警告§r: %s 個のアイテムを %sx%s の解像度で出力しようとしています
-# EN: Hold %s while clicking this button to proceed
-nei.options.tools.dump.itempanel.icon.warning.2=[下書き]続行するには %s を押しながらこのボタンをクリックしてください
+nei.options.tools.dump.itempanel.icon.warning.1=[提出済み]§c警告§r: %s 個のアイテムを %sx%s の解像度で出力しようとしています
+nei.options.tools.dump.itempanel.icon.warning.2=[提出済み]続行するには %s を押しながらこのボタンをクリックしてください
 nei.options.tools.dump.handlers=NEIハンドラ
 nei.options.tools.dump.handlers.dumped=ハンドラが%sに出力されました
 nei.options.tools.dump.handlers.mode.0=CSV
