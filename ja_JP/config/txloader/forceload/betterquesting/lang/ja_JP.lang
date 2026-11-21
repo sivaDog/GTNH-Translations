@@ -11977,8 +11977,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.name=[提出済み]回春種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.desc=§7《§r回春種§7／Rejuvenating》§rは、オーラ節から25m以内で交配する必要があります。一番近くのオーラ節をゆっくりと充填します。魔相種と同調種を交配してみましょう。
 
 # Quest: Empowering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuw.name=Empowering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuw.desc=The Empowering bee will randomly add aspects to nearby nodes, allowing enormous power to build up. The best chance to breed them is during a full moon. Breed them from Rejuvenating and Vis.%n%n[note]The maximum node size was capped for a few versions, but that cap is now removed! Maybe go on the GTNH discord and praise Runakai for that. :)[/note]
+# EN name: Empowering
+# EN desc: The Empowering bee will randomly add aspects to nearby nodes, allowing enormous power to build up. The best chance to breed them is during a full moon. Breed them from Rejuvenating and Vis.%n%n[note]The maximum node size was capped for a few versions, but that cap is now removed! Maybe go on the GTNH discord and praise Runakai for that. :)[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuw.name=[提出済み]奮起種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuw.desc=§7《§r奮起種§7／Empowering》§rは、近くのオーラ節にランダムに相を追加し、莫大な力を蓄えさせます。交配に最も成功しやすいのは満月のときです。回春種と魔相種を交配してみましょう。%n%n[note]オーラ節の最大サイズは、いくつかのバージョンの間は上限が設けられていましたが、今ではその上限が撤廃されました！ GTNHのDiscordでRunakaiを称えてみてはいかがでしょう。:)[/note]
 
 # Quest: Edenic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIvA.name=楽園種
