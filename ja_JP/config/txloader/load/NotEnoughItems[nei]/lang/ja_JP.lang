@@ -52,75 +52,42 @@ nei.bookmark.crafting_chain.missing=不足アイテム
 nei.bookmark.crafting_chain.needed=必要なクラフト
 nei.bookmark.tree.title=クラフトツリー
 nei.bookmark.tree.empty=表示するクラフトチェーンがありません
-# EN: Use for recipe tree
-nei.bookmark.tree.overlay=[下書き]レシピツリーに使用
-# EN: In inventory: %s
-nei.bookmark.tree.item.state.resolved=[下書き]インベントリ内: %s
-# EN: Still needed: %s
-nei.bookmark.tree.item.state.partial=[下書き]あと必要: %s
-# EN: Can be crafted
-nei.bookmark.tree.item.state.craftable=[下書き]クラフト可能
-# EN: Extra produced: %s
-nei.bookmark.tree.item.state.surplus=[下書き]余剰生産: %s
-# EN: Collapse/Expand Recipe
-nei.bookmark.tree.item.toggle_recipe=[下書き]レシピの折りたたみ/展開
+nei.bookmark.tree.overlay=[提出済み]レシピツリーに使用
+nei.bookmark.tree.item.state.resolved=[提出済み]充足: %s
+nei.bookmark.tree.item.state.partial=[提出済み]不足: %s
+nei.bookmark.tree.item.state.craftable=[提出済み]クラフト可能
+nei.bookmark.tree.item.state.surplus=[提出済み]余剰生産: %s
+nei.bookmark.tree.item.toggle_recipe=[提出済み]レシピの折りたたみ/展開
 
-# EN: Handlers
-nei.bookmark.tree.stats.handlers=[下書き]ハンドラ
-# EN: Ingredients
-nei.bookmark.tree.stats.ingredients=[下書き]素材
-# EN: Ingredients Needed
-nei.bookmark.tree.stats.ingredients_needed=[下書き]必要素材
-# EN: Ingredients Available
-nei.bookmark.tree.stats.ingredients_available=[下書き]手持ちの素材
-# EN: Results
-nei.bookmark.tree.stats.results=[下書き]成果物
-# EN: Remainders
-nei.bookmark.tree.stats.remainders=[下書き]余り物
-# EN: Crafting
-nei.bookmark.tree.stats.crafting=[下書き]クラフト
-# EN: Crafting Needed
-nei.bookmark.tree.stats.crafting_needed=[下書き]必要なクラフト
-# EN: Crafting Available
-nei.bookmark.tree.stats.crafting_available=[下書き]手持ちで足りるクラフト
-# EN: Iterations: %s
-nei.bookmark.tree.stats.handler_iterations=[下書き]実行回数: %s
-# EN: Unique Recipes: %s
-nei.bookmark.tree.stats.handler_recipes=[下書き]レシピの種類: %s
+nei.bookmark.tree.stats.handlers=[提出済み]加工方法
+nei.bookmark.tree.stats.ingredients=[提出済み]素材
+nei.bookmark.tree.stats.ingredients_needed=[提出済み]必要素材
+nei.bookmark.tree.stats.ingredients_available=[提出済み]手持ちの素材
+nei.bookmark.tree.stats.results=[提出済み]成果物
+nei.bookmark.tree.stats.remainders=[提出済み]余り物
+nei.bookmark.tree.stats.crafting=[提出済み]クラフト
+nei.bookmark.tree.stats.crafting_needed=[提出済み]必要なクラフト
+nei.bookmark.tree.stats.crafting_available=[提出済み]手持ちで足りるクラフト
+nei.bookmark.tree.stats.handler_iterations=[提出済み]実行回数: %s
+nei.bookmark.tree.stats.handler_recipes=[提出済み]レシピの種類: %s
 
-# EN: Highlight Recipe Handler
-nei.bookmark.tree.stats.highlight_handler=[下書き]レシピハンドラをハイライト
-# EN: Go to Next Highlighted Handler
-nei.bookmark.tree.stats.next_highlight=[下書き]次のハイライト中のハンドラへ
-# EN: Go to Previous Highlighted Handler
-nei.bookmark.tree.stats.prev_highlight=[下書き]前のハイライト中のハンドラへ
-# EN: Clear Handler Highlight
-nei.bookmark.tree.stats.clear_highlight=[下書き]ハンドラのハイライトを解除
+nei.bookmark.tree.stats.highlight_handler=[提出済み]この加工方法をハイライト
+nei.bookmark.tree.stats.next_highlight=[提出済み]次のハイライト中の加工方法へ
+nei.bookmark.tree.stats.prev_highlight=[提出済み]前のハイライト中の加工方法へ
+nei.bookmark.tree.stats.clear_highlight=[提出済み]加工方法のハイライトを解除
 
-# EN: Recompute tree using player inventory (snapshot)
-nei.bookmark.tree.toolbar.inventory_off=[下書き]プレイヤーのインベントリでツリーを再計算 (スナップショット)
-# EN: Using inventory snapshot - click to clear
-nei.bookmark.tree.toolbar.inventory_on=[下書き]インベントリのスナップショットを使用中 - クリックで解除
-# EN: Fit tree to view
-nei.bookmark.tree.toolbar.fit_to_view=[下書き]ツリーを画面に合わせる
-# EN: Show stats panel
-nei.bookmark.tree.toolbar.stats_off=[下書き]統計パネルを表示
-# EN: Hide stats panel
-nei.bookmark.tree.toolbar.stats_on=[下書き]統計パネルを隠す
-# EN: Choose visible stats sections
-nei.bookmark.tree.toolbar.stats_sections=[下書き]表示する統計の項目を選択
-# EN: Send Bookmark Group to Chat
-nei.bookmark.tree.toolbar.link=[下書き]ブックマークグループをチャットに送信
-# EN: Collapse items with nothing left to craft
-nei.bookmark.tree.toolbar.collapse_resolved=[下書き]クラフトが残っていないアイテムを折りたたむ
-# EN: Collapse all nested items
-nei.bookmark.tree.toolbar.collapse_all=[下書き]入れ子のアイテムをすべて折りたたむ
-# EN: Expand all nested items
-nei.bookmark.tree.toolbar.expand_all=[下書き]入れ子のアイテムをすべて展開
-# EN: Save tree as image
-nei.bookmark.tree.toolbar.screenshot=[下書き]ツリーを画像で保存
-# EN: Could not save crafting tree screenshot: framebuffers are not supported
-nei.bookmark.tree.screenshot.fbo_unsupported=[下書き]クラフトツリーのスクリーンショットを保存できませんでした: フレームバッファに対応していません
+nei.bookmark.tree.toolbar.inventory_off=[提出済み]手持ちのアイテムを差し引いてツリーを再計算
+nei.bookmark.tree.toolbar.inventory_on=[提出済み]手持ちのアイテムを差し引き中 - クリックで解除
+nei.bookmark.tree.toolbar.fit_to_view=[提出済み]ツリーを画面に合わせる
+nei.bookmark.tree.toolbar.stats_off=[提出済み]統計パネルを表示
+nei.bookmark.tree.toolbar.stats_on=[提出済み]統計パネルを隠す
+nei.bookmark.tree.toolbar.stats_sections=[提出済み]表示する統計の項目を選択
+nei.bookmark.tree.toolbar.link=[提出済み]ブックマークグループをチャットに送信
+nei.bookmark.tree.toolbar.collapse_resolved=[提出済み]クラフトが残っていないアイテムを折りたたむ
+nei.bookmark.tree.toolbar.collapse_all=[提出済み]入れ子のアイテムをすべて折りたたむ
+nei.bookmark.tree.toolbar.expand_all=[提出済み]入れ子のアイテムをすべて展開
+nei.bookmark.tree.toolbar.screenshot=[提出済み]ツリーを画像で保存
+nei.bookmark.tree.screenshot.fbo_unsupported=[提出済み]クラフトツリーのスクリーンショットを保存できませんでした: フレームバッファに対応していません
 
 nei.inventory.search.placeholder=検索...
 nei.itempanel.quantity.default=1スタック
@@ -345,12 +312,9 @@ nei.options.inventory.bookmarks.bookmarkItemsWithRecipe.false=いいえ
 nei.options.inventory.bookmarks.bookmarkRecipeWithCount=レシピを個数付きでブックマーク
 nei.options.inventory.bookmarks.bookmarkRecipeWithCount.true=はい
 nei.options.inventory.bookmarks.bookmarkRecipeWithCount.false=いいえ
-# EN: Tree Zoom without Ctrl
-nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier=[下書き]Ctrlなしでツリーを拡大縮小
-# EN: Yes
-nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier.true=[下書き]はい
-# EN: No
-nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier.false=[下書き]いいえ
+nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier=[提出済み]Ctrlなしでツリーを拡大縮小
+nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier.true=[提出済み]はい
+nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier.false=[提出済み]いいえ
 nei.options.inventory.favorites=お気に入り
 nei.options.inventory.favorites.enabled=表示の有無
 nei.options.inventory.favorites.enabled.true=表示

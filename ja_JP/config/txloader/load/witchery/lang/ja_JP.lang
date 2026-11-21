@@ -1,18 +1,10 @@
 # --- Missing Keys ---
 
-# EN: Fluid Spirit
-fluid.witchery:fluidspirit=[下書き]霊魂（液体）
-# EN: Brew
-fluid.witchery:brew=[下書き]秘薬
-# EN: Brew Liquid
-fluid.witchery:brewliquid=[下書き]秘薬（液体）
-# EN: Brew Gas
-fluid.witchery:brewgas=[下書き]秘薬（気体）
-# EN: Fluid Disease
-fluid.witchery:fluiddisease=[下書き]疫病（液体）
-# EN: Attack Bat
-entity.witchery.attackbat.name=[下書き]攻撃用コウモリ
-# EN: Eye
-entity.witchery.eye.name=[下書き]目
-# EN: Mirrorface
-entity.witchery.mirrorface.name=[下書き]ミラーフェイス
+fluid.witchery:fluidspirit=[提出済み]液体霊魂
+fluid.witchery:brew=[提出済み]秘薬
+fluid.witchery:brewliquid=[提出済み]秘薬液
+fluid.witchery:brewgas=[提出済み]秘薬ガス
+fluid.witchery:fluiddisease=[提出済み]液体疫病
+entity.witchery.attackbat.name=[提出済み]攻撃用コウモリ
+entity.witchery.eye.name=Eye
+entity.witchery.mirrorface.name=[提出済み]ミラーフェイス
