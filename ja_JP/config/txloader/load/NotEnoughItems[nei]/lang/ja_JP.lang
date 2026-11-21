@@ -709,41 +709,26 @@ nei.recipe.page=ページ %s/%s
 nei.recipe.tooltip=レシピ
 nei.recipe.fluid.tank.amount=量: %s
 nei.recipe.tab.view_all.tooltip=すべての項目を表示
-# EN: Filter Syntax
-nei.recipe.search.tooltip.name=[下書き]フィルターの書き方
-# EN: §7Hold §6Shift§7 for more info
-nei.recipe.search.tooltip.shift=[下書き]§6Shift§7 長押しで詳細を表示
-# EN: %s§ftext§8 - §7search in inputs
-nei.recipe.search.tooltip.input=[下書き]%s§fテキスト§8 - §7素材から検索
-# EN: %s§ftext§8 - §7search in outputs
-nei.recipe.search.tooltip.output=[下書き]%s§fテキスト§8 - §7成果物から検索
+nei.recipe.search.tooltip.name=[提出済み]検索
+nei.recipe.search.tooltip.shift=[提出済み]§6Shift§7 長押しで詳細を表示
+nei.recipe.search.tooltip.input=[提出済み]%s§f○○§8 - §7素材から検索
+nei.recipe.search.tooltip.output=[提出済み]%s§f○○§8 - §7成果物から検索
 nei.recipe.search.tooltip.text=%s§ftext§8 - §7search in recipe text
 nei.recipe.search.tooltip.auxiliary=%s§ftext§8 - §7search in other stacks
 nei.recipe.search.tooltip.all=%s§ftext§8 - §7all inputs must match (same with > and ^)
-# EN: %stext§8 - §7%s
-nei.recipe.search.tooltip.prefix=[下書き]%sテキスト§8 - §7%s
+nei.recipe.search.tooltip.prefix=[提出済み]%s○○§8 - §7%s
 
-# EN: search by mod
-nei.recipe.search.tooltip.prefix.modName=[下書き]Mod名で検索
-# EN: search by tooltip
-nei.recipe.search.tooltip.prefix.tooltip=[下書き]ツールチップで検索
-# EN: search by ore dict
-nei.recipe.search.tooltip.prefix.oreDict=[下書き]鉱石辞書で検索
-# EN: search by resource ID
-nei.recipe.search.tooltip.prefix.identifier=[下書き]リソースIDで検索
-# EN: search by subsets
-nei.recipe.search.tooltip.prefix.subsets=[下書き]サブセットで検索
-# EN: search by chemical formula
-nei.recipe.search.tooltip.prefix.chemicalFormula=[下書き]化学式で検索
+nei.recipe.search.tooltip.prefix.modName=[提出済み]Mod名で検索
+nei.recipe.search.tooltip.prefix.tooltip=[提出済み]ツールチップで検索
+nei.recipe.search.tooltip.prefix.oreDict=[提出済み]鉱石辞書で検索
+nei.recipe.search.tooltip.prefix.identifier=[提出済み]リソースIDで検索
+nei.recipe.search.tooltip.prefix.subsets=[提出済み]サブセットで検索
+nei.recipe.search.tooltip.prefix.chemicalFormula=[提出済み]化学式で検索
 
-# EN: %s§ftext§8 - §7exclude items with text
-nei.recipe.search.tooltip.exclude=[下書き]%s§fテキスト§8 - §7テキストを含むアイテムを除外
-# EN: %s§ftext§8 - §7exclude recipes with text
-nei.recipe.search.tooltip.exclude_recipe=[下書き]%s§fテキスト§8 - §7テキストを含むレシピを除外
-# EN: §fa%s§fb§8 - §7match a or b
-nei.recipe.search.tooltip.or=[下書き]§fa%s§fb§8 - §7a または b に一致
-# EN: %s§ftext%s§8 - §7match exact phrase
-nei.recipe.search.tooltip.exact=[下書き]%s§fテキスト%s§8 - §7語句に完全一致
+nei.recipe.search.tooltip.exclude=[提出済み]%s§f○○§8 - §7○○を含むアイテムを除外
+nei.recipe.search.tooltip.exclude_recipe=[提出済み]%s§f○○§8 - §7○○を含むレシピを除外
+nei.recipe.search.tooltip.or=[提出済み]§fa%s§fb§8 - §7a または b に一致
+nei.recipe.search.tooltip.exact=[提出済み]%s§f○○%s§8 - §7完全一致で検索
 nei.recipe.search.tooltip.regex=%s§ftext%s§8 - §7match regular expression
 
 nei.recipe.shaped=作業台 (定形レシピ)
