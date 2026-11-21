@@ -1,8 +1,3 @@
-# [下書き] sivaDog 手元下書き。確定したら [自訳]、ParaTranz 投稿後は [提出済み] に置き換える
-# ParaTranz へ貼るときは行頭の [下書き] を外す。'# EN:' は原文比較用で、確定時に削除する
-# 命名: 〜Sensor Location Card は GT の「GregTechセンサーカード」に揃えて「〜センサーカード」。
-#   Thermal=温度（中国語訳の温度监控器）、Howler Alarm=ハウラーアラーム（クエストの既訳）。
-#   無印の日本語は他の翻訳者の既訳（uid 46931/46946）なので触らない
 #Tab Name
 nc.itemgroup.tab=Nuclear Control 2
 

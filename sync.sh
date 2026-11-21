@@ -2,13 +2,20 @@
 # Sync ja_JP translations from this repo into the GTNH 2.9 Prism instance.
 #
 # Usage:
-#   ./sync.sh              # quests + thaums + igi + lt + nc + su
+#   ./sync.sh              # every target below
 #   ./sync.sh quests       # BetterQuesting only
 #   ./sync.sh thaums       # dreamcraft only (Thaumonomicon + other GT: New Horizons strings)
 #   ./sync.sh igi          # InGame Info XML only
 #   ./sync.sh lt           # LittleTiles only
 #   ./sync.sh nc           # Nuclear Control 2 only
 #   ./sync.sh su           # ServerUtilities only
+#   ./sync.sh menu         # title screen (pack-side custommainmenu)
+#   ./sync.sh lootbag      # loot bag group names (pack-side dreamcraft)
+#   ./sync.sh witchery     # pack-side missing keys: witchery, extrautils,
+#   ./sync.sh extrautils   #   bibliocraft, gravisuit
+#   ./sync.sh bibliocraft
+#   ./sync.sh gravisuit
+#   ./sync.sh nei          # NotEnoughItems only
 #   INSTANCE_MC=/path/to/.minecraft ./sync.sh
 #
 # 2.9 installs the translation pack in this repo's layout, so every file goes to
@@ -26,7 +33,7 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
 . "$REPO_ROOT/tools/sync-common.sh"
 
-TARGETS=(quests thaums igi lt nc su)
+TARGETS=(quests thaums igi lt nc su menu lootbag witchery extrautils bibliocraft gravisuit nei)
 declare -A REL_LANG=(
   [quests]="config/txloader/forceload/betterquesting/lang/ja_JP.lang"
   [thaums]="config/txloader/load/GT_ New Horizons[dreamcraft]/lang/ja_JP.lang"
@@ -34,6 +41,13 @@ declare -A REL_LANG=(
   [lt]="config/txloader/load/LittleTiles[littletiles]/lang/ja_JP.lang"
   [nc]="config/txloader/load/Nuclear Control 2[nuclearcontrol]/lang/ja_JP.lang"
   [su]="config/txloader/load/ServerUtilities[serverutilities]/lang/ja_JP.lang"
+  [menu]="config/txloader/load/custommainmenu/lang/ja_JP.lang"
+  [lootbag]="config/txloader/load/dreamcraft/lang/ja_JP.lang"
+  [witchery]="config/txloader/load/witchery/lang/ja_JP.lang"
+  [extrautils]="config/txloader/load/extrautils/lang/ja_JP.lang"
+  [bibliocraft]="config/txloader/load/bibliocraft/lang/ja_JP.lang"
+  [gravisuit]="config/txloader/load/gravisuit/lang/ja_JP.lang"
+  [nei]="config/txloader/load/NotEnoughItems[nei]/lang/ja_JP.lang"
 )
 
 usage() {

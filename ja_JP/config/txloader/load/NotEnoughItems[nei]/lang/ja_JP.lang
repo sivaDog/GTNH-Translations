@@ -52,42 +52,75 @@ nei.bookmark.crafting_chain.missing=不足アイテム
 nei.bookmark.crafting_chain.needed=必要なクラフト
 nei.bookmark.tree.title=クラフトツリー
 nei.bookmark.tree.empty=表示するクラフトチェーンがありません
-nei.bookmark.tree.overlay=Use for recipe tree
-nei.bookmark.tree.item.state.resolved=In inventory: %s
-nei.bookmark.tree.item.state.partial=Still needed: %s
-nei.bookmark.tree.item.state.craftable=Can be crafted
-nei.bookmark.tree.item.state.surplus=Extra produced: %s
-nei.bookmark.tree.item.toggle_recipe=Collapse/Expand Recipe
+# EN: Use for recipe tree
+nei.bookmark.tree.overlay=[下書き]レシピツリーに使用
+# EN: In inventory: %s
+nei.bookmark.tree.item.state.resolved=[下書き]インベントリ内: %s
+# EN: Still needed: %s
+nei.bookmark.tree.item.state.partial=[下書き]あと必要: %s
+# EN: Can be crafted
+nei.bookmark.tree.item.state.craftable=[下書き]クラフト可能
+# EN: Extra produced: %s
+nei.bookmark.tree.item.state.surplus=[下書き]余剰生産: %s
+# EN: Collapse/Expand Recipe
+nei.bookmark.tree.item.toggle_recipe=[下書き]レシピの折りたたみ/展開
 
-nei.bookmark.tree.stats.handlers=Handlers
-nei.bookmark.tree.stats.ingredients=Ingredients
-nei.bookmark.tree.stats.ingredients_needed=Ingredients Needed
-nei.bookmark.tree.stats.ingredients_available=Ingredients Available
-nei.bookmark.tree.stats.results=Results
-nei.bookmark.tree.stats.remainders=Remainders
-nei.bookmark.tree.stats.crafting=Crafting
-nei.bookmark.tree.stats.crafting_needed=Crafting Needed
-nei.bookmark.tree.stats.crafting_available=Crafting Available
-nei.bookmark.tree.stats.handler_iterations=Iterations: %s
-nei.bookmark.tree.stats.handler_recipes=Unique Recipes: %s
+# EN: Handlers
+nei.bookmark.tree.stats.handlers=[下書き]ハンドラ
+# EN: Ingredients
+nei.bookmark.tree.stats.ingredients=[下書き]素材
+# EN: Ingredients Needed
+nei.bookmark.tree.stats.ingredients_needed=[下書き]必要素材
+# EN: Ingredients Available
+nei.bookmark.tree.stats.ingredients_available=[下書き]手持ちの素材
+# EN: Results
+nei.bookmark.tree.stats.results=[下書き]成果物
+# EN: Remainders
+nei.bookmark.tree.stats.remainders=[下書き]余り物
+# EN: Crafting
+nei.bookmark.tree.stats.crafting=[下書き]クラフト
+# EN: Crafting Needed
+nei.bookmark.tree.stats.crafting_needed=[下書き]必要なクラフト
+# EN: Crafting Available
+nei.bookmark.tree.stats.crafting_available=[下書き]手持ちで足りるクラフト
+# EN: Iterations: %s
+nei.bookmark.tree.stats.handler_iterations=[下書き]実行回数: %s
+# EN: Unique Recipes: %s
+nei.bookmark.tree.stats.handler_recipes=[下書き]レシピの種類: %s
 
-nei.bookmark.tree.stats.highlight_handler=Highlight Recipe Handler
-nei.bookmark.tree.stats.next_highlight=Go to Next Highlighted Handler
-nei.bookmark.tree.stats.prev_highlight=Go to Previous Highlighted Handler
-nei.bookmark.tree.stats.clear_highlight=Clear Handler Highlight
+# EN: Highlight Recipe Handler
+nei.bookmark.tree.stats.highlight_handler=[下書き]レシピハンドラをハイライト
+# EN: Go to Next Highlighted Handler
+nei.bookmark.tree.stats.next_highlight=[下書き]次のハイライト中のハンドラへ
+# EN: Go to Previous Highlighted Handler
+nei.bookmark.tree.stats.prev_highlight=[下書き]前のハイライト中のハンドラへ
+# EN: Clear Handler Highlight
+nei.bookmark.tree.stats.clear_highlight=[下書き]ハンドラのハイライトを解除
 
-nei.bookmark.tree.toolbar.inventory_off=Recompute tree using player inventory (snapshot)
-nei.bookmark.tree.toolbar.inventory_on=Using inventory snapshot - click to clear
-nei.bookmark.tree.toolbar.fit_to_view=Fit tree to view
-nei.bookmark.tree.toolbar.stats_off=Show stats panel
-nei.bookmark.tree.toolbar.stats_on=Hide stats panel
-nei.bookmark.tree.toolbar.stats_sections=Choose visible stats sections
-nei.bookmark.tree.toolbar.link=Send Bookmark Group to Chat
-nei.bookmark.tree.toolbar.collapse_resolved=Collapse items with nothing left to craft
-nei.bookmark.tree.toolbar.collapse_all=Collapse all nested items
-nei.bookmark.tree.toolbar.expand_all=Expand all nested items
-nei.bookmark.tree.toolbar.screenshot=Save tree as image
-nei.bookmark.tree.screenshot.fbo_unsupported=Could not save crafting tree screenshot: framebuffers are not supported
+# EN: Recompute tree using player inventory (snapshot)
+nei.bookmark.tree.toolbar.inventory_off=[下書き]プレイヤーのインベントリでツリーを再計算 (スナップショット)
+# EN: Using inventory snapshot - click to clear
+nei.bookmark.tree.toolbar.inventory_on=[下書き]インベントリのスナップショットを使用中 - クリックで解除
+# EN: Fit tree to view
+nei.bookmark.tree.toolbar.fit_to_view=[下書き]ツリーを画面に合わせる
+# EN: Show stats panel
+nei.bookmark.tree.toolbar.stats_off=[下書き]統計パネルを表示
+# EN: Hide stats panel
+nei.bookmark.tree.toolbar.stats_on=[下書き]統計パネルを隠す
+# EN: Choose visible stats sections
+nei.bookmark.tree.toolbar.stats_sections=[下書き]表示する統計の項目を選択
+# EN: Send Bookmark Group to Chat
+nei.bookmark.tree.toolbar.link=[下書き]ブックマークグループをチャットに送信
+# EN: Collapse items with nothing left to craft
+nei.bookmark.tree.toolbar.collapse_resolved=[下書き]クラフトが残っていないアイテムを折りたたむ
+# EN: Collapse all nested items
+nei.bookmark.tree.toolbar.collapse_all=[下書き]入れ子のアイテムをすべて折りたたむ
+# EN: Expand all nested items
+nei.bookmark.tree.toolbar.expand_all=[下書き]入れ子のアイテムをすべて展開
+# EN: Save tree as image
+nei.bookmark.tree.toolbar.screenshot=[下書き]ツリーを画像で保存
+# EN: Could not save crafting tree screenshot: framebuffers are not supported
+nei.bookmark.tree.screenshot.fbo_unsupported=[下書き]クラフトツリーのスクリーンショットを保存できませんでした: フレームバッファに対応していません
 
 nei.inventory.search.placeholder=検索...
 nei.itempanel.quantity.default=1スタック
@@ -159,7 +192,8 @@ nei.inventory.current.gamemode.1=現在のゲームモード: クリエイティ
 nei.inventory.current.gamemode.2=現在のゲームモード: クリエイティブ+
 nei.inventory.current.gamemode.3=現在のゲームモード: アドベンチャー
 nei.inventory.tooltip.page=%s / %s ページ [%sキーで次のページに進む]
-nei.inventory.tooltip.count.item=Count: %s
+# EN: Count: %s
+nei.inventory.tooltip.count.item=[下書き]個数: %s
 
 itemGroup.neiFluids=流体
 
@@ -196,12 +230,18 @@ nei.chat.item_link.recipe.text=レシピをブックマーク
 nei.chat.item_link.group.text=グループをブックマーク
 nei.chat.bookmark_added.text=ブックマークに追加されました！
 
-nei.chat.recipeid.many_params=Too many parameters! Usage: %s
-nei.chat.recipeid.not_found=File %s not found!
-nei.chat.recipeid.diff.start=Start processing recipe diff!
-nei.chat.recipeid.diff.finish=Finished processing recipe diff!
-nei.chat.recipeid.dump.start=Start processing recipe handlers!
-nei.chat.recipeid.dump.finish=Finished processing recipe handlers!
+# EN: Too many parameters! Usage: %s
+nei.chat.recipeid.many_params=[下書き]パラメータが多すぎます！ 使い方: %s
+# EN: File %s not found!
+nei.chat.recipeid.not_found=[下書き]ファイル %s が見つかりません！
+# EN: Start processing recipe diff!
+nei.chat.recipeid.diff.start=[下書き]レシピ差分の処理を開始しました！
+# EN: Finished processing recipe diff!
+nei.chat.recipeid.diff.finish=[下書き]レシピ差分の処理が完了しました！
+# EN: Start processing recipe handlers!
+nei.chat.recipeid.dump.start=[下書き]レシピハンドラの処理を開始しました！
+# EN: Finished processing recipe handlers!
+nei.chat.recipeid.dump.finish=[下書き]レシピハンドラの処理が完了しました！
 
 nei.chat.untranslator.dump.start=非翻訳文のダンプ処理を開始しました！ §4(この文章が見えている場合、言語設定をEnglish (US)にした後、再度コマンドを実行することを推奨します)§r
 nei.chat.untranslator.dump.finish=非翻訳文のダンプ処理が完了しました！ §4(この文章が見えている場合、言語設定をEnglish (US)にした後、再度コマンドを実行することを推奨します)§r
@@ -215,7 +255,8 @@ nei.options.save=保存
 nei.options.world=ワールド設定
 
 nei.options.keys=キーバインド
-nei.options.keys.tip=Configure NEI key bindings in the Minecraft controls screen
+# EN: Configure NEI key bindings in the Minecraft controls screen
+nei.options.keys.tip=[下書き]NEIのキーバインドはMinecraftの操作設定画面で変更します
 nei.options.keys.gui=NEIインベントリ
 nei.options.keys.world=NEIワールド
 nei.options.keys.recipe=NEIレシピ
@@ -285,7 +326,8 @@ nei.options.inventory.bookmarks.showRecipeMarkerMode=レシピマーカーを表
 nei.options.inventory.bookmarks.showRecipeMarkerMode.0=なし
 nei.options.inventory.bookmarks.showRecipeMarkerMode.1=テキスト
 nei.options.inventory.bookmarks.showRecipeMarkerMode.2=背景
-nei.options.inventory.bookmarks.maxVerticalTooltipRows=Max Vertical Tooltip Rows (0 - disable)
+# EN: Max Vertical Tooltip Rows (0 - disable)
+nei.options.inventory.bookmarks.maxVerticalTooltipRows=[下書き]垂直表示時のツールチップの最大行数 (0で無効)
 nei.options.inventory.bookmarks.showRecipeHandlerIcon=ハンドラのアイコンを表示
 nei.options.inventory.bookmarks.showRecipeHandlerIcon.true=あり
 nei.options.inventory.bookmarks.showRecipeHandlerIcon.false=なし
@@ -303,9 +345,12 @@ nei.options.inventory.bookmarks.bookmarkItemsWithRecipe.false=いいえ
 nei.options.inventory.bookmarks.bookmarkRecipeWithCount=レシピを個数付きでブックマーク
 nei.options.inventory.bookmarks.bookmarkRecipeWithCount.true=はい
 nei.options.inventory.bookmarks.bookmarkRecipeWithCount.false=いいえ
-nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier=Tree Zoom without Ctrl
-nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier.true=Yes
-nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier.false=No
+# EN: Tree Zoom without Ctrl
+nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier=[下書き]Ctrlなしでツリーを拡大縮小
+# EN: Yes
+nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier.true=[下書き]はい
+# EN: No
+nei.options.inventory.bookmarks.craftingTreeZoomWithoutModifier.false=[下書き]いいえ
 nei.options.inventory.favorites=お気に入り
 nei.options.inventory.favorites.enabled=表示の有無
 nei.options.inventory.favorites.enabled.true=表示
@@ -320,9 +365,12 @@ nei.options.inventory.favorites.showRecipeTooltipInGui=レシピGUI内でのレ�
 nei.options.inventory.favorites.showRecipeTooltipInGui.true=はい
 nei.options.inventory.favorites.showRecipeTooltipInGui.false=いいえ
 nei.options.inventory.favorites.depth=深度
-nei.options.inventory.favorites.generateSingleRecipeFavorites=Generate Single-Recipe Favorites
-nei.options.inventory.favorites.generateSingleRecipeFavorites.true=Yes
-nei.options.inventory.favorites.generateSingleRecipeFavorites.false=No
+# EN: Generate Single-Recipe Favorites
+nei.options.inventory.favorites.generateSingleRecipeFavorites=[下書き]単一レシピのお気に入りを自動生成
+# EN: Yes
+nei.options.inventory.favorites.generateSingleRecipeFavorites.true=[下書き]はい
+# EN: No
+nei.options.inventory.favorites.generateSingleRecipeFavorites.false=[下書き]いいえ
 nei.options.inventory.hotkeysHelpText=ホットキーのヘルプを表示
 nei.options.inventory.hotkeysHelpText.true=あり
 nei.options.inventory.hotkeysHelpText.false=なし
@@ -340,17 +388,24 @@ nei.options.inventory.guirecipe.itemPresenceOverlay.2=背景
 nei.options.inventory.guirecipe.slotHighlightPresent=現在のアイテムをハイライト
 nei.options.inventory.guirecipe.slotHighlightPresent.true=あり
 nei.options.inventory.guirecipe.slotHighlightPresent.false=なし
-nei.options.inventory.guirecipe.infiniteScroll=Use Infinite Scroll
-nei.options.inventory.guirecipe.infiniteScroll.true=Yes
-nei.options.inventory.guirecipe.infiniteScroll.false=No
+# EN: Use Infinite Scroll
+nei.options.inventory.guirecipe.infiniteScroll=[下書き]無限スクロールを使用
+# EN: Yes
+nei.options.inventory.guirecipe.infiniteScroll.true=[下書き]はい
+# EN: No
+nei.options.inventory.guirecipe.infiniteScroll.false=[下書き]いいえ
 nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst=JEI形式のレシピ触媒
-nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.0=None
-nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.1=Grid
-nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.2=Scroll
+# EN: None
+nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.0=[下書き]なし
+# EN: Grid
+nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.1=[下書き]グリッド
+# EN: Scroll
+nei.options.inventory.guirecipe.jeiStyleRecipeCatalyst.2=[下書き]スクロール
 nei.options.inventory.guirecipe.cycledIngredientsTooltip=代替素材のツールチップ
 nei.options.inventory.guirecipe.cycledIngredientsTooltip.true=表示
 nei.options.inventory.guirecipe.cycledIngredientsTooltip.false=非表示
-nei.options.inventory.guirecipe.handlerInfo=Handler Info Widget
+# EN: Handler Info Widget
+nei.options.inventory.guirecipe.handlerInfo=[下書き]ハンドラ情報ウィジェット
 nei.options.inventory.guirecipe.handlerInfo.tip=レシピGUIを開いているときにShift + D
 nei.options.inventory.guirecipe.handlerInfo.true=有効
 nei.options.inventory.guirecipe.handlerInfo.false=無効
@@ -359,7 +414,8 @@ nei.options.inventory.guirecipe.scrollPages=ページのスクロール
 nei.options.inventory.guirecipe.scrollPages.true=有効
 nei.options.inventory.guirecipe.scrollPages.false=無効
 
-nei.options.inventory.guirecipe.maxHeight=Max Height
+# EN: Max Height
+nei.options.inventory.guirecipe.maxHeight=[下書き]最大の高さ
 nei.options.inventory.showItemQuantityWidget=アイテム個数指定のウィジェットを表示
 nei.options.inventory.showItemQuantityWidget.true=あり
 nei.options.inventory.showItemQuantityWidget.false=なし
@@ -418,9 +474,12 @@ nei.options.inventory.autocrafting.false=無効
 nei.options.inventory.guirecipe.shiftOverlayRecipe=レシピのオーバーレイ表示時、Shift押下でアイテム移動を有効化
 nei.options.inventory.guirecipe.shiftOverlayRecipe.true=あり
 nei.options.inventory.guirecipe.shiftOverlayRecipe.false=なし
-nei.options.inventory.guirecipe.freezeCycleOnHover=Stop cycling the recipe while hovering over an ingredient or a button
-nei.options.inventory.guirecipe.freezeCycleOnHover.true=Yes
-nei.options.inventory.guirecipe.freezeCycleOnHover.false=No
+# EN: Stop cycling the recipe while hovering over an ingredient or a button
+nei.options.inventory.guirecipe.freezeCycleOnHover=[下書き]素材やボタンにカーソルを合わせている間はレシピの切り替えを止める
+# EN: Yes
+nei.options.inventory.guirecipe.freezeCycleOnHover.true=[下書き]はい
+# EN: No
+nei.options.inventory.guirecipe.freezeCycleOnHover.false=[下書き]いいえ
 nei.options.inventory.widgetsenabled.true=NEIが有効
 nei.options.inventory.widgetsenabled.false=NEIが無効
 nei.options.inventory.cheatmode.0=レシピモード
@@ -477,10 +536,14 @@ nei.options.inventory.history.enabled.true=有効
 nei.options.inventory.history.enabled.false=無効
 nei.options.inventory.history.color=色
 nei.options.inventory.history.useRows=行数
-nei.options.inventory.history.worldSpecific=World Specific
-nei.options.inventory.history.worldSpecific.true=Yes
-nei.options.inventory.history.worldSpecific.false=No
-nei.options.inventory.history.save=History Persistence
+# EN: World Specific
+nei.options.inventory.history.worldSpecific=[下書き]ワールド毎の履歴
+# EN: Yes
+nei.options.inventory.history.worldSpecific.true=[下書き]はい
+# EN: No
+nei.options.inventory.history.worldSpecific.false=[下書き]いいえ
+# EN: History Persistence
+nei.options.inventory.history.save=[下書き]履歴の保存
 nei.options.inventory.history.save.true=有効
 nei.options.inventory.history.save.false=無効
 nei.options.inventory.craftables=クラフト可能パネル
@@ -510,13 +573,20 @@ nei.options.inventory.itemzoom.neiOnly.tip=JEIの素材・ブックマークリ�
 nei.options.inventory.itemzoom.onlySolid=設置可能なアイテムのみ表示
 nei.options.inventory.itemzoom.onlySolid.true=有効
 nei.options.inventory.itemzoom.onlySolid.false=無効
-nei.options.inventory.itemzoom.preferredSide=Preferred Side
-nei.options.inventory.itemzoom.preferredSide.0=Auto
-nei.options.inventory.itemzoom.preferredSide.1=Left
-nei.options.inventory.itemzoom.preferredSide.2=Right
-nei.options.inventory.itemzoom.preferredSide.0.tip=Prefer whichever side currently has fewer items in its panel.
-nei.options.inventory.itemzoom.preferredSide.1.tip=Always prefer the left side, unless the cursor is there.
-nei.options.inventory.itemzoom.preferredSide.2.tip=Always prefer the right side, unless the cursor is there.
+# EN: Preferred Side
+nei.options.inventory.itemzoom.preferredSide=[下書き]表示する側
+# EN: Auto
+nei.options.inventory.itemzoom.preferredSide.0=[下書き]自動
+# EN: Left
+nei.options.inventory.itemzoom.preferredSide.1=[下書き]左
+# EN: Right
+nei.options.inventory.itemzoom.preferredSide.2=[下書き]右
+# EN: Prefer whichever side currently has fewer items in its panel.
+nei.options.inventory.itemzoom.preferredSide.0.tip=[下書き]パネル内のアイテムが少ない側を優先する。
+# EN: Always prefer the left side, unless the cursor is there.
+nei.options.inventory.itemzoom.preferredSide.1.tip=[下書き]カーソルがある場合を除き、常に左側を優先する。
+# EN: Always prefer the right side, unless the cursor is there.
+nei.options.inventory.itemzoom.preferredSide.2.tip=[下書き]カーソルがある場合を除き、常に右側を優先する。
 nei.options.inventory.itemzoom.helpText=ヘルプのテキストを表示
 nei.options.inventory.itemzoom.helpText.true=有効
 nei.options.inventory.itemzoom.helpText.false=無効
@@ -604,8 +674,10 @@ nei.options.tools.dump.itempanel.mode.2=Json
 nei.options.tools.dump.itempanel.mode.3=PNG
 nei.options.tools.dump.itempanel.icon.dumped=アイテムパネルに表示中のアイコンが%sに出力されました
 nei.options.tools.dump.itempanel.icon.cancelled=出力がキャンセルされました
-nei.options.tools.dump.itempanel.icon.warning.1=§cWARNING§r: You are about to dump %s items at %sx%s resolution
-nei.options.tools.dump.itempanel.icon.warning.2=Hold %s while clicking this button to proceed
+# EN: §cWARNING§r: You are about to dump %s items at %sx%s resolution
+nei.options.tools.dump.itempanel.icon.warning.1=[下書き]§c警告§r: %s 個のアイテムを %sx%s の解像度で出力しようとしています
+# EN: Hold %s while clicking this button to proceed
+nei.options.tools.dump.itempanel.icon.warning.2=[下書き]続行するには %s を押しながらこのボタンをクリックしてください
 nei.options.tools.dump.handlers=NEIハンドラ
 nei.options.tools.dump.handlers.dumped=ハンドラが%sに出力されました
 nei.options.tools.dump.handlers.mode.0=CSV
@@ -617,60 +689,97 @@ nei.options.tools.dump.recipes.dumped=%s個のレシピが%sに出力されま�
 nei.options.tools.dump.recipes.skipped=%s個のレシピでエラーが起きてスキップされました、ログを確認してください
 nei.options.tools.dump.recipes.failed=出力に失敗したレシピ: %s
 
-nei.debug.RecipeHandler.title=Debug Recipe Handler
-nei.debug.RecipeHandler.copy=Copy
-nei.debug.RecipeHandler.Name=Name
+# EN: Debug Recipe Handler
+nei.debug.RecipeHandler.title=[下書き]レシピハンドラのデバッグ
+# EN: Copy
+nei.debug.RecipeHandler.copy=[下書き]コピー
+# EN: Name
+nei.debug.RecipeHandler.Name=[下書き]名前
 nei.debug.RecipeHandler.Id=ID
-nei.debug.RecipeHandler.Key=Key
-nei.debug.RecipeHandler.HHack=H.Hack
-nei.debug.RecipeHandler.ModName=Mod Name
-nei.debug.RecipeHandler.ModId=Mod ID
-nei.debug.RecipeHandler.Order=Order
-nei.debug.RecipeHandler.yShift=yShift
-nei.debug.RecipeHandler.MultiWidgets=Multi Widgets
-nei.debug.RecipeHandler.Height=Height
-nei.debug.RecipeHandler.Width=Width
-nei.debug.RecipeHandler.ShowFavorites=Show Favorites
-nei.debug.RecipeHandler.ShowOverlay=Show Overlays
-nei.debug.RecipeHandler.ShowBadge=Show Badge
-nei.debug.RecipeHandler.DuplicatesOnly=Duplicates Only
-nei.debug.RecipeHandler.AllowOverflowY=Allow Overflow Y
-nei.debug.RecipeHandler.AllowOverflowX=Allow Overflow X
-nei.debug.RecipeHandler.Override=Override
+# EN: Key
+nei.debug.RecipeHandler.Key=[下書き]キー
+# EN: H.Hack
+nei.debug.RecipeHandler.HHack=[下書き]H.Hack
+# EN: Mod Name
+nei.debug.RecipeHandler.ModName=[下書き]Mod名
+# EN: Mod ID
+nei.debug.RecipeHandler.ModId=[下書き]Mod ID
+# EN: Order
+nei.debug.RecipeHandler.Order=[下書き]順序
+# EN: yShift
+nei.debug.RecipeHandler.yShift=[下書き]yShift
+# EN: Multi Widgets
+nei.debug.RecipeHandler.MultiWidgets=[下書き]複数ウィジェット
+# EN: Height
+nei.debug.RecipeHandler.Height=[下書き]高さ
+# EN: Width
+nei.debug.RecipeHandler.Width=[下書き]幅
+# EN: Show Favorites
+nei.debug.RecipeHandler.ShowFavorites=[下書き]お気に入りを表示
+# EN: Show Overlays
+nei.debug.RecipeHandler.ShowOverlay=[下書き]オーバーレイを表示
+# EN: Show Badge
+nei.debug.RecipeHandler.ShowBadge=[下書き]バッジを表示
+# EN: Duplicates Only
+nei.debug.RecipeHandler.DuplicatesOnly=[下書き]重複のみ
+# EN: Allow Overflow Y
+nei.debug.RecipeHandler.AllowOverflowY=[下書き]Y方向のはみ出しを許可
+# EN: Allow Overflow X
+nei.debug.RecipeHandler.AllowOverflowX=[下書き]X方向のはみ出しを許可
+# EN: Override
+nei.debug.RecipeHandler.Override=[下書き]上書き
 nei.debug.RecipeHandler.ExportRecipes=レシピの出力
 nei.debug.RecipeHandler.export=出力
 nei.debug.RecipeHandler.export.tooltip=現在表示されているレシピをJSONに出力します。
 nei.debug.RecipeHandler.checkbox.on=オン
 nei.debug.RecipeHandler.checkbox.off=オフ
-nei.debug.RecipeHandler.yes=Yes
-nei.debug.RecipeHandler.no=No
+# EN: Yes
+nei.debug.RecipeHandler.yes=[下書き]はい
+# EN: No
+nei.debug.RecipeHandler.no=[下書き]いいえ
 nei.debug.RecipeHandler.reset=リセット
-nei.debug.RecipeHandler.RegisteredBy=Registered by: %s
+# EN: Registered by: %s
+nei.debug.RecipeHandler.RegisteredBy=[下書き]登録元: %s
 
 nei.recipe.page=ページ %s/%s
 nei.recipe.tooltip=レシピ
 nei.recipe.fluid.tank.amount=量: %s
 nei.recipe.tab.view_all.tooltip=すべての項目を表示
-nei.recipe.search.tooltip.name=Filter Syntax
-nei.recipe.search.tooltip.shift=§7Hold §6Shift§7 for more info
-nei.recipe.search.tooltip.input=%s§ftext§8 - §7search in inputs
-nei.recipe.search.tooltip.output=%s§ftext§8 - §7search in outputs
+# EN: Filter Syntax
+nei.recipe.search.tooltip.name=[下書き]フィルターの書き方
+# EN: §7Hold §6Shift§7 for more info
+nei.recipe.search.tooltip.shift=[下書き]§6Shift§7 長押しで詳細を表示
+# EN: %s§ftext§8 - §7search in inputs
+nei.recipe.search.tooltip.input=[下書き]%s§fテキスト§8 - §7素材から検索
+# EN: %s§ftext§8 - §7search in outputs
+nei.recipe.search.tooltip.output=[下書き]%s§fテキスト§8 - §7成果物から検索
 nei.recipe.search.tooltip.text=%s§ftext§8 - §7search in recipe text
 nei.recipe.search.tooltip.auxiliary=%s§ftext§8 - §7search in other stacks
 nei.recipe.search.tooltip.all=%s§ftext§8 - §7all inputs must match (same with > and ^)
-nei.recipe.search.tooltip.prefix=%stext§8 - §7%s
+# EN: %stext§8 - §7%s
+nei.recipe.search.tooltip.prefix=[下書き]%sテキスト§8 - §7%s
 
-nei.recipe.search.tooltip.prefix.modName=search by mod
-nei.recipe.search.tooltip.prefix.tooltip=search by tooltip
-nei.recipe.search.tooltip.prefix.oreDict=search by ore dict
-nei.recipe.search.tooltip.prefix.identifier=search by resource ID
-nei.recipe.search.tooltip.prefix.subsets=search by subsets
-nei.recipe.search.tooltip.prefix.chemicalFormula=search by chemical formula
+# EN: search by mod
+nei.recipe.search.tooltip.prefix.modName=[下書き]Mod名で検索
+# EN: search by tooltip
+nei.recipe.search.tooltip.prefix.tooltip=[下書き]ツールチップで検索
+# EN: search by ore dict
+nei.recipe.search.tooltip.prefix.oreDict=[下書き]鉱石辞書で検索
+# EN: search by resource ID
+nei.recipe.search.tooltip.prefix.identifier=[下書き]リソースIDで検索
+# EN: search by subsets
+nei.recipe.search.tooltip.prefix.subsets=[下書き]サブセットで検索
+# EN: search by chemical formula
+nei.recipe.search.tooltip.prefix.chemicalFormula=[下書き]化学式で検索
 
-nei.recipe.search.tooltip.exclude=%s§ftext§8 - §7exclude items with text
-nei.recipe.search.tooltip.exclude_recipe=%s§ftext§8 - §7exclude recipes with text
-nei.recipe.search.tooltip.or=§fa%s§fb§8 - §7match a or b
-nei.recipe.search.tooltip.exact=%s§ftext%s§8 - §7match exact phrase
+# EN: %s§ftext§8 - §7exclude items with text
+nei.recipe.search.tooltip.exclude=[下書き]%s§fテキスト§8 - §7テキストを含むアイテムを除外
+# EN: %s§ftext§8 - §7exclude recipes with text
+nei.recipe.search.tooltip.exclude_recipe=[下書き]%s§fテキスト§8 - §7テキストを含むレシピを除外
+# EN: §fa%s§fb§8 - §7match a or b
+nei.recipe.search.tooltip.or=[下書き]§fa%s§fb§8 - §7a または b に一致
+# EN: %s§ftext%s§8 - §7match exact phrase
+nei.recipe.search.tooltip.exact=[下書き]%s§fテキスト%s§8 - §7語句に完全一致
 nei.recipe.search.tooltip.regex=%s§ftext%s§8 - §7match regular expression
 
 nei.recipe.shaped=作業台 (定形レシピ)
@@ -693,11 +802,14 @@ nei.recipe.items.ingredients=素材
 nei.recipe.items.ingredients_needed=必要素材
 
 # Deprecated
-nei.recipe.fuel.required=%s required
+# EN: %s required
+nei.recipe.fuel.required=[下書き]%s が必要
 # Deprecated
-nei.recipe.fuel.processed=%s processed
+# EN: %s processed
+nei.recipe.fuel.processed=[下書き]%s を処理
 # Deprecated
-nei.recipe.fuel.produced=%s produced
+# EN: %s produced
+nei.recipe.fuel.produced=[下書き]%s を生成
 nei.recipe.firework=花火
 nei.recipe.firework.tooltip0=染料を使うと装薬に色がつく
 nei.recipe.firework.tooltip1=再染色すると装薬にフェード時の色がつく
@@ -706,19 +818,24 @@ nei.recipe.repair=修理
 nei.recipe.brewing=醸造
 nei.recipe.profiler.crafting=クラフトのプロファイル
 nei.recipe.profiler.usage=用途のプロファイル
-nei.recipe.concurrent.usage=Concurrent Usage - Total
-nei.recipe.concurrent.crafting=Concurrent Crafting - Total
+# EN: Concurrent Usage - Total
+nei.recipe.concurrent.usage=[下書き]並行処理（用途） - 合計
+# EN: Concurrent Crafting - Total
+nei.recipe.concurrent.crafting=[下書き]並行処理（クラフト） - 合計
 nei.recipe.accepts=以下で代替可能
 nei.recipe.accepts.scroll=アイテムを変更
-nei.recipe.group.scroll=Change Variant (%s/%s)
-nei.recipe.pinned=Click to resume cycling
+# EN: Change Variant (%s/%s)
+nei.recipe.group.scroll=[下書き]バリエーションを変更 (%s/%s)
+# EN: Click to resume cycling
+nei.recipe.pinned=[下書き]クリックで切り替えを再開
 
 nei.recipe.overlay=レシピオーバーレイ
 nei.recipe.overlay.missing=以下が不足
 nei.recipe.overlay.mismatch=クラフト枠の不一致
 nei.recipe.overlay.overlayRecipe=レシピをオーバーレイ
 nei.recipe.overlay.fillCraftingGrid=クラフト枠へ補充
-nei.recipe.overlay.fillCraftingGridOnce=Fill Crafting Grid (single recipe)
+# EN: Fill Crafting Grid (single recipe)
+nei.recipe.overlay.fillCraftingGridOnce=[下書き]クラフト枠へ補充 (1回分)
 nei.recipe.overlay.bookmarkRecipe=レシピを保存
 nei.recipe.overlay.bookmarkRecipeAndCount=レシピと個数を保存
 nei.recipe.overlay.sendRecipeToChat=レシピをチャットに送信
@@ -728,7 +845,8 @@ nei.recipe.favorite.bookmark_recipe=レシピツリーを保存
 nei.recipe.favorite.change_result_index=出力を変更
 nei.recipe.favorite.toggle=お気に入りを切り替える
 
-nei.recipe.information=Information
+# EN: Information
+nei.recipe.information=[下書き]情報
 
 nei.itemsort.minecraft=Minecraft
 nei.itemsort.minecraft.tip=バニラのMinecraftのアイテムを最初にソートする
@@ -778,8 +896,10 @@ nei.subsets.Items.Weapons.Ranged=遠距離
 nei.subsets.Items.Weapons.Swords=剣
 nei.subsets.Untranslated=未翻訳
 nei.subsets.Favorites=お気に入り
-nei.subsets.Favorites.Manual=Manual
-nei.subsets.Favorites.Generated=Generated
+# EN: Manual
+nei.subsets.Favorites.Manual=[下書き]手動
+# EN: Generated
+nei.subsets.Favorites.Generated=[下書き]自動生成
 nei.subsets.Mod=Mod
 
 nei.presets.new=新規プリセット

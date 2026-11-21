@@ -1,5 +1,3 @@
-# [下書き] sivaDog 手元下書き。確定したら [自訳]、ParaTranz 投稿後は [提出済み] に置き換える
-# ParaTranz へ貼るときは行頭の [下書き] を外す。'# EN:' は原文比較用で、確定時に削除する
 # gui - config - categories
 ingameinfoxml.config.category.general=全般
 ingameinfoxml.config.category.general.tooltip=全般の設定。

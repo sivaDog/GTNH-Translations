@@ -1,3 +1,6 @@
-tile.extrautils:pureLove.name=Pure Love
-tile.dirt.name=Dirt
-tile.sand.name=Sand
+# EN: Pure Love
+tile.extrautils:pureLove.name=[下書き]純愛
+# EN: Dirt
+tile.dirt.name=[下書き]土
+# EN: Sand
+tile.sand.name=[下書き]砂
