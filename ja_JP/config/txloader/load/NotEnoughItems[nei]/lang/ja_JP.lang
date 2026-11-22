@@ -197,18 +197,12 @@ nei.chat.item_link.recipe.text=レシピをブックマーク
 nei.chat.item_link.group.text=グループをブックマーク
 nei.chat.bookmark_added.text=ブックマークに追加されました！
 
-# EN: Too many parameters! Usage: %s
-nei.chat.recipeid.many_params=[下書き]パラメータが多すぎます！ 使い方: %s
-# EN: File %s not found!
-nei.chat.recipeid.not_found=[下書き]ファイル %s が見つかりません！
-# EN: Start processing recipe diff!
-nei.chat.recipeid.diff.start=[下書き]レシピ差分の処理を開始しました！
-# EN: Finished processing recipe diff!
-nei.chat.recipeid.diff.finish=[下書き]レシピ差分の処理が完了しました！
-# EN: Start processing recipe handlers!
-nei.chat.recipeid.dump.start=[下書き]レシピハンドラの処理を開始しました！
-# EN: Finished processing recipe handlers!
-nei.chat.recipeid.dump.finish=[下書き]レシピハンドラの処理が完了しました！
+nei.chat.recipeid.many_params=[提出済み]パラメータが多すぎます！ 使い方: %s
+nei.chat.recipeid.not_found=[提出済み]ファイル %s が見つかりません！
+nei.chat.recipeid.diff.start=[提出済み]レシピ差分の処理を開始しました！
+nei.chat.recipeid.diff.finish=[提出済み]レシピ差分の処理が完了しました！
+nei.chat.recipeid.dump.start=[提出済み]レシピハンドラの処理を開始しました！
+nei.chat.recipeid.dump.finish=[提出済み]レシピハンドラの処理が完了しました！
 
 nei.chat.untranslator.dump.start=非翻訳文のダンプ処理を開始しました！ §4(この文章が見えている場合、言語設定をEnglish (US)にした後、再度コマンドを実行することを推奨します)§r
 nei.chat.untranslator.dump.finish=非翻訳文のダンプ処理が完了しました！ §4(この文章が見えている場合、言語設定をEnglish (US)にした後、再度コマンドを実行することを推奨します)§r
@@ -570,15 +564,24 @@ nei.options.world.overlays=オーバーレイの設定
 nei.options.world.overlays.lock=ディメンション間でオーバーレイを固定
 nei.options.world.overlays.lock.true=有効
 nei.options.world.overlays.lock.false=無効
-nei.options.world.overlays.mobOverlayStyle=Mob Spawn Overlay Style
-nei.options.world.overlays.mobOverlayStyle.x=X
-nei.options.world.overlays.mobOverlayStyle.connected=Connected
-nei.options.world.overlays.mobOverlayStyle.square=Square
-nei.options.world.overlays.mobOverlayStyle.pufferfish=Pufferfish
-nei.options.world.overlays.mobOverlayRadius=Mob Spawn Overlay Horizontal Radius
-nei.options.world.overlays.mobOverlayRadius.tip=Horizontal block radius scanned around you. Range 8-64 blocks
-nei.options.world.overlays.mobOverlayVerticalRadius=Mob Spawn Overlay Vertical Radius
-nei.options.world.overlays.mobOverlayVerticalRadius.tip=Blocks scanned above and below you. Range 4-64 blocks
+# EN: Mob Spawn Overlay Style
+nei.options.world.overlays.mobOverlayStyle=[下書き]スポーンチェッカーオーバーレイの表示形式
+# EN: X
+nei.options.world.overlays.mobOverlayStyle.x=[下書き]X印
+# EN: Connected
+nei.options.world.overlays.mobOverlayStyle.connected=[下書き]連結
+# EN: Square
+nei.options.world.overlays.mobOverlayStyle.square=[下書き]四角
+# EN: Pufferfish
+nei.options.world.overlays.mobOverlayStyle.pufferfish=[下書き]フグ
+# EN: Mob Spawn Overlay Horizontal Radius
+nei.options.world.overlays.mobOverlayRadius=[下書き]スポーンチェッカーオーバーレイの水平範囲
+# EN: Horizontal block radius scanned around you. Range 8-64 blocks
+nei.options.world.overlays.mobOverlayRadius.tip=[下書き]周囲を調べる水平方向の半径。8〜64 ブロック
+# EN: Mob Spawn Overlay Vertical Radius
+nei.options.world.overlays.mobOverlayVerticalRadius=[下書き]スポーンチェッカーオーバーレイの垂直範囲
+# EN: Blocks scanned above and below you. Range 4-64 blocks
+nei.options.world.overlays.mobOverlayVerticalRadius.tip=[下書き]上下に調べるブロック数。4〜64 ブロック
 
 nei.options.tools=ツール
 nei.options.tools.export_configs=デフォルト設定のコンフィグファイル
@@ -618,63 +621,43 @@ nei.options.tools.dump.handlers.dumped=ハンドラが%sに出力されました
 nei.options.tools.dump.handlers.mode.0=CSV
 nei.options.tools.dump.handlers.mode.1=Json
 nei.options.tools.dump.recipes=すべてのハンドラレシピ
-nei.options.tools.dump.recipes.combined=Combined
-nei.options.tools.dump.recipes.separate=Separate
+# EN: Combined
+nei.options.tools.dump.recipes.combined=[下書き]1ファイル
+# EN: Separate
+nei.options.tools.dump.recipes.separate=[下書き]ハンドラ毎
 nei.options.tools.dump.recipes.dumped=%s個のレシピが%sに出力されました
 nei.options.tools.dump.recipes.skipped=%s個のレシピでエラーが起きてスキップされました、ログを確認してください
 nei.options.tools.dump.recipes.failed=出力に失敗したレシピ: %s
 
-# EN: Debug Recipe Handler
-nei.debug.RecipeHandler.title=[下書き]レシピハンドラのデバッグ
-# EN: Copy
-nei.debug.RecipeHandler.copy=[下書き]コピー
-# EN: Name
-nei.debug.RecipeHandler.Name=[下書き]名前
+nei.debug.RecipeHandler.title=[提出済み]レシピハンドラのデバッグ
+nei.debug.RecipeHandler.copy=[提出済み]コピー
+nei.debug.RecipeHandler.Name=[提出済み]名前
 nei.debug.RecipeHandler.Id=ID
-# EN: Key
-nei.debug.RecipeHandler.Key=[下書き]キー
-# EN: H.Hack
-nei.debug.RecipeHandler.HHack=[下書き]H.Hack
-# EN: Mod Name
-nei.debug.RecipeHandler.ModName=[下書き]Mod名
-# EN: Mod ID
-nei.debug.RecipeHandler.ModId=[下書き]Mod ID
-# EN: Order
-nei.debug.RecipeHandler.Order=[下書き]順序
-# EN: yShift
-nei.debug.RecipeHandler.yShift=[下書き]yShift
-# EN: Multi Widgets
-nei.debug.RecipeHandler.MultiWidgets=[下書き]複数ウィジェット
-# EN: Height
-nei.debug.RecipeHandler.Height=[下書き]高さ
-# EN: Width
-nei.debug.RecipeHandler.Width=[下書き]幅
-# EN: Show Favorites
-nei.debug.RecipeHandler.ShowFavorites=[下書き]お気に入りを表示
-# EN: Show Overlays
-nei.debug.RecipeHandler.ShowOverlay=[下書き]オーバーレイを表示
-# EN: Show Badge
-nei.debug.RecipeHandler.ShowBadge=[下書き]バッジを表示
-# EN: Duplicates Only
-nei.debug.RecipeHandler.DuplicatesOnly=[下書き]重複のみ
-# EN: Allow Overflow Y
-nei.debug.RecipeHandler.AllowOverflowY=[下書き]Y方向のはみ出しを許可
-# EN: Allow Overflow X
-nei.debug.RecipeHandler.AllowOverflowX=[下書き]X方向のはみ出しを許可
-# EN: Override
-nei.debug.RecipeHandler.Override=[下書き]上書き
+nei.debug.RecipeHandler.Key=[提出済み]キー
+nei.debug.RecipeHandler.HHack=[提出済み]H.Hack
+nei.debug.RecipeHandler.ModName=[提出済み]Mod名
+nei.debug.RecipeHandler.ModId=[提出済み]Mod ID
+nei.debug.RecipeHandler.Order=[提出済み]順序
+nei.debug.RecipeHandler.yShift=[提出済み]yShift
+nei.debug.RecipeHandler.MultiWidgets=[提出済み]複数ウィジェット
+nei.debug.RecipeHandler.Height=[提出済み]高さ
+nei.debug.RecipeHandler.Width=[提出済み]幅
+nei.debug.RecipeHandler.ShowFavorites=[提出済み]お気に入りを表示
+nei.debug.RecipeHandler.ShowOverlay=[提出済み]オーバーレイを表示
+nei.debug.RecipeHandler.ShowBadge=[提出済み]バッジを表示
+nei.debug.RecipeHandler.DuplicatesOnly=[提出済み]重複のみ
+nei.debug.RecipeHandler.AllowOverflowY=[提出済み]Y方向のはみ出しを許可
+nei.debug.RecipeHandler.AllowOverflowX=[提出済み]X方向のはみ出しを許可
+nei.debug.RecipeHandler.Override=[提出済み]上書き
 nei.debug.RecipeHandler.ExportRecipes=レシピの出力
 nei.debug.RecipeHandler.export=出力
 nei.debug.RecipeHandler.export.tooltip=現在表示されているレシピをJSONに出力します。
 nei.debug.RecipeHandler.checkbox.on=オン
 nei.debug.RecipeHandler.checkbox.off=オフ
-# EN: Yes
-nei.debug.RecipeHandler.yes=[下書き]はい
-# EN: No
-nei.debug.RecipeHandler.no=[下書き]いいえ
+nei.debug.RecipeHandler.yes=[提出済み]はい
+nei.debug.RecipeHandler.no=[提出済み]いいえ
 nei.debug.RecipeHandler.reset=リセット
-# EN: Registered by: %s
-nei.debug.RecipeHandler.RegisteredBy=[下書き]登録元: %s
+nei.debug.RecipeHandler.RegisteredBy=[提出済み]登録元: %s
 
 nei.recipe.page=ページ %s/%s
 nei.recipe.tooltip=レシピ
@@ -684,9 +667,12 @@ nei.recipe.search.tooltip.name=検索
 nei.recipe.search.tooltip.shift=§6Shift§7 長押しで詳細を表示
 nei.recipe.search.tooltip.input=%s§f○○§8 - §7素材から検索
 nei.recipe.search.tooltip.output=%s§f○○§8 - §7成果物から検索
-nei.recipe.search.tooltip.text=%s§ftext§8 - §7search in recipe text
-nei.recipe.search.tooltip.auxiliary=%s§ftext§8 - §7search in other stacks
-nei.recipe.search.tooltip.all=%s§ftext§8 - §7all inputs must match (same with > and ^)
+# EN: %s§ftext§8 - §7search in recipe text
+nei.recipe.search.tooltip.text=[下書き]%s§f○○§8 - §7レシピ内の文字から検索
+# EN: %s§ftext§8 - §7search in other stacks
+nei.recipe.search.tooltip.auxiliary=[下書き]%s§f○○§8 - §7素材・成果物以外のスタックから検索
+# EN: %s§ftext§8 - §7all inputs must match (same with > and ^)
+nei.recipe.search.tooltip.all=[下書き]%s§f○○§8 - §7すべての素材が一致するレシピを検索 (> と ^ も同様)
 nei.recipe.search.tooltip.prefix=%s○○§8 - §7%s
 
 nei.recipe.search.tooltip.prefix.modName=Mod名で検索
@@ -700,7 +686,8 @@ nei.recipe.search.tooltip.exclude=%s§f○○§8 - §7○○を含むアイテ�
 nei.recipe.search.tooltip.exclude_recipe=%s§f○○§8 - §7○○を含むレシピを除外
 nei.recipe.search.tooltip.or=§fa%s§fb§8 - §7a または b に一致
 nei.recipe.search.tooltip.exact=%s§f○○%s§8 - §7完全一致で検索
-nei.recipe.search.tooltip.regex=%s§ftext%s§8 - §7match regular expression
+# EN: %s§ftext%s§8 - §7match regular expression
+nei.recipe.search.tooltip.regex=[下書き]%s§f○○%s§8 - §7正規表現で検索
 
 nei.recipe.shaped=作業台 (定形レシピ)
 nei.recipe.shapeless=作業台 (不定形レシピ)
