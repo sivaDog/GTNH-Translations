@@ -564,24 +564,15 @@ nei.options.world.overlays=オーバーレイの設定
 nei.options.world.overlays.lock=ディメンション間でオーバーレイを固定
 nei.options.world.overlays.lock.true=有効
 nei.options.world.overlays.lock.false=無効
-# EN: Mob Spawn Overlay Style
-nei.options.world.overlays.mobOverlayStyle=[下書き]スポーンチェッカーオーバーレイの表示形式
-# EN: X
-nei.options.world.overlays.mobOverlayStyle.x=[下書き]X印
-# EN: Connected
-nei.options.world.overlays.mobOverlayStyle.connected=[下書き]連結
-# EN: Square
-nei.options.world.overlays.mobOverlayStyle.square=[下書き]四角
-# EN: Pufferfish
-nei.options.world.overlays.mobOverlayStyle.pufferfish=[下書き]フグ
-# EN: Mob Spawn Overlay Horizontal Radius
-nei.options.world.overlays.mobOverlayRadius=[下書き]スポーンチェッカーオーバーレイの水平範囲
-# EN: Horizontal block radius scanned around you. Range 8-64 blocks
-nei.options.world.overlays.mobOverlayRadius.tip=[下書き]周囲を調べる水平方向の半径。8〜64 ブロック
-# EN: Mob Spawn Overlay Vertical Radius
-nei.options.world.overlays.mobOverlayVerticalRadius=[下書き]スポーンチェッカーオーバーレイの垂直範囲
-# EN: Blocks scanned above and below you. Range 4-64 blocks
-nei.options.world.overlays.mobOverlayVerticalRadius.tip=[下書き]上下に調べるブロック数。4〜64 ブロック
+nei.options.world.overlays.mobOverlayStyle=[提出済み]スポーンチェッカーオーバーレイの表示形式
+nei.options.world.overlays.mobOverlayStyle.x=[提出済み]X印
+nei.options.world.overlays.mobOverlayStyle.connected=[提出済み]連結
+nei.options.world.overlays.mobOverlayStyle.square=[提出済み]四角
+nei.options.world.overlays.mobOverlayStyle.pufferfish=[提出済み]フグ
+nei.options.world.overlays.mobOverlayRadius=[提出済み]スポーンチェッカーオーバーレイの水平範囲
+nei.options.world.overlays.mobOverlayRadius.tip=[提出済み]周囲を調べる水平方向の半径。8〜64 ブロック
+nei.options.world.overlays.mobOverlayVerticalRadius=[提出済み]スポーンチェッカーオーバーレイの垂直範囲
+nei.options.world.overlays.mobOverlayVerticalRadius.tip=[提出済み]上下に調べるブロック数。4〜64 ブロック
 
 nei.options.tools=ツール
 nei.options.tools.export_configs=デフォルト設定のコンフィグファイル
@@ -621,10 +612,8 @@ nei.options.tools.dump.handlers.dumped=ハンドラが%sに出力されました
 nei.options.tools.dump.handlers.mode.0=CSV
 nei.options.tools.dump.handlers.mode.1=Json
 nei.options.tools.dump.recipes=すべてのハンドラレシピ
-# EN: Combined
-nei.options.tools.dump.recipes.combined=[下書き]1ファイル
-# EN: Separate
-nei.options.tools.dump.recipes.separate=[下書き]ハンドラ毎
+nei.options.tools.dump.recipes.combined=[提出済み]1ファイル
+nei.options.tools.dump.recipes.separate=[提出済み]ハンドラ毎
 nei.options.tools.dump.recipes.dumped=%s個のレシピが%sに出力されました
 nei.options.tools.dump.recipes.skipped=%s個のレシピでエラーが起きてスキップされました、ログを確認してください
 nei.options.tools.dump.recipes.failed=出力に失敗したレシピ: %s
@@ -667,12 +656,9 @@ nei.recipe.search.tooltip.name=検索
 nei.recipe.search.tooltip.shift=§6Shift§7 長押しで詳細を表示
 nei.recipe.search.tooltip.input=%s§f○○§8 - §7素材から検索
 nei.recipe.search.tooltip.output=%s§f○○§8 - §7成果物から検索
-# EN: %s§ftext§8 - §7search in recipe text
-nei.recipe.search.tooltip.text=[下書き]%s§f○○§8 - §7レシピ内の文字から検索
-# EN: %s§ftext§8 - §7search in other stacks
-nei.recipe.search.tooltip.auxiliary=[下書き]%s§f○○§8 - §7素材・成果物以外のスタックから検索
-# EN: %s§ftext§8 - §7all inputs must match (same with > and ^)
-nei.recipe.search.tooltip.all=[下書き]%s§f○○§8 - §7すべての素材が一致するレシピを検索 (> と ^ も同様)
+nei.recipe.search.tooltip.text=[提出済み]%s§f○○§8 - §7レシピ内の文字から検索
+nei.recipe.search.tooltip.auxiliary=[提出済み]%s§f○○§8 - §7素材・成果物以外のスタックから検索
+nei.recipe.search.tooltip.all=[提出済み]%s§f○○§8 - §7すべての素材が一致するレシピを検索 (> と ^ も同様)
 nei.recipe.search.tooltip.prefix=%s○○§8 - §7%s
 
 nei.recipe.search.tooltip.prefix.modName=Mod名で検索
@@ -686,8 +672,7 @@ nei.recipe.search.tooltip.exclude=%s§f○○§8 - §7○○を含むアイテ�
 nei.recipe.search.tooltip.exclude_recipe=%s§f○○§8 - §7○○を含むレシピを除外
 nei.recipe.search.tooltip.or=§fa%s§fb§8 - §7a または b に一致
 nei.recipe.search.tooltip.exact=%s§f○○%s§8 - §7完全一致で検索
-# EN: %s§ftext%s§8 - §7match regular expression
-nei.recipe.search.tooltip.regex=[下書き]%s§f○○%s§8 - §7正規表現で検索
+nei.recipe.search.tooltip.regex=[提出済み]%s§f○○%s§8 - §7正規表現で検索
 
 nei.recipe.shaped=作業台 (定形レシピ)
 nei.recipe.shapeless=作業台 (不定形レシピ)
