@@ -159,8 +159,7 @@ nei.inventory.current.gamemode.1=現在のゲームモード: クリエイティ
 nei.inventory.current.gamemode.2=現在のゲームモード: クリエイティブ+
 nei.inventory.current.gamemode.3=現在のゲームモード: アドベンチャー
 nei.inventory.tooltip.page=%s / %s ページ [%sキーで次のページに進む]
-# EN: Count: %s
-nei.inventory.tooltip.count.item=[下書き]個数: %s
+nei.inventory.tooltip.count.item=Count: %s
 
 itemGroup.neiFluids=流体
 
@@ -694,14 +693,11 @@ nei.recipe.items.ingredients=素材
 nei.recipe.items.ingredients_needed=必要素材
 
 # Deprecated
-# EN: %s required
-nei.recipe.fuel.required=[下書き]%s が必要
+nei.recipe.fuel.required=%s required
 # Deprecated
-# EN: %s processed
-nei.recipe.fuel.processed=[下書き]%s を処理
+nei.recipe.fuel.processed=%s processed
 # Deprecated
-# EN: %s produced
-nei.recipe.fuel.produced=[下書き]%s を生成
+nei.recipe.fuel.produced=%s produced
 nei.recipe.firework=花火
 nei.recipe.firework.tooltip0=染料を使うと装薬に色がつく
 nei.recipe.firework.tooltip1=再染色すると装薬にフェード時の色がつく
@@ -710,24 +706,19 @@ nei.recipe.repair=修理
 nei.recipe.brewing=醸造
 nei.recipe.profiler.crafting=クラフトのプロファイル
 nei.recipe.profiler.usage=用途のプロファイル
-# EN: Concurrent Usage - Total
-nei.recipe.concurrent.usage=[下書き]並行処理（用途） - 合計
-# EN: Concurrent Crafting - Total
-nei.recipe.concurrent.crafting=[下書き]並行処理（クラフト） - 合計
+nei.recipe.concurrent.usage=[提出済み]用途の検索時間 (全体)
+nei.recipe.concurrent.crafting=[提出済み]クラフトの検索時間 (全体)
 nei.recipe.accepts=以下で代替可能
 nei.recipe.accepts.scroll=アイテムを変更
-# EN: Change Variant (%s/%s)
-nei.recipe.group.scroll=[下書き]バリエーションを変更 (%s/%s)
-# EN: Click to resume cycling
-nei.recipe.pinned=[下書き]クリックで切り替えを再開
+nei.recipe.group.scroll=[提出済み]バリエーションを変更 (%s/%s)
+nei.recipe.pinned=Click to resume cycling
 
 nei.recipe.overlay=レシピオーバーレイ
 nei.recipe.overlay.missing=以下が不足
 nei.recipe.overlay.mismatch=クラフト枠の不一致
 nei.recipe.overlay.overlayRecipe=レシピをオーバーレイ
 nei.recipe.overlay.fillCraftingGrid=クラフト枠へ補充
-# EN: Fill Crafting Grid (single recipe)
-nei.recipe.overlay.fillCraftingGridOnce=[下書き]クラフト枠へ補充 (1回分)
+nei.recipe.overlay.fillCraftingGridOnce=[提出済み]クラフト枠へ補充 (1回分)
 nei.recipe.overlay.bookmarkRecipe=レシピを保存
 nei.recipe.overlay.bookmarkRecipeAndCount=レシピと個数を保存
 nei.recipe.overlay.sendRecipeToChat=レシピをチャットに送信
@@ -737,8 +728,7 @@ nei.recipe.favorite.bookmark_recipe=レシピツリーを保存
 nei.recipe.favorite.change_result_index=出力を変更
 nei.recipe.favorite.toggle=お気に入りを切り替える
 
-# EN: Information
-nei.recipe.information=[下書き]情報
+nei.recipe.information=[提出済み]解説
 
 nei.itemsort.minecraft=Minecraft
 nei.itemsort.minecraft.tip=バニラのMinecraftのアイテムを最初にソートする
@@ -788,10 +778,8 @@ nei.subsets.Items.Weapons.Ranged=遠距離
 nei.subsets.Items.Weapons.Swords=剣
 nei.subsets.Untranslated=未翻訳
 nei.subsets.Favorites=お気に入り
-# EN: Manual
-nei.subsets.Favorites.Manual=[下書き]手動
-# EN: Generated
-nei.subsets.Favorites.Generated=[下書き]自動生成
+nei.subsets.Favorites.Manual=[提出済み]手動
+nei.subsets.Favorites.Generated=[提出済み]自動生成
 nei.subsets.Mod=Mod
 
 nei.presets.new=新規プリセット
